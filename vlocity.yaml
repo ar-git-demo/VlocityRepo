@@ -1,0 +1,7 @@
+projectPath: ./autorabit_alldefault_vlocity_build
+manifest:
+- DataRaptor/AddMemberToCampaign
+- OmniScript/Census_Upload_Spanish
+maxDepth: -1
+autoUpdateSettings: true
+separateMatrixVersions: true
