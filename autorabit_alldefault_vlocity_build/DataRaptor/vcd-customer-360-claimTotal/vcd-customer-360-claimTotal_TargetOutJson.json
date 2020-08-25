@@ -1,0 +1,111 @@
+{
+    "customer": {
+        "FirstName": "Text",
+        "LastName": "Text",
+        "claims": {
+            "%vlocity_namespace%__AttributeSelectedValues__c": "Text",
+            "%vlocity_namespace%__ClaimStatus__c": "Text",
+            "%vlocity_namespace%__Description__c": "Text",
+            "%vlocity_namespace%__LossDate__c": "Text",
+            "%vlocity_namespace%__LossDate__cF": "Text",
+            "%vlocity_namespace%__LossType__c": "Text",
+            "%vlocity_namespace%__PrimaryPolicyType__c": "Text",
+            "%vlocity_namespace%__TotalIncurred__c": "Text",
+            "%vlocity_namespace%__TotalOutstanding__c": "Text",
+            "%vlocity_namespace%__TotalPaid__c": "Text",
+            "ClaimNumber": "Text",
+            "CreatedById": "Text",
+            "CreatedDate": "Text",
+            "Detailed_Description__c": "Text",
+            "Id": "Text",
+            "LossCauseDetail__c": "Text",
+            "involvedParties__c": "Text"
+        },
+        "name": "Text",
+        "opportunities": {
+            "Amount": "Text",
+            "CloseDate": "Text",
+            "CreatedDate": "Text",
+            "Description": "Text",
+            "Name": "Text",
+            "Probability": "Text",
+            "Type": "Text",
+            "quotes": {
+                "Name": "Text"
+            }
+        },
+        "policies": {
+            "%vlocity_namespace%__AnnualPremium__c": "Text",
+            "%vlocity_namespace%__EffectiveDate__c": "Text",
+            "%vlocity_namespace%__EffectiveDate__cF": "Text",
+            "%vlocity_namespace%__ExpirationDate__c": "Text",
+            "%vlocity_namespace%__FaceAmount__c": "Text",
+            "%vlocity_namespace%__IsAutomaticPaymentEnabled__c": "Text",
+            "%vlocity_namespace%__LineofBusiness__c": "Text",
+            "%vlocity_namespace%__StandardPremium__c": "Text",
+            "%vlocity_namespace%__TotalSumInsured__c": "Text",
+            "%vlocity_namespace%__Type__c": "Text",
+            "AssetAutoNumber__c": "Text",
+            "CreatedDate": "Text",
+            "Description": "Text",
+            "ExpirationDate": "Text",
+            "Id": "Text",
+            "Name": "Text",
+            "Policyholder__c": "Text",
+            "Status": "Text",
+            "claims": {
+                "%vlocity_namespace%__PrimaryPolicyType__c": "Text"
+            },
+            "claimsIncurredTotal": "Text",
+            "claimsOutstandingTotal": "Text",
+            "claimsTotalCount": "Text",
+            "claimsTotalPaidTotal": "Text"
+        },
+        "policiesPending": {
+            "%vlocity_namespace%__AnnualPremium__c": "Text",
+            "%vlocity_namespace%__EffectiveDate__c": "Text",
+            "%vlocity_namespace%__EffectiveDate__cF": "Text",
+            "%vlocity_namespace%__IsAutomaticPaymentEnabled__c": "Text",
+            "%vlocity_namespace%__LineofBusiness__c": "Text",
+            "%vlocity_namespace%__StandardPremium__c": "Text",
+            "%vlocity_namespace%__TotalSumInsured__c": "Text",
+            "AssetAutoNumber__c": "Text",
+            "Description": "Text",
+            "Id": "Text",
+            "Name": "Text",
+            "Status": "Text",
+            "vlocity2__Type__c": "Text"
+        },
+        "policiesUW": {
+            "%vlocity_namespace%__AnnualPremium__c": "Text",
+            "%vlocity_namespace%__EffectiveDate__c": "Text",
+            "%vlocity_namespace%__EffectiveDate__cF": "Text",
+            "%vlocity_namespace%__IsAutomaticPaymentEnabled__c": "Text",
+            "%vlocity_namespace%__LineofBusiness__c": "Text",
+            "%vlocity_namespace%__StandardPremium__c": "Text",
+            "%vlocity_namespace%__TotalSumInsured__c": "Text",
+            "AssetAutoNumber__c": "Text",
+            "Description": "Text",
+            "Id": "Text",
+            "Name": "Text",
+            "Status": "Text",
+            "vlocity2__Type__c": "Text"
+        },
+        "quotes": {
+            "%vlocity_namespace%__EffectiveDate__c": "Text",
+            "%vlocity_namespace%__EffectiveDate__cF": "Text",
+            "%vlocity_namespace%__RootItemTotal__c": "Text",
+            "%vlocity_namespace%__StandardPremium__c": "Text",
+            "AdjustedTotalPrice__c": "Text",
+            "CreatedDate": "Text",
+            "CreatedDateF": "Text",
+            "Description": "Text",
+            "Id": "Text",
+            "Name": "Text",
+            "QuoteNumber": "Text",
+            "Status": "Text",
+            "TotalPrice": "Text",
+            "UWRequest": "Text"
+        }
+    }
+}

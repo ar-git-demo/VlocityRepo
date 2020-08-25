@@ -1,0 +1,36 @@
+<script type="text/ng-template" id="SaveSession.html">
+
+<div class="slds-box ng-scope" style="border:none"><div class="nds-col nds-medium-size_6-of-12 nds-align_absolute-center">
+    <div class="nds-grid nds-box nds-medium-size_12-of-12">
+
+        <!-- ngIf: response.error==='OK' --><div class="nds-col ng-scope" ng-if="response.error==='OK'" style="margin-left: 13%;">
+
+            <figure style="display: -webkit-inline-box;">
+                <span class="nds-icon_container nds-icon-action-check nds-icon_container_circle">
+                    <svg aria-hidden="true" class="slds-icon slds-icon--small nds-icon nds-icon_small " xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" sprite="'utility'" icon="'check'" size="'small'" extra-classes="''" viewBox="0 0 52 52" alt="check">
+    <path fill="inherit" xmlns="http://www.w3.org/2000/svg" d="m19.1 42.5l-16.5-16.6c-0.6-0.6-0.6-1.6 0-2.2l2.2-2.2c0.6-0.6 1.6-0.6 2.2 0l12.4 12.5c0.4 0.4 1.1 0.4 1.5 0l24.3-24.5c0.6-0.6 1.6-0.6 2.2 0l2.2 2.2c0.6 0.6 0.6 1.6 0 2.2l-28.3 28.6c-0.6 0.7-1.6 0.7-2.2 0z"></path>
+</svg>
+                </span>
+
+                <div class="nds-m-left_medium ng-binding" style="font-size: 1.5rem;">
+                    Your Medicare Application is saved for later
+                </div>
+
+            </figure><br>
+
+            <label class="nds-form-element__label nds-m-around_x-small ng-binding">To resume, please click or bookmark the
+                <a ng-href="{{response.saveURL}}" target="_blank" class="ng-binding"> link</a>․
+            </label>
+            <br>
+            <a class="nds-m-left_x-small ng-binding" ng-click="copyToClipboard(customLabels.OmniCopyToClipBoard, response.saveURL)">Copy the link</a> or
+            <a ng-href="mailto:?subject=&body=Resume link: %0D {{response.saveURLMailTo}} %0D%0DNote: for an authenticated user, please log in first before accessing the link." class="ng-binding">Email me the link</a>
+
+        </div><!-- end ngIf: response.error==='OK' -->
+
+        <!-- ngIf: response.error!=='OK' -->
+
+    </div>
+
+</div>
+</div>
+</script>

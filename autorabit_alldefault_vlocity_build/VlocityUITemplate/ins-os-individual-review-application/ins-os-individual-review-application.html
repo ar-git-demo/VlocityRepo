@@ -1,0 +1,295 @@
+<div class="vloc-ins-selectable-item-outer-container" ng-controller="insOsProductSelectionCtrl" ng-init="baseCtrl.setSelectedProductSelectionProducts(control)">
+   <div   ></div>
+   <!-- info start -->
+   <div class="info-section">
+<div class="heading-container"><span>Applicant Information</span>
+  <div class="red-und-line"></div>
+  <div class="app-info">
+    <div>
+      <span class="heading">Full Name</span><br>
+      <span class="heading-val">{{bpTree.response.ApplicantInformation.ApplicantFirstName+" "+bpTree.response.ApplicantInformation.ApplicantLastName}}<span>
+    </div>
+        <div>
+      <span class="heading">Date of Birth</span><br>
+      <span class="heading-val">{{bpTree.response.ApplicantInformation.ApplicantDateOfBirth | date}}<span>
+    </div>
+        <div>
+      <span class="heading">Gender</span><br>
+      <span class="heading-val">{{bpTree.response.ApplicantInformation.ApplicantGender}}<span>
+    </div>
+        <div>
+      <span class="heading">Email</span><br>
+      <span class="heading-val">{{bpTree.response.ApplicantInformation.ApplicantEmail}}<span>
+    </div>
+        <div>
+      <span class="heading">Street</span><br>
+      <span class="heading-val">{{bpTree.response.ApplicantInformation.MailingAddressLine1}}<span>
+    </div>
+        <div>
+      <span class="heading">City</span><br>
+      <span class="heading-val">{{bpTree.response.ApplicantInformation.MailingCity}}<span>
+    </div>
+        <div>
+      <span class="heading">State</span><br>
+      <span class="heading-val">{{bpTree.response.ApplicantInformation.MailingState}}<span>
+    </div>
+    <div>
+      <span class="heading">Zip Code</span><br>
+      <span class="heading-val">{{bpTree.response.ApplicantInformation.MailingZipCode}}<span>
+    </div>
+  </div>
+  <div class="heading-container"><span>Dependent Information</span>
+  <div class="red-und-line"></div>
+    <div style="margin-bottom:42px"></div>
+  <div class="app-info-dep"  ng-repeat="dep in dependentArray track by $index">
+    <div>
+        <span class="heading">Relationship</span><br>
+      <span class="heading-val">{{dep.RelationshipType}}<span>
+    </div>
+        <div>
+        <span class="heading">First Name</span><br>
+      <span class="heading-val">{{dep.DependantFirstName}}<span>
+    </div>
+     <div>
+        <span class="heading">Date Of Birth</span><br>
+      <span class="heading-val">{{dep.DependentDateOfBirth}}<span>
+    </div>
+     <div>
+        <span class="heading">Gender</span><br>
+      <span class="heading-val">{{dep.DependentGender}}<span>
+    </div>
+    </div>
+        <div style="margin-bottom:42px"></div>
+
+    <div class="heading-container"><span>Payment Information</span>
+  <div class="red-und-line"></div>
+
+  <div class="app-info">
+    <div>
+      <span class="heading">Payment Method</span><br>
+      <span class="heading-val">{{bpTree.response.PayementMethod.TypeOfPayment == 'Others' ? 'Electronic Fund Transfer' : bpTree.response.PayementMethod.TypeOfPayment }}<span>
+    </div>
+    <div ng-if="bpTree.response.PayementMethod.TypeOfPayment == 'Others'">
+      <span class="heading">Type of Account</span><br>
+      <span class="heading-val">{{bpTree.response.PayementMethod.TypeOfAccount}}<span>
+    </div>
+    <div ng-if="bpTree.response.PayementMethod.TypeOfPayment == 'Others'">
+      <span class="heading">Bank Name</span><br>
+      <span class="heading-val">{{bpTree.response.PayementMethod.NameOfAccount}}<span>
+    </div>
+    <div>
+      <span class="heading">Email</span><br>
+      <span class="heading-val">{{bpTree.response.ApplicantInformation.ApplicantEmail}}<span>
+    </div>
+    <div ng-if="bpTree.response.PayementMethod.TypeOfPayment == 'Others'">
+      <span class="heading">Routing Number</span><br>
+      <span class="heading-val">{{bpTree.response.PayementMethod.RoutingNumber}}<span>
+    </div>
+    <div ng-if="bpTree.response.PayementMethod.TypeOfPayment == 'Others'>
+      <span class="heading">Account No</span><br>
+      <span class="heading-val">**********<span>
+    </div>
+    <div ng-if="bpTree.response.PayementMethod.TypeOfPayment != 'Others'>
+      <span class="heading">Credit Card No</span><br>
+      <span class="heading-val">{{bpTree.response.CreditCardBlock.DebitCreditCardNumber}}<span>
+    </div>
+    <div ng-if="bpTree.response.PayementMethod.TypeOfPayment != 'Others'>
+      <span class="heading">Expiration Date</span><br>
+      <span class="heading-val">{{bpTree.response.CreditCardBlock.CardExpirationDate}}<span>
+    </div>
+    <div ng-if="bpTree.response.PayementMethod.TypeOfPayment != 'Others'>
+      <span class="heading">CVV</span><br>
+      <span class="heading-val">***<span>
+    </div>
+    <div>
+      <span class="heading">Name of Account</span><br>
+      <span class="heading-val">{{bpTree.response.ApplicantInformation.ApplicantFirstName+" "+bpTree.response.ApplicantInformation.ApplicantLastName}}<span>
+    </div>
+  </div>
+        <h3>Primary Policy Holder Provider Information</h3>
+        <div class="red-und-line"></div>
+    <div class="app-info">
+        <div ng-if="bpTree.response.AddYourProvider.DoYouHavePrimaryCareProvider">
+            <span class="heading">Provider First Name</span><br>
+            <span class="heading-val">{{bpTree.response.AddYourProvider.ProvidersFirstName}}<span>
+        </div>
+        <div ng-if="bpTree.response.AddYourProvider.DoYouHavePrimaryCareProvider">
+            <span class="heading">Provider Last Name</span><br>
+            <span class="heading-val">{{bpTree.response.AddYourProvider.ProvidersLastName}}<span>
+        </div>
+        <div ng-if="bpTree.response.AddYourProvider.DoYouHavePrimaryCareProvider">
+            <span class="heading">PCP Number</span><br>
+            <span class="heading-val">{{bpTree.response.AddYourProvider.PCPNumber}}<span>
+        </div>
+        <div ng-if="bpTree.response.AddYourProvider.DoYouHavePrimaryCareProvider">
+            <span class="heading">EnterHealthCenter</span><br>
+            <span class="heading-val">{{bpTree.response.AddYourProvider.EnterHealthCenter}}<span>
+        </div>
+    </div>
+        <h3>Independent Producer Informtion</h3>
+        <div class="red-und-line"></div>
+    <div class="app-info">
+        <div ng-if="bpTree.response.IndependentProducerInformtion.IndependentProducerAssit">
+            <span class="heading">Selected Agency</span><br>
+            <span class="heading-val">{{bpTree.response.IndependentProducerInformtion['SelectAnAgent-Block'].SelectAnAgent}}<span>
+        </div>
+    </div>    
+</div>
+   <!-- info end -->
+   <div class="vloc-small-group-plan-selection">
+    <div class="vloc-small-group-plan-selection-container" >
+        <div class="vloc-ins-selectable-item-container" >
+            <div>
+            <div class="heading-container"><span>Medical Plans</span>
+  <div class="red-und-line"></div>
+</div>
+            <div class="vloc-ins-selectable-item-inner-wrapper" >
+                <div class="slds-grid nds-grid vloc-ins-selectable-item-inner-container">
+                    <div class="nds-m-bottom_x-large" bs-collapse style="width:1000px">
+                        <div class="nds-grid nds-grid_pull-padded-medium nds-wrap" bs-collapse-target>
+                            <!-- ng-repeat="plan in control.vlcSI[control.itemsKey] -->
+
+                            <article     ng-repeat="plan in bpTree.response.productConfigurationDetail.records track by plan.Id" ng-if="bpTree.response.planSelection.selectedPlansMap[plan.Id] && plan.Type__c=='Medical'" class="nds-col nds-size_1-of-3">
+                                    <div style="height:unset;padding-bottom: 35px" class="nds-box nds-m-around_small vloc-plan-box vloc-cart-plan-box" >
+                                        <header class="vloc-plan-box-header">
+                                            <div ng-class="{'vloc-renewal-flag-hidden': !plan.renewal}">
+                                                <div class="nds-text-align_center nds-p-horizontal_x-small vloc-renewal-header">
+                                                    <div ng-if="plan.originalPlan">
+                                                        <p class="nds-truncate">Replaces {{plan.originalPlan.records[0].Name}}</p>
+                                                        <button class="nds-button vloc-link" ng-click="openCompareModal(plan, control)">View Changes</button>
+                                                    </div>
+                                                </div>
+                                                <!-- <svg class="vloc-renewal-header-svg" viewBox="0 0 320 20" width="100%" xmlns="http://www.w3.org/2000/svg">
+                                                    <g><polygon points="0,0 160,20 320,0" /></g>
+                                                </svg> -->
+                                            </div>
+                                            <div class="vloc-ins-selectable-item-similar-plan-container" ng-if="plan.similarToLastYear">
+                                                <div class="vloc-ins-selectable-item-similar-plan">
+                                                    <span class="vloc-ins-selectable-item-similar-plan-label">Similar to last year's plan</span>
+                                                    <div class="vloc-ins-selectable-item-similar-plan-triangle-pointing-down"></div>
+                                                </div>
+                                            </div>
+                                            
+                                            <br>
+                                            <div class="nds-p-vertical_small nds-p-horizontal_medium vloc-plan-header-text">
+                                                <button class="nds-button nds-text-heading_small vloc-link" style="color: #1b70d2;font-size: 1.3rem;height: 50px;" ng-click="openDetailModal(plan, control)" ><b>{{plan.productName || plan.Name}}</b></button>
+                                                <center><div style="height: 4px;width: 40px;background-color: black;margin-top: 8px;"><div></div></div></center>
+                                                <p class="nds-p-top_small" ><span class="nds-text-heading_large"><b>{{plan.Price | currency: currencyCode: 2}}</b></span><b>/mo</b></p>
+                                            </div>
+                                            <!-- <div ng-if="plan.Name.includes('Advantage')" style="height: 1px;margin-left: 71%;">2019 Star Rating</div> -->
+                                            <!-- ng-repeat fot the star rating ng-if="plan.Name === 'Essential Advantage' !-->
+                                            <!-- <div >
+                                                <i ng-repeat="n in getNumberUnselected(5) track by $index" class="fa fa-star-o icon-d" aria-hidden="true" style="font-size:27px"></i>
+                                            </div> -->
+                                            <!-- ng-if="plan.Id === '01t1h000003ApRcAAK' || plan.Id === '01t1h000003ApRXAA0' || plan.Id === '01t1h000003ApSgAAK' || plan.Id === '01t1h000003ApVDAA0' || plan.Id === '01t1h000003ApXVAA0'" -->
+                                            <!-- <div >
+                                                <i ng-repeat="n in getNumberUnselected(4) track by $index" class="fa fa-star icon-d" aria-hidden="true" style="font-size:27px"></i>
+                                                <i ng-repeat="n in getNumberUnselected(1) track by $index" class="fa fa-star-half-o icon-d" aria-hidden="true" style="font-size:27px"></i>
+                                            </div> -->
+                                            <!-- ng-repeat fot the star rating !-->
+                                        </header>
+
+                                        <div class="vloc-plan-box-body">
+
+                                            <!-- Table for medical plan selected !-->
+                                            <table class="vloc-plan-table" ng-init="createProductsListInReviewQuoteMedical(plan)">
+                                                <tbody ng-repeat=" prod in plan.prodList | orderBy:'sortedList' | limitTo:4">
+                                                    <td ng-if="!prod.value.includes('http') && prod.name != 'View More Benefits'" class="nds-p-right_small nds-truncate">{{prod.name}}</td>
+                                                    <td ng-if="!prod.value.includes('http') && prod.name != 'View More Benefits'" class="nds-text-align_right nds-truncate">{{prod.value}}</td>
+                                                    <td ng-if="prod.name === 'View More Benefits'" class="nds-p-right_small nds-truncate"> <a ng-click="openDetailModal(plan, control)" >{{prod.name}}</a></td>
+                                                    <td ng-if="prod.value.includes('https') " class="nds-p-right_small nds-truncate" style="width:80%"> <a href="{{prod.value}}" target="_blank"> {{prod.name}} </a> </td>
+                                                </tbody>
+                                            </table> 
+                                            <!-- Table for medical plan selected !-->
+                                            <div class="plan__content_attributes_viewMore" ng-class="{'expand' : expandClicked}">       
+                                            <ul>                        
+                                                <li style="margin: 10px 0px;line-height: 16px;display: grid;grid-template-columns: 50% 50%;" ng-repeat=" fm in plan.members  ">
+                                                    <p style="width: 120px;" class="nds-truncate">{{fm.fname}}</p>
+                                                    <p class="attrValue ng-binding"> ${{fm.finalMemberRateValue}}</p>
+                                                </li>
+                                            </ul>
+                                            </div>
+                                            <div class="vloc-plan-footer">
+                                            </div>
+                                        </div>
+                                    </div>
+                            </article>
+                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                            <!-- DENTAL PLAN ! ng-if="control.name == 'DentalSelected' && plan.Type__c == 'Dental'"-->
+                            <div class="heading-container"><span>Dental Plans</span>
+  <div class="red-und-line"></div>
+</div>
+    <div class="vloc-ins-selectable-item-inner-wrapper" >
+                <div class="slds-grid nds-grid vloc-ins-selectable-item-inner-container">
+                    <div class="nds-m-bottom_x-large" bs-collapse style="width:1000px">
+                        <div class="nds-grid nds-grid_pull-padded-medium nds-wrap" bs-collapse-target>
+                            <!-- ng-repeat="plan in control.vlcSI[control.itemsKey] -->
+
+                            
+                            <article     ng-repeat="plan in  bpTree.response.productConfigurationDetail.records track by plan.Id " ng-if="bpTree.response.planSelection.selectedPlansMap[plan.Id] && plan.Type__c=='Dental'" class="nds-col nds-size_1-of-3">
+                                <div style="height:unset;padding-bottom: 35px" class="nds-box nds-m-around_small vloc-plan-box vloc-cart-plan-box" >
+                                    <header class="vloc-plan-box-header">
+                                        <div ng-class="{'vloc-renewal-flag-hidden': !plan.renewal}">
+                                            <div class="nds-text-align_center nds-p-horizontal_x-small vloc-renewal-header">
+                                                <div ng-if="plan.originalPlan">
+                                                    <p class="nds-truncate">Replaces {{plan.originalPlan.records[0].Name}}</p>
+                                                    <button class="nds-button vloc-link" ng-click="openCompareModal(plan, control)">View Changes</button>
+                                                </div>
+                                            </div>
+                                            <!-- <svg class="vloc-renewal-header-svg" viewBox="0 0 320 20" width="100%" xmlns="http://www.w3.org/2000/svg">
+                                                <g><polygon points="0,0 160,20 320,0" /></g>
+                                            </svg> -->
+                                        </div>
+                                        <div class="vloc-ins-selectable-item-similar-plan-container" ng-if="plan.similarToLastYear">
+                                            <div class="vloc-ins-selectable-item-similar-plan">
+                                                <span class="vloc-ins-selectable-item-similar-plan-label">Similar to last year's plan</span>
+                                                <div class="vloc-ins-selectable-item-similar-plan-triangle-pointing-down"></div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="nds-p-vertical_small nds-p-horizontal_medium vloc-plan-header-text">
+                                            <button class="nds-button nds-text-heading_small vloc-link" style="color: #1b70d2;font-size: 1.3rem;height: 50px;" ng-click="openDetailModal(plan, control)" ><b>{{plan.productName || plan.Name}}</b></button>
+                                            <center><div style="height: 4px;width: 40px;background-color: black;margin-top: 8px;"><div></div></div></center>
+                                            <p class="nds-p-top_small" ><span class="nds-text-heading_large"><b>{{plan.Price | currency: currencyCode: 2}}</b></span><b>/mo</b></p>
+
+                                        </div>
+                                    </header>
+                                    <div class="vloc-plan-box-body">
+                                        <!-- Table for dental plan selected !-->
+                                        <table class="vloc-plan-table" ng-init="createProductsListInReviewQuoteDental(plan)">
+                                            <tbody ng-repeat=" prodDtal in plan.prodListQuote | orderBy:'sortedList' | limitTo:5">
+                                                <td ng-if="!prodDtal.value.includes('http') && prodDtal.name != 'View More Benefits'" class="nds-p-right_small nds-truncate">{{prodDtal.name}}</td>
+                                                <td ng-if="!prodDtal.value.includes('http') && prodDtal.name != 'View More Benefits'" class="nds-text-align_right nds-truncate">{{prodDtal.value}}</td>
+                                                <td ng-if="prodDtal.name === 'View More Benefits'" class="nds-p-right_small nds-truncate"> <a ng-click="openDetailModal(plan, control)" >{{prodDtal.name}}</a></td>
+                                                <td ng-if="prodDtal.value.includes('https') " class="nds-p-right_small nds-truncate" style="width:80%"> <a href="{{prodDtal.value}}" target="_blank"> {{prodDtal.name}} </a> </td>
+                                            </tbody>
+                                        </table>
+                                        <!-- Table for dental plan selected !-->
+                                        <div class="plan__content_attributes_viewMore" ng-class="{'expand' : expandClicked}">       
+                                        <ul>                        
+                                            <li style="margin: 10px 0px;line-height: 16px;display: grid;grid-template-columns: 50% 50%;" ng-repeat=" fm in plan.members  ">
+                                                <p style="width: 120px;" class="nds-truncate">{{fm.fname}}</p>
+                                                <p class="attrValue ng-binding"> ${{fm.finalMemberRateValue}}</p>
+                                            </li>
+                                        </ul>
+                                        </div>
+                                        <div class="vloc-plan-footer">
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

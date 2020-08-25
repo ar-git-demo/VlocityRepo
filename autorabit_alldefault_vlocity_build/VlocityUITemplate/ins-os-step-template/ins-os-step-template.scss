@@ -1,0 +1,56 @@
+.via-nds .nds-button_brand.nds-save-button {
+    margin-bottom: 10px;
+    font-size: 14px;
+    background: transparent;
+    border: none;
+    color: #ef6c38;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.via-nds .nds-button_brand.nds-next-button {
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.via-nds .nds-align_absolute-center #vlc-step-save-btn{
+    display: block;
+}
+
+
+#UserDetails{
+
+    // .via-nds .nds-label-desc {
+    //     width: auto;
+    // }
+    // .via-nds .nds-typeahead .nds-form-element__control-animated-label.nds-input-has-icon ul.typeahead.dropdown-menu li a {
+    //     text-align: auto;
+    // }
+
+   .nds-label-desc {
+        width: auto;
+    }
+    ul.typeahead.dropdown-menu li a {
+        text-align: -webkit-auto !important;
+    }
+
+}
+.nds-medium-size_0-of-12{
+    display: none;
+}
+
+.via-nds .nds-form-element__control.nds-radio_horizontal .nds-radio_button-group {
+    position: relative;
+}
+
+.via-nds .nds-modal__container {
+    justify-content: flex-start;
+}
+
+#ImportantQuestions{
+    .nds-form-element__control-help{
+    text-align: left !important;
+    }
+}
