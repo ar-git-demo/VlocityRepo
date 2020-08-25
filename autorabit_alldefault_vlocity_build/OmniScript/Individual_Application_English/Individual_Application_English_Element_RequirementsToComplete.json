@@ -1,0 +1,39 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Individual Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Individual/Application/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Individual Application",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Individual/Application/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "ApplicationInstructions",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Individual/Application/English/ApplicationInstructions",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "ApplicationInstructions",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": "Requirements to complete this application",
+        "show": null,
+        "text": "<h1 class=\"sub-headline\" style=\"margin-bottom: 0px;\">Requirements to complete this application</h1>\n<p></p>\n<div class=\"hline\">&nbsp;</div>\n<p></p>\n<p class=\"list-number\"></p>\n<p class=\"list-number\"></p>\n<p class=\"list-number\">1 <span class=\"Apple-converted-space\">&nbsp; &nbsp; &nbsp;</span>You need to provide personal information such as address, date of birth, and social security number for</p>\n<p class=\"p1\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;anyone applying for coverage. You will also need to provide proof of Idaho residency. Please have this</p>\n<p class=\"p1\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;information ready before you begin the application.</p>\n<p></p>\n<p class=\"p1\"></p>\n<p class=\"list-number\">2&nbsp; &nbsp; &nbsp; You will need to pay the first month's premium to complete your application. Please be ready to supply a</p>\n<p class=\"p1\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;credit card, debit card or checking account information.</p>\n<p class=\"p1\"></p>\n<p></p>\n<p class=\"list-number\">3&nbsp; &nbsp; &nbsp; &nbsp;For security purposes, any entered information or changes will be lost if you navigate out of or close your</p>\n<p class=\"p1\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;browser before completing your application.</p>\n<p class=\"p1\"></p>\n<p></p>\n<p></p>\n<p class=\"hyperlink\">What will I need to complete this application?</p>\n<p class=\"hyperlink\"></p>\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n<h1 class=\"p1\" style=\"margin-bottom: 0px;\">Accept Terms &amp; Conditions</h1>\n<div class=\"hline\">&nbsp;</div>\n<p class=\"p2\"></p>\n<p></p>\n<p></p>\n<p></p>\n<p></p>\n<p class=\"p1\">The following Terms and Conditions govern your use of the Vlocity on-line application. The Terms and</p>\n<p class=\"p1\">Conditions do not replace, but are a supplement to the Legal Disclaimer on the Vlocity Web site. Please</p>\n<p class=\"p1\">read the Terms and Conditions carefully so you fully understand your rights and responsibilities.</p>\n<p class=\"p2\"></p>\n<p></p>\n<p></p>\n<p class=\"p1\"><strong>Information Collected</strong></p>\n<p class=\"p1\">We may collect applicant information from you such as name, gender, address, phone number, fax number,</p>\n<p class=\"p1\">email address, member number, date of birth, Social Security Number, health plan, treating physician(s),</p>\n<p class=\"p1\">diagnosis, date(s) of service, treatment, prescriptions prescribed and/or any other information we need to verify</p>\n<p class=\"p1\">who you are or to determine what information may be made available to you.</p>\n<p class=\"p2\"></p>\n<p></p>\n<p></p>\n<p class=\"p1\"><strong>Access to Information</strong></p>\n<p class=\"p1\">You will not allow any other person or user to have access to the information contained in the online application</p>\n<p class=\"p1\">unless the person's access is consistent with applicable state and federal laws. All passwords used to access the</p>\n<p class=\"p1\">online application must be kept confidential. If you believe that a password has become known to someone</p>\n<p class=\"p1\">else, contact Vlocity via Email or via phone at 208-387-6683 or 800-274-4018 to report the issue and</p>\n<p class=\"p1\">obtain a new password.</p>\n<p class=\"p2\"></p>\n<p></p>\n<p></p>\n<p class=\"p1\"><strong>Security</strong></p>\n<p class=\"p1\">Information transmitted to Vlocity via the online application is secured with 128-bit encryption and the</p>\n<p class=\"p1\">information communicated will not leave our private network. Although Vlocity has security measures</p>\n<p class=\"p1\">in place, we cannot guarantee that unauthorized users will not gain unauthorized access to your information or</p>\n<p class=\"p1\">otherwise misuse the system. You assume all risks associated with using the online application and release</p>\n<p class=\"p1\">Vlocity from any claim, liability and/or damages, as a result of your use of the online application.</p>\n<p class=\"p2\"></p>\n<p class=\"p2\"></p>\n<p class=\"p1\">If any provision of these Terms and Conditions is determined to be invalid, all other provisions will remain in full</p>\n<p class=\"p1\">force and effect. These Terms and Conditions shall be interpreted and enforced according to the laws of the</p>\n<p class=\"p1\">State of Vlocity</p>",
+        "textKey": ""
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "RequirementsToComplete",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Individual/Application/English/RequirementsToComplete"
+}

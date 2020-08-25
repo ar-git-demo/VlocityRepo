@@ -1,0 +1,11 @@
+projectPath: ./autorabit_alldefault_vlocity_build
+manifest:
+- DataRaptor/AddMemberToCampaign
+- OmniScript/Census_Upload_Spanish
+- DataRaptor/vcd-customer-360
+- DataRaptor/vcd-customer-360-claimTotal
+- OmniScript/Individual_Application_English
+- OmniScript/Individual_Quoting_English
+maxDepth: -1
+autoUpdateSettings: true
+separateMatrixVersions: true
