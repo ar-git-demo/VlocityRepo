@@ -1,0 +1,18 @@
+{
+    "quoteJson": {
+        "Id": null,
+        "additionalFields": {
+        },
+        "effectiveDate": null,
+        "endDate": null,
+        "opportunityId": null,
+        "productConfigurationDetail:records": "JSONResult Object",
+        "rootItemId": null,
+        "term": null,
+        "toBeDeletedQuoteLineItems": [
+            {
+                "quoteLineItemId": null
+            }
+        ]
+    }
+}

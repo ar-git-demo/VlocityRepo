@@ -1,0 +1,42 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "quoteJson:productConfigurationDetail:records",
+        "%vlocity_namespace%__DomainObjectFieldType__c": "List<Map>",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "BenefitsProductsPlan1:ConfgureProductPlan1",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "UpdateQuoteJSONPriceCustom2885",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "UpdateQuoteJSONPrice",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "quoteJson:productConfigurationDetail:records:Price",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "RatesPopulation:RatesPlan1:RatePlan1TotalPrice",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "UpdateQuoteJSONPriceCustom7091",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "UpdateQuoteJSONPrice",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "quoteJson:productConfigurationDetail:records:Price",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "RatesPopulation:RatesPlan1:RatePlan1TotalPrice",
+        "%vlocity_namespace%__IsDisabled__c": true,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "UpdateQuoteJSONPriceCustom657",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "UpdateQuoteJSONPrice",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

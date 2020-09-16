@@ -1,0 +1,161 @@
+<div ng-if="control.vlcSI[control.itemsKey]" class="vloc-ins-coverages-container-wrapper">
+    <div ng-if="baseCtrl.vlocOSInsConfigProductSet && baseCtrl.vlocOSInsConfigProductSet[0].Id !== control.vlcSI[control.itemsKey][0].Id" ng-init="baseCtrl.setSelectedProducts(control.vlcSI[control.itemsKey])"></div>
+    <div class="vloc-ins-coverages-container-inner-wrapper" ng-controller="insCoveragesOsCtrl" ng-init="bindProducts(control.vlcSI[control.itemsKey])">
+        <div class="slds-p-bottom--xx-small vloc-ins-coverages-container" ng-repeat="product in productsList track by $index" ng-if="$index === 0" ng-init="setSelectedOption(control, product, option, $index, this, true)">
+            <h3 class="vloc-ins-product-name" ng-if="!insCoveragesConfig.showParentProduct">{{product.Name}}</h3>
+            <article class="slds-p-horizontal--medium vloc-ins-coverages-card" ng-repeat="child in sortedCoverages track by $index" ng-if="child.RecordTypeName__c === 'CoverageSpec' || child[nsPrefix + 'RecordTypeName__c'] === 'CoverageSpec' || (child.parentProduct && insCoveragesConfig.showParentProduct) && child.attributeCategories.records.length" ng-class="{'parent-product': child.parentProduct && insCoveragesConfig.showParentProduct, 'optional-coverage': child.isOriginalOptional, 'last-non-optional': child.lastNonOptional, 'added-optional-coverage': child.isAddedOptional, 'only-root': sortedCoverages.length === 1}" scope="" onload="" style="z-index: {{9999 - $index}}">
+                <div class="slds-m-bottom--small vloc-ins-coverages-heading" ng-if="child.firstOptional">
+                    <div class="slds-text-align--left vloc-ins-coverage-main-heading">
+                        <h2 class="slds-text-heading--medium">Select additional coverages</h2>
+                    </div>
+                </div>
+                <div class="vloc-ins-coverages-card-inner-wrapper" ng-class="{'optional-coverage': child.isOptional && !child.isAddedOptional, 'optional-coverage-selected': child.isOptional && child.isSelected, 'accordion-active': doAccordion(child)}" bs-collapse>
+                    <div class="slds-grid slds-m-bottom--none slds-p-top--medium slds-p-horizontal--large slds-p-bottom--x-small vloc-ins-coverages-header-container">
+                        <div class="slds-media slds-media--center slds-has-flexi-truncate vloc-ins-coverages-header">
+                            <div class="slds-media__figure slds-m-right--large" ng-if="!child.isOptional && !child.parentProduct">
+                                <img ng-src="{{instanceHost + child.ImageId}}" class="vloc-ins-coverage-custom-image" ng-if="child.ImageId" />
+                                <span class="slds-icon_container" ng-if="!child.ImageId">
+                                    <slds-svg-icon sprite="'custom'" size="'large'" icon="'custom91'"></slds-svg-icon>
+                                    <span class="slds-assistive-text">Default Icon</span>
+                                </span>
+                            </div>
+                            <div class="slds-media__figure slds-m-right--large slds-form-element vloc-ins-coverages-optional-checkbox" ng-if="child.isOptional" ng-click="selectOptionalCoverage(child, product, bpTree.response, control, this)">
+                                <div class="slds-form-element__control">
+                                    <span class="slds-checkbox">
+                                        <input type="checkbox" name="options" id="optional-coverage-{{$index}}" disabled="" ng-model="child.isSelected" />
+                                        <label class="slds-checkbox__label vloc-ins-coverages-optional-checkbox-label" for="optional-coverage-{{$index}}">
+                                            <span class="slds-checkbox--faux"></span>
+                                        </label>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="slds-media__body slds-p-right--xx-small">
+                                <h3 class="slds-text-heading--small vloc-ins-coverages-child-name">{{child.Name}}</h3>
+                                <div class="slds-text-body--regular vloc-ins-coverages-child-description">{{child.Description}}</div>
+                            </div>
+                        </div>
+                        <div class="slds-no-flex slds-text-heading--small vloc-ins-coverages-total" ng-hide="child.parentProduct">{{child.Price | currency: '€ ': 0}}</div>
+                    </div>
+                    <div class="vloc-product-attribute-category-container" bs-collapse-target ng-class="{'accordion-toggle-active': doAccordion(child)}">
+                        <div class="vloc-product-attribute-category" ng-repeat="category in child.attributeCategories.records track by $index" ng-class="{'category-accordion': insCoveragesConfig.attrCatAccordion, 'last': $last}" bs-collapse style="z-index: {{5555 - $index}}">
+                            <div class="vloc-ins-coverages-coverage-row-container" ng-class="{'toggle-categories': insCoveragesConfig.attrCatAccordion && category.productAttributes.totalSize >= insCoveragesConfig.coverageAccordionMinAttrs}" bs-collapse-target>
+                                <h4 class="vloc-product-attribute-category-name" ng-if="insCoveragesConfig.attrCatAccordion && category.productAttributes.totalSize < insCoveragesConfig.coverageAccordionMinAttrs">{{category.Name}}</h4>
+                                <h4 class="vloc-product-attribute-category-name accordion-toggle" ng-if="insCoveragesConfig.attrCatAccordion && category.productAttributes.totalSize >= insCoveragesConfig.coverageAccordionMinAttrs" bs-collapse-toggle>
+                                    <slds-svg-icon sprite="'utility'" icon="'chevronright'" size="'xx-small'" extra-classes="'slds-m-right--xx-small'"></slds-svg-icon>
+                                    <span>{{category.Name}}</span>
+                                </h4>
+                                <div class="slds-grid vloc-ins-coverages-coverage-row" ng-repeat="attribute in category.productAttributes.records track by $index" ng-if="!attribute.hiddenByRule" style="z-index: {{100 + (100 * (100 - $parent.$index)) - $index}}" ng-hide="attribute.hidden">
+                                    <div class="slds-size--8-of-12 slds-max-small-size--7-of-12 slds-p-right--xx-small vloc-ins-coverages-coverage">
+                                        <label class="slds-text-heading--x-small vloc-ins-coverages-coverage-name" for="attribute-{{child.ProductCode}}-{{attribute.code}}">{{attribute.label}}<span ng-if="attribute.max"> ({{attribute.min}} - {{attribute.max}})</span></label>
+                                    </div>
+                                    <div class="slds-size--4-of-12 slds-max-small-size--5-of-12 slds-is-relative vloc-ins-coverages-coverage-limit vloc-ins-coverages-coverage-limit-input">
+                                        <div class="slds-form-element vloc-ins-coverages-coverage-limit" ng-if="attribute.inputType !== 'dropdown' && !attribute.multiselect && attribute.inputType !== 'radio' && attribute.inputType !== 'range' && attribute.dataType !== 'date' && attribute.dataType !== 'datetime' && !attribute.readonly">
+                                            <div class="slds-form-element__control" ng-class="{'slds-input-has-fixed-addon': attribute.dataType === 'currency' || attribute.dataType === 'percentage'}">
+                                                <span class="slds-form-element__addon" ng-if="attribute.dataType === 'currency' && !attribute.readonly" ng-class="{'disabled': attribute.readonly}">£</span>
+                                                <input type="{{attribute.inputType}}" id="attribute-{{child.ProductCode}}-{{attribute.code}}" class="slds-input" ng-class="{'vloc-ins-coverages-coverage-input-currency': attribute.dataType === 'currency', 'vloc-ins-coverages-coverage-input-percentage': attribute.dataType === 'percentage'}" ng-model="attribute.userValues" ng-if="!attribute.readonly && attribute.inputType !== 'checkbox'" ng-focus="currentTextValue = attribute.userValues" ng-blur="changeCoverage(bpTree.response, control, scpReference, child, attribute, currentTextValue)" ng-click="stopPropagation($event)" ins-rules-evaluate="attribute" ins-rules-product="child" />
+                                                <span class="slds-form-element__addon vloc-ins-coverages-coverage-datatype-percentage" ng-if="attribute.dataType === 'percentage' && !attribute.readonly" ng-class="{'disabled': attribute.readonly}">%</span>
+                                                <span class="slds-checkbox" ng-if="attribute.inputType === 'checkbox'">
+                                                    <input type="checkbox" name="attribute-{{child.ProductCode}}-{{attribute.code}}" id="attribute-{{child.ProductCode}}-{{attribute.code}}" ng-model="attribute.userValues" ng-change="changeCoverage(bpTree.response, control, scpReference, child, attribute, currentTextValue)" />
+                                                    <label class="slds-checkbox__label" for="attribute-{{child.ProductCode}}-{{attribute.code}}">
+                                                        <span class="slds-checkbox--faux"></span>
+                                                    </label>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="slds-form-element vloc-ins-coverages-coverage-limit vloc-ins-coverages-coverage-limit-select" ng-if="attribute.inputType === 'dropdown' && attribute.inputType !== 'checkbox' && !attribute.multiselect && !attribute.readonly">
+                                            <div class="slds-form-element__control">
+                                                <div class="slds-select_container" ng-if="!attribute.readonly">
+                                                    <select id="attribute-{{child.ProductCode}}-{{attribute.code}}" class="slds-select" ng-model="attribute.userValues" ng-options="value.value as value.label for value in attribute.values | filter: {hiddenByRule: '!true'}" ng-change="changeCoverage(bpTree.response, control, scpReference, child, attribute)" ins-rules-evaluate="attribute" ins-rules-product="child">{{value.label}}</select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="vloc-ins-coverages-coverage-limit vloc-ins-coverages-coverage-limit-multiselect-checkbox" ng-if="attribute.multiselect && attribute.inputType === 'checkbox'">
+                                            <div class="slds-p-left--x-small via-ins-attributes-attribute-uservalues" ng-class="{'slds-size--3-of-8 slds-p-right--medium': attribute.showOverride, 'slds-size--4-of-8': !attribute.showOverride}">
+                                                <fieldset class="slds-form-element">
+                                                    <div class="slds-form-element__control">
+                                                        <span class="slds-checkbox" ng-repeat="value in attribute.values" ng-if="!value.hiddenByRule">
+                                                            <input type="checkbox" id="attr-ms-cb-{{product.ProductCode}}-{{category.Code__c}}-{{attribute.attributeId}}-{{value.value}}" checked="" ng-model="attribute.userValues[$index][value.value]" ng-disabled="$index === attribute.ruleSetValueIndex && attribute.ruleSetValue" ins-rules-evaluate="attribute" ng-click="toggleValue(attribute, value, $index, response, control, this, child)" />
+                                                            <label class="slds-checkbox__label" for="attr-ms-cb-{{product.ProductCode}}-{{category.Code__c}}-{{attribute.attributeId}}-{{value.value}}">
+                                                                <span class="slds-checkbox--faux"></span>
+                                                                <span class="slds-form-element__label">{{value.label}}</span>
+                                                            </label>
+                                                        </span>
+                                                    </div>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                        <div class="slds-dropdown-trigger slds-dropdown-trigger--click slds-is-open" ng-init="$root.insOSCoveragesDropdowns[attribute.attributeId] = false" style="z-index: {{1000 - $parent.$parent.$index}}" ng-if="attribute.multiselect && attribute.inputType === 'dropdown' && !attribute.readonly" ins-rules-evaluate="attribute" ins-rules-product="child">
+                                            <button class="slds-button slds-button--neutral via-ins-attributes-attribute-dropdown-button" aria-haspopup="true" title="Show More" id="attribute-{{child.ProductCode}}-{{attribute.code}}" ins-coverages-dropdown-handler="$root.toggleDropdown(attribute)" restrict-element="via-ins-attributes-attribute-dropdown-items" ng-init="countSelected(attribute)">
+                                                <span>{{attribute.multiSelectCount}} Selected</span>
+                                                <slds-button-svg-icon sprite="'utility'" icon="'down'" extra-classes="'slds-button__icon--right'"></slds-button-svg-icon>
+                                                <span class="slds-assistive-text">Show More</span>
+                                            </button>
+                                            <div class="slds-dropdown slds-dropdown--left via-ins-attributes-attribute-dropdown-items" ng-show="$root.insOSCoveragesDropdowns[attribute.attributeId]">
+                                                <ul id="option-list-{{$parent.$index}}-{{$index}}" class="slds-dropdown__list via-ins-attributes-attribute-dropdown-items-list" role="menu">
+                                                    <li class="slds-dropdown__item via-ins-attributes-attribute-dropdown-items-item" role="presentation" ng-repeat="value in attribute.values" ng-click="toggleValue(attribute, value, $index, response, control, this, child)" ng-if="!value.hiddenByRule" ng-class="{'slds-icon--selected': !attribute.userValues[$index][value.value]}">
+                                                        <a href="javascript:void(0);" class="via-ins-attributes-attribute-dropdown-items-link" role="menuitem" tabindex="0" ng-class="{'not-checked': !attribute.userValues || attribute.userValues.indexOf(value.value) < 0}">
+                                                            <slds-svg-icon sprite="'utility'" icon="'check'" size="'x-small'" extra-classes="'slds-m-top--xxx-small slds-m-right--x-small'"></slds-svg-icon>
+                                                            <span class="slds-truncate" title="Menu Item One">{{value.label}}</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="vloc-ins-coverages-coverage-limit vloc-ins-coverages-coverage-limit-radio-picklist" ng-if="attribute.dataType === 'text' && attribute.inputType === 'radio' && !attribute.readonly">
+                                            <div class="slds-p-left--x-small via-ins-attributes-attribute-uservalues">
+                                                <fieldset class="slds-form-element">
+                                                    <div class="slds-form-element__control">
+                                                        <span class="slds-radio" ng-repeat="value in attribute.values" ng-if="!value.hiddenByRule">
+                                                            <input type="radio" id="attr-radio-pl-{{product.ProductCode}}-{{category.Code__c}}-{{attribute.attributeId}}-{{value.value}}" ins-rules-evaluate="attribute" ng-checked="value.value === attribute.userValues" ng-click="attribute.userValues = value.value; changeCoverage(bpTree.response, control, scpReference, child, attribute)" />
+                                                            <label class="slds-radio__label" for="attr-radio-pl-{{product.ProductCode}}-{{category.Code__c}}-{{attribute.attributeId}}-{{value.value}}">
+                                                                <span class="slds-radio--faux"></span>
+                                                                <span class="slds-form-element__label">{{value.label}}</span>
+                                                            </label>
+                                                        </span>
+                                                    </div>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                        <div class="vloc-ins-coverages-coverage-limit vloc-ins-coverages-coverage-limit-range-slider" ng-if="attribute.inputType === 'range' && !attribute.readonly">
+                                            <div class="slds-is-relative slds-form-element via-ins-attributes-attribute-uservalues">
+                                                <div class="slds-form-element__control via-ins-attributes-attribute-range-slider-element-control">
+                                                    <div class="slds-slider">
+                                                        <input type="range" id="range-slider-{{product.ProductCode}}-{{category.Code__c}}-{{attribute.attributeId}}" min="{{attribute.min}}" max="{{attribute.max}}" class="slds-slider__range" value="{{attribute.userValues}}" ng-model="attribute.userValues" ng-disabled="attribute.ruleSetValue" ng-model-options="{debounce: 0}" ng-mouseup="changeCoverage(bpTree.response, control, scpReference, child, attribute)" ins-rules-evaluate="attribute" />
+                                                        <span class="slds-slider__value slds-p-right--none" aria-hidden="true">{{attribute.userValues}}<span ng-if="attribute.dataType === 'percentage'">%</span></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="vloc-ins-coverages-coverage-limit vloc-ins-coverages-coverage-limit-date-datetime" ng-if="attribute.dataType === 'date' || attribute.dataType === 'datetime'" ins-rules-evaluate="attribute">
+                                            <div class="slds-is-relative via-ins-attributes-attribute-date-container" ng-if="attribute.dataType === 'date'">
+                                                <input type="text" id="text-input-{{product.ProductCode}}-{{category.Code__c}}-{{attribute.attributeId}}" class="slds-input datatype-{{attribute.dataType}}" ng-model="attribute.userValues" ng-model-options="{debounce: 0}" ng-disabled="attribute.ruleSetValue" slds-date-picker data-placement="bottom-right" ng-change="changeCoverage(bpTree.response, control, scpReference, child, attribute)" />
+                                            </div>
+                                            <div class="slds-grid via-ins-attributes-attribute-datetime-container" ng-if="attribute.dataType === 'datetime'">
+                                                <div class="slds-is-relative slds-size--1-of-2 slds-p-right--xx-small">
+                                                    <input type="text" id="text-input-{{product.ProductCode}}-{{category.Code__c}}-{{attribute.attributeId}}" class="slds-input slds-p-horizontal--small datatype-{{attribute.dataType}}" ng-model="attribute.userValues" ng-model-options="{debounce: 0}" ng-disabled="attribute.ruleSetValue" slds-date-picker data-placement="bottom-right" ng-change="changeCoverage(bpTree.response, control, scpReference, child, attribute)" />
+                                                </div>
+                                                <div class="slds-is-relative slds-size--1-of-2 slds-p-left--xx-small">
+                                                    <input type="text" id="datetime-text-input-{{product.ProductCode}}-{{category.Code__c}}-{{attribute.attributeId}}" class="slds-input slds-p-horizontal--small datatype-{{attribute.dataType}}" ng-model="attribute.userValues" ng-disabled="attribute.ruleSetValue" slds-time-picker data-placement="bottom-right" ng-change="changeCoverage(bpTree.response, control, scpReference, child, attribute)" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="vloc-ins-coverages-coverage-limit vloc-ins-coverages-coverage-limit-readonly" ng-if="attribute.readonly">
+                                            <p class="vloc-ins-coverages-attribute-readonly" ng-if="attribute.readonly && attribute.dataType === 'currency'">{{attribute.userValues | currency: '€ ': 0}}</p>
+                                            <p class="vloc-ins-coverages-attribute-readonly" ng-if="attribute.readonly && attribute.dataType === 'percentage'">{{attribute.userValues}}%</p>
+                                            <p class="vloc-ins-coverages-attribute-readonly" ng-if="attribute.readonly && attribute.dataType !== 'currency' && attribute.dataType !== 'percentage'">{{attribute.userValues}}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vloc-ins-coverages-collapse-toggle" ng-if="doAccordion(child)" bs-collapse-toggle ng-click="stopPropagation($event)">
+                            <span class="toggle-label"><span class="toggle-show">Show</span><span class="toggle-hide">Hide</span> Coverage Attributes</span>
+                            <slds-svg-icon sprite="'utility'" icon="'chevrondown'" size="'xx-small'" extra-classes="'slds-m-left--xx-small slds-m-right--xx-small'"></slds-svg-icon>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <div class="slds-size--1-of-1 slds-p-horizontal--medium slds-text-heading--medium slds-text-align--right vloc-ins-coverages-total">Total <span class="slds-m-left--large">{{product.Price | currency: '€ ': 0}}</span></div>
+        </div>
+    </div>
+</div>
