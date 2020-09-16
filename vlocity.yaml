@@ -6,6 +6,12 @@ manifest:
 - DataRaptor/vcd-customer-360-claimTotal
 - OmniScript/Individual_Application_English
 - OmniScript/Individual_Quoting_English
+- CalculationMatrix/MedicareBaseRates
+- DataRaptor/createCensus
+- IntegrationProcedure/INS_Products
+- OmniScript/AXA_AXA Plan Setup_English
+- Product2/a411cdca-32cc-cc44-bed3-b449256a4ff0
 maxDepth: -1
 autoUpdateSettings: true
 separateMatrixVersions: true
+CompileOnBuild: false

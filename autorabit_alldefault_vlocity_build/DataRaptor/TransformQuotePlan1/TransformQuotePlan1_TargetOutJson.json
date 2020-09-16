@@ -1,0 +1,48 @@
+{
+    "quoteJson": {
+        "Id": null,
+        "additionalFields": {
+        },
+        "effectiveDate": null,
+        "endDate": null,
+        "insuredItems": {
+            "AX-PMI-GROUP-PLAN": [
+                {
+                    "AX Family Member Type": "Family",
+                    "AX Family Quoted Population": null,
+                    "AX Family Quoted Price": null,
+                    "AX Family Renewal Rate": null,
+                    "AX Group Name": null,
+                    "AX Married Member Type": "Married",
+                    "AX Married Quoted Population": null,
+                    "AX Married Quoted Price": null,
+                    "AX Married Renewal Rate": null,
+                    "AX Product Code": null,
+                    "AX Product Name": null,
+                    "AX SPF Member Type": "SPF",
+                    "AX SPF Quoted Population": null,
+                    "AX SPF Quoted Price": null,
+                    "AX SPF Renewal Rate": null,
+                    "AX Single Member Type": "Single",
+                    "AX Single Quoted Population": null,
+                    "AX Single Quoted Price": null,
+                    "AX Single Renewal Rate": null,
+                    "AX Total Population": null,
+                    "AX Total Price": null,
+                    "additionalFields": {
+                    },
+                    "instanceKey": null,
+                    "isPrimary": true,
+                    "productCode": "AX-PMI-GROUP-PLAN",
+                    "productId": "01tf4000003jnNNAAY"
+                }
+            ]
+        },
+        "opportunityId": null,
+        "productConfigurationDetail:records": "JSONResult Object",
+        "rootItemId": null,
+        "term": null,
+        "toBeDeletedQuoteLineItems": [
+        ]
+    }
+}
