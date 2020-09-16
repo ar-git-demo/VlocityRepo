@@ -1,0 +1,56 @@
+[
+    {
+        "%vlocity_namespace%__DefaultValue__c": "01-01-2018",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "quoteJson:effectiveDate",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "ContractData:ContractRenewalDate",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformQuotePlan2Customa19f4000000nBmQAAUItem1",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformQuotePlan2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DefaultValue__c": "01-01-2019",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "quoteJson:endDate",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "ContractData:ContractRenewalDate",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformQuotePlan2Customa19f4000000nBmQAAUItem2",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformQuotePlan2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "quoteJson:opportunityId",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "DRId_Opportunity",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformQuotePlan2Customa19f4000000nBmQAAUItem3",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformQuotePlan2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "quoteJson:productConfigurationDetail:records",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "BenefitsProductsPlan2:ConfgureProductPlan2",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformQuotePlan2Customa19f4000000nBmQAAUItem0",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformQuotePlan2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]
