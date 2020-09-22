@@ -30,7 +30,7 @@
         "text": "<p>%GroupClass|1:Name%</p>\n<p>%GroupClass|2:Name%</p>\n<p>%GroupClass|3:Name%</p>",
         "textKey": ""
     },
-    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
     "%vlocity_namespace%__Type__c": "Text Block",
     "Name": "TextBlock1",
     "VlocityDataPackType": "SObject",
