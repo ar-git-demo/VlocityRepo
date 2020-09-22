@@ -66,7 +66,7 @@
         "required": false,
         "show": null
     },
-    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
     "%vlocity_namespace%__Type__c": "Radio",
     "Name": "ContractTrustGSLSSL",
     "VlocityDataPackType": "SObject",

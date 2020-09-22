@@ -50,7 +50,7 @@
         "validationRequired": "Step",
         "wpm": false
     },
-    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
     "%vlocity_namespace%__Type__c": "DataRaptor Extract Action",
     "Name": "DRVPL-ReadAccountBrokerDetails-100-1",
     "VlocityDataPackType": "SObject",

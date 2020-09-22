@@ -30,7 +30,7 @@
         "text": "<p>QuoteProductId = %QuoteProductId%</p>\n<p>QuoteProductName = %QuoteProductName%</p>\n<p>OrchestrationScenario|1:Name = %OrchestrationScenario|1:Name%<br />OrchestrationScenario|1:ItemName = %OrchestrationScenario|1:ItemName%<br />OrchestrationScenario|2:Name = %OrchestrationScenario|2:Name%<br />OrchestrationScenario|2:ItemName = %OrchestrationScenario|2:ItemName%<br />OrchestrationScenario|3:Name = %OrchestrationScenario|3:Name%<br />OrchestrationScenario|3:ItemName = %OrchestrationScenario|3:ItemName%</p>",
         "textKey": ""
     },
-    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
     "%vlocity_namespace%__Type__c": "Text Block",
     "Name": "TextBlock2",
     "VlocityDataPackType": "SObject",
