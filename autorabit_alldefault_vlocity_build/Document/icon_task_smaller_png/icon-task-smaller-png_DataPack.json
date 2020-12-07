@@ -1,0 +1,18 @@
+{
+    "Body": "File_icon-task-smaller-png.png",
+    "BodyLength": 1183,
+    "ContentType": "image/png",
+    "Description": "",
+    "DeveloperName": "icon_task_smaller_png",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "icon-task-smaller.png",
+    "NamespacePrefix": "HealthCloudGA",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/icon_task_smaller_png"
+}

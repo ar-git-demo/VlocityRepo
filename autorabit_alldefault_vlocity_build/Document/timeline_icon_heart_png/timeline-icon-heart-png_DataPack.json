@@ -1,0 +1,18 @@
+{
+    "Body": "File_timeline-icon-heart-png.png",
+    "BodyLength": 1529,
+    "ContentType": "image/png",
+    "Description": "",
+    "DeveloperName": "timeline_icon_heart_png",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "timeline-icon-heart.png",
+    "NamespacePrefix": "HealthCloudGA",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/timeline_icon_heart_png"
+}

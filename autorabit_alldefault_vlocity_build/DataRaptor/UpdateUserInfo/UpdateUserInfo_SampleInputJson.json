@@ -1,0 +1,19 @@
+{
+    "ContextId": null,
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "GetLeadDetails": null,
+        "LeadConversion": null,
+        "SetContactAndAccount": null,
+        "SetLeadId-ForTestingOnly": null,
+        "UpdateContactInfo": null,
+        "UpdateLeadOwner": null,
+        "UpdateUserInfo": null
+    }
+}

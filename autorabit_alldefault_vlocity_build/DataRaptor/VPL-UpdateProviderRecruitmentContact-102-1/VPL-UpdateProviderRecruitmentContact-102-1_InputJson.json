@@ -1,0 +1,101 @@
+{
+    "AccountId": "001f400000NJrUGAA1",
+    "AccountName": "Bridgewater Family Dental",
+    "Attestation": {
+        "SignatureName": null,
+        "SpeakerAttests": null,
+        "SpeakerAttestsDate/Time": null
+    },
+    "ContactId": "003f400000LvplQAAR",
+    "ContactName": "Carole White",
+    "ContextId": "003f400000LvplQ",
+    "CountryCode": "US",
+    "Email": "info@salesforce.com",
+    "Fax": "1231231233",
+    "FirstName": "Carole",
+    "LastName": "White",
+    "MailingCity": "Toronto",
+    "MailingPostalCode": null,
+    "MailingStateCode": "ON",
+    "MailingStreet": "150 Chestnut Street",
+    "NPI": "4566434",
+    "OrganizationName": "Vlocity",
+    "OtherCity": "fdghjk",
+    "OtherPostalCode": "4566556",
+    "OtherStateCode": "CA",
+    "OtherStreet": "gdfhjkl",
+    "OwnerName": "Tirunagari Sri Divya",
+    "PersonalInformation": {
+        "ApplyForInclusionAns": null,
+        "ApplyForInclusionFormula": null,
+        "ApplyForInclusionOtherDetails": null,
+        "NetworkInterestAns": null,
+        "PIDateOfBirth": null,
+        "PIEmail": null,
+        "PIFax": null,
+        "PIFirstName": null,
+        "PILastName": null,
+        "PIMiddleName": null,
+        "PIPhoneNumber": null
+    },
+    "PhoneNumber": "(415) 555-1212",
+    "PrimaryServiceLocation": {
+        "MailingAddressDifferent": false,
+        "OtherAddressBlock": {
+            "PIOtherCity": null,
+            "PIOtherPostalCode": null,
+            "PIOtherStateCode": null,
+            "PIOtherStreet": null
+        },
+        "PIMailingCity": null,
+        "PIMailingPostalCode": null,
+        "PIMailingStateCode": null,
+        "PIMailingStreet": null
+    },
+    "ProfessionalInformation": {
+        "PIAccountName": null,
+        "PINationalProviderId": null,
+        "PISSN": null,
+        "PISpecialty": null,
+        "PITaxId": null,
+        "ProducerLicenses": null,
+        "TaxIDType": null
+    },
+    "ProviderRecruitment": {
+        "AmISpeakingWithAns": "Yes",
+        "ConnectMeToProvider": null,
+        "ConnectMeToProviderNo": {
+            "CanSpeakForProvider": null,
+            "PRFirstName": null,
+            "PRLastName": null,
+            "Prefix": null
+        },
+        "Next": null
+    },
+    "RecordType": "Provider",
+    "RecordTypeId": "012f40000016RV5AAM",
+    "id": "a2Cf40000006eZvEAI",
+    "layout": "lightning",
+    "testContextId": "003f400000LvplQ",
+    "timeStamp": "2018-05-25T05:42:50.185Z",
+    "userCurrencyCode": "USD",
+    "userId": "005f400000285C3AAI",
+    "userName": "divya-2@hibo.org",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Attestation": null,
+        "ExtractOrgName": null,
+        "ExtractProducerLicense": null,
+        "ExtractProviderContact": null,
+        "ExtractUserDetails": null,
+        "PersonalInformation": null,
+        "PrimaryServiceLocation": null,
+        "ProfessionalInformation": null,
+        "ProviderRecruitment": null,
+        "SetValues": null,
+        "UpdateProvider": null
+    }
+}

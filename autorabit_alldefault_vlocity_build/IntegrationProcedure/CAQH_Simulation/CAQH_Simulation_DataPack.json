@@ -1,0 +1,25 @@
+{
+    "%vlocity_namespace%__CustomJavaScript__c": "CAQH_Simulation_SampleInput.json",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "CAQH_Simulation_Element_GetAllAccounts.json",
+        "CAQH_Simulation_Element_ReturnValuesMatchFound.json",
+        "CAQH_Simulation_Element_ResponseActionMatchFound.json",
+        "CAQH_Simulation_Element_ReturnValuesMatchNotFound.json",
+        "CAQH_Simulation_Element_ResponseActionMatchNotFound.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__LwcId__c": "81735d89-39c0-7281-bab6-e3fbcfe031c0",
+    "%vlocity_namespace%__ProcedureKey__c": "CAQH_Simulation",
+    "%vlocity_namespace%__PropertySet__c": "CAQH_Simulation_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "Simulation",
+    "%vlocity_namespace%__Type__c": "CAQH",
+    "Name": "Simulated CAQH Lookup",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CAQH/Simulation/Procedure"
+}

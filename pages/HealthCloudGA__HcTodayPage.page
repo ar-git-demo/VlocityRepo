@@ -1,0 +1,46 @@
+<!--
+ * Copyright © 2015 salesforce.com, inc. All rights reserved.
+ * @copyright This document contains proprietary and confidential information and shall not be reproduced,
+ * transferred, or disclosed to others, without the prior written consent of Salesforce.
+ * @description HcTodayPage visualforce page, LighiningOut container for HcTodayBanner and HcTaskContainer
+ * @since 200
+-->
+<apex:page sidebar="false" standardStylesheets="true" docType="html-5.0">
+    <c:HcCommonIncludes />
+    <style>
+        td.chatterPublisherFileActionContainerLeft { display: none; }
+        /* This fix is a hack to fix chatter feed publisher button misalignment
+            Work Item:
+            W-4859188
+            Chatter Conversation with team responsible for chatter feed :
+            https://gus.my.salesforce.com/0D5B000000dzh3x
+        */
+        .publishercontainer .bottomBar {
+            overflow: hidden;
+            height: inherit;
+        }
+    </style>
+
+    <div class="slds-scope">
+        <div class="slds-grid slds-wrap slds-theme--shade health1-today-wrapper">
+            <div class="slds-col slds-large-size--2-of-3 health1-today-section1">
+                <div id="lightningout-today" />
+            </div>
+            <div class="slds-col slds-large-size--1-of-3 slds-theme--default health1-today-section2">
+                <div id="lightningout-chatter" class="slds-text-body--regular slds-p-around--large">
+                    <div id="lightningout-today-help-feed" class="slds-float--right"/>
+                    <h2 class="slds-text-heading--large slds-m-bottom--medium">{!$Label.Header_ChatterFeed_AllPatients}</h2>
+                    <chatter:feed entityId="{!$User.Id}" showPublisher="true"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $Lightning.use("HealthCloudGA:HcTodayApp", function () {
+            $Lightning.createComponent("HealthCloudGA:HcTodayPageContainers", {shownInAlohaConsole: true}, "lightningout-today");
+            $Lightning.createComponent("HealthCloudGA:HcHelpTrayDropDown",
+                {"helpType": "TodayPageFeed", "defaultHelpCss": "HealthCare-HelpTray-button-icon"}, "lightningout-today-help-feed");
+        });
+    </script>
+</apex:page>

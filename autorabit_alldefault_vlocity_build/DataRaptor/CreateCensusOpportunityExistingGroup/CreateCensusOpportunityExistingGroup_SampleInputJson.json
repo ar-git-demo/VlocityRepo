@@ -1,0 +1,100 @@
+{
+    "AccountRecordTypeId": "012f400000005yLAAQ",
+    "CensusRecordTypeId": "012f400000005ydAAA",
+    "ContactRecordTypeId": "012f400000005yHAAQ",
+    "ContextId": "",
+    "QuoteDate": "2019-6-21",
+    "RatingFactProductCode": "SG-Census-RF",
+    "RecordTypes": [
+        {
+            "Object": "Account",
+            "Type": "Group"
+        },
+        {
+            "Object": "Contact",
+            "Type": "Contact"
+        },
+        {
+            "Object": "%vlocity_namespace%__GroupCensus__c",
+            "Type": "Small Group"
+        }
+    ],
+    "groupProfile": {
+        "AccountRecordType": "Group",
+        "AgencyId": "001f4000010r3HFAAY",
+        "BillingCity": "Chevy Chase",
+        "BillingPostalCode": "17730",
+        "BillingState": "Maryland",
+        "BillingStateCode": "MD",
+        "BillingStreet": "Beach Drive",
+        "FirstName": "Richard",
+        "LastName": "Newton",
+        "Phone": "+447931810022",
+        "QuoteName": "AB Electronics Inc-2019-6-21",
+        "RecordTypeId": "012f400000005yLAAQ",
+        "RecordTypeName": "Group",
+        "SIC": "4444",
+        "SICTypeAhead-Block": {
+            "SICCode": "4444",
+            "SICDescription": null,
+            "SICTypeAhead": null
+        },
+        "agency": "AB Electronics Inc",
+        "broker": "Richard Newton",
+        "brokerEmail": "jwilliams@vlocity.com",
+        "brokerPhone": "+447931810022",
+        "contactId": "003f4000012xEv7AAE",
+        "email": "jwilliams@vlocity.com",
+        "firstName": "Richard",
+        "groupName": "AB Electronics Inc",
+        "lastName": "Newton",
+        "mailingAddress": "Beach Drive",
+        "mailingCity": "Chevy Chase",
+        "mailingState": "Maryland",
+        "mailingZipCode": "17730",
+        "producerNumber": null,
+        "title": "Group Admin"
+    },
+    "groupQualification": {
+        "GroupSize": "%vlocity_namespace%__Type__c:Medical,%vlocity_namespace%__MarketSegment__c:Small Group,Family:None",
+        "GroupSizeRecordType": "SmallGroupQuote",
+        "GroupSizeSegment": "Small Group",
+        "MaxFamAnnDedINN": "6000",
+        "MaxFamAnnDedOON": "12000",
+        "MaxIndivAnnDedINN": "5000",
+        "MaxIndivAnnDedOON": "5000",
+        "OONCoverage": "No",
+        "effectiveDate": "2019-06-30 00:00:00",
+        "eligibleEmployees": 5,
+        "employeesEnrolling": 5,
+        "outOfStateEmployees": 0
+    },
+    "id": "a2Cf4000000vMDvEAM",
+    "selectPlanTypes": {
+        "isDentalSelected": null,
+        "isMedicalSelected": null,
+        "isVisionSelected": null,
+        "plansSelection": null
+    },
+    "timeStamp": "2019-06-21T04:31:09.062Z",
+    "userCurrencyCode": "USD",
+    "userId": "005f4000001mA10AAE",
+    "userIdTEST": "005f40000048aph",
+    "userName": "jwhibodemo@demo.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DELETESetUserIdBroker": 27,
+        "DELETESetUserIdGroup": 5,
+        "OmniScriptSessionToken": "937d195b-b5cd-4873-b7c9-94cf3606f878",
+        "SetCheckRecordTypeName": 16,
+        "SetGroupEmployer": 63,
+        "SetQuoteName": 13,
+        "getBrokerInfo": 1902,
+        "getRecordTypes": 619,
+        "groupProfile": 5072,
+        "groupQualification": 8174
+    }
+}

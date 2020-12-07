@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Rol praktiserend arts volgens EPD</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Rollen praktiserende artsen volgens EPD</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Naam van rol van praktiserend arts volge</nameFieldLabel>
+</CustomObjectTranslation>

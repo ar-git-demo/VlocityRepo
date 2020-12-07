@@ -1,0 +1,18 @@
+{
+    "Body": "File_icon-note-smaller-png.png",
+    "BodyLength": 1226,
+    "ContentType": "image/png",
+    "Description": "",
+    "DeveloperName": "icon_note_smaller_png",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "icon-note-smaller.png",
+    "NamespacePrefix": "HealthCloudGA",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/icon_note_smaller_png"
+}

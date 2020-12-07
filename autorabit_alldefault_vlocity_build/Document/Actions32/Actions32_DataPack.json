@@ -1,0 +1,18 @@
+{
+    "Body": "File_Actions32.png",
+    "BodyLength": 1023,
+    "ContentType": "image/png",
+    "Description": "",
+    "DeveloperName": "Actions32",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "Actions32",
+    "NamespacePrefix": "%vlocity_namespace%",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/Actions32"
+}

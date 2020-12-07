@@ -1,0 +1,31 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Formula",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 0,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Formula",
+        "%vlocity_namespace%__FormulaOrder__c": 1,
+        "%vlocity_namespace%__FormulaResultPath__c": "MergedList",
+        "%vlocity_namespace%__Formula__c": "LISTMERGE(\"Id\",LIST(Children),LIST(Siblings),LIST(ParentsParent))",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "MergeChildrenAndSiblingsCustom898",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "MergeChildrenAndSiblings",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DefaultValue__c": "[]",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "ReparentOptions",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "MergedList",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "MergeChildrenAndSiblingsCustom5697",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "MergeChildrenAndSiblings",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

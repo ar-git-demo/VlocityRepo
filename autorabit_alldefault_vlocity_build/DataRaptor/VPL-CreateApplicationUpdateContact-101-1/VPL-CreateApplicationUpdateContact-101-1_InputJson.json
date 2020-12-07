@@ -1,0 +1,143 @@
+{
+    "AccountId": null,
+    "Agreement": {
+        "Agreement1": null,
+        "Agreement2": null,
+        "Agreement3": null,
+        "Signature": null
+    },
+    "ApplicationName": null,
+    "ApplicationStatus": null,
+    "ApplicationType": null,
+    "BasicInformation": {
+        "AboutYourself": {
+            "CheckEmail": null,
+            "ConfirmEmailAddress": null,
+            "Email": null,
+            "EmailError": null,
+            "Fax": null,
+            "FirstName": null,
+            "LastName": null,
+            "MobilePhone": null,
+            "PhoneNumber": null
+        },
+        "MailingAddress": {
+            "Address": null,
+            "City": null,
+            "State": null,
+            "ZipCode": null
+        }
+    },
+    "ContactId": null,
+    "ContextId": null,
+    "Documents": {
+        "DocName": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ]
+    },
+    "GetAppointed": {
+        "Introduction": null
+    },
+    "LicenseDetails": {
+        "AnotherState": null,
+        "SearchAgencyForSmallProducts-Block": {
+            "AgencyFEIN": null,
+            "AgencyNPN": null,
+            "AgencyName": null,
+            "SearchAgencyForSmallProducts": null
+        },
+        "SearchGeneralAgency-Block": {
+            "GeneralAgencyFEIN": null,
+            "GeneralAgencyNPN": null,
+            "GeneralAgencyName": null,
+            "SearchGeneralAgency": null
+        },
+        "SellInAnotherState": null,
+        "SellIndividualProducts": null,
+        "SellSmallGroupProducts": null,
+        "StateLicenseNumber": null,
+        "StateName": null
+    },
+    "Locations": {
+        "AgencyName": null,
+        "CommissionsRadio": null,
+        "FEIN": null,
+        "NPN": null,
+        "SSN": null,
+        "SearchAgency-Block": {
+            "AgencyFEIN": null,
+            "AgencyNPN": null,
+            "AgencyName": null,
+            "SearchAgency": null
+        },
+        "SellingState": null
+    },
+    "Payments": {
+        "CreditCardDetail": {
+            "AmountCC": null,
+            "CVV": null,
+            "CardExpiryMonth": null,
+            "CardExpiryYear": null,
+            "CardNumber": null,
+            "CardholderName": null,
+            "ZipCode": null
+        },
+        "ElectronicCheckDetail": {
+            "AccountNumber": null,
+            "AccountType": null,
+            "AmountEC": null,
+            "RoutingNumber": null
+        },
+        "ModeOfPayment": null
+    },
+    "PaymentsSummary": {
+        "CreditCardReview": {
+            "AmountCC2": null,
+            "CVV2": null,
+            "CardNumber2": null,
+            "CardholderName2": null,
+            "ExpiryMonth2": null,
+            "ExpiryYear2": null,
+            "ZipCode2": null
+        },
+        "ElectronicCheckReview": {
+            "AccountNumber2": null,
+            "AccountType2": null,
+            "AmountEC2": null,
+            "RoutingNumber2": null
+        },
+        "MandateCheck": null,
+        "Terms&amp;Conditions": null
+    },
+    "responseJSON": null,
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Agreement": null,
+        "BasicInformation": null,
+        "Documents": null,
+        "ExtractCompany": null,
+        "ExtractContact": null,
+        "ExtractLead": null,
+        "GetAppointed": null,
+        "GetRecordTypes": null,
+        "LicenseDetails": null,
+        "Locations": null,
+        "Payments": null,
+        "PaymentsSummary": null,
+        "SetValues": null,
+        "SetValues2": null,
+        "SetValues3": null,
+        "SetValues5": null,
+        "SettingPaymentSummary": null
+    }
+}

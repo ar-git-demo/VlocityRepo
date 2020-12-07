@@ -1,0 +1,33 @@
+{
+    "Contract": {
+        "Id": "800f4000000JRNIAA4",
+        "Name": "Contract: 2019"
+    },
+    "ContractLines": [
+        {
+            "Price": "$36,124.75",
+            "Product": "Group Plan 1 - Platinum  (International)",
+            "ProductCode": "CGN1PlatinumPlan"
+        },
+        {
+            "Price": "$797.75",
+            "Product": "Life Cover",
+            "ProductCode": "CGNLifeCover"
+        },
+        {
+            "Price": "$1,127.00",
+            "Product": "Dental Cover",
+            "ProductCode": "CGNDentalCover"
+        },
+        {
+            "Price": "$34,200.00",
+            "Product": "Medical Cover",
+            "ProductCode": "CGNMedicalCover"
+        }
+    ],
+    "EffectiveDate": "01/29/2019",
+    "EmployerName": "Voltage Robotics",
+    "GroupName": "Voltage Robotics",
+    "GroupNumber": "00002895",
+    "State": "California"
+}

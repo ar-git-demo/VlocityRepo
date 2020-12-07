@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AdvancedSetup</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AdvancedSetup</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AdvancedSetup</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Campaign_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <compactLayoutAssignment>vlocity_ins__HighlightPanel</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>vlocity_ins__HighlightPanel</fullName>
+        <fields>Name</fields>
+        <fields>Type</fields>
+        <fields>Status</fields>
+        <fields>EndDate</fields>
+        <fields>StartDate</fields>
+        <label>Highlight Panel</label>
+    </compactLayouts>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <externalSharingModel>Private</externalSharingModel>
+    <fieldSets>
+        <fullName>vlocity_ins__StoryFieldSet</fullName>
+        <description>Story board</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Status</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>IsActive</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Type</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>StoryFieldSet</label>
+    </fieldSets>
+    <fields>
+        <fullName>ActualCost</fullName>
+    </fields>
+    <fields>
+        <fullName>AmountAllOpportunities</fullName>
+    </fields>
+    <fields>
+        <fullName>AmountWonOpportunities</fullName>
+    </fields>
+    <fields>
+        <fullName>BudgetedCost</fullName>
+    </fields>
+    <fields>
+        <fullName>CampaignImageId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CampaignMemberRecordTypeId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Campaign_Year__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(YEAR(StartDate))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Campaign Year</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>All</fullName>
+                    <default>false</default>
+                    <label>All</label>
+                </value>
+                <value>
+                    <fullName>Brand</fullName>
+                    <default>false</default>
+                    <label>Brand</label>
+                </value>
+                <value>
+                    <fullName>Acquisition</fullName>
+                    <default>false</default>
+                    <label>Acquisition</label>
+                </value>
+                <value>
+                    <fullName>Onboarding</fullName>
+                    <default>false</default>
+                    <label>Onboarding</label>
+                </value>
+                <value>
+                    <fullName>Health</fullName>
+                    <default>false</default>
+                    <label>Health</label>
+                </value>
+                <value>
+                    <fullName>Retention</fullName>
+                    <default>false</default>
+                    <label>Retention</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>EndDate</fullName>
+    </fields>
+    <fields>
+        <fullName>ExpectedResponse</fullName>
+    </fields>
+    <fields>
+        <fullName>ExpectedRevenue</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyActualCost</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyAmountAllOpportunities</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyAmountWonOpportunities</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyBudgetedCost</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyExpectedRevenue</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyNumberOfContacts</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyNumberOfConvertedLeads</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyNumberOfLeads</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyNumberOfOpportunities</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyNumberOfResponses</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyNumberOfWonOpportunities</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyNumberSent</fullName>
+    </fields>
+    <fields>
+        <fullName>IsActive</fullName>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+    </fields>
+    <fields>
+        <fullName>NumberOfContacts</fullName>
+    </fields>
+    <fields>
+        <fullName>NumberOfConvertedLeads</fullName>
+    </fields>
+    <fields>
+        <fullName>NumberOfLeads</fullName>
+    </fields>
+    <fields>
+        <fullName>NumberOfOpportunities</fullName>
+    </fields>
+    <fields>
+        <fullName>NumberOfResponses</fullName>
+    </fields>
+    <fields>
+        <fullName>NumberOfWonOpportunities</fullName>
+    </fields>
+    <fields>
+        <fullName>NumberSent</fullName>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ParentId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>StartDate</fullName>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Subtype__c</fullName>
+        <externalId>false</externalId>
+        <label>Subtype</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Type</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Advertising</fullName>
+                    <default>false</default>
+                    <label>Advertising</label>
+                </value>
+                <value>
+                    <fullName>Blog</fullName>
+                    <default>false</default>
+                    <label>Blog</label>
+                </value>
+                <value>
+                    <fullName>Chat</fullName>
+                    <default>false</default>
+                    <label>Chat</label>
+                </value>
+                <value>
+                    <fullName>Consumer</fullName>
+                    <default>false</default>
+                    <label>Consumer</label>
+                </value>
+                <value>
+                    <fullName>Content Marketing</fullName>
+                    <default>false</default>
+                    <label>Content Marketing</label>
+                </value>
+                <value>
+                    <fullName>Digital Banners</fullName>
+                    <default>false</default>
+                    <label>Digital Banners</label>
+                </value>
+                <value>
+                    <fullName>Direct Calling</fullName>
+                    <default>false</default>
+                    <label>Direct Calling</label>
+                </value>
+                <value>
+                    <fullName>Event</fullName>
+                    <default>false</default>
+                    <label>Event</label>
+                </value>
+                <value>
+                    <fullName>Facebook</fullName>
+                    <default>false</default>
+                    <label>Facebook</label>
+                </value>
+                <value>
+                    <fullName>Facebook Page</fullName>
+                    <default>false</default>
+                    <label>Facebook Page</label>
+                </value>
+                <value>
+                    <fullName>Forums</fullName>
+                    <default>false</default>
+                    <label>Forums</label>
+                </value>
+                <value>
+                    <fullName>In App</fullName>
+                    <default>false</default>
+                    <label>In App</label>
+                </value>
+                <value>
+                    <fullName>Influencer</fullName>
+                    <default>false</default>
+                    <label>Influencer</label>
+                </value>
+                <value>
+                    <fullName>Infographics</fullName>
+                    <default>false</default>
+                    <label>Infographics</label>
+                </value>
+                <value>
+                    <fullName>In Store</fullName>
+                    <default>false</default>
+                    <label>In Store</label>
+                </value>
+                <value>
+                    <fullName>Kiosk</fullName>
+                    <default>false</default>
+                    <label>Kiosk</label>
+                </value>
+                <value>
+                    <fullName>LinkedIn</fullName>
+                    <default>false</default>
+                    <label>LinkedIn</label>
+                </value>
+                <value>
+                    <fullName>LinkedIn Page</fullName>
+                    <default>false</default>
+                    <label>LinkedIn Page</label>
+                </value>
+                <value>
+                    <fullName>Medicare Education Event</fullName>
+                    <default>false</default>
+                    <label>Medicare Education Event</label>
+                </value>
+                <value>
+                    <fullName>Medicare Sales Event</fullName>
+                    <default>false</default>
+                    <label>Medicare Sales Event</label>
+                </value>
+                <value>
+                    <fullName>Microsite</fullName>
+                    <default>false</default>
+                    <label>Microsite</label>
+                </value>
+                <value>
+                    <fullName>Mobile</fullName>
+                    <default>false</default>
+                    <label>Mobile</label>
+                </value>
+                <value>
+                    <fullName>Pay Per Click (PPC)</fullName>
+                    <default>false</default>
+                    <label>Pay Per Click (PPC)</label>
+                </value>
+                <value>
+                    <fullName>Print</fullName>
+                    <default>false</default>
+                    <label>Print</label>
+                </value>
+                <value>
+                    <fullName>Radio</fullName>
+                    <default>false</default>
+                    <label>Radio</label>
+                </value>
+                <value>
+                    <fullName>Referral</fullName>
+                    <default>false</default>
+                    <label>Referral</label>
+                </value>
+                <value>
+                    <fullName>Remarketing</fullName>
+                    <default>false</default>
+                    <label>Remarketing</label>
+                </value>
+                <value>
+                    <fullName>Sales Meetings</fullName>
+                    <default>false</default>
+                    <label>Sales Meetings</label>
+                </value>
+                <value>
+                    <fullName>Search Engine Optimization (SEO)</fullName>
+                    <default>false</default>
+                    <label>Search Engine Optimization (SEO)</label>
+                </value>
+                <value>
+                    <fullName>Sports Team</fullName>
+                    <default>false</default>
+                    <label>Sports Team</label>
+                </value>
+                <value>
+                    <fullName>Telephone Automation (IVR)</fullName>
+                    <default>false</default>
+                    <label>Telephone Automation (IVR)</label>
+                </value>
+                <value>
+                    <fullName>Television</fullName>
+                    <default>false</default>
+                    <label>Television</label>
+                </value>
+                <value>
+                    <fullName>Text (SMS)</fullName>
+                    <default>false</default>
+                    <label>Text (SMS)</label>
+                </value>
+                <value>
+                    <fullName>Trade</fullName>
+                    <default>false</default>
+                    <label>Trade</label>
+                </value>
+                <value>
+                    <fullName>Twitter</fullName>
+                    <default>false</default>
+                    <label>Twitter</label>
+                </value>
+                <value>
+                    <fullName>Video</fullName>
+                    <default>false</default>
+                    <label>Video</label>
+                </value>
+                <value>
+                    <fullName>Web</fullName>
+                    <default>false</default>
+                    <label>Web</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Advertising</controllingFieldValue>
+                <valueName>Facebook</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Advertising</controllingFieldValue>
+                <valueName>LinkedIn</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Advertising</controllingFieldValue>
+                <valueName>Mobile</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Advertising</controllingFieldValue>
+                <valueName>Print</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Advertising</controllingFieldValue>
+                <valueName>Radio</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_ins__CampaignContentDocumentId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the primary document (or other content) that is the subject of the campaign. Could be content being promoted in the campaign or a script to be used when talking to campaign targets. Points to the child Campaign Content Document (CampaignContentDocument__c) record that associates a Salesforce File with a Campaign.</description>
+        <externalId>false</externalId>
+        <label>Campaign Content Document</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>vlocity_ins__CampaignContentDocument__c.vlocity_ins__CampaignId__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.Id</valueField>
+            </filterItems>
+            <filterItems>
+                <field>vlocity_ins__CampaignContentDocument__c.vlocity_ins__IsPrimary__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>vlocity_ins__CampaignContentDocument__c</referenceTo>
+        <relationshipLabel>Campaigns</relationshipLabel>
+        <relationshipName>Campaigns</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_ins__ContentDocumentTitle__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Formula: Title as defined on the campaign content document association record.</description>
+        <externalId>false</externalId>
+        <formula>vlocity_ins__CampaignContentDocumentId__r.vlocity_ins__ContentTitle__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Content Document Title</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_ins__EmailTemplate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name of the email template to send to campaign members. Matches the Template Unique Name (DeveloperName) of a Salesforce Email Template (EmailTemplate object).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Email template used to send email to campaign member.</inlineHelpText>
+        <label>Email Template</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_ins__FollowUpTo__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Identifies the type of object that should be created when a user creates a &quot;follow up&quot; item for this campaign. Values must be one of “Log Call”, “Case”, “Event”, “Opportunity”, “Task”, “Order”.</description>
+        <externalId>false</externalId>
+        <label>Follow Up To</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_ins__LineOfBusiness__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Line of Business</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Group Dental</fullName>
+                    <default>false</default>
+                    <label>Group Dental</label>
+                </value>
+                <value>
+                    <fullName>Group Medical</fullName>
+                    <default>false</default>
+                    <label>Group Medical</label>
+                </value>
+                <value>
+                    <fullName>Group Vision</fullName>
+                    <default>false</default>
+                    <label>Group Vision</label>
+                </value>
+                <value>
+                    <fullName>Individual Dental</fullName>
+                    <default>false</default>
+                    <label>Individual Dental</label>
+                </value>
+                <value>
+                    <fullName>Individual Medical</fullName>
+                    <default>false</default>
+                    <label>Individual Medical</label>
+                </value>
+                <value>
+                    <fullName>Individual Vision</fullName>
+                    <default>false</default>
+                    <label>Individual Vision</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>vlocity_ins__MassEmailContent__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Email Content</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>vlocity_ins__MassEmailSubject__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Email Subject</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_ins__ProcessLanguage__c</fullName>
+        <defaultValue>&apos;English&apos;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Used to associate a Vlocity OmniScript to run when executing the campaign for each target. Process Language specifies the Language value of the OmniScript.</description>
+        <externalId>false</externalId>
+        <label>Process Language</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_ins__ProcessPrefillBundle__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Used when executing the campaign for each target via a Vlocity OmniScript. The Process Prefill Bundle specifies the prefill DataRaptor mapping bundle to use when launching the OmniScript.</description>
+        <externalId>false</externalId>
+        <label>Process Prefill Bundle</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_ins__ProcessSubType__c</fullName>
+        <defaultValue>&apos;Default&apos;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Used to associate a Vlocity OmniScript to run when executing the campaign for each target. Process Sub Type specifies the Sub Type value of the OmniScript.</description>
+        <externalId>false</externalId>
+        <label>Process Sub Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_ins__ProcessType__c</fullName>
+        <defaultValue>&apos;Campaign&apos;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Used to associate a Vlocity OmniScript to run when executing the campaign for each target. Process Type specifies the Type value of the OmniScript.</description>
+        <externalId>false</externalId>
+        <label>Process Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocityinsX_CalltoAction__c</fullName>
+        <externalId>false</externalId>
+        <label>Call to Action</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Request to Like</fullName>
+                    <default>false</default>
+                    <label>Request to Like</label>
+                </value>
+                <value>
+                    <fullName>Request to Complete Form</fullName>
+                    <default>false</default>
+                    <label>Request to Complete Form</label>
+                </value>
+                <value>
+                    <fullName>Request to Download Content</fullName>
+                    <default>false</default>
+                    <label>Request to Download Content</label>
+                </value>
+                <value>
+                    <fullName>Request for Meeting</fullName>
+                    <default>false</default>
+                    <label>Request for Meeting</label>
+                </value>
+                <value>
+                    <fullName>Request for Chat</fullName>
+                    <default>false</default>
+                    <label>Request for Chat</label>
+                </value>
+                <value>
+                    <fullName>Request for Call Back</fullName>
+                    <default>false</default>
+                    <label>Request for Call Back</label>
+                </value>
+                <value>
+                    <fullName>Request to Call In</fullName>
+                    <default>false</default>
+                    <label>Request to Call In</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>vlocityinsX_LineofBusiness__c</fullName>
+        <externalId>false</externalId>
+        <label>Line of Business (LOB)</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Small Group</fullName>
+                    <default>false</default>
+                    <label>Small Group</label>
+                </value>
+                <value>
+                    <fullName>Large Group</fullName>
+                    <default>false</default>
+                    <label>Large Group</label>
+                </value>
+                <value>
+                    <fullName>Medicare</fullName>
+                    <default>false</default>
+                    <label>Medicare</label>
+                </value>
+                <value>
+                    <fullName>Individual</fullName>
+                    <default>false</default>
+                    <label>Individual</label>
+                </value>
+                <value>
+                    <fullName>Medicaid</fullName>
+                    <default>false</default>
+                    <label>Medicaid</label>
+                </value>
+                <value>
+                    <fullName>Agency / Broker</fullName>
+                    <default>false</default>
+                    <label>Agency / Broker</label>
+                </value>
+                <value>
+                    <fullName>Provider</fullName>
+                    <default>false</default>
+                    <label>Provider</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>vlocityinsX_MarketingEvent__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Marketing Event</label>
+        <referenceTo>Campaign</referenceTo>
+        <relationshipLabel>Campaigns</relationshipLabel>
+        <relationshipName>Campaigns</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>vlocityinsX_MarketingTrigger__c</fullName>
+        <externalId>false</externalId>
+        <label>Marketing Trigger</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>vlocityinsX_LineofBusiness__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pre-Annual Enrollment</fullName>
+                    <default>false</default>
+                    <label>Pre-Annual Enrollment</label>
+                </value>
+                <value>
+                    <fullName>During Annual Enrollment (upsell voluntary products)</fullName>
+                    <default>false</default>
+                    <label>During Annual Enrollment (upsell voluntary products)</label>
+                </value>
+                <value>
+                    <fullName>Provider network (major changes)</fullName>
+                    <default>false</default>
+                    <label>Provider network (major changes)</label>
+                </value>
+                <value>
+                    <fullName>CEO, CFO or company owner changes</fullName>
+                    <default>false</default>
+                    <label>CEO, CFO or company owner changes</label>
+                </value>
+                <value>
+                    <fullName>Annual Election Period (AEP)</fullName>
+                    <default>false</default>
+                    <label>Annual Election Period (AEP)</label>
+                </value>
+                <value>
+                    <fullName>Special Election Period (SEP)</fullName>
+                    <default>false</default>
+                    <label>Special Election Period (SEP)</label>
+                </value>
+                <value>
+                    <fullName>Turning 65 (&quot;Aging In&quot;)</fullName>
+                    <default>false</default>
+                    <label>Turning 65 (&quot;Aging In&quot;)</label>
+                </value>
+                <value>
+                    <fullName>Disenrollment requests (&quot;save desk&quot;)</fullName>
+                    <default>false</default>
+                    <label>Disenrollment requests (&quot;save desk&quot;)</label>
+                </value>
+                <value>
+                    <fullName>Predictive Modeling (e.g. loss of network physician)</fullName>
+                    <default>false</default>
+                    <label>Predictive Modeling (e.g. loss of network physician)</label>
+                </value>
+                <value>
+                    <fullName>Year-round product promotion (5 star health plan)</fullName>
+                    <default>false</default>
+                    <label>Year-round product promotion (5 star health plan)</label>
+                </value>
+                <value>
+                    <fullName>Year-round brand promotion (all health plans)</fullName>
+                    <default>false</default>
+                    <label>Year-round brand promotion (all health plans)</label>
+                </value>
+                <value>
+                    <fullName>Open Enrollment Period (OEP)</fullName>
+                    <default>false</default>
+                    <label>Open Enrollment Period (OEP)</label>
+                </value>
+                <value>
+                    <fullName>Year-round brand promotion</fullName>
+                    <default>false</default>
+                    <label>Year-round brand promotion</label>
+                </value>
+                <value>
+                    <fullName>Ancillary products upsell (year-round)</fullName>
+                    <default>false</default>
+                    <label>Ancillary products upsell (year-round)</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Small Group</controllingFieldValue>
+                <controllingFieldValue>Large Group</controllingFieldValue>
+                <valueName>Pre-Annual Enrollment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Small Group</controllingFieldValue>
+                <controllingFieldValue>Large Group</controllingFieldValue>
+                <valueName>During Annual Enrollment (upsell voluntary products)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Small Group</controllingFieldValue>
+                <controllingFieldValue>Large Group</controllingFieldValue>
+                <valueName>Provider network (major changes)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Small Group</controllingFieldValue>
+                <controllingFieldValue>Large Group</controllingFieldValue>
+                <valueName>CEO, CFO or company owner changes</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Medicare</controllingFieldValue>
+                <valueName>Annual Election Period (AEP)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Medicare</controllingFieldValue>
+                <valueName>Special Election Period (SEP)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Medicare</controllingFieldValue>
+                <valueName>Turning 65 (&quot;Aging In&quot;)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Medicare</controllingFieldValue>
+                <valueName>Disenrollment requests (&quot;save desk&quot;)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Medicare</controllingFieldValue>
+                <valueName>Predictive Modeling (e.g. loss of network physician)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Medicare</controllingFieldValue>
+                <valueName>Year-round product promotion (5 star health plan)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Medicare</controllingFieldValue>
+                <controllingFieldValue>Medicaid</controllingFieldValue>
+                <valueName>Year-round brand promotion (all health plans)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Open Enrollment Period (OEP)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Year-round brand promotion</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Ancillary products upsell (year-round)</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <listViews>
+        <fullName>AllActiveCampaigns</fullName>
+        <columns>CAMPAIGN.NAME</columns>
+        <columns>CAMPAIGN.START_DATE</columns>
+        <columns>CAMPAIGN.END_DATE</columns>
+        <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+        <columns>CAMPAIGN.STATUS</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Active Campaigns</label>
+    </listViews>
+    <listViews>
+        <fullName>MyActiveCampaigns</fullName>
+        <columns>CAMPAIGN.NAME</columns>
+        <columns>CAMPAIGN.START_DATE</columns>
+        <columns>CAMPAIGN.END_DATE</columns>
+        <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+        <columns>CAMPAIGN.STATUS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>CAMPAIGN.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>My Active Campaigns</label>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>CAMPAIGN.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CAMPAIGN.STATUS</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CAMPAIGN.START_DATE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>CAMPAIGN.NAME</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CAMPAIGN.NAME</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>CAMPAIGN.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PARENT_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CAMPAIGN.CAMPAIGN_TYPE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CAMPAIGN.STATUS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CAMPAIGN.START_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CAMPAIGN.END_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CAMPAIGN.NUM_RESPONSES</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>FullAccess</sharingModel>
+    <webLinks>
+        <fullName>Mass_Delete_Records</fullName>
+        <availability>online</availability>
+        <description>Mass delete records</description>
+        <displayType>massActionButton</displayType>
+        <linkType>page</linkType>
+        <masterLabel>Mass Delete</masterLabel>
+        <openType>replace</openType>
+        <page>Mass_Delete_Campaign</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>ViewAllCampaignMembers</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>500</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>View All Campaign Members</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/camp/rptcmpgncalldown.jsp?scope=1&amp;scopeid={!Campaign_Name}</url>
+        <width>500</width>
+    </webLinks>
+    <webLinks>
+        <fullName>ViewCampaignInfluenceReport</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>500</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>View Campaign Influence Report</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/00O?rt=117&amp;break0=CAN&amp;scope=1&amp;scopeid_lkid={!Campaign.Id}&amp;scopeid={!Campaign_Name}&amp;c=CAN&amp;c=MR&amp;c=PCS&amp;c=CFN&amp;c=RN&amp;c=ON&amp;c=OA&amp;c=OS&amp;c=OCD&amp;c=AN&amp;s=OA&amp;duel0=CAN%2CMR%2CCFN%2CRN%2CAN%2CON%2CPCS%2COS%2COCD%2COA&amp;details=yes&amp;format=t</url>
+        <width>500</width>
+    </webLinks>
+    <webLinks>
+        <fullName>vlocity_ins__ViewAllCampaignMembers</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>500</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>View All Campaign Members</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/camp/rptcmpgncalldown.jsp?scope=1&amp;scopeid={!Campaign.Name}</url>
+        <width>500</width>
+    </webLinks>
+    <webLinks>
+        <fullName>vlocity_ins__ViewCampaignInfluenceReport</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>500</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>View Campaign Influence Report</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/00O?rt=117&amp;break0=CAN&amp;scope=1&amp;scopeid_lkid={!Campaign.Id}&amp;scopeid={!Campaign.Name}&amp;c=CAN&amp;c=MR&amp;c=PCS&amp;c=CFN&amp;c=RN&amp;c=ON&amp;c=OA&amp;c=OS&amp;c=OCD&amp;c=AN&amp;s=OA&amp;duel0=CAN%2CMR%2CCFN%2CRN%2CAN%2CON%2CPCS%2COS%2COCD%2COA&amp;details=yes&amp;format=t</url>
+        <width>500</width>
+    </webLinks>
+</CustomObject>

@@ -1,0 +1,129 @@
+@import 'npVariables';
+    /*** Styles ***/
+// include mixin "npVariables" for fonts and colors.
+// npVariables mixin template should be active.
+.vlocity {
+/* Always use vlocity class as a wrapper */
+        .np-detail--card {
+            table{
+                td{
+                  font-size:$font-small;  
+                      /*font-family: Lato;*/
+                }
+            }
+            .via-full--width
+            {
+                width:100%;
+            }
+            .np-card-flipped--wrapper{
+        .np-close-link{
+            font-size: $font-small;
+            font-size:$font-small;
+                /*font-family: Lato;*/
+            position: absolute;
+            top: 10px;
+            right: 20px;
+        }
+        
+        .slds-button__icon
+        {
+            fill:#757C8C;
+        }
+        
+         .np-card-flipped{
+              //transform :rotateX(180deg);
+               .np-card-flipped--back{
+              display:block;
+               }
+               
+               .np-card-flipped--back:after {
+                    content: "";
+                    position: absolute;
+                    top: -29px;
+                    left: 50%;
+                    margin-left: -15px;
+                    border: 0;
+                    border-bottom-color: #fff;
+                    display: block;
+                    width: 0;
+               }
+               .np-card-flipped--back:before {
+                   content: "";
+                    position: absolute;
+                    top: -30px;
+                    left: 50%;
+                    margin-left: -15px;
+                    border: 15px solid transparent;
+                    border-bottom-color: $border-color-3;
+                    display: block;
+                    width: 0;
+               }
+         }
+ .np-card-flipped--front{
+               width:100%;
+                backface-visibility :hidden;
+         }
+          .np-card-flipped--back{
+              display:none;
+               
+                backface-visibility: hidden;
+                width:100%;
+                //transform :rotateX(180deg);
+                .np-flyout{
+                    width:100%;
+                    .slds-grid{
+                        box-shadow:none;
+                    }
+                }
+         }
+         
+    }
+    .np-card-active {
+        .moreActions{
+            display:none;
+        }
+        .np-card-active-card {
+            border: 1px solid  $border-color-1;
+            background: #f8fbfe;
+            
+            .np-card-index {
+                .slds-media__figure {
+                    text-align:center;
+                    margin-bottom:15px;
+                    &:after{
+                        border:1px solid $border-color-1;
+                    }
+                }
+            }
+        }
+    }
+    @mediascreen and (min-width:320px) and (max-width:480px) {
+        &.via-slds {
+            section.np-card-active {
+                .slds-media__figure {
+                    text-align: center;
+                    top: -7px;
+                    position: relative;
+                }
+                h3 {
+                    text-align: center;
+                }
+                a {
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+            .bg--white
+            {
+                background:$background-color-1;
+                border: 0px;
+            }
+            a{
+              font-size:  $font-small;    
+             /* font-family: Lato;*/
+            }
+            
+        }
+    }

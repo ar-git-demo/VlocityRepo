@@ -1,0 +1,21 @@
+{
+    "Cards": [
+        "Health-quote-actions-SH"
+    ],
+    "dataSource": {
+        "type": "Custom",
+        "value": {
+            "body": "{\"totalSize\" : 1}",
+            "resultVar": ""
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "ins-action-dropdown-container"
+        }
+    },
+    "workspace": [
+        "Health-quote-actions-SH/Total Health Plan/2/1561589874776"
+    ]
+}

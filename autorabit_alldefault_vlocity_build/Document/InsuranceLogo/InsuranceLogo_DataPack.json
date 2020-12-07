@@ -1,0 +1,18 @@
+{
+    "Body": "File_InsuranceLogo.gif",
+    "BodyLength": 3989,
+    "ContentType": "image/gif",
+    "Description": "",
+    "DeveloperName": "InsuranceLogo",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "InsuranceLogo",
+    "NamespacePrefix": "%vlocity_namespace%",
+    "Type": "gif",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/InsuranceLogo"
+}

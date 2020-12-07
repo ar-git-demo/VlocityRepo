@@ -1,0 +1,58 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+            "body": "",
+            "resultVar": ""
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": false,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "displayName": "Small Mid Quote",
+                        "extraParams": {
+                            "layout": "newport"
+                        },
+                        "hasExtraParams": true,
+                        "id": "SMQ",
+                        "isCustomAction": true,
+                        "omniLang": "English",
+                        "omniSubType": "Small Mid Group Quoting",
+                        "omniType": "SmallGroup",
+                        "openUrlIn": "New Tab / Window",
+                        "type": "OmniScript",
+                        "vForcewithNsPrefix": "c__INS_Quote_V104",
+                        "visualForce": "c__INS_Quote_V104"
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "name": "Active",
+            "sObjectType": null,
+            "templateUrl": "ins-action-dropdown-v2-SH"
+        }
+    ],
+    "title": "Create Quote -"
+}

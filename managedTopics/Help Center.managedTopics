@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagedTopics xmlns="http://soap.sforce.com/2006/04/metadata">
+    <managedTopic>
+        <fullName>Help Center.Content:Sample Topic 1</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Sample Topic 1</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Help Center.Featured:Sample Topic 1</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Sample Topic 1</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Help Center.Featured:Sample Topic 2</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Sample Topic 2</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Help Center.Featured:Sample Topic 3</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Sample Topic 3</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+</ManagedTopics>

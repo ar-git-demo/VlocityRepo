@@ -1,0 +1,87 @@
+<apex:page docType="html-5.0" StandardController="Case" extensions="HealthCloudGA.HcApplyCarePlanController">
+    <apex:includeLightning />
+    <apex:includeScript value="/support/console/46.0/integration.js"/>
+
+    <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lang="en">
+        <head>
+            <apex:stylesheet value="{!URLFOR($Resource.HealthCloudGA__industryresources, 'landmark/styles/slds.css')}"/>
+            <style>
+                html {
+                    height:100%;
+                }
+
+                body.hasMotif { 
+                    margin: 0; 
+                }
+
+                #lightning-careplantemplate-container {
+                    height: 100%;
+                    min-height: 100%;
+                }
+
+                html body.sfdcBody{
+                    background: #b0c4df url("/_slds/images/themes/lightning_blue/lightning_blue_background.png") no-repeat;
+                    padding: .75rem
+                }
+
+                .hc-h-scroll {
+                    min-height: calc(100vh - 17.4rem);
+                }
+                
+                #lightning-careplantemplate-container .hc-w-full {
+                    min-height:calc(100vh - 9rem);
+                }
+
+            </style>
+        </head>
+        <body>
+            <c:HcSpinnerComponent spinnerContainerId="wizardLoadSpinner"/>
+            
+            <div id='pslErrorMsg' class='slds-grid--frame slds-align--absolute-center slds-hide'>
+                <div class="slds-align--absolute-center">
+                    <span class="slds-icon_container slds-m-right--small">
+                        <svg aria-hidden="true" class="slds-icon slds-icon-text-error slds-icon--medium">
+                            <use xlink:href="{!$Resource.industryresources + '/landmark/icons/utility-sprite/svg/symbols.svg#warning'}"></use>
+                        </svg>
+                    </span>
+                    <div class="slds-col slds-align-middle">
+                        <h2 class="slds-text-heading--medium">{!$Label.Msg_Component_Has_NoAccess}</h2>
+                        <p><a href="javascript:history.go(-1)">{! $Label.Msg_BackToPrevious }</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="lightning-careplantemplate-container" />
+        </body>
+    </html>
+    
+    <script>
+        var isPSLRestricted = "{!IF(isPSLRestricted, true, false)}";
+        var spinner = document.getElementById("wizardLoadSpinner");
+
+        // Setting the title of the tab.
+        if(sforce) {
+            sforce.console.setTabTitle('{!$Label.Menu_Item_Apply_CarePlanTemplates}');
+        }    
+
+        // Checking on permission.
+        if(isPSLRestricted === "true"){
+            spinner.className = spinner.className + ' slds-hide';
+            var pslErrorMsg = document.getElementById("pslErrorMsg");
+            pslErrorMsg.classList.remove('slds-hide');
+        } else {
+            $Lightning.use("HealthCloudGA:HcApplyCarePlanTemplateApp", function() {
+                // Creating HcCarePlanTemplateContainer component.
+                $Lightning.createComponent("HealthCloudGA:HcCarePlanTemplateContainer", {
+                    "carePlanId": '{!caseObj.Id}', 
+                    "patientId": '{!caseObj.AccountId}', 
+                    "isNewCarePlan" : false,
+                    "isCareProgramFlow" : false,
+                    "shownInAlohaConsole": false
+                } ,"lightning-careplantemplate-container", function(status) {
+                    spinner.className = spinner.className + ' slds-hide';
+                });
+            });
+        }
+    </script>
+</apex:page>

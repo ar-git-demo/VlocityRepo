@@ -1,0 +1,32 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "V104 - ConextId = QuoteId",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "SmallGroup_Issue_English_Element_getQuoteDetail.json",
+        "SmallGroup_Issue_English_Element_setCensusId.json",
+        "SmallGroup_Issue_English_Element_transformForContractCreation.json",
+        "SmallGroup_Issue_English_Element_createContract.json",
+        "SmallGroup_Issue_English_Element_getContractNumber.json",
+        "SmallGroup_Issue_English_Element_cloneCensus.json",
+        "SmallGroup_Issue_English_Element_updateGroupRateType.json",
+        "SmallGroup_Issue_English_Element_updateQuoteStatus.json",
+        "SmallGroup_Issue_English_Element_confirmation.json",
+        "SmallGroup_Issue_English_Element_confirmationHeadline.json",
+        "SmallGroup_Issue_English_Element_contractTextBlock.json",
+        "SmallGroup_Issue_English_Element_Done.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__LastPreviewPage__c": "Lightning Universal Page",
+    "%vlocity_namespace%__LwcId__c": "c74efcc4-33ae-a70c-026a-a3cf7b399ce3",
+    "%vlocity_namespace%__PropertySet__c": "SmallGroup_Issue_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "Issue",
+    "%vlocity_namespace%__Type__c": "SmallGroup",
+    "Name": "Small Group Issue Contract",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/SmallGroup/Issue/English"
+}

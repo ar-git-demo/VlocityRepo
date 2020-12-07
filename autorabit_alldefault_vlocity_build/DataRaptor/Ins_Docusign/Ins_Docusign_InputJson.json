@@ -1,0 +1,124 @@
+{
+    "AccountId": "001f400000BTjVDAA1",
+    "AccountName": "Aliotos Resturant",
+    "ContextId": "0Q0f4000000DAHE",
+    "EffectiveDate": "2018-03-01",
+    "companyProfile": {
+        "companyBillingAddress": {
+            "BillingCity": null,
+            "BillingState": null,
+            "BillingStreet": null,
+            "BillingZip": null
+        },
+        "companyInformation": {
+            "companyTypeC": false,
+            "companyTypeLLC": false,
+            "companyTypeNP": false,
+            "companyTypeP": false,
+            "companyTypeS": false,
+            "companyTypeSP": false
+        },
+        "companyPhysicalAddress": {
+            "PhysicalCity": null,
+            "PhysicalState": null,
+            "PhysicalStreet": null,
+            "PhysicalZip": null
+        },
+        "companyType": {
+            "companyDetails": null,
+            "companyTID": null
+        }
+    },
+    "contactInformation": {
+        "billingPrimaryContact": {
+            "billingPrimaryEmail": null,
+            "billingPrimaryJob": null,
+            "billingPrimaryPhone": null
+        },
+        "certiInsuranceContact": {
+            "certiInsuranceEmail": null,
+            "certiInsuranceJob": null,
+            "certiInsurancePhone": null
+        },
+        "contactOnlineAdmin": {
+            "OnlineAdminEmail": null,
+            "OnlineAdminJob": null,
+            "OnlineAdminPhone": null
+        },
+        "contactPrimaryGroup": {
+            "primaryGroupEmail": null,
+            "primaryGroupJob": null,
+            "primaryGroupPhone": null
+        },
+        "legalContact": {
+            "legalEmail": null,
+            "legalJob": null,
+            "legalPhone": null
+        }
+    },
+    "docusignPage": {
+        "SignNowRecipient": null
+    },
+    "employeeEligibility": {
+        "eligibilityActivelyWorking": null,
+        "eligibilityCoverage": null,
+        "eligibilityHealthCoverage": null,
+        "eligibilityRetirees": null,
+        "eligibilityRetireesOver65": false,
+        "eligibilityRetireesUnder65": false
+    },
+    "employeeEnrollment": {
+        "eligibleEmployeesDeclining": {
+            "declineDental": null,
+            "declineMedical": null,
+            "declineVision": null
+        },
+        "eligibleEmployeesEnrolling": {
+            "enrollmentDental": null,
+            "enrollmentMedical": null,
+            "enrollmentVision": null
+        },
+        "employeeOutStateCount": null,
+        "employeeOutofState": null,
+        "employeeOutofStateCover": null,
+        "employeeOutofStateCoverName": null,
+        "enrollmentEmployee": null,
+        "enrollmentFullTimeEmployee": null,
+        "enrollmentPartTimeEmployee": null
+    },
+    "groupProfile": {
+        "businessName": "Aliotos Resturant",
+        "emailAddress": null,
+        "firstName": null,
+        "lastName": null,
+        "phoneNumber": null
+    },
+    "id": "a2Cf4000000dpg6EAA",
+    "layout": "newport",
+    "producerInformation": {
+        "generalAgentEmail": null,
+        "generalAgentName": null,
+        "generalAgentTaxId": null,
+        "insuranceLicense": null,
+        "producerAddress": null,
+        "producerCity": null,
+        "producerCode": null,
+        "producerEmail": null,
+        "producerName": null,
+        "producerPhone": null,
+        "producerRegion": null,
+        "producerState": null,
+        "producerTaxId": null,
+        "producerZip": null
+    },
+    "targetSource": "Enrollment",
+    "testContextId": "0Q0f4000000DAHE",
+    "timeStamp": "2018-06-04T14:17:21.438Z",
+    "userCurrencyCode": "USD",
+    "userId": "005f4000001oDAaAAM",
+    "userName": "dbandi@hibo.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    }
+}

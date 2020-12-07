@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__AttributeCategoryId__c": {
+        "%vlocity_namespace%__Code__c": "ANTM_ChirOutpProf",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__AttributeCategory__c/ANTM_ChirOutpProf",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeCategory__c"
+    },
+    "%vlocity_namespace%__AttributeId__c": {
+        "%vlocity_namespace%__Code__c": "ChirOutpProf_limits_apply",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__Attribute__c/ChirOutpProf_limits_apply",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Attribute__c"
+    },
+    "%vlocity_namespace%__Data__c": "",
+    "%vlocity_namespace%__IsActive__c": false,
+    "%vlocity_namespace%__SObjectTypes__c": "Account",
+    "%vlocity_namespace%__Service__c": "",
+    "%vlocity_namespace%__Type__c": "Formula",
+    "Name": "AttributeAssignmentRule__ca0L6g000000rnsl",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignmentRule__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignmentRule__c/AttributeAssignmentRule__ca0L6g000000rnsl"
+}

@@ -1,0 +1,13 @@
+<div class="blockbox">
+<div ng-repeat='control in child.eleArray' id='{{::control.name}}' class='row-fluid'>
+    <div class='col-md-{{::control.propSetMap.controlWidth}} col-sm-{{::control.propSetMap.controlWidth}} vlc-block-wrapper'>
+        <div class='panel-body vlc-block-body row'>            
+            <child ng-repeat='child in ::children = control.children' ng-if='!child.eleArray[0].propSetMap.show || evaluateShow(child.eleArray[0], this)'></child>
+        </div>
+        <div class="vlc-block-footer" ng-if='child.eleArray.length > 1' >
+            <a class="btn btn-link pull-right" ng-if='control.ro !== true' ng-click='removeItem(this, child, $index)'><i  class='icon vlc-minus icon-v-trash-line'></i>{{::OmniDelete}} {{::control.propSetMap.label}}</a>
+        </div>
+        <hr ng-if="child.eleArray.length > 1"/>
+    </div>
+</div>
+</div>

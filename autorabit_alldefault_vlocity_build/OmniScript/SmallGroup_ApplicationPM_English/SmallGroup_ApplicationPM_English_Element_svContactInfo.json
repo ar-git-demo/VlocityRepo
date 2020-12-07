@@ -1,0 +1,77 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SmallGroupApplication",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/SmallGroup/ApplicationPM/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "SmallGroupApplication",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/SmallGroup/ApplicationPM/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "contactInformation",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/SmallGroup/ApplicationPM/English/contactInformation",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "contactInformation",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "DemoSetValues",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "billingPrimaryContact": {
+                "billingPrimaryEmail": "fdemateo@mark101.com",
+                "billingPrimaryJob": "VP Finance",
+                "billingPrimaryName": "Francine DeMateo",
+                "billingPrimaryPhone": "2125554381"
+            },
+            "certiInsuranceContact": {
+                "certiInsuranceEmail": "bpearce@mark101.com",
+                "certiInsuranceJob": "SVP Human Resources",
+                "certiInsuranceName": "Bill Pearce",
+                "certiInsurancePhone": "2125551298"
+            },
+            "contactOnlineAdmin": {
+                "OnlineAdminEmail": "jphillips@mark101.com",
+                "OnlineAdminJob": "Director Employee Operations",
+                "OnlineAdminName": "Jack Phillips",
+                "OnlineAdminPhone": "2125559863"
+            },
+            "contactPrimaryGroup": {
+                "primaryGroupEmail": "sjones@mark101.com",
+                "primaryGroupJob": "VP Human Resources",
+                "primaryGroupName": "Samantha Jones",
+                "primaryGroupPhone": "2125555565"
+            },
+            "legalContact": {
+                "legalEmail": "jprice@mark101.com",
+                "legalJob": "Corporate Counsel",
+                "legalName": "Jacob Price",
+                "legalPhone": "2125555761"
+            }
+        },
+        "label": "Demo Values",
+        "message": {
+        },
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "Step",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "svContactInfo",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/SmallGroup/ApplicationPM/English/svContactInfo"
+}

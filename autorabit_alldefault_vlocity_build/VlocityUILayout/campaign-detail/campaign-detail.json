@@ -1,0 +1,27 @@
+{
+    "Cards": [
+        "Campaign Detail"
+    ],
+    "componentName": "cfCampaignDetail",
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "701o0000000S1AH"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id\":\"{{params.id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "campaign-column"
+        }
+    },
+    "workspace": [
+        "Campaign Detail/Vlocity/1/1512450338041"
+    ]
+}

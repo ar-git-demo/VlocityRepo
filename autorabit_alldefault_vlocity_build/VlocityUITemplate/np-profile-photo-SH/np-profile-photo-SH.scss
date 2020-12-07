@@ -1,0 +1,75 @@
+@import "npVariables";
+// include mixin "npVariables" for fonts and colors.
+// npVariables mixin template should be active.
+
+.np-via-slds-card--left-profile {
+    .np-profile-actions{
+        justify-content:center;
+    }
+    .profile-name{
+        font-size:$font-medium;
+    }
+    a.slds-text-link--reset{
+            color: $theme-color-1;
+            font-size:$font-small;
+    }
+    @media screen and (max-width:20em){
+       .slds-col.via-slds-col {
+       
+            border-left: 0 none;
+
+        } 
+    }
+    .via-slds-col {
+        border-left: 1px solid $border-color-3;
+        justify-content: space-between;
+        flex: initial;
+        &:first-child {
+            border-left: 0 none;
+        }
+    }
+    text-align: center;
+    .profile-name {
+    
+        position:relative;
+        display:inline-block;
+        
+         &:after {
+            content: "";
+            background: $theme-color-SHBlue;
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            right: 0;
+            width: 50px;
+            height: 3px;
+            margin: 0 auto;
+        }
+    }
+    .profile-info {
+        // margin-bottom: 20px;
+        font-size: $font-small;
+    }
+    .profile-picture {
+        z-index: 3;
+        border: 5px solid $background-color-1;
+        border-radius: 100%;
+        box-sizing: content-box;
+        margin: 0 auto;
+        width: 128px;
+        height: 128px;
+        overflow: hidden;
+        position: relative;
+        svg{
+            width:100%;
+            height:100%;
+            fill: black;
+        }
+        img {
+            width: 128px;
+            border-radius: 100%;
+        }
+    }
+
+   
+}

@@ -1,0 +1,80 @@
+{
+    "AccountRecordTypeId": "012f400000005yLAAQ",
+    "CensusRecordTypeId": "012f400000005ydAAA",
+    "ContactRecordTypeId": "012f400000005yHAAQ",
+    "ContextId": "",
+    "DRId_%vlocity_namespace%__GroupCensus__c": "a1df4000006h5tJAAQ",
+    "DRId_Account": "001f400000tE63yAAC",
+    "DRId_Contact": "003f400000tyhL5AAI",
+    "DRId_Opportunity": "006f400000KL0GIAA1",
+    "RatingFactProductCode": "SG-Census-RF",
+    "RecordTypes": [
+        {
+            "Object": "Account",
+            "Type": "Group"
+        },
+        {
+            "Object": "Contact",
+            "Type": "Contact"
+        },
+        {
+            "Object": "%vlocity_namespace%__GroupCensus__c",
+            "Type": "Small Group"
+        }
+    ],
+    "accountId": "001f400000tE63yAAC",
+    "censusId": "a1df4000006h5tJAAQ",
+    "groupProfile": {
+        "Phone": "+447931810022",
+        "SICTypeAhead-Block": {
+            "SICCode": null,
+            "SICDescription": null,
+            "SICTypeAhead": null
+        },
+        "agency": null,
+        "broker": "John Williams",
+        "brokerEmail": "jwilliams@vlocity.com",
+        "brokerPhone": "+447931810022",
+        "email": "rmoore@abccorp.com",
+        "firstName": "Roger",
+        "groupName": "ABC Corp",
+        "lastName": "Moore",
+        "mailingAddress": "47 Village Ct",
+        "mailingCity": "Hazlet",
+        "mailingState": "New Jersey",
+        "mailingZipCode": 17730,
+        "producerNumber": null,
+        "title": "COO"
+    },
+    "groupQualification": {
+        "MaxFamAnnDedINN": null,
+        "MaxFamAnnDedOON": null,
+        "MaxIndivAnnDedINN": null,
+        "MaxIndivAnnDedOON": null,
+        "OONCoverage": null,
+        "effectiveDate": "2019-03-08 00:00:00",
+        "eligibleEmployees": null,
+        "employeesEnrolling": null,
+        "outOfStateEmployees": null
+    },
+    "id": "a2Cf4000000f0f0EAA",
+    "isdtp": "p1",
+    "opportunityId": "006f400000KL0GIAA1",
+    "selectPlanTypes": {
+        "isDentalSelected": null,
+        "isMedicalSelected": null,
+        "isVisionSelected": null,
+        "plansSelection": null
+    },
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://demo978657--%vlocity_namespace%.na59.visual.force.com",
+    "timeStamp": "2019-03-17T13:42:54.895Z",
+    "userCurrencyCode": "USD",
+    "userId": "005f4000001mA10AAE",
+    "userName": "jwhibodemo@demo.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "validCensus": true,
+    "vlcPersistentComponent": {
+    }
+}

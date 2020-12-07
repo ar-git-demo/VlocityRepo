@@ -1,0 +1,18 @@
+{
+    "Body": "File_HouseholdIcon-32_grey.png",
+    "BodyLength": 1438,
+    "ContentType": "image/png",
+    "Description": "",
+    "DeveloperName": "HouseholdIcon32_grey",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "HouseholdIcon@32_grey",
+    "NamespacePrefix": "%vlocity_namespace%",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/HouseholdIcon32_grey"
+}

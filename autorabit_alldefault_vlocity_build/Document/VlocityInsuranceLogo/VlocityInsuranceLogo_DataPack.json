@@ -1,0 +1,18 @@
+{
+    "Body": "File_VlocityInsuranceLogo.png",
+    "BodyLength": 16401,
+    "ContentType": "image/png",
+    "Description": "",
+    "DeveloperName": "VlocityInsuranceLogo",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "VlocityInsuranceLogo",
+    "NamespacePrefix": "%vlocity_namespace%",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/VlocityInsuranceLogo"
+}

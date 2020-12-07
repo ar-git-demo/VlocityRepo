@@ -1,0 +1,24 @@
+{
+    "Appointment": {
+        "CityStateZip": "Kailua HI 96734",
+        "Date": "2020-01-17",
+        "Phone": "8082618345",
+        "Provider": "a1Z8A000000Smr8UAC",
+        "Street": "414 Uluniu St",
+        "Time": "14:00:00.000Z"
+    },
+    "CaseId": "5008A000005qcTQQAY",
+    "Travel": {
+        "DropOff": "Queens Physician Office Building III",
+        "PickUp": "HNL Airport",
+        "TransportDate": "2020-01-10",
+        "TransportName": "Aala Transport",
+        "TransportPhone": "808-457-2642"
+    },
+    "Traveler": {
+        "CityStateZip": "KANEOHE HI 96744",
+        "Name": "SHANE  MALINA",
+        "Street": "46229 KAHUHIPA ST\r\nAPT F503",
+        "SubId": "0000000146"
+    }
+}

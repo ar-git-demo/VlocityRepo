@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>HCC 코드 매핑 조건</value>
+    </caseValues>
+    <nameFieldLabel>매핑 ID</nameFieldLabel>
+</CustomObjectTranslation>

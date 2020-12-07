@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>HealthCloudGA__AbdominalPain__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Abdominal Pain</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__CardiovascularDisease__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Cardiovascualr Disease</description>
+        <externalId>false</externalId>
+        <label>Cardiovascular Disease</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__Chills__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Chills</description>
+        <externalId>false</externalId>
+        <label>Chills</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__ChronicLiverDisease__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Chronic Liver Disease</description>
+        <externalId>false</externalId>
+        <label>Chronic Liver Disease</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__ChronicLungDisease__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Chronic Lung Disease (asthma/emphysema/COPD)</description>
+        <externalId>false</externalId>
+        <label>Chronic Lung Disease</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__ChronicRenalDisease__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Chronic Renal Disease</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__Cough__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Cough (new onset or worsening of chronic cough)</description>
+        <externalId>false</externalId>
+        <label>Cough</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__CurrentSmoker__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Current Smoker</description>
+        <externalId>false</externalId>
+        <label>Current Smoker</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__DiabetesMellitus__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Diabetes Mellitus</description>
+        <externalId>false</externalId>
+        <label>Diabetes Mellitus</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__Diarrhoea__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Diarrhea (&gt;= 3 loose/looser than normal stools/24 hr period)</description>
+        <externalId>false</externalId>
+        <label>Diarrhea</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__FeverOverThreshold__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Fever &gt; 100.4F (38C)</description>
+        <externalId>false</externalId>
+        <label>Fever Over Threshold</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__FormerSmoker__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Former smoker</description>
+        <externalId>false</externalId>
+        <label>Former Smoker</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__Headache__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Headache</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__HighestRecordedTemperature__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Highest recorded temperature in Fahrenheit.</description>
+        <externalId>false</externalId>
+        <label>Highest Recorded Temperature</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__HospitalizationStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Status showing whether the person was admitted to the hospital.</description>
+        <externalId>false</externalId>
+        <label>Hospitalization Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Admitted</fullName>
+                    <default>false</default>
+                    <label>Admitted</label>
+                </value>
+                <value>
+                    <fullName>Not_Admitted</fullName>
+                    <default>false</default>
+                    <label>Not Admitted</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__Immunocompromised__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Immunocompromised Condition</description>
+        <externalId>false</externalId>
+        <label>Immunocompromised</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__MuscleAches__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Muscle Aches (myalgia)</description>
+        <externalId>false</externalId>
+        <label>Muscle Aches</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__NauseaOrVomiting__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Nausea or vomiting</description>
+        <externalId>false</externalId>
+        <label>Nausea or Vomiting</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__NeurologicalDisablityNotes__c</fullName>
+        <deprecated>false</deprecated>
+        <description>In case of a Neurological disability, you can add additional notes for this</description>
+        <externalId>false</externalId>
+        <label>Neurological Disability Notes</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__NeurologicalDisablity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Neurologic/neurodevelopment/intellectual disability</description>
+        <externalId>false</externalId>
+        <label>Neurological Disability</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__Occupation__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Occupation</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Childcare workers</fullName>
+                    <default>false</default>
+                    <label>Childcare worker</label>
+                </value>
+                <value>
+                    <fullName>Clinical laboratory technologists and technicians</fullName>
+                    <default>false</default>
+                    <label>Clinical laboratory technologist or technician</label>
+                </value>
+                <value>
+                    <fullName>Combined food preparation and serving workers, including fast food</fullName>
+                    <default>false</default>
+                    <label>Combined food preparation or serving worker, including fast food</label>
+                </value>
+                <value>
+                    <fullName>Dentists</fullName>
+                    <default>false</default>
+                    <label>Dentist</label>
+                </value>
+                <value>
+                    <fullName>Emergency management directors</fullName>
+                    <default>false</default>
+                    <label>Emergency management director</label>
+                </value>
+                <value>
+                    <fullName>Emergency medical technicians and paramedics</fullName>
+                    <default>false</default>
+                    <label>Emergency medical technician or paramedic</label>
+                </value>
+                <value>
+                    <fullName>Health practitioner support technologists and technicians</fullName>
+                    <default>false</default>
+                    <label>Health practitioner support technologist or technician</label>
+                </value>
+                <value>
+                    <fullName>Healthcare support workers, all other, including medical equipment preparers</fullName>
+                    <default>false</default>
+                    <label>Healthcare support worker(including medical equipment preparer)</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__OnsetOfSymptoms__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Date when symptoms started.</description>
+        <externalId>false</externalId>
+        <label>Onset of Symptoms</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__OtherChronicDiseasesNotes__c</fullName>
+        <deprecated>false</deprecated>
+        <description>In case of a other chronic diseases, you can add additional notes for them</description>
+        <externalId>false</externalId>
+        <label>Other Chronic Diseases Notes</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__OtherChronicDiseases__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Other chronic diseases</description>
+        <externalId>false</externalId>
+        <label>Other Chronic Diseases</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__OtherSymptoms__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Other Symptoms, please specify</description>
+        <externalId>false</externalId>
+        <label>Other Symptoms</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__ParentalConsent__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether consent was provided to interview a minor child.</description>
+        <externalId>false</externalId>
+        <label>Parental consent provided</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__Patient__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to Account</description>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Clinical Assessment Responses</relationshipLabel>
+        <relationshipName>Clinical_Assessment_Responses</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__PrimaryCarePhysician__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name of the person&apos;s primary care physician.</description>
+        <externalId>false</externalId>
+        <label>Primary Care Physician</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__ProviderFacilityName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name of the provider of healthcare services like hospital, clinic, or medical practitioner other than a primary care physician.</description>
+        <externalId>false</externalId>
+        <label>Provider Facility Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__RunnyNose__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Runny Nose (rhinorrhea)</description>
+        <externalId>false</externalId>
+        <label>Runny Nose</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__ShortnessOfBreath__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Shortness of Breath (dyspnea)</description>
+        <externalId>false</externalId>
+        <label>Shortness of Breath</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__SoreThroat__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Sore Throat</description>
+        <externalId>false</externalId>
+        <label>Sore Throat</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__SubjectiveFever__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Subjective Fever (felt feverish)</description>
+        <externalId>false</externalId>
+        <label>Subjective Fever</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__TestingFacilityName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name of the facility where testing was done.</description>
+        <externalId>false</externalId>
+        <label>Testing Facility Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Clinical Assessment Response</label>
+    <nameField>
+        <label>Clinical Assessment Response Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Clinical Assessment Responses</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,43 @@
+{
+    "Cards": [
+        "Account_Actions"
+    ],
+    "componentName": "cfInsAccountActionsLargeGroup",
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0011U00001BgdyVQAR"
+            },
+            {
+                "name": "KevinsLastActiveVersion",
+                "val": "3"
+            },
+            {
+                "name": "Morrison",
+                "val": "0011U00001BgdyVQAR"
+            },
+            {
+                "name": "Eco",
+                "val": "001f4000002cq6c"
+            },
+            {
+                "name": "Jenn Smith",
+                "val": "001f4000002GSUrAAO"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id || params.Id\":\"{{params.id || params.Id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-simple-slds"
+        }
+    },
+    "workspace": [
+        "Account_Actions/Vlocity Health Demo/1508892180138"
+    ]
+}

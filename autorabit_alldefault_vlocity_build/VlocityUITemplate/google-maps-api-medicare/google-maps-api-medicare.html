@@ -1,0 +1,78 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div ng-controller="mapsCtrl" style="width:100%">
+
+<!-- <div id="locationField">
+  <!-- <input id="autocomplete" placeholder="Enter a city" type="text" /> -->
+<!-- </div> -> -->
+<div style="text-align: -webkit-center;">
+  <div class="nds-form-element" style="width:250px">
+  <label class="nds-form-element__label" for="text-input-id-1" style="float:left;color:#f07739">Enter Your Zip Code</label>
+  <div class="nds-form-element__control nds-input-has-icon nds-input-has-icon_left">
+    <svg class="nds-icon nds-input__icon nds-input__icon_left nds-icon-text-default" aria-hidden="true">
+      <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#search"></use>
+    </svg>
+    <input type="text" id="autocomplete" class="nds-input" placeholder="Enter Your Zip Code">
+  </div>
+</div>
+</div>
+
+
+
+<br><br>
+<div><span style="font-size: x-large;">Search Result</span><br><span style="font-size: small;">{{searchCount}}</span></div>
+<br>
+<div class="map-container">
+<div id="listing" class="grid-40" >
+  <table id="resultsTable">
+    <tbody id="results"></tbody>
+  </table>
+</div>
+<div id="map" class="grid-60" ></div>
+
+</div>
+
+<div style="display: none">
+  <div id="info-content">
+    <table>
+      <tr id="iw-url-row" class="iw_table_row">
+        <td id="iw-icon" class="iw_table_icon"></td>
+        <td id="iw-url"></td>
+      </tr>
+      <tr id="iw-address-row" class="iw_table_row">
+        <td class="iw_attribute_name">Address:</td>
+        <td id="iw-address"></td>
+      </tr>
+      <tr id="iw-phone-row" class="iw_table_row">
+        <td class="iw_attribute_name">Telephone:</td>
+        <td id="iw-phone"></td>
+      </tr>
+      <tr id="iw-rating-row" class="iw_table_row">
+        <td class="iw_attribute_name">Rating:</td>
+        <td id="iw-rating"></td>
+      </tr>
+      <tr id="iw-website-row" class="iw_table_row">
+        <td class="iw_attribute_name">Website:</td>
+        <td id="iw-website"></td>
+      </tr>
+    </table>
+  </div>
+</div><br><br>
+<div style="margin-bottom:5px" ng-repeat="msg in warningMsg" class="nds-notify nds-notify_alert nds-theme_alert-texture nds-theme_warning" role="alert">
+  <span class="nds-assistive-text">warning</span>
+  <span class="nds-icon_container nds-icon-utility-warning nds-m-right_x-small" title="Description of icon when needed">
+    <svg class="nds-icon nds-icon_x-small" aria-hidden="true">
+      <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#warning"></use>
+    </svg>
+  </span>
+  <h2>
+    {{msg.DrugName}} is available at ${{msg.Price}} at {{msg.PharmacyName}} <span ng-if="msg.currentSelectFound"> compared to ${{msg.currentSelect.Price}} at {{msg.currentSelect.PharmacyName}}</span>
+  </h2>
+  <button class="nds-button nds-button_icon nds-notify__close nds-button_icon-inverse" ng-click="removeMsg(msg.idHash)" title="Close">
+    <i class="fas fa-window-close"></i>
+    <span class="nds-assistive-text">Close</span>
+  </button>
+</div>
+</div>
+<!-- Replace the value of the key parameter with your own API key. -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWLziF73XUtjB-WiMsIFqWx8-IuX8MbP8&libraries=places"
+        async defer></script>

@@ -1,0 +1,11 @@
+[
+    "AttributeCategory/MntlHlthIOPInst",
+    "AttributeCategory/MntlHlthInptInst",
+    "AttributeCategory/MntlHlthInptProf",
+    "AttributeCategory/MntlHlthOffProf",
+    "AttributeCategory/MntlHlthOutptInst",
+    "AttributeCategory/MntlHlthOutptProf",
+    "AttributeCategory/MntlHlthPHPInst",
+    "AttributeCategory/MntlHlthRTCInpt",
+    "Pricebook2/Standard"
+]

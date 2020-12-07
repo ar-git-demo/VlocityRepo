@@ -1,0 +1,13 @@
+{
+    "userInputs": {
+        "SG-Census-RF.SG_CM_Age": "Number",
+        "SG-Census-RF.SG_CM_Gender": "Text",
+        "SG-Census-RF.SG_CM_IsPrimary": "Boolean",
+        "SG-Census-RF.SG_CM_IsSpouse": "Boolean",
+        "SG-Census-RF.SG_CM_Smoker": "Boolean",
+        "SG-Census-RF.SG_empChildCount": "Number",
+        "SG-Census-RF.SG_empFamilyCount": "Number",
+        "SG-Census-RF.SG_empOnlyCount": "Number",
+        "SG-Census-RF.SG_empSpouseCount": "Number"
+    }
+}

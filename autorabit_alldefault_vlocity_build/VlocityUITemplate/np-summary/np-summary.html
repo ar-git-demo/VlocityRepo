@@ -1,0 +1,38 @@
+<!-- section to display the summary details of the object mapped-->
+<section class="console-card active np-summary-details" data-card="card-{{cardIndex}}" ng-class="{selected:isSelected(cardIndex)}" ng-controller="testCont"   data-popover-flyout="true" >
+
+        <article class="slds-grid slds-wrap slds-grid--vertical-stretch slds-border--top np-summary-details-card slds-p-around--large" >
+            <!--adding associated placeholder icons, labels and values -->
+            <div class="slds-size--1-of-12 slds-medium-size--1-of-12 slds-large-size--1-of-12 slds-small-size--1-of-12 slds-x-small-size--1-of-1 np-summary-details-icon">
+                <div class="slds-media__figure ">
+                     <img src="{{ placeholder.Icon.value }} "/>
+                </div>
+            </div>
+            <div class="slds-size--11-of-12 slds-small-size--11-of-12 slds-x-small-size--1-of-1">
+                <h3 class="slds-m-bottom--small slds-m-bottom--large np-summary-details-title">
+                   {{ placeholder.Name.label }} {{ placeholder.Name.value | picker:placeholder.Name.type }}    
+                </h3>
+                <ul>
+                    
+                    <!--using ng-repeat to render the associated fields within the responsive grid-->
+                    <li class="slds-grid slds-wrap slds-text-body--small" ng-repeat="field in data.fields">
+                        <div class="slds-size--4-of-12 slds-medium-size--4-of-12 slds-large-size--4-of-12 slds-small-size--6-of-12 slds-x-small-size--6-of-12 slds-p-top--small">
+                            {{field.label}}
+                        </div>
+                        <div class="slds-size--8-of-12 slds-size--8-of-12 slds-medium-size--8-of-12 slds-large-size--8-of-12 slds-small-size--6-of-12 slds-x-small-size--6-of-12 slds-p-top--small">{{obj | getter: field | picker: field.type}}
+                        </div>
+                    </li>
+                </ul>
+                <div class="slds-has-block-links slds-text-align--right slds-m-top--large">
+                    <!--performing associated actions those will be defined per card mapped to this template-->
+                    <div ng-repeat="action in data.actions">
+                        <a href="#" ng-click="performActionAndReloadNav(action)">
+                        {{action.displayName}} 
+                        </a>
+                    </div>
+               
+                    </div>
+                </div>
+           
+     
+        </article>

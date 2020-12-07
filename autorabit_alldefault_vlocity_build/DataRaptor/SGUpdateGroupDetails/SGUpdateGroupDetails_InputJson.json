@@ -1,0 +1,26 @@
+{
+    "ContextId": null,
+    "confirmation": {
+    },
+    "summary": {
+        "quoteSummary": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DataRaptorPostAction1": null,
+        "Done": null,
+        "confirmation": null,
+        "createContract": null,
+        "getContractNumber": null,
+        "getQuoteDetail": null,
+        "setQuoteSummary": null,
+        "summary": null,
+        "transformForContractCreation": null
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "Cards": [
+        "np-customer-contact-profile-photo"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "001f400000lPz3SAAS"
+            }
+        ],
+        "type": "DataRaptor",
+        "value": {
+            "body": "{}",
+            "bundle": "VPL-ReadCustomerContactDetail-100-1",
+            "ctxId": "",
+            "inputMap": {
+                "Id": "{{params.id}}"
+            },
+            "query": ""
+        }
+    },
+    "previewType": "runTime",
+    "sessionVars": [
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "np-canvas-out-SH"
+        }
+    },
+    "workspace": [
+        "np-customer-contact-profile-photo/VlocityIBO/1504793869239"
+    ]
+}

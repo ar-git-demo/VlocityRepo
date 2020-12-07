@@ -1,0 +1,89 @@
+{
+    "AttestationStatement": {
+        "Signature": null,
+        "Submit": null
+    },
+    "ContextId": "",
+    "CountryCode": "US",
+    "LocationInformation": {
+        "PrimaryOfficeLocation": {
+            "Email": null,
+            "Mobile": null,
+            "OtherCity": null,
+            "OtherStreet": null,
+            "OtherZip": null,
+            "POOtherStateCode": null,
+            "Phone": null
+        }
+    },
+    "MAMailingStateCode": "",
+    "NetworkParticipationSelection": {
+        "AttachMedicareAcknowledgement": null,
+        "CurrentMedicareCMSStatus": null,
+        "ParticipateNetworks": null
+    },
+    "PaymentInformation": {
+        "CheckSentTo": null,
+        "ClinicORGroup": null,
+        "ProviderBlock": null,
+        "RequestCopy": null
+    },
+    "PersonalInformation": {
+        "CAQHAgree": false,
+        "CAQHID": null,
+        "DateOfBirth": "1974-01-09",
+        "FirstName": "TEST",
+        "Gender": "Male",
+        "LanguagesSpoken": null,
+        "LastName": "DaveIPTEST",
+        "MiddleName": null,
+        "NPI": null,
+        "OtherLangContains": false,
+        "OtherLanguagesSpoken": null,
+        "PracticingAs": "PCP",
+        "SSN": null,
+        "Suffix": null,
+        "TaxId": null,
+        "Title": null
+    },
+    "PersonalInformation:LanguagesSpoken": "",
+    "ProfessionalLiabilityCoverageInformation": {
+        "AggregateAmount": null,
+        "AmountPerIncident": null,
+        "CompanyName": null,
+        "ExclusionsOrLimitations": null,
+        "ExpirationDate": null,
+        "InsuranceCertificates": null,
+        "PolicyNumber": null,
+        "ProfessionalLiabilityCoverageAddress": null,
+        "ProfessionalLiabilityCoverageIssueDate": null
+    },
+    "WorkHistory": {
+        "WorkHistoryBlock": [
+            {
+                "$$hashKey": "object:377",
+                "OfficePracticeFrom": "",
+                "OfficePracticeName": "",
+                "OfficePracticeTo": ""
+            }
+        ]
+    },
+    "id": "a2C1U000000SBqxUAG",
+    "isdtp": "p1",
+    "layout": "newport",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://dfdervet4--%vlocity_namespace%.visualforce.com",
+    "timeStamp": "2019-02-26T22:56:28.691Z",
+    "userCurrencyCode": "USD",
+    "userId": "0051U000003DRtOQAW",
+    "userName": "dkju9im2@demo.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": -480,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ExtractProviderContactFromContract": 1069,
+        "OmniScriptSessionToken": "dd46a867-fa46-4d4f-bbfd-719321b9a64b",
+        "SetValues": 13
+    }
+}

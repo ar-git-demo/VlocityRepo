@@ -1,0 +1,8 @@
+<apex:page showHeader="false" controller="HealthCloudGA.DE_HcCareTeamController"  sidebar="false" standardStylesheets="true">
+    <style>
+        td.chatterPublisherFileActionContainerLeft { display: none; }
+    </style>
+    <div id="chatter-container">
+        <chatter:feed entityId="{!carePlanId}" showPublisher="true" />
+    </div>    
+</apex:page>

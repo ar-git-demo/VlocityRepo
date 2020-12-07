@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>DE_Financial_Statement_Access</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>DE Financial Statement	 Access</label>
+        <sharedTo>
+            <group>DE_Portal_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>Admin</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Access to all of the Vlocity Product Record Types</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Product Record Type Access</label>
+    <recordTypeVisibilities>
+        <recordType>Product2.vlocity_ins__ClaimInjurySpec</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Product2.vlocity_ins__ClaimProduct</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Product2.vlocity_ins__ClaimPropertySpec</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Product2.vlocity_ins__Class</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Product2.vlocity_ins__CoverageSpec</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Product2.vlocity_ins__InsuredItemSpec</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Product2.vlocity_ins__InsuredPartySpec</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Product2.vlocity_ins__Product</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Product2.vlocity_ins__ProductTemplate</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Product2.vlocity_ins__RatingFactSpec</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+</PermissionSet>

@@ -1,0 +1,53 @@
+{
+    "Classes": {
+        "ClassEditBlock": [
+            {
+                "ClassCode": "Mgt",
+                "ClassId": "a1ef4000002SDJeAAO",
+                "ClassIsActive": true,
+                "ClassName": "Mgt",
+                "GroupId": null,
+                "blkAmount": {
+                    "curDependentEmpContribution": 50000,
+                    "curEmplContribAmt": 20540
+                },
+                "blkPerc": {
+                    "pctDependentEmpContribution": 40,
+                    "pctEmplContribPerc": 50
+                }
+            },
+            {
+                "ClassCode": null,
+                "ClassId": null,
+                "ClassIsActive": true,
+                "ClassName": null,
+                "GroupId": null,
+                "blkAmount": {
+                    "curDependentEmpContribution": null,
+                    "curEmplContribAmt": null
+                },
+                "blkPerc": {
+                    "pctDependentEmpContribution": null,
+                    "pctEmplContribPerc": null
+                }
+            }
+        ]
+    },
+    "ContextId": "",
+    "GroupName": "Sruks",
+    "accountId": "001f400000sHr3PAAS",
+    "dispAccountName": "Sruks",
+    "id": "a2Cf4000000eyPeEAI",
+    "isdtp": "p1",
+    "layout": "newport",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://demo978657--%vlocity_namespace%.na59.visual.force.com",
+    "timeStamp": "2019-02-21T02:45:34.332Z",
+    "userCurrencyCode": "USD",
+    "userId": "005f4000000WPa9AAG",
+    "userName": "dnelson@hibo.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": -480,
+    "vlcPersistentComponent": {
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "AccountId": "001f400000HGlc2AAD",
+    "ContactId": "003f400000NUn99AAD",
+    "ContextId": "00Qf400000IQv0YEAT",
+    "LeadId": "00Qf400000IQv0YEAT",
+    "OwnerId": "005f4000000U7GSAA0",
+    "id": "a2Cf4000002URnhEAG",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://demo978657--%vlocity_namespace%.na59.visual.force.com",
+    "testContextId": "00Qf400000IQv0YEAT",
+    "timeStamp": "2019-07-29T12:25:36.641Z",
+    "userCurrencyCode": "USD",
+    "userId": "005f4000000t1wKAAQ",
+    "userName": "jbell@hibodemo.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    }
+}

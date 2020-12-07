@@ -1,0 +1,9 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "",
+    "%vlocity_namespace%__SystemInterface__c": "mocky-io_SystemInterfaces.json",
+    "%vlocity_namespace%__URL__c": "http://www.mocky.io",
+    "Name": "mocky.io",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__System__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__System__c/mocky.io"
+}

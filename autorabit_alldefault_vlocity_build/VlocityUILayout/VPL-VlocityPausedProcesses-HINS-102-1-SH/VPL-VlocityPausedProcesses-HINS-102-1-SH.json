@@ -1,0 +1,45 @@
+{
+    "Cards": [
+        "VPL-PausedProcessCard"
+    ],
+    "customPreviewPages": [
+        {
+            "group": "Custom Pages",
+            "label": "ConsoleCards",
+            "namespacePrefix": "%vlocity_namespace%",
+            "page": "ConsoleCards"
+        }
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "$root.vlocity.userContactId",
+                "val": "003f400000LvplR"
+            }
+        ],
+        "type": "DataRaptor",
+        "value": {
+            "body": "[\n    {\n        \"attributes\": {\n            \"type\": \"%vlocity_namespace%__OmniScriptInstance__c\",\n            \"url\": \"/services/data/v41.0/sobjects/%vlocity_namespace%__OmniScriptInstance__c/a1H1I000000HxX3UAK\"\n        },\n        \"%vlocity_namespace%__Status__c\": \"In Progress\",\n        \"%vlocity_namespace%__OmniScriptSubType__c\": \"Consumer Order Mobile\",\n        \"%vlocity_namespace%__OmniScriptType__c\": \"VDO\",\n        \"%vlocity_namespace%__ObjectId__c\": \"0011I000005rsRuQAI\",\n        \"%vlocity_namespace%__ResumeLink__c\": \"https://vlocity-cmt.na73.visual.force.com/apex/OmniScriptUniversalPage?OmniScriptInstanceId=a1H1I000000HxX3UAK&scriptMode=vertical&layout=lightning&loadWithPage=false#\",\n        \"%vlocity_namespace%__LastSaved__c\": \"2017-10-16T22:11:21.000+0000\",\n        \"Id\": \"a1H1I000000HxX3UAK\"\n    },\n    {\n        \"attributes\": {\n            \"type\": \"%vlocity_namespace%__OmniScriptInstance__c\",\n            \"url\": \"/services/data/v41.0/sobjects/%vlocity_namespace%__OmniScriptInstance__c/a1H1I000000HxWyUAK\"\n        },\n        \"%vlocity_namespace%__Status__c\": \"In Progress\",\n        \"%vlocity_namespace%__OmniScriptSubType__c\": \"Consumer Order Mobile\",\n        \"%vlocity_namespace%__OmniScriptType__c\": \"VDO\",\n        \"%vlocity_namespace%__ObjectId__c\": \"0011I000005rsRuQAI\",\n        \"%vlocity_namespace%__ResumeLink__c\": \"https://vlocity-cmt.na73.visual.force.com/apex/OmniScriptUniversalPage?OmniScriptInstanceId=a1H1I000000HxWyUAK&scriptMode=vertical&layout=lightning&loadWithPage=false#\",\n        \"%vlocity_namespace%__LastSaved__c\": \"2017-10-16T22:09:37.000+0000\",\n        \"Id\": \"a1H1I000000HxWyUAK\"\n    },\n    {\n        \"attributes\": {\n            \"type\": \"%vlocity_namespace%__OmniScriptInstance__c\",\n            \"url\": \"/services/data/v41.0/sobjects/%vlocity_namespace%__OmniScriptInstance__c/a1H1I000000HxWtUAK\"\n        },\n        \"%vlocity_namespace%__Status__c\": \"In Progress\",\n        \"%vlocity_namespace%__OmniScriptSubType__c\": \"Consumer Order Mobile\",\n        \"%vlocity_namespace%__OmniScriptType__c\": \"VDO\",\n        \"%vlocity_namespace%__ObjectId__c\": \"0011I000005rsRuQAI\",\n        \"%vlocity_namespace%__ResumeLink__c\": \"https://vlocity-cmt.na73.visual.force.com/apex/OmniScriptUniversalPage?OmniScriptInstanceId=a1H1I000000HxWtUAK&scriptMode=vertical&layout=lightning&loadWithPage=false#\",\n        \"%vlocity_namespace%__LastSaved__c\": \"2017-10-16T22:08:55.000+0000\",\n        \"Id\": \"a1H1I000000HxWtUAK\"\n    },\n    {\n        \"attributes\": {\n            \"type\": \"%vlocity_namespace%__OmniScriptInstance__c\",\n            \"url\": \"/services/data/v41.0/sobjects/%vlocity_namespace%__OmniScriptInstance__c/a1H1I000000HxWoUAK\"\n        },\n        \"%vlocity_namespace%__Status__c\": \"In Progress\",\n        \"%vlocity_namespace%__OmniScriptSubType__c\": \"Consumer Order Mobile\",\n        \"%vlocity_namespace%__OmniScriptType__c\": \"VDO\",\n        \"%vlocity_namespace%__ObjectId__c\": \"0011I000005rsRuQAI\",\n        \"%vlocity_namespace%__ResumeLink__c\": \"https://vlocity-cmt.na73.visual.force.com/apex/OmniScriptUniversalPage?OmniScriptInstanceId=a1H1I000000HxWoUAK&scriptMode=vertical&layout=lightning&loadWithPage=false#\",\n        \"%vlocity_namespace%__LastSaved__c\": \"2017-10-16T22:05:45.000+0000\",\n        \"Id\": \"a1H1I000000HxWoUAK\"\n    }\n]",
+            "bundle": "VPL-ExtractPausedProcesses-102-1",
+            "inputMap": {
+                "Id": "{{$root.vlocity.userContactId}}"
+            }
+        }
+    },
+    "previewType": "runTime",
+    "sessionVars": [
+        {
+            "name": "Title",
+            "val": "'Paused Processes'"
+        }
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "np-canvas-out-SH"
+        }
+    },
+    "workspace": [
+        "VPL-PausedProcessCard/VlocityDev/null/1528439909578",
+        "VPL-PausedProcessCard/Vlocity/null/1528439909578"
+    ]
+}

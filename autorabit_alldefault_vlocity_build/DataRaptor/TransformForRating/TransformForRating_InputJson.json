@@ -1,0 +1,78 @@
+{
+    "CloseDate": "2019-10-06T05:00:00.000Z",
+    "ContextId": "",
+    "DRId_Account": "0014P000029hmoNQAQ",
+    "DRId_Opportunity": "0064P00000lYnoBQAS",
+    "GetStarted": {
+        "County": {
+            "$$hashKey": "object:295",
+            "county": "Cook",
+            "state": "IL"
+        },
+        "GetStartedBlock": {
+            "CoverageStartDate": "2019-07-16",
+            "MedicareCoveragePlans": "MedicareSpecialNeedsPlan"
+        },
+        "ZipCode": "60564"
+    },
+    "HelpMeShop": {
+        "HelpMeShopFormula": "HELPME",
+        "Questionaries": {
+            "HowIsYourHealth": "Good",
+            "MedicalCare": "Low",
+            "MedicalPlanConfidence": "SomewhatConfident",
+            "ProviderNetwork": "No",
+            "StatementAccurate": "PayMore"
+        },
+        "ShopForMedicalCoverageSelectable": [
+            {
+                "$$hashKey": "object:297",
+                "btnLable": "Help Me Choose",
+                "desc": "Answer few short question to help us determine best fit plan for you",
+                "showQuestions": true,
+                "title": "Help me Find the Best Fit Plan ",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "LowIncomeSubsidy": {
+        "LowIncomeSubsidyBlock": {
+            "LowIncomeSubsidyQuestion": "I am not eligible for or I don't get any extra help",
+            "SelectPercentage": null
+        }
+    },
+    "MedicalPage": {
+        "MedicalPlans": null
+    },
+    "PrescriptionDrugs": {
+        "PrescriptionBlock": null,
+        "UsePrescriptionMedications": "No"
+    },
+    "attributeFilters": {
+    },
+    "id": "a0g4P00000VRZ77QAH",
+    "lastRecordId": "01t4P000008H6NoQAK",
+    "layout": "newport",
+    "planSelection": {
+        "cartPlans": [
+        ],
+        "compareSelectMap": {
+        },
+        "displayedCartPlans": [
+        ],
+        "nextDisabled": true,
+        "prevDisabled": true,
+        "selectedPlans": [
+        ],
+        "selectedPlansMap": {
+        }
+    },
+    "timeStamp": "2019-07-06T16:49:28.171Z",
+    "userCurrencyCode": "USD",
+    "userId": "0054P0000098UiMQAU",
+    "userName": "demomedicare@plumtreegroup.net",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    }
+}

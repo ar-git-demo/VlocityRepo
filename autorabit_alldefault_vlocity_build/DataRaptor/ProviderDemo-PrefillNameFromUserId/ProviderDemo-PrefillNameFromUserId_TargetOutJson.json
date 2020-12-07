@@ -1,0 +1,228 @@
+{
+    "AttestationStatement": {
+        "Signature": null
+    },
+    "Confirmation": {
+    },
+    "ContextId": null,
+    "HealthStatusBlock": {
+        "HealthStatus": null
+    },
+    "HealthStatusNew": {
+        "IllegalDrugsA": null,
+        "PerformFunctionsA": null,
+        "PerformFunctionsAnsNo": null,
+        "SubstanceAbuseA": null
+    },
+    "LocationInformation": {
+        "PrimaryOfficeLocation": {
+            "Email": null,
+            "Mobile": null,
+            "OtherCity": null,
+            "OtherStreet": null,
+            "OtherZip": null,
+            "POOtherStateCode": null,
+            "Phone": null
+        }
+    },
+    "NetworkParticipationSelection": {
+        "AttachMedicareAcknowledgement": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ],
+        "CurrentMedicareCMSStatus": null,
+        "ParticipateNetworks": null
+    },
+    "PaymentInformation": {
+        "CheckSentTo": null,
+        "ClinicORGroup": {
+            "CGCheckSentTo": null,
+            "CGFederalTaxIDNo": null,
+            "ClinicOrGroupNPI": null,
+            "ClinicOrGroupName": null,
+            "ClinicOrGroupPaymentAddress": {
+                "CGBuildingName": null,
+                "CGMailingCity": null,
+                "CGMailingState": null,
+                "CGMailingStreet": null,
+                "CGMailingZip": null
+            }
+        },
+        "ProviderBlock": {
+            "PCheckSentTo": null,
+            "ProviderPaymentAddress": {
+                "PABuildingName": null,
+                "PAMailingCity": null,
+                "PAMailingState": null,
+                "PAMailingStreet": null,
+                "PAMailingZip": null
+            }
+        },
+        "RequestCopy": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ]
+    },
+    "PersonalInformation": {
+        "CAQHAgree": null,
+        "CAQHID": null,
+        "DateOfBirth": null,
+        "FirstName": null,
+        "Gender": null,
+        "LanguagesSpoken": null,
+        "LastName": null,
+        "MiddleName": null,
+        "NPI": null,
+        "OtherLangContains": null,
+        "OtherLanguagesSpoken": null,
+        "PracticingAs": null,
+        "SSN": null,
+        "Suffix": null,
+        "TaxId": null,
+        "Title": null
+    },
+    "ProducerEducations": {
+        "ProducerEducationBlock": {
+            "BoardCertificates": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "BoardExpirationDate": null,
+            "BoardName": null,
+            "BoardRecertificationDate": null,
+            "BoardSpecialty": null,
+            "BoardYearCertified": null,
+            "CSRDEACertificate": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "CSRDEANumber": null,
+            "CSRDateIssued": null,
+            "CSRExpiration": null,
+            "PETDateCompleted": null,
+            "PETDegreeEarned": null,
+            "PETDegreeFrom": null,
+            "PETDegreeThrough": null,
+            "PETEducationType": null,
+            "PETFiles": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ],
+            "PETSchoolAddress": null,
+            "PETSchoolName": null,
+            "PETSpecialty": null,
+            "PETSpecialtySchoolAddress": null,
+            "PETSpecialtySchoolName": null
+        }
+    },
+    "ProfessionalLiabilityCoverageInformation": {
+        "AggregateAmount": null,
+        "AmountPerIncident": null,
+        "CompanyName": null,
+        "ExclusionsOrLimitations": null,
+        "ExpirationDate": null,
+        "InsuranceCertificates": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ],
+        "PolicyNumber": null,
+        "ProfessionalLiabilityCoverageAddress": null,
+        "ProfessionalLiabilityCoverageIssueDate": null
+    },
+    "ProfessionalLicensure": {
+        "ProfessionalLicensureBlock": {
+            "Jurisdiction": null,
+            "LicenseExpiration": null,
+            "LicenseId": null,
+            "LicenseName": null,
+            "LicenseNumber": null,
+            "OriginalIssueDate": null
+        }
+    },
+    "RestrictiveActionsBlock": {
+        "RestrictiveActions": null
+    },
+    "RestrictiveActionsNew": {
+        "10A": null,
+        "11A": null,
+        "12A": null,
+        "13A": null,
+        "1A": null,
+        "2A": null,
+        "3A": null,
+        "4A": null,
+        "5A": null,
+        "6A": null,
+        "7A": null,
+        "8A": null,
+        "9A": null,
+        "TextArea1": null
+    },
+    "WorkHistory": {
+        "WorkHistoryBlock": {
+            "OfficePracticeFrom": null,
+            "OfficePracticeName": null,
+            "OfficePracticeTo": null,
+            "WorkDuration": null
+        }
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AttestationStatement": null,
+        "Confirmation": null,
+        "CreateProviderRecords": null,
+        "DR-GetContactFromUser": null,
+        "DoneAction1": null,
+        "ExtractHealthStatusQuestions": null,
+        "ExtractRestrictiveActions": null,
+        "HealthStatusBlock": null,
+        "HealthStatusNew": null,
+        "IP-CompleteProviderApp": null,
+        "LocationInformation": null,
+        "NetworkParticipationSelection": null,
+        "PaymentInformation": null,
+        "PersonalInformation": null,
+        "PosttoObjectAction3": null,
+        "ProducerEducations": null,
+        "ProfessionalLiabilityCoverageInformation": null,
+        "ProfessionalLicensure": null,
+        "RestrictiveActionsBlock": null,
+        "RestrictiveActionsNew": null,
+        "SetCountDR_HSQuestions": null,
+        "SetCountDR_RAQuestions": null,
+        "SetHealthStatus": null,
+        "SetHealthStatusQuestionsNew": null,
+        "SetQuestionTypeHS": null,
+        "SetQuestionTypeRA": null,
+        "SetRestrictiveActions": null,
+        "SetRestrictiveActionsQuestions": null,
+        "SetTableLimit": null,
+        "SetValues": null,
+        "SetValues16": null,
+        "WorkHistory": null
+    }
+}

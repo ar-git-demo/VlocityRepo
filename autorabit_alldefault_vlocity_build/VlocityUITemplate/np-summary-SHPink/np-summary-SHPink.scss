@@ -1,0 +1,92 @@
+/**Styles**/
+@import "npVariables";
+// include mixin "npVariables" for fonts and colors.
+// npVariables mixin template should be active.
+.vlocity {
+    /* Always use vlocity class as a wrapper */
+    .np-summary-details {
+        font-weight: inherit;
+        .slds-has-block-links{
+            a{
+              font-size:$font-small;
+              
+              color:black;
+            }
+        }
+        ul{
+            li{
+                font-size:$font-small;
+                color:Black;
+                
+            }
+        }
+        .moreActions{
+            display:none;
+        }
+        .np-summary-details-title{
+            font-size:$font-small;
+            font-weight: bold;
+            color:Black;
+        }
+        .np-summary-details-card {
+            font-size:$font-small;
+            border: none;
+            background: $VLight-Pink;
+            .np-summary-details-icon {
+                .slds-media__figure {
+                    margin-bottom:15px;
+                    img{
+                            height: auto;
+                            max-width: 50px;
+                            margin-top: -12px;
+                            width: 50px;
+                            margin-left: -10px;
+                            position: relative;
+                            z-index: 1;
+
+                    }
+                }
+            }
+        }
+    }
+    
+    /** media queries to achieve responsiveness **/
+    @media (min-width:10em) and (max-width:30em) {
+        &.via-slds {
+            .np-summary-details .np-summary-details-card .np-summary-details-icon{
+                    width: 100%;
+                    text-align: center;
+                    position: relative;
+            }
+             .np-summary-details .np-summary-details-card .np-summary-details-icon:after{
+            content: "";
+    border: 1px solid $VLight-Pink;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 4px;
+             }
+            section.np-summary-details {
+                .slds-media__figure {
+                    top: -10px;
+                    position: relative;
+                    :after{
+                        content: "";
+                        border: 1px solid $VLight-Pink;
+                        display: block;
+                        top: -18px;
+                        position: relative;
+                        z-index: 0;
+                    }
+                }
+                h3 {
+                    text-align: center;
+                }
+                a {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

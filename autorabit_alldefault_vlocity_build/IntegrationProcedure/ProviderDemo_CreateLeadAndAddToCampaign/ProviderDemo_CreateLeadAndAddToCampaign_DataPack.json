@@ -1,0 +1,24 @@
+{
+    "%vlocity_namespace%__CustomJavaScript__c": "{}",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "ProviderDemo_CreateLeadAndAddToCampaign_Element_CreateLead.json",
+        "ProviderDemo_CreateLeadAndAddToCampaign_Element_GetCampaignFromInput.json",
+        "ProviderDemo_CreateLeadAndAddToCampaign_Element_LeadCampaignMapping.json",
+        "ProviderDemo_CreateLeadAndAddToCampaign_Element_AddLeadToCampaign.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__LwcId__c": "874e4e74-c983-26a6-138d-c95f0e48878f",
+    "%vlocity_namespace%__ProcedureKey__c": "ProviderDemo_CreateLeadAndAddToCampaign",
+    "%vlocity_namespace%__PropertySet__c": "ProviderDemo_CreateLeadAndAddToCampaign_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "CreateLeadAndAddToCampaign",
+    "%vlocity_namespace%__Type__c": "ProviderDemo",
+    "Name": "CreateLeadAndAddToCampaign",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ProviderDemo/CreateLeadAndAddToCampaign/Procedure"
+}

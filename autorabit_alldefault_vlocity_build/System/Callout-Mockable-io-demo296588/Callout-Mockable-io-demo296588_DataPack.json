@@ -1,0 +1,9 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "",
+    "%vlocity_namespace%__SystemInterface__c": "Callout-Mockable-io-demo296588_SystemInterfaces.json",
+    "%vlocity_namespace%__URL__c": "http://demo2965884.mockable.io/",
+    "Name": "Callout Mockable-io-demo296588",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__System__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__System__c/Callout Mockable-io-demo296588"
+}

@@ -1,0 +1,63 @@
+{
+    "Cards": [
+        "Campaign Story",
+        "Case Story",
+        "Claim Story",
+        "Customer Interaction Story",
+        "Event Story",
+        "Held Product Story",
+        "Non Held Policy Story",
+        "Non Held Product Story",
+        "Note Story",
+        "Opportunity Story",
+        "Policy Story",
+        "Saved OmniScript Story",
+        "Task Story",
+        "Order Story"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0013700000Llq8QAAR"
+            }
+        ],
+        "type": "Dual",
+        "value": {
+            "apexRemoteResultVar": "Stories",
+            "apexRestResultVar": "Stories",
+            "endpoint": "/services/apexrest/%vlocity_namespace%/v1/story/{{params.id}}?pageSize=10",
+            "inputMap": {
+                "pageSize": "10",
+                "storyId": "{{params.id}}"
+            },
+            "methodType": "GET",
+            "remoteClass": "StoryListHandler",
+            "remoteMethod": "getStories",
+            "remoteNSPrefix": "%vlocity_namespace%",
+            "resultVar": "Stories"
+        }
+    },
+    "previewType": "designTime",
+    "templates": {
+        "0": {
+            "templateUrl": "story-card-canvas"
+        }
+    },
+    "workspace": [
+        "Campaign Story/Vlocity/1495043462778",
+        "Case Story/Vlocity/1495043462780",
+        "Claim Story/Vlocity/1495043462783",
+        "Customer Interaction Story/Vlocity/1495043462805",
+        "Event Story/Vlocity/1495043462785",
+        "Held Product Story/Vlocity/1495043462793",
+        "Non Held Policy Story/Vlocity/1495043462787",
+        "Non Held Product Story/Vlocity/1495043462793",
+        "Note Story/Vlocity/1495043462788",
+        "Opportunity Story/Vlocity/1495043462790",
+        "Policy Story/Vlocity/1495043462792",
+        "Saved OmniScript Story/Vlocity/1495043462794",
+        "Task Story/Vlocity/1495043462796",
+        "Order Story/Test/1494354463516"
+    ]
+}

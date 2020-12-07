@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Resposta da avaliação clínica</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Respostas da avaliação clínica</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nome da resposta da avaliação clínica</nameFieldLabel>
+</CustomObjectTranslation>

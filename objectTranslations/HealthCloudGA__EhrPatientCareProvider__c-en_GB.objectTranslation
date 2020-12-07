@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>EHR Patient Care Provider</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>EHR Patient Care Providers</value>
+    </caseValues>
+    <nameFieldLabel>EHR Patient Care Provider ID</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

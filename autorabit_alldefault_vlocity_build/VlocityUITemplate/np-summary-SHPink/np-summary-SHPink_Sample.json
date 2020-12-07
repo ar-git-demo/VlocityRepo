@@ -1,0 +1,41 @@
+{
+    "data": {
+        "actions": [
+            {
+                "displayName": "Edit",
+                "vlocityIcon": "icon-v-heart"
+            },
+            {
+                "displayName": "Save",
+                "vlocityIcon": "icon-v-heart"
+            }
+        ],
+        "fields": [
+            {
+                "label": "Id",
+                "name": "Id"
+            },
+            {
+                "label": "Name",
+                "name": "Name"
+            },
+            {
+                "label": "Description",
+                "name": "description"
+            },
+            {
+                "label": "Cost",
+                "name": "cost",
+                "type": "currency"
+            }
+        ],
+        "title": "Card Title"
+    },
+    "obj": {
+        "Id": "123456",
+        "LastModifiedDate": "2017-06-30T14:19:20.667Z",
+        "Name": "Object Name",
+        "cost": 150,
+        "description": "Some description"
+    }
+}

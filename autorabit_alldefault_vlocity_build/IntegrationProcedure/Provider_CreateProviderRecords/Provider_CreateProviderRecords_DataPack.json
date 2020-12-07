@@ -1,0 +1,25 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "creates contact, application, and case after step 1 of the VPL-ProviderApplication-HINS-102-1 OS",
+    "%vlocity_namespace%__CustomJavaScript__c": "Provider_CreateProviderRecords_SampleInput.json",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "Provider_CreateProviderRecords_Element_CreateContact.json",
+        "Provider_CreateProviderRecords_Element_CreateApplication.json",
+        "Provider_CreateProviderRecords_Element_CreateCase.json",
+        "Provider_CreateProviderRecords_Element_ResponseAction1.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__LwcId__c": "f6249e91-f7ad-4550-1406-6ecf08a8a8c3",
+    "%vlocity_namespace%__ProcedureKey__c": "Provider_CreateProviderRecords",
+    "%vlocity_namespace%__PropertySet__c": "Provider_CreateProviderRecords_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "CreateProviderRecords",
+    "%vlocity_namespace%__Type__c": "Provider",
+    "Name": "CreateProviderRecords",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Provider/CreateProviderRecords/Procedure"
+}

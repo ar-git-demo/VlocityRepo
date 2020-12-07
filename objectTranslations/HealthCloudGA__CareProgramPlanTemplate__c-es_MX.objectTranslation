@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Plantilla de plan de programa de cuidados</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Plantillas de planes de programas de cuidados</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Id.</nameFieldLabel>
+</CustomObjectTranslation>

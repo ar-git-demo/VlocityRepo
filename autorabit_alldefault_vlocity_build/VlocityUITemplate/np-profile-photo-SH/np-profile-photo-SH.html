@@ -1,0 +1,44 @@
+<section class="np-via-slds-card--left-profile" ng-controller="npViaProfileController">
+     
+   <div  ng-init="image = (placeholder.ProfileImage.value)" class="profile-picture big-profile-picture"   >
+     
+       <!-- profile image source via contact richtextfield Image-->
+        <span ng-if="placeholder.ProfileImage.value" id="npProfileImage" ng-init="npProfileImageSrc()">
+            <img src="">
+       </span>
+       <span ng-if="!placeholder.ProfileImage.value">
+       <slds-svg-icon sprite="'utility'" icon="'user'" extra-classes="'custom-statement-icon'"> </slds-svg-icon>
+       </span>
+    </div>
+    
+    <div class="profile-detail">
+        <div class="profile-name slds-m-vertical--small">
+             {{ placeholder.ProfileName.label}} 
+            {{placeholder.ProfileName.value  | picker: placeholder.ProfileName.type}} 
+              </div>
+         <!--Using ng-repeat to iterate over the fields object -->     
+          <div class="profile-info  slds-m-top--medium" ng-repeat="field in data.fields">
+           <span>{{field.label}}</span>
+           <span>{{ obj | getter: field | picker: field.type }}</span>
+        </div>
+        <!-- Using slds-frid class to render the placeholders and action mapped-->
+        <div class="slds-grid slds-wrap np-profile-actions">
+          <div class="slds-col via-slds-col slds-m-top--medium slds-p-horizontal--small" ng-repeat="action in data.actions">
+              <a href="javascript:void(0)" ng-click="performAction(action)" hotkey-card-action title="{{action.displayName}}" class="slds-text-link--reset">
+                  {{action.displayName}}
+              </a>
+          </div>
+           <div class="slds-col via-slds-col slds-m-top--medium slds-p-horizontal--small">
+              <a href="mailto:{{placeholder.ProfileEmail.value}}" class="slds-text-link--reset">
+                 {{ placeholder.ProfileEmail.label}} 
+              </a>
+          </div>
+    
+           <div class="slds-col via-slds-col np-last-action slds-m-top--medium slds-p-horizontal--small">
+              <a href="http://{{placeholder.ProfileWebsite.value}}" class="slds-text-link--reset" target="_blank">
+                 {{ placeholder.ProfileWebsite.label}} 
+              </a>
+          </div>
+      </div>
+    </div>
+</section>

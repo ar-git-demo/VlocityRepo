@@ -1,0 +1,18 @@
+{
+    "Body": "File_Defaultblue16_grey.png",
+    "BodyLength": 688,
+    "ContentType": "image/png",
+    "Description": "",
+    "DeveloperName": "Defaultblue16_grey",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "Defaultblue16_grey",
+    "NamespacePrefix": "%vlocity_namespace%",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/Defaultblue16_grey"
+}

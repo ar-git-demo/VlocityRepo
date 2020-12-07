@@ -1,0 +1,117 @@
+{
+    "responsejson": {
+        "Case": {
+            "Description": null,
+            "Origin": "Email",
+            "Priority": "High",
+            "Status": "Escalated",
+            "Subject": null,
+            "Type": "Problem"
+        },
+        "ContextId": "0034600001O1MP0",
+        "DRId_%vlocity_namespace%__ConsumerDrug__c": "a6v460000008xX1AAI",
+        "DRId_Case": "50046000007WvGGAA0",
+        "DRId_vlocityX_ConsumerDiagnosisCodes__c": "a6Z46000000PcovEAC",
+        "DiagnosisInformation": {
+            "DataNodeDiagnosisInformation": "ICDCodeDetails",
+            "ICD10CodeCount": 1,
+            "ICDCodeDetails": [
+                {
+                    "DiagnosisCode": "ICDTest1",
+                    "ShortDescription": "Composite Resin, One Surface, Anterior"
+                }
+            ],
+            "MessagingDiagnosisInformation": true
+        },
+        "DrugInformation": {
+            "CompanyName1": null,
+            "DrugQuantity": "45",
+            "DrugSearch-Block": {
+                "CompanyName": null,
+                "DrugId": "a6y460000008V0jAAE",
+                "DrugSearch": "Tygacil 50 Mg Injection",
+                "GenericName": null,
+                "NDCCode": null,
+                "Unit": "MG"
+            },
+            "EndDate": "2018-10-17",
+            "GenericName1": null,
+            "NDCCode1": null,
+            "OtherMedications": null,
+            "StartDate": "2018-10-17",
+            "Unit1": "MG",
+            "UnitOfMeasurement": "Amb"
+        },
+        "DrugRequestReason": {
+            "Date": "2018-10-15T18:30:00.000Z",
+            "Other": false,
+            "OtherDetails": null,
+            "PrescriberSignature": "fghjk",
+            "Reason1": true,
+            "Reason2": true,
+            "Reason3": false,
+            "Reason4": false
+        },
+        "PatientInformation": {
+            "DOB": "2019-07-19",
+            "Gender1": "Female",
+            "PatDOB1": null,
+            "PatFirstName1": null,
+            "PatGender1": null,
+            "PatLastName1": null,
+            "PatPhone1": null,
+            "PatientFirstName1": "Ed",
+            "PatientLastName1": "Stamos",
+            "PatientMemberID1": "1253639823-01",
+            "PatientMemberID2": null,
+            "PatientNameGroup-Block": {
+                "AssetNumber": null,
+                "MemberID": "1253639823-01",
+                "PatContactId": "0034600001O1MM0AAN",
+                "PatientDOB": "2019-07-19",
+                "PatientFirstName": "Ed",
+                "PatientGender": "Female",
+                "PatientLastName": "Stamos",
+                "PatientNameGroup": "Ed Stamos",
+                "PatientPhone": null
+            },
+            "PatientNameIndividual-Block": null,
+            "Phone2": null,
+            "Policies": null,
+            "PolicyType": "Group"
+        },
+        "PatientNameGroup-Block": {
+            "ContactId": "0034600001O1MM0AAN",
+            "RecordType": "Individual",
+            "RecordTypeId": "012460000006X1SAAU"
+        },
+        "PrescriberInformation": {
+            "PrescriberInformationBlock": {
+                "AccountId": "0014600001T4LdDAAV",
+                "Fax": null,
+                "FirstName": "Abbey",
+                "LastName": "Hunt",
+                "NPI": "1271233772",
+                "Name": "Abbey Hunt",
+                "Phone1": "(904) 276-8500",
+                "State": "FL",
+                "Street": "2001 Kingsley Avenue",
+                "Type": "Specialist",
+                "Zip": "32073"
+            }
+        },
+        "Status": "New",
+        "TableDataCountDiagnosisInformation": 1,
+        "id": "a2C46000000qMKIEA2",
+        "layout": "lightning",
+        "testContextId": "0034600001O1MP0",
+        "timeStamp": "2018-10-15T19:09:01.853Z",
+        "userCurrencyCode": "USD",
+        "userId": "00546000001ev1jAAA",
+        "userName": "nmali100.81@hibo.org",
+        "userProfile": "System Administrator",
+        "userTimeZone": -420,
+        "vlcPersistentComponent": {
+        }
+    }
+}

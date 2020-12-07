@@ -1,0 +1,185 @@
+{
+    "dataSource": {
+        "type": null
+    },
+    "filter": {
+        "['%vlocity_namespace%__Type__c']": "Health Cash Plan Employer"
+    },
+    "icon": "product",
+    "sessionVars": [
+    ],
+    "sprite": "standard",
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "np-policy-view",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "vcd-ModifyCoverages£",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "vcd-ModifyQLE",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "vcdClaimHealthCashPlanCoverage",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "vcdClaimHealthCashPlan",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Policy #",
+                    "name": "['AssetAutoNumber__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['%vlocity_namespace%__Type__c']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Type",
+                    "name": "['%vlocity_namespace%__Type__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Status']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Status",
+                    "name": "['Status']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Employee Monthly Premium",
+                    "name": "['TotalChildPolicy']['TotalChildPremium']",
+                    "type": "currency"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Expected Premium",
+                    "name": "['%vlocity_namespace%__AnnualPremium__c']",
+                    "type": "currency"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Effective Date",
+                    "name": "['%vlocity_namespace%__EffectiveDate__c']",
+                    "type": "date"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Expire Date",
+                    "name": "['%vlocity_namespace%__ExpirationDate__c']",
+                    "type": "date"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['claimsTotalCount']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Number Claims",
+                    "name": "['claimsTotalCount']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['claimsTotalPaidTotal']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Claims Paid",
+                    "name": "['claimsTotalPaidTotal']",
+                    "type": "currency"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['claimsOutstandingTotal']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Claims Outstanding",
+                    "name": "['claimsOutstandingTotal']",
+                    "type": "currency"
+                }
+            ],
+            "name": "Active",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Name",
+                    "type": "string",
+                    "value": "['Name']"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Icon",
+                    "type": "string",
+                    "value": "'../resource/npResourceEMEA/medical.svg'"
+                }
+            ],
+            "sObjectType": "Asset",
+            "templateUrl": "np-summary"
+        }
+    ],
+    "title": "Policy Health Cash Plan Employer"
+}

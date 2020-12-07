@@ -1,0 +1,80 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "blankStateCheck": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['PrimaryContact']['BillingStreet']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Street",
+                    "name": "['PrimaryContact']['BillingStreet']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['PrimaryContact']['MailingCity']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "City",
+                    "name": "['PrimaryContact']['MailingCity']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['PrimaryContact']['BillingPostcode']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Postcode",
+                    "name": "['PrimaryContact']['BillingPostcode']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['PrimaryContact']['Phone']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Phone Number",
+                    "name": "['PrimaryContact']['Phone']",
+                    "type": "string"
+                }
+            ],
+            "name": "Account",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Title",
+                    "type": "string",
+                    "value": "['Name']"
+                }
+            ],
+            "templateUrl": "np-detail-plus-IBO-SH"
+        }
+    ],
+    "title": "Account Header"
+}

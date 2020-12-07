@@ -1,0 +1,18 @@
+{
+    "Body": "File_Omniscript_grey.png",
+    "BodyLength": 1312,
+    "ContentType": "image/png",
+    "Description": "",
+    "DeveloperName": "Omniscript_grey",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "Omniscript_grey",
+    "NamespacePrefix": "%vlocity_namespace%",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/Omniscript_grey"
+}

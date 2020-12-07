@@ -1,0 +1,25 @@
+{
+    "%vlocity_namespace%__CustomJavaScript__c": "TrailingDocumentRequirements_Create_SampleInput.json",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "TrailingDocumentRequirements_Create_Element_DETransformLargeGroupCensusSales.json",
+        "TrailingDocumentRequirements_Create_Element_GetTrailingDocumentCategories.json",
+        "TrailingDocumentRequirements_Create_Element_CreateTrailingDocumentCategories.json",
+        "TrailingDocumentRequirements_Create_Element_GetTrailingDocumentRequirements.json",
+        "TrailingDocumentRequirements_Create_Element_CreateTrailignDocPlaceholders.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__LwcId__c": "7793bf0b-48bf-0403-ac05-63963fdc41bb",
+    "%vlocity_namespace%__ProcedureKey__c": "TrailingDocumentRequirements_Create",
+    "%vlocity_namespace%__PropertySet__c": "TrailingDocumentRequirements_Create_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "Create",
+    "%vlocity_namespace%__Type__c": "TrailingDocumentRequirements",
+    "Name": "CreateTrailingDocumentRequirements",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/TrailingDocumentRequirements/Create/Procedure"
+}

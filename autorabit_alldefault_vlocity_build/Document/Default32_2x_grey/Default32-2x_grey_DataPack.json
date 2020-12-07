@@ -1,0 +1,18 @@
+{
+    "Body": "File_Default32-2x_grey.png",
+    "BodyLength": 1540,
+    "ContentType": "image/png",
+    "Description": "",
+    "DeveloperName": "Default32_2x_grey",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "Default32@2x_grey",
+    "NamespacePrefix": "%vlocity_namespace%",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/Default32_2x_grey"
+}

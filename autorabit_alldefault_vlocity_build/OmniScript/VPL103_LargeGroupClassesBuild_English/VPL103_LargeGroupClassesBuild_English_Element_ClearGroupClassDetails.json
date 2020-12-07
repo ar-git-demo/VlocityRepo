@@ -1,0 +1,46 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "VPL-LargeGroupClassesBuild-103",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPL103/LargeGroupClassesBuild/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "ClassActive": "=NULL",
+            "ClassCode": "=NULL",
+            "ClassType": "=NULL",
+            "DependentEmployerContribution": "=NULL",
+            "DependentEmployerContributionAmount": "=NULL",
+            "DependentEmployerContributionPercent": "=NULL",
+            "Description": "=NULL",
+            "EmployerContributionAmount": "=NULL",
+            "EmployerContributionPercent": "=NULL",
+            "GroupClassName": "=NULL",
+            "SearchParentAccount": "=NULL",
+            "SearchParentAccount-Block:SearchParentAccount": "=NULL",
+            "previousNthStepName": "CurrentGroupClasses"
+        },
+        "label": null,
+        "message": {
+        },
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "ClearGroupClassDetails",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPL103/LargeGroupClassesBuild/English/ClearGroupClassDetails"
+}

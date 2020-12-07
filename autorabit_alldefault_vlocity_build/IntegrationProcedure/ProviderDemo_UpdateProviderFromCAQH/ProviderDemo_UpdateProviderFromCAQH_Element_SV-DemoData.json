@@ -1,0 +1,106 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ProviderDemo_UpdateProviderFromCAQH",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ProviderDemo/UpdateProviderFromCAQH/Procedure",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "CAQHUpdate": {
+                "Provider": {
+                    "Id": "003f4000018KQlfAAG",
+                    "Language": "English",
+                    "NPI": "5720265821",
+                    "SSN4": "4727",
+                    "birthday": "1978-08-01",
+                    "city": "Longwood",
+                    "country": "United States",
+                    "gender": "Male",
+                    "specialty": "Cardiology",
+                    "state": "Florida",
+                    "status": "Pending",
+                    "street": "2170 West State Road 434 Suite 190",
+                    "type": "Specialist",
+                    "zip": "32752"
+                },
+                "ProviderEducation": [
+                    {
+                        "AccreditationType": "University",
+                        "EducationType": "MD",
+                        "InstitutionAddress": "1300 Morris Park Avenue Bronx, NY 10461",
+                        "InstitutionName": "Albert Einstein College of Medicine",
+                        "Name": "Albert Einstein College of Medicine",
+                        "ProgramCompletedDate": "1994-05-24",
+                        "ProgramStartDate": "1989-02-01",
+                        "SpecialtyType": "Cardiology"
+                    },
+                    {
+                        "AccreditationType": "Residency",
+                        "EducationType": "MD",
+                        "InstitutionAddress": "1300 Morris Park Avenue Bronx, NY 10461",
+                        "InstitutionName": "Albert Einstein College of Medicine",
+                        "Name": "Albert Einstein College of Medicine",
+                        "ProgramCompletedDate": "1996-05-24",
+                        "SpecialtyType": "Cardiology"
+                    },
+                    {
+                        "InstitutionName": "The American Board of Internal Medicine",
+                        "Name": "Internal Medicine Certification",
+                        "ProgramCompletedDate": "1997-02-05",
+                        "ProgramName": "Internal Medicine Certification",
+                        "SpecialtyType": "Internal Medicine"
+                    },
+                    {
+                        "InstitutionName": "The American Board of Internal Medicine",
+                        "Name": "Cardiovascular Disease Certification",
+                        "ProgramCompletedDate": "1999-02-05",
+                        "ProgramName": "Cardiovascular Disease Certification",
+                        "SpecialtyType": "Cardiovascular Surgery"
+                    }
+                ],
+                "ProviderLicenses": [
+                    {
+                        "EntityType": "Individual",
+                        "Jurisdiction": "FL",
+                        "LicenseExpiration": "2020-02-06",
+                        "LicenseName": "State Medical License",
+                        "LicenseNumber": "54545",
+                        "LicenseType": "Provider",
+                        "OriginalIssueDate": "2015-02-11",
+                        "Status": "Active"
+                    },
+                    {
+                        "EntityType": "Individual",
+                        "Jurisdiction": "NY",
+                        "LicenseExpiration": "2020-02-06",
+                        "LicenseName": "State Medical License",
+                        "LicenseNumber": "212065",
+                        "LicenseType": "Provider",
+                        "OriginalIssueDate": "2015-02-11",
+                        "Status": "Active"
+                    }
+                ]
+            }
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "show": null
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SV-DemoData",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ProviderDemo/UpdateProviderFromCAQH/Procedure/SV-DemoData"
+}

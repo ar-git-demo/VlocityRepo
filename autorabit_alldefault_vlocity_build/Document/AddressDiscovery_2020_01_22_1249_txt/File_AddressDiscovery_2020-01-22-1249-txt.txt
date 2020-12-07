@@ -1,0 +1,101 @@
+Here are the results of your organization's customizations scan. These entries represent existing
+customizations that contain references to state or country/territory fields. You will need to manually update
+these customizations when you enable state and country/territory picklists for your organization. Making the
+updates ensures that your organization is using new code-based fields for states and countries,
+instead of text-based fields.
+
+This document contains tab-separated data. For best results, open the document in a spreadsheet editor.
+
+Apex Class
+	Name	Namespace	Link	Status	Api Version
+	InsuranceSelectionUIController	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvPMv	Active	41.0
+	MyProfilePageControllerTest	None	https://health-01.my.salesforce.com/01p1U00000Pwu5A	Active	45.0
+	MyProfilePageController	None	https://health-01.my.salesforce.com/01p1U00000Pwu59	Active	45.0
+	HouseholdTriggerTest	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvPKw	Active	30.0
+	HouseholdController	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvPKt	Active	30.0
+	HouseholdControllerTest	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvPKu	Active	30.0
+	InsuranceClaimPartyServiceTest	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000Px3s5	Active	44.0
+	InsuranceClaimItemServiceTest	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000Px3s1	Active	44.0
+	DRDataPackServiceTest	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvPFU	Active	39.0
+	DRProcessorTest	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvPG0	Active	46.0
+	DRProcessorTest2	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvPG1	Active	36.0
+	CreateHouseholdControllerTest	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvPEZ	Active	30.0
+	CreateHouseholdController	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvPEY	Active	30.0
+	HL7TestPatientStep	HealthCloudGA	https://health-01.my.salesforce.com/01p1U00000QUuUl	Active	45.0
+	ContextDimensionTriggerHandlerTest	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvPCo	Active	40.0
+	ContextServiceTest	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvPDH	Active	38.0
+	ContactTriggerTest	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvPCd	Active	30.0
+	ContextRuleServiceTest	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvPDD	Active	38.0
+	ContactRegionSetter	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvPCa	Active	32.0
+	CtxVirObjImplTest	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvPF1	Active	38.0
+	EventServiceTest	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvPJR	Active	38.0
+	FormularyServiceTestData	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvPKB	Active	42.0
+	DefaultOmniScriptTypeAheadLookup	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvPHG	Active	33.0
+	DefaultOmniScriptTypeAheadLookupTest	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvPHH	Active	33.0
+	CardCanvasControllerTest	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvPBX	Active	41.0
+	OSCensusTools	None	https://health-01.my.salesforce.com/01p1U00000HMSTn	Active	47.0
+	RelateContactToHouseholdControllerTest	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvPWZ	Active	30.0
+	SaverTest	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvPX0	Active	28.0
+	AppContextTest	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvP9h	Active	38.0
+	AddressValidationComponentControllerTest	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvP9Z	Active	30.0
+	APIPromotionsCartsCpqV2Test	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvP8v	Active	39.0
+	APIProductsCartsCpqV2Test	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvP8r	Active	37.0
+	SelectionUIPageControllerBase	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvPXU	Active	31.0
+	SelectionUIPageControllerBaseTest	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvPXV	Active	32.0
+	RollupContractEnableFlagTest	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvPWl	Active	30.0
+	AccountTriggerTest	vlocity_ins	https://health-01.my.salesforce.com/01p1U00000PvP9H	Active	30.0
+
+Visualforce Page
+	Name	Namespace	Link	Api Version
+	MyProfilePage	None	https://health-01.my.salesforce.com/0661U000005vVDc	45.0
+
+No matching Apex Trigger customizations were found.
+
+No matching Assignment Rule customizations were found.
+
+No matching Auto-Response Rule customizations were found.
+
+No matching Email Template customizations were found.
+
+No matching Escalation Rule customizations were found.
+
+Field Set
+	Name	Namespace	Link	Entity	Where is this used?
+	Segment List Export	vlocity_ins	https://health-01.my.salesforce.com/0IX1U000000EXz5	Account	List of Account fields to export.
+	Segment List Export	vlocity_ins	https://health-01.my.salesforce.com/0IX1U000000EXzU	Contact	List of contact fields to export.
+	InteractionFieldList	vlocity_ins	https://health-01.my.salesforce.com/0IX1U000000EXz4	Account	Define list of fields used in interaction console side bar.
+	InteractionFieldList	vlocity_ins	https://health-01.my.salesforce.com/0IX1U000000EXzQ	Contact	Define list of fields shown in interaction console page.
+	Household Member	vlocity_ins	https://health-01.my.salesforce.com/0IX1U000000EXzP	Contact	This field set is used to decide what fields(besides name and role) to show in the household contact section of Household detail page.
+
+List View
+	Name	Namespace	Link	List View Type
+	New This Week	None	https://health-01.my.salesforce.com/001?fcf=00B1U00000CepuH	Account
+	My Unread Leads	None	https://health-01.my.salesforce.com/00Q?fcf=00B1U00000CepuT	Lead
+	Today's Leads	None	https://health-01.my.salesforce.com/00Q?fcf=00B1U00000CepuR	Lead
+	Groups	vlocity_ins	https://health-01.my.salesforce.com/001?fcf=00B1U00000BnXil	Account
+	Unprotected Accounts	None	https://health-01.my.salesforce.com/001?fcf=00B1U00000CDgRH	Account
+	New Medicare Leads	None	https://health-01.my.salesforce.com/001?fcf=00B1U00000DQoXg	Account
+	Medicare Leads	None	https://health-01.my.salesforce.com/00Q?fcf=00B1U00000DQoj3	Lead
+	Created Today	None	https://health-01.my.salesforce.com/001?fcf=00B1U00000Bq2ZT	Account
+	All Accounts	None	https://health-01.my.salesforce.com/001?fcf=00B1U00000CepuJ	Account
+
+Report
+	Name	Namespace	Link	Report Type
+	Sample Report: # of Accounts	None	https://health-01.my.salesforce.com/00O1U000007joLD	Accounts
+	Sample Report: # of Contacts	None	https://health-01.my.salesforce.com/00O1U000007joL1	Contacts & Accounts
+
+No matching Validation Rule customizations were found.
+
+Custom Button or Link
+	Name	Namespace	Link	Entity
+	GoogleMaps	None	https://health-01.my.salesforce.com/00b1U000001t9uj	Contact
+	YahooMaps	None	https://health-01.my.salesforce.com/00b1U000001t9um	Contact
+	GoogleMaps	None	https://health-01.my.salesforce.com/00b1U000001t9up	Lead
+	GoogleMaps	None	https://health-01.my.salesforce.com/00b1U000001t9ud	Account
+	YahooMaps	None	https://health-01.my.salesforce.com/00b1U000001t9uu	Lead
+	YahooMaps	None	https://health-01.my.salesforce.com/00b1U000001t9uh	Account
+
+No matching Workflow Rule customizations were found.
+
+No matching Matching Rule customizations were found.
+

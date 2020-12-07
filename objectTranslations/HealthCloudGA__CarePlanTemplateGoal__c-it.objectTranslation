@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Obiettivo modello di piano sanitario</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Obiettivi modello di piano sanitario</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome obiettivo modello di piano sanitari</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

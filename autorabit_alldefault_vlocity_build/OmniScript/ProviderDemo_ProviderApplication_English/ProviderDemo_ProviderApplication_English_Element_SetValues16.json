@@ -1,0 +1,85 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Provider Application (reusable)",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ProviderDemo/ProviderApplication/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "OtherCity": "Seattle",
+            "OtherStreet": "2223 Sutter Ave",
+            "OtherZip": 22987,
+            "POOtherStateCode": "WA",
+            "ProducerEducationBlock": [
+                {
+                    "BoardCertificates": null,
+                    "BoardExpirationDate": "2019-02-21",
+                    "BoardName": "The American Board of Dermatology",
+                    "BoardRecertificationDate": null,
+                    "BoardSpecialty": "Dermatology",
+                    "BoardYearCertified": "1984",
+                    "CSRDEACertificate": null,
+                    "CSRDEANumber": null,
+                    "CSRDateIssued": null,
+                    "CSRExpiration": null,
+                    "PETDateCompleted": null,
+                    "PETDegreeEarned": "MD",
+                    "PETDegreeFrom": "1979-02-01",
+                    "PETDegreeThrough": "1982-02-04",
+                    "PETEducationType": null,
+                    "PETFiles": null,
+                    "PETSchoolAddress": "1222 Main St",
+                    "PETSchoolName": "University of Colorodo Med School",
+                    "PETSpecialty": null,
+                    "PETSpecialtySchoolAddress": null,
+                    "PETSpecialtySchoolName": null
+                },
+                {
+                    "BoardCertificates": null,
+                    "BoardExpirationDate": "2018-02-08",
+                    "BoardName": "The American Board of Allergy and Immunology",
+                    "BoardRecertificationDate": null,
+                    "BoardSpecialty": "Alergist",
+                    "BoardYearCertified": "1995",
+                    "CSRDEACertificate": null,
+                    "CSRDEANumber": null,
+                    "CSRDateIssued": null,
+                    "CSRExpiration": null,
+                    "PETDateCompleted": null,
+                    "PETDegreeEarned": null,
+                    "PETDegreeFrom": null,
+                    "PETDegreeThrough": null,
+                    "PETEducationType": null,
+                    "PETFiles": null,
+                    "PETSchoolAddress": null,
+                    "PETSchoolName": null,
+                    "PETSpecialty": null,
+                    "PETSpecialtySchoolAddress": null,
+                    "PETSpecialtySchoolName": null
+                }
+            ]
+        },
+        "label": "SetValues16",
+        "message": {
+        },
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": null,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetValues16",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ProviderDemo/ProviderApplication/English/SetValues16"
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Dichiarazione farmaci EHR</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Dichiarazioni farmaci EHR</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>ID dichiarazioni farmaci EHR</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

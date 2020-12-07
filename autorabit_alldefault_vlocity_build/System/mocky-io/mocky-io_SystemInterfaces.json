@@ -1,0 +1,19 @@
+[
+    {
+        "%vlocity_namespace%__GlobalKey__c": "",
+        "%vlocity_namespace%__Implementation__c": "VDOHttpGetSystemInterface",
+        "%vlocity_namespace%__Key__c": "mocky.io:Mocky.io Get",
+        "%vlocity_namespace%__Path__c": "/v2/5c7f6dfc3300001a168480f9",
+        "%vlocity_namespace%__SystemId__c": {
+            "Name": "mocky.io",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__System__c/mocky.io",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__System__c"
+        },
+        "%vlocity_namespace%__SystemId__r.Name": "mocky.io",
+        "Name": "Mocky.io Get",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__SystemInterface__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__SystemInterface__c/Mocky.io Get/%vlocity_namespace%__System__c/mocky.io"
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "%vlocity_namespace%__GlobalKey__c": "",
+        "%vlocity_namespace%__Implementation__c": "DefaultSystemInterface",
+        "%vlocity_namespace%__Key__c": "Callout Mockable-io-demo296588:SystemZInterface",
+        "%vlocity_namespace%__Path__c": "CreateSystemZAccount",
+        "%vlocity_namespace%__SystemId__c": {
+            "Name": "Callout Mockable-io-demo296588",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__System__c/Callout Mockable-io-demo296588",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__System__c"
+        },
+        "%vlocity_namespace%__SystemId__r.Name": "Callout Mockable-io-demo296588",
+        "Name": "SystemZInterface",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__SystemInterface__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__SystemInterface__c/SystemZInterface/%vlocity_namespace%__System__c/Callout Mockable-io-demo296588"
+    }
+]

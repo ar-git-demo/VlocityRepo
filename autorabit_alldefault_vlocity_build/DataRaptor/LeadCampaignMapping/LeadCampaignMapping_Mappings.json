@@ -1,0 +1,28 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "LeadId",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "CreateLead:Lead_1:Id",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "LeadCampaignMappingCustom690",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "LeadCampaignMapping",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "LocalCampaignId",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "GetCampaignFromInput:CampaignId",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "LeadCampaignMappingCustom8850",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "LeadCampaignMapping",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

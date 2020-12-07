@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>CEO_Lead_Share_TEST</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>CEO Lead Share TEST</label>
+        <sharedTo>
+            <role>CEO</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>CEO</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>DE_Lead_Access</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>DE Lead Access</label>
+        <sharedTo>
+            <group>DE_Portal_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>Admin</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

@@ -1,0 +1,2232 @@
+[
+    {
+        "%vlocity_namespace%__DisplayName__c": "4225 - General Warehousing and Storage",
+        "%vlocity_namespace%__SICCode__c": 4225,
+        "Name": "General Warehousing and Storage"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4225 - Lessors of Miniwarehouses and Self-Storage Units",
+        "%vlocity_namespace%__SICCode__c": 4225,
+        "Name": "Lessors of Miniwarehouses and Self-Storage Units"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4226 - Other Warehousing and Storage",
+        "%vlocity_namespace%__SICCode__c": 4226,
+        "Name": "Other Warehousing and Storage"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4412 - Deep Sea Freight Transportation",
+        "%vlocity_namespace%__SICCode__c": 4412,
+        "Name": "Deep Sea Freight Transportation"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4449 - Inland Water Freight Transportation",
+        "%vlocity_namespace%__SICCode__c": 4449,
+        "Name": "Inland Water Freight Transportation"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4481 - Deep Sea Passenger Transportation",
+        "%vlocity_namespace%__SICCode__c": 4481,
+        "Name": "Deep Sea Passenger Transportation"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4482 - Coastal and Great Lakes Passenger Transportation",
+        "%vlocity_namespace%__SICCode__c": 4482,
+        "Name": "Coastal and Great Lakes Passenger Transportation"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4489 - Inland Water Passenger Transportation",
+        "%vlocity_namespace%__SICCode__c": 4489,
+        "Name": "Inland Water Passenger Transportation"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4489 - Scenic and Sightseeing Transportation, Water",
+        "%vlocity_namespace%__SICCode__c": 4489,
+        "Name": "Scenic and Sightseeing Transportation, Water"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4491 - Marine Cargo Handling",
+        "%vlocity_namespace%__SICCode__c": 4491,
+        "Name": "Marine Cargo Handling"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4491 - Port and Harbor Operations",
+        "%vlocity_namespace%__SICCode__c": 4491,
+        "Name": "Port and Harbor Operations"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4493 - Marinas",
+        "%vlocity_namespace%__SICCode__c": 4493,
+        "Name": "Marinas"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4499 - Other Support Activities for Water Transportation",
+        "%vlocity_namespace%__SICCode__c": 4499,
+        "Name": "Other Support Activities for Water Transportation"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4499 - Navigational Services to Shipping",
+        "%vlocity_namespace%__SICCode__c": 4499,
+        "Name": "Navigational Services to Shipping"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4212 - General Freight Trucking, Local",
+        "%vlocity_namespace%__SICCode__c": 4212,
+        "Name": "General Freight Trucking, Local"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4499 - Commercial Air, Rail, and Water Transportation Equipment Rental and Leasing",
+        "%vlocity_namespace%__SICCode__c": 4499,
+        "Name": "Commercial Air, Rail, and Water Transportation Equipment Rental and Leasing"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4512 - Scheduled Passenger Air Transportation",
+        "%vlocity_namespace%__SICCode__c": 4512,
+        "Name": "Scheduled Passenger Air Transportation"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4512 - Scheduled Freight Air Transportation",
+        "%vlocity_namespace%__SICCode__c": 4512,
+        "Name": "Scheduled Freight Air Transportation"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4522 - Scenic and Sightseeing Transportation, Other",
+        "%vlocity_namespace%__SICCode__c": 4522,
+        "Name": "Scenic and Sightseeing Transportation, Other"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4522 - Nonscheduled Chartered Freight Air Transportation",
+        "%vlocity_namespace%__SICCode__c": 4522,
+        "Name": "Nonscheduled Chartered Freight Air Transportation"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4522 - Nonscheduled Chartered Passenger Air Transportation",
+        "%vlocity_namespace%__SICCode__c": 4522,
+        "Name": "Nonscheduled Chartered Passenger Air Transportation"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4581 - Other Support Activities for Air Transportation",
+        "%vlocity_namespace%__SICCode__c": 4581,
+        "Name": "Other Support Activities for Air Transportation"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4581 - Other Airport Operations",
+        "%vlocity_namespace%__SICCode__c": 4581,
+        "Name": "Other Airport Operations"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4612 - Pipeline Transportation of Crude Oil",
+        "%vlocity_namespace%__SICCode__c": 4612,
+        "Name": "Pipeline Transportation of Crude Oil"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8299 - Exam Preparation and Tutoring",
+        "%vlocity_namespace%__SICCode__c": 8299,
+        "Name": "Exam Preparation and Tutoring"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8299 - Language Schools",
+        "%vlocity_namespace%__SICCode__c": 8299,
+        "Name": "Language Schools"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8299 - Automobile Driving Schools",
+        "%vlocity_namespace%__SICCode__c": 8299,
+        "Name": "Automobile Driving Schools"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8322 - Temporary Shelters",
+        "%vlocity_namespace%__SICCode__c": 8322,
+        "Name": "Temporary Shelters"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8322 - Community Food Services",
+        "%vlocity_namespace%__SICCode__c": 8322,
+        "Name": "Community Food Services"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8322 - Other Community Housing Services",
+        "%vlocity_namespace%__SICCode__c": 8322,
+        "Name": "Other Community Housing Services"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8322 - Emergency and Other Relief Services",
+        "%vlocity_namespace%__SICCode__c": 8322,
+        "Name": "Emergency and Other Relief Services"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8322 - Other Individual and Family Services",
+        "%vlocity_namespace%__SICCode__c": 8322,
+        "Name": "Other Individual and Family Services"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8322 - Services for the Elderly and Persons with Disabilities",
+        "%vlocity_namespace%__SICCode__c": 8322,
+        "Name": "Services for the Elderly and Persons with Disabilities"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8331 - Vocational Rehabilitation Services",
+        "%vlocity_namespace%__SICCode__c": 8331,
+        "Name": "Vocational Rehabilitation Services"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8351 - Child Day Care Services",
+        "%vlocity_namespace%__SICCode__c": 8351,
+        "Name": "Child Day Care Services"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8361 - Other Residential Care Facilities",
+        "%vlocity_namespace%__SICCode__c": 8361,
+        "Name": "Other Residential Care Facilities"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8361 - Assisted Living Facilities for the Elderly",
+        "%vlocity_namespace%__SICCode__c": 8361,
+        "Name": "Assisted Living Facilities for the Elderly"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8361 - Residential Mental Health and Substance Abuse Facilities",
+        "%vlocity_namespace%__SICCode__c": 8361,
+        "Name": "Residential Mental Health and Substance Abuse Facilities"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8361 - Nursing Care Facilities (Skilled Nursing Facilities)",
+        "%vlocity_namespace%__SICCode__c": 8361,
+        "Name": "Nursing Care Facilities (Skilled Nursing Facilities)"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8399 - Environment, Conservation, and Wildlife Organizations",
+        "%vlocity_namespace%__SICCode__c": 8399,
+        "Name": "Environment, Conservation, and Wildlife Organizations"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8399 - Other Grantmaking and Giving Services",
+        "%vlocity_namespace%__SICCode__c": 8399,
+        "Name": "Other Grantmaking and Giving Services"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8399 - Human Rights Organizations",
+        "%vlocity_namespace%__SICCode__c": 8399,
+        "Name": "Human Rights Organizations"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8412 - Museums",
+        "%vlocity_namespace%__SICCode__c": 8412,
+        "Name": "Museums"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8412 - Historical Sites",
+        "%vlocity_namespace%__SICCode__c": 8412,
+        "Name": "Historical Sites"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8422 - Zoos and Botanical Gardens",
+        "%vlocity_namespace%__SICCode__c": 8422,
+        "Name": "Zoos and Botanical Gardens"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8621 - Professional Organizations",
+        "%vlocity_namespace%__SICCode__c": 8621,
+        "Name": "Professional Organizations"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8631 - Labor Unions and Similar Labor Organizations",
+        "%vlocity_namespace%__SICCode__c": 8631,
+        "Name": "Labor Unions and Similar Labor Organizations"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8641 - Civic and Social Organizations",
+        "%vlocity_namespace%__SICCode__c": 8641,
+        "Name": "Civic and Social Organizations"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8641 - Child and Youth Services",
+        "%vlocity_namespace%__SICCode__c": 8641,
+        "Name": "Child and Youth Services"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8651 - Political Organizations",
+        "%vlocity_namespace%__SICCode__c": 8651,
+        "Name": "Political Organizations"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8661 - Religious Organizations",
+        "%vlocity_namespace%__SICCode__c": 8661,
+        "Name": "Religious Organizations"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8711 - Engineering Services",
+        "%vlocity_namespace%__SICCode__c": 8711,
+        "Name": "Engineering Services"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8712 - Architectural Services",
+        "%vlocity_namespace%__SICCode__c": 8712,
+        "Name": "Architectural Services"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8713 - Surveying and Mapping (Except Geophysical) Services",
+        "%vlocity_namespace%__SICCode__c": 8713,
+        "Name": "Surveying and Mapping (Except Geophysical) Services"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8721 - Other Accounting Services",
+        "%vlocity_namespace%__SICCode__c": 8721,
+        "Name": "Other Accounting Services"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8721 - Offices of Certified Public Accountants",
+        "%vlocity_namespace%__SICCode__c": 8721,
+        "Name": "Offices of Certified Public Accountants"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8732 - Research and Development in Biotechnology",
+        "%vlocity_namespace%__SICCode__c": 8732,
+        "Name": "Research and Development in Biotechnology"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8732 - Marketing Research and Public Opinion Polling",
+        "%vlocity_namespace%__SICCode__c": 8732,
+        "Name": "Marketing Research and Public Opinion Polling"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8734 - Testing Laboratories",
+        "%vlocity_namespace%__SICCode__c": 8734,
+        "Name": "Testing Laboratories"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8741 - Other Heavy and Civil Engineering Construction",
+        "%vlocity_namespace%__SICCode__c": 8741,
+        "Name": "Other Heavy and Civil Engineering Construction"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8741 - Office Administrative Services",
+        "%vlocity_namespace%__SICCode__c": 8741,
+        "Name": "Office Administrative Services"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2782 - Books Printing",
+        "%vlocity_namespace%__SICCode__c": 2782,
+        "Name": "Books Printing"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2789 - Support Activities for Printing",
+        "%vlocity_namespace%__SICCode__c": 2789,
+        "Name": "Support Activities for Printing"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2791 - Support Activities for Printing",
+        "%vlocity_namespace%__SICCode__c": 2791,
+        "Name": "Support Activities for Printing"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2812 - Other Basic Inorganic Chemical Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2812,
+        "Name": "Other Basic Inorganic Chemical Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2813 - Industrial Gas Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2813,
+        "Name": "Industrial Gas Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2816 - Synthetic Dye and Pigment Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2816,
+        "Name": "Synthetic Dye and Pigment Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2819 - Alumina Refining and Primary Aluminum Production",
+        "%vlocity_namespace%__SICCode__c": 2819,
+        "Name": "Alumina Refining and Primary Aluminum Production"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2819 - All Other Misc. Chemical Product and Preparation Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2819,
+        "Name": "All Other Misc. Chemical Product and Preparation Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2819 - Other Basic Inorganic Chemical Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2819,
+        "Name": "Other Basic Inorganic Chemical Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2821 - Plastics Material and Resin Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2821,
+        "Name": "Plastics Material and Resin Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2822 - Synthetic Rubber Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2822,
+        "Name": "Synthetic Rubber Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2823 - Artificial and Synthetic Fibers and Filaments Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2823,
+        "Name": "Artificial and Synthetic Fibers and Filaments Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2824 - Artificial and Synthetic Fibers and Filaments Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2824,
+        "Name": "Artificial and Synthetic Fibers and Filaments Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2833 - Medicinal and Botanical Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2833,
+        "Name": "Medicinal and Botanical Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2834 - Pharmaceutical Preparation Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2834,
+        "Name": "Pharmaceutical Preparation Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2835 - In-Vitro Diagnostic Substance Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2835,
+        "Name": "In-Vitro Diagnostic Substance Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2836 - Biological Product (Except Diagnostic) Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2836,
+        "Name": "Biological Product (Except Diagnostic) Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2841 - Soap and Other Detergent Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2841,
+        "Name": "Soap and Other Detergent Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2842 - Polish and Other Sanitation Good Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2842,
+        "Name": "Polish and Other Sanitation Good Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2843 - Surface Active Agent Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2843,
+        "Name": "Surface Active Agent Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2843 - Nitrogenous Fertilizer Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2843,
+        "Name": "Nitrogenous Fertilizer Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2844 - Toilet Preparation Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2844,
+        "Name": "Toilet Preparation Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2851 - Paint and Coating Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2851,
+        "Name": "Paint and Coating Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2861 - Cyclic Crude, Intermediate, and Gum and Wood Chemical Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2861,
+        "Name": "Cyclic Crude, Intermediate, and Gum and Wood Chemical Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2865 - Cyclic Crude, Intermediate, and Gum and Wood Chemical Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2865,
+        "Name": "Cyclic Crude, Intermediate, and Gum and Wood Chemical Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2865 - Synthetic Dye and Pigment Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2865,
+        "Name": "Synthetic Dye and Pigment Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2869 - Ethyl Alcohol Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2869,
+        "Name": "Ethyl Alcohol Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2869 - All Other Basic Organic Chemical Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2869,
+        "Name": "All Other Basic Organic Chemical Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2873 - Nitrogenous Fertilizer Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2873,
+        "Name": "Nitrogenous Fertilizer Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2874 - Phosphatic Fertilizer Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2874,
+        "Name": "Phosphatic Fertilizer Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2875 - Fertilizer (Mixing Only) Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2875,
+        "Name": "Fertilizer (Mixing Only) Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4613 - Pipeline Transportation of Refined Petroleum Products",
+        "%vlocity_namespace%__SICCode__c": 4613,
+        "Name": "Pipeline Transportation of Refined Petroleum Products"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4619 - All Other Pipeline Transportation",
+        "%vlocity_namespace%__SICCode__c": 4619,
+        "Name": "All Other Pipeline Transportation"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4724 - Travel Agencies",
+        "%vlocity_namespace%__SICCode__c": 4724,
+        "Name": "Travel Agencies"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4725 - Tour Operators",
+        "%vlocity_namespace%__SICCode__c": 4725,
+        "Name": "Tour Operators"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4729 - All Other Travel Arrangement and Reservation Services",
+        "%vlocity_namespace%__SICCode__c": 4729,
+        "Name": "All Other Travel Arrangement and Reservation Services"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4731 - Freight Transportation Arrangement",
+        "%vlocity_namespace%__SICCode__c": 4731,
+        "Name": "Freight Transportation Arrangement"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4783 - Packing and Crating",
+        "%vlocity_namespace%__SICCode__c": 4783,
+        "Name": "Packing and Crating"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4785 - Other Support Activities for Water Transportation",
+        "%vlocity_namespace%__SICCode__c": 4785,
+        "Name": "Other Support Activities for Water Transportation"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4785 - Other Support Activities for Road Transportation",
+        "%vlocity_namespace%__SICCode__c": 4785,
+        "Name": "Other Support Activities for Road Transportation"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4789 - Support Activities for Rail Transportation",
+        "%vlocity_namespace%__SICCode__c": 4789,
+        "Name": "Support Activities for Rail Transportation"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4789 - All Other Support Activities for Transportation",
+        "%vlocity_namespace%__SICCode__c": 4789,
+        "Name": "All Other Support Activities for Transportation"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4812 - Wireless Telecommunications Carriers (Except Satellite)",
+        "%vlocity_namespace%__SICCode__c": 4812,
+        "Name": "Wireless Telecommunications Carriers (Except Satellite)"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4813 - Telecommunications Resellers",
+        "%vlocity_namespace%__SICCode__c": 4813,
+        "Name": "Telecommunications Resellers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4813 - Wired Telecommunications Carriers",
+        "%vlocity_namespace%__SICCode__c": 4813,
+        "Name": "Wired Telecommunications Carriers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4822 - Wired Telecommunications Carriers",
+        "%vlocity_namespace%__SICCode__c": 4822,
+        "Name": "Wired Telecommunications Carriers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4832 - Radio Stations",
+        "%vlocity_namespace%__SICCode__c": 4832,
+        "Name": "Radio Stations"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4833 - Television Broadcasting",
+        "%vlocity_namespace%__SICCode__c": 4833,
+        "Name": "Television Broadcasting"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4841 - Cable and Other Subscription Programming",
+        "%vlocity_namespace%__SICCode__c": 4841,
+        "Name": "Cable and Other Subscription Programming"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4899 - Satellite Telecommunications",
+        "%vlocity_namespace%__SICCode__c": 4899,
+        "Name": "Satellite Telecommunications"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4899 - Telecommunications NOC",
+        "%vlocity_namespace%__SICCode__c": 4899,
+        "Name": "Telecommunications NOC"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4899 - All Other Telecommunications",
+        "%vlocity_namespace%__SICCode__c": 4899,
+        "Name": "All Other Telecommunications"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4911 - Electric Power Distribution",
+        "%vlocity_namespace%__SICCode__c": 4911,
+        "Name": "Electric Power Distribution"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4922 - Pipeline Transportation of Natural Gas",
+        "%vlocity_namespace%__SICCode__c": 4922,
+        "Name": "Pipeline Transportation of Natural Gas"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4924 - Natural Gas Distribution",
+        "%vlocity_namespace%__SICCode__c": 4924,
+        "Name": "Natural Gas Distribution"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4941 - Water Supply and Irrigation Systems",
+        "%vlocity_namespace%__SICCode__c": 4941,
+        "Name": "Water Supply and Irrigation Systems"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4952 - Sewage Treatment Facilities",
+        "%vlocity_namespace%__SICCode__c": 4952,
+        "Name": "Sewage Treatment Facilities"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4953 - Hazardous Waste Treatment and Disposal",
+        "%vlocity_namespace%__SICCode__c": 4953,
+        "Name": "Hazardous Waste Treatment and Disposal"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4953 - Other Nonhazardous Waste Treatment and Disposal",
+        "%vlocity_namespace%__SICCode__c": 4953,
+        "Name": "Other Nonhazardous Waste Treatment and Disposal"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4953 - Solid Waste Combustors and Incinerators",
+        "%vlocity_namespace%__SICCode__c": 4953,
+        "Name": "Solid Waste Combustors and Incinerators"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4953 - Solid Waste Landfill",
+        "%vlocity_namespace%__SICCode__c": 4953,
+        "Name": "Solid Waste Landfill"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4953 - Materials Recovery Facilities",
+        "%vlocity_namespace%__SICCode__c": 4953,
+        "Name": "Materials Recovery Facilities"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4953 - Solid Waste Collection",
+        "%vlocity_namespace%__SICCode__c": 4953,
+        "Name": "Solid Waste Collection"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4959 - Exterminating and Pest Control Services",
+        "%vlocity_namespace%__SICCode__c": 4959,
+        "Name": "Exterminating and Pest Control Services"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4959 - All Other Misc. Waste Management Services",
+        "%vlocity_namespace%__SICCode__c": 4959,
+        "Name": "All Other Misc. Waste Management Services"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4961 - Steam and Air Conditioning Supply",
+        "%vlocity_namespace%__SICCode__c": 4961,
+        "Name": "Steam and Air Conditioning Supply"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "4971 - Water Supply and Irrigation Systems",
+        "%vlocity_namespace%__SICCode__c": 4971,
+        "Name": "Water Supply and Irrigation Systems"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8742 - Administrative Management and General Management Consulting Services",
+        "%vlocity_namespace%__SICCode__c": 8742,
+        "Name": "Administrative Management and General Management Consulting Services"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8742 - Marketing Consulting Services",
+        "%vlocity_namespace%__SICCode__c": 8742,
+        "Name": "Marketing Consulting Services"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8743 - Public Relations Agencies",
+        "%vlocity_namespace%__SICCode__c": 8743,
+        "Name": "Public Relations Agencies"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8744 - Facilities Support Services",
+        "%vlocity_namespace%__SICCode__c": 8744,
+        "Name": "Facilities Support Services"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8748 - Other Management Consulting Services",
+        "%vlocity_namespace%__SICCode__c": 8748,
+        "Name": "Other Management Consulting Services"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8811 - Private Households",
+        "%vlocity_namespace%__SICCode__c": 8811,
+        "Name": "Private Households"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8999 - Record Production",
+        "%vlocity_namespace%__SICCode__c": 8999,
+        "Name": "Record Production"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "8999 - Environmental Consulting Services",
+        "%vlocity_namespace%__SICCode__c": 8999,
+        "Name": "Environmental Consulting Services"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "9199 - Other General Government Support",
+        "%vlocity_namespace%__SICCode__c": 9199,
+        "Name": "Other General Government Support"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "9221 - Police Protection",
+        "%vlocity_namespace%__SICCode__c": 9221,
+        "Name": "Police Protection"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "9223 - Correctional Institutions",
+        "%vlocity_namespace%__SICCode__c": 9223,
+        "Name": "Correctional Institutions"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "9224 - Fire Protection",
+        "%vlocity_namespace%__SICCode__c": 9224,
+        "Name": "Fire Protection"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "9511 - Administration of Air and Water Resource and Solid Waste Management Programs",
+        "%vlocity_namespace%__SICCode__c": 9511,
+        "Name": "Administration of Air and Water Resource and Solid Waste Management Programs"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "9531 - Administration of Housing Programs",
+        "%vlocity_namespace%__SICCode__c": 9531,
+        "Name": "Administration of Housing Programs"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "9661 - Space Research and Technology",
+        "%vlocity_namespace%__SICCode__c": 9661,
+        "Name": "Space Research and Technology"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "9711 - National Security",
+        "%vlocity_namespace%__SICCode__c": 9711,
+        "Name": "National Security"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2879 - Pesticide and Other Agricultural Chemical Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2879,
+        "Name": "Pesticide and Other Agricultural Chemical Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2891 - Adhesive Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2891,
+        "Name": "Adhesive Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2892 - Explosives Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2892,
+        "Name": "Explosives Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2893 - Printing Ink Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2893,
+        "Name": "Printing Ink Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2899 - All Other Misc. Chemical Product and Preparation Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2899,
+        "Name": "All Other Misc. Chemical Product and Preparation Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2899 - Spice and Extract Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2899,
+        "Name": "Spice and Extract Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2911 - Petroleum Refineries",
+        "%vlocity_namespace%__SICCode__c": 2911,
+        "Name": "Petroleum Refineries"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2951 - Asphalt Paving Mixture and Block Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2951,
+        "Name": "Asphalt Paving Mixture and Block Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2952 - Asphalt Shingle and Coating Materials Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2952,
+        "Name": "Asphalt Shingle and Coating Materials Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2992 - Petroleum Lubricating Oil and Grease Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2992,
+        "Name": "Petroleum Lubricating Oil and Grease Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "2999 - All Other Petroleum and Coal Products Mfg.",
+        "%vlocity_namespace%__SICCode__c": 2999,
+        "Name": "All Other Petroleum and Coal Products Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "3011 - Tire Mfg. (Except Retreading)",
+        "%vlocity_namespace%__SICCode__c": 3011,
+        "Name": "Tire Mfg. (Except Retreading)"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "3021 - Footwear Mfg.",
+        "%vlocity_namespace%__SICCode__c": 3021,
+        "Name": "Footwear Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "3052 - Rubber and Plastics Hoses and Belting Mfg.",
+        "%vlocity_namespace%__SICCode__c": 3052,
+        "Name": "Rubber and Plastics Hoses and Belting Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "3053 - Gasket, Packing, and Sealing Device Mfg.",
+        "%vlocity_namespace%__SICCode__c": 3053,
+        "Name": "Gasket, Packing, and Sealing Device Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "3061 - Rubber Product Mfg. for Mechanical Use",
+        "%vlocity_namespace%__SICCode__c": 3061,
+        "Name": "Rubber Product Mfg. for Mechanical Use"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "3069 - All Other Rubber Product Mfg.",
+        "%vlocity_namespace%__SICCode__c": 3069,
+        "Name": "All Other Rubber Product Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "3069 - All Other Plastics Product Mfg.",
+        "%vlocity_namespace%__SICCode__c": 3069,
+        "Name": "All Other Plastics Product Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "3081 - Unlaminated Plastics Film and Sheet (Except Packaging) Mfg.",
+        "%vlocity_namespace%__SICCode__c": 3081,
+        "Name": "Unlaminated Plastics Film and Sheet (Except Packaging) Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "3082 - Unlaminated Plastics Profile Shape Mfg.",
+        "%vlocity_namespace%__SICCode__c": 3082,
+        "Name": "Unlaminated Plastics Profile Shape Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5013 - Motor Vehicle Supplies and New Parts Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5013,
+        "Name": "Motor Vehicle Supplies and New Parts Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5014 - Tire and Tube Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5014,
+        "Name": "Tire and Tube Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5015 - Motor Vehicle Parts (Used) Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5015,
+        "Name": "Motor Vehicle Parts (Used) Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5021 - Furniture Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5021,
+        "Name": "Furniture Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5023 - Home Furnishing Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5023,
+        "Name": "Home Furnishing Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5031 - Lumber, Plywood, Millwork, and Wood Panel Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5031,
+        "Name": "Lumber, Plywood, Millwork, and Wood Panel Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5032 - Brick, Stone, and Related Construction Material Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5032,
+        "Name": "Brick, Stone, and Related Construction Material Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5032 - Other Building Material Dealers",
+        "%vlocity_namespace%__SICCode__c": 5032,
+        "Name": "Other Building Material Dealers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5033 - Roofing, Siding, and Insulation Material Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5033,
+        "Name": "Roofing, Siding, and Insulation Material Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5039 - Lumber, Plywood, Millwork, and Wood Panel Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5039,
+        "Name": "Lumber, Plywood, Millwork, and Wood Panel Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5039 - Other Construction Material Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5039,
+        "Name": "Other Construction Material Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5043 - Photographic Equipment and Supplies Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5043,
+        "Name": "Photographic Equipment and Supplies Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5044 - Office Equipment Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5044,
+        "Name": "Office Equipment Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5045 - Electronics Stores",
+        "%vlocity_namespace%__SICCode__c": 5045,
+        "Name": "Electronics Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5045 - Computer and Computer Peripheral Equipment And Saftware Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5045,
+        "Name": "Computer and Computer Peripheral Equipment And Saftware Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5046 - Other Commercial Equipment Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5046,
+        "Name": "Other Commercial Equipment Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5047 - Medical, Dental, and Hospital Equipment and Supplies Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5047,
+        "Name": "Medical, Dental, and Hospital Equipment and Supplies Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5048 - Ophthalmic Goods Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5048,
+        "Name": "Ophthalmic Goods Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5049 - Other Professional Equipment and Supplies Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5049,
+        "Name": "Other Professional Equipment and Supplies Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5051 - Metal Service Centers and Other Metal Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5051,
+        "Name": "Metal Service Centers and Other Metal Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5012 - Automobile and Other Motor Vehicle Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5012,
+        "Name": "Automobile and Other Motor Vehicle Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5052 - Coal and Other Mineral and Ore Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5052,
+        "Name": "Coal and Other Mineral and Ore Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5063 - Other Building Material Dealers",
+        "%vlocity_namespace%__SICCode__c": 5063,
+        "Name": "Other Building Material Dealers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5065 - Other Electronic Parts and Equipment Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5065,
+        "Name": "Other Electronic Parts and Equipment Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1629 - Power and Communication Line and Related Structures Construction",
+        "%vlocity_namespace%__SICCode__c": 1629,
+        "Name": "Power and Communication Line and Related Structures Construction"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1711 - Plumbing, Heating, and Air Conditioning Contractors",
+        "%vlocity_namespace%__SICCode__c": 1711,
+        "Name": "Plumbing, Heating, and Air Conditioning Contractors"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "3083 - Laminated Plastics Plate, Sheet (Except Packaging), and Shape Mfg.",
+        "%vlocity_namespace%__SICCode__c": 3083,
+        "Name": "Laminated Plastics Plate, Sheet (Except Packaging), and Shape Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "3084 - Plastics Pipe and Pipe Fitting Mfg.",
+        "%vlocity_namespace%__SICCode__c": 3084,
+        "Name": "Plastics Pipe and Pipe Fitting Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "3085 - Plastics Bottle Mfg.",
+        "%vlocity_namespace%__SICCode__c": 3085,
+        "Name": "Plastics Bottle Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "3086 - Urethane and Other Foam Product (Except Polystyrene) Mfg.",
+        "%vlocity_namespace%__SICCode__c": 3086,
+        "Name": "Urethane and Other Foam Product (Except Polystyrene) Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "3086 - Plastics Pipe and Pipe Fitting Mfg.",
+        "%vlocity_namespace%__SICCode__c": 3086,
+        "Name": "Plastics Pipe and Pipe Fitting Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "3086 - Polystyrene Foam Product Mfg.",
+        "%vlocity_namespace%__SICCode__c": 3086,
+        "Name": "Polystyrene Foam Product Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "3087 - Custom Compounding of Purchased Resins",
+        "%vlocity_namespace%__SICCode__c": 3087,
+        "Name": "Custom Compounding of Purchased Resins"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "3088 - Plastics Plumbing Fixture Mfg.",
+        "%vlocity_namespace%__SICCode__c": 3088,
+        "Name": "Plastics Plumbing Fixture Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "3089 - All Other Plastics Product Mfg.",
+        "%vlocity_namespace%__SICCode__c": 3089,
+        "Name": "All Other Plastics Product Mfg."
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "3111 - Leather and Hide Tanning and Finishing",
+        "%vlocity_namespace%__SICCode__c": 3111,
+        "Name": "Leather and Hide Tanning and Finishing"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5074 - Other Building Material Dealers",
+        "%vlocity_namespace%__SICCode__c": 5074,
+        "Name": "Other Building Material Dealers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5074 - Plumbing and Heating Equipment and Supplies (Hydronics) Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5074,
+        "Name": "Plumbing and Heating Equipment and Supplies (Hydronics) Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5078 - Refrigeration Equipment and Supplies Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5078,
+        "Name": "Refrigeration Equipment and Supplies Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5083 - Farm and Garden Machinery and Equipment Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5083,
+        "Name": "Farm and Garden Machinery and Equipment Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5084 - Industrial Machinery and Equipment Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5084,
+        "Name": "Industrial Machinery and Equipment Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5085 - Industrial Supplies Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5085,
+        "Name": "Industrial Supplies Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5087 - Service Establishment Equipment and Supplies Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5087,
+        "Name": "Service Establishment Equipment and Supplies Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5091 - Sporting and Recreational Goods and Supplies Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5091,
+        "Name": "Sporting and Recreational Goods and Supplies Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5092 - Toy and Hobby Goods and Supplies Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5092,
+        "Name": "Toy and Hobby Goods and Supplies Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5093 - Recyclable Material Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5093,
+        "Name": "Recyclable Material Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5094 - Jewelry, Watch, Precious Stone, and Precious Metal Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5094,
+        "Name": "Jewelry, Watch, Precious Stone, and Precious Metal Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5099 - Other Misc. Durable Goods Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5099,
+        "Name": "Other Misc. Durable Goods Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5111 - Printing and Writing Paper Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5111,
+        "Name": "Printing and Writing Paper Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5112 - Office Supplies and Stationery Stores",
+        "%vlocity_namespace%__SICCode__c": 5112,
+        "Name": "Office Supplies and Stationery Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5112 - Stationery and Office Supplies Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5112,
+        "Name": "Stationery and Office Supplies Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5113 - Industrial and Personal Service Paper Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5113,
+        "Name": "Industrial and Personal Service Paper Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5122 - Drugs and Druggists' Sundries Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5122,
+        "Name": "Drugs and Druggists' Sundries Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5122 - Drugs and Druggists Sundries Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5122,
+        "Name": "Drugs and Druggists Sundries Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5131 - Piece Goods, Notions, and Other Dry Goods Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5131,
+        "Name": "Piece Goods, Notions, and Other Dry Goods Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5136 - Mens and Boys Clothing and Furnishings Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5136,
+        "Name": "Mens and Boys Clothing and Furnishings Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5137 - Womens, Childrens, and Infants Clothing and Accessories Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5137,
+        "Name": "Womens, Childrens, and Infants Clothing and Accessories Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5139 - Footwear Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5139,
+        "Name": "Footwear Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5141 - General Line Grocery Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5141,
+        "Name": "General Line Grocery Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5142 - Packaged Frozen Food Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5142,
+        "Name": "Packaged Frozen Food Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5143 - Dairy Product (Except Dried or Canned) Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5143,
+        "Name": "Dairy Product (Except Dried or Canned) Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5144 - Poultry and Poultry Product Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5144,
+        "Name": "Poultry and Poultry Product Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5072 - Hardware Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5072,
+        "Name": "Hardware Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5145 - Confectionery Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5145,
+        "Name": "Confectionery Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5146 - Fish and Seafood Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5146,
+        "Name": "Fish and Seafood Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5147 - Meat and Meat Product Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5147,
+        "Name": "Meat and Meat Product Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5148 - Fresh Fruit and Vegetable Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5148,
+        "Name": "Fresh Fruit and Vegetable Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1721 - Painting and Wall Covering Contractors",
+        "%vlocity_namespace%__SICCode__c": 1721,
+        "Name": "Painting and Wall Covering Contractors"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1731 - Electrical Contractors and Other Wiring Installation Contractors",
+        "%vlocity_namespace%__SICCode__c": 1731,
+        "Name": "Electrical Contractors and Other Wiring Installation Contractors"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1731 - Security Systems Services (Except Locksmiths)",
+        "%vlocity_namespace%__SICCode__c": 1731,
+        "Name": "Security Systems Services (Except Locksmiths)"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1741 - Masonry Contractors",
+        "%vlocity_namespace%__SICCode__c": 1741,
+        "Name": "Masonry Contractors"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1742 - Drywall and Insulation Contractors",
+        "%vlocity_namespace%__SICCode__c": 1742,
+        "Name": "Drywall and Insulation Contractors"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1743 - Tile and Terrazzo Contractors",
+        "%vlocity_namespace%__SICCode__c": 1743,
+        "Name": "Tile and Terrazzo Contractors"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1751 - Framing Contractors",
+        "%vlocity_namespace%__SICCode__c": 1751,
+        "Name": "Framing Contractors"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1751 - Finish Carpentry Contractors",
+        "%vlocity_namespace%__SICCode__c": 1751,
+        "Name": "Finish Carpentry Contractors"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1752 - Flooring Contractors",
+        "%vlocity_namespace%__SICCode__c": 1752,
+        "Name": "Flooring Contractors"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1761 - Siding Contractors",
+        "%vlocity_namespace%__SICCode__c": 1761,
+        "Name": "Siding Contractors"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1761 - Other Building Finishing Contractors",
+        "%vlocity_namespace%__SICCode__c": 1761,
+        "Name": "Other Building Finishing Contractors"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1761 - Other Foundation, Structure, and Building Exterior Contractors",
+        "%vlocity_namespace%__SICCode__c": 1761,
+        "Name": "Other Foundation, Structure, and Building Exterior Contractors"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1761 - Roofing Contractors",
+        "%vlocity_namespace%__SICCode__c": 1761,
+        "Name": "Roofing Contractors"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1721 - Highway, Street, and Bridge Construction",
+        "%vlocity_namespace%__SICCode__c": 1721,
+        "Name": "Highway, Street, and Bridge Construction"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1771 - Masonry Contractors",
+        "%vlocity_namespace%__SICCode__c": 1771,
+        "Name": "Masonry Contractors"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1771 - Poured Concrete Foundation and Structure Contractors",
+        "%vlocity_namespace%__SICCode__c": 1771,
+        "Name": "Poured Concrete Foundation and Structure Contractors"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1771 - All Other Specialty Trade Contractors",
+        "%vlocity_namespace%__SICCode__c": 1771,
+        "Name": "All Other Specialty Trade Contractors"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5153 - Grain and Field Bean Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5153,
+        "Name": "Grain and Field Bean Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5154 - Livestock Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5154,
+        "Name": "Livestock Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5159 - Other Farm Product Raw Material Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5159,
+        "Name": "Other Farm Product Raw Material Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5162 - Plastics Materials and Basic Forms and Shapes Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5162,
+        "Name": "Plastics Materials and Basic Forms and Shapes Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5169 - Other Chemical and Allied Products Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5169,
+        "Name": "Other Chemical and Allied Products Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5171 - Fuel Dealers",
+        "%vlocity_namespace%__SICCode__c": 5171,
+        "Name": "Fuel Dealers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5171 - Petroleum Bulk Stations and Terminals",
+        "%vlocity_namespace%__SICCode__c": 5171,
+        "Name": "Petroleum Bulk Stations and Terminals"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5181 - Beer and Ale Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5181,
+        "Name": "Beer and Ale Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5182 - Wine and Distilled Alcoholic Beverage Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5182,
+        "Name": "Wine and Distilled Alcoholic Beverage Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5191 - Farm Supplies Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5191,
+        "Name": "Farm Supplies Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5191 - Nursery, Garden Center, and Farm Supply Stores",
+        "%vlocity_namespace%__SICCode__c": 5191,
+        "Name": "Nursery, Garden Center, and Farm Supply Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5192 - Book, Periodical, and Newspaper Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5192,
+        "Name": "Book, Periodical, and Newspaper Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5193 - Flower, Nursery Stock, and Florists Supplies Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5193,
+        "Name": "Flower, Nursery Stock, and Florists Supplies Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5194 - Tobacco and Tobacco Product Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5194,
+        "Name": "Tobacco and Tobacco Product Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5198 - Paint, Varnish, and Supplies Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5198,
+        "Name": "Paint, Varnish, and Supplies Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5199 - Other Misc. Nondurable Goods Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5199,
+        "Name": "Other Misc. Nondurable Goods Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5211 - Other Building Material Dealers",
+        "%vlocity_namespace%__SICCode__c": 5211,
+        "Name": "Other Building Material Dealers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5211 - Home Centers",
+        "%vlocity_namespace%__SICCode__c": 5211,
+        "Name": "Home Centers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5231 - Other Building Material Dealers",
+        "%vlocity_namespace%__SICCode__c": 5231,
+        "Name": "Other Building Material Dealers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5231 - Paint and Wallpaper Stores",
+        "%vlocity_namespace%__SICCode__c": 5231,
+        "Name": "Paint and Wallpaper Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5251 - Hardware Stores",
+        "%vlocity_namespace%__SICCode__c": 5251,
+        "Name": "Hardware Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5261 - Farm Supplies Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5261,
+        "Name": "Farm Supplies Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5261 - Outdoor Power Equipment Stores",
+        "%vlocity_namespace%__SICCode__c": 5261,
+        "Name": "Outdoor Power Equipment Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5271 - Manufactured (Mobile) Home Dealers",
+        "%vlocity_namespace%__SICCode__c": 5271,
+        "Name": "Manufactured (Mobile) Home Dealers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5311 - Department Stores (Except Discount Department Stores)",
+        "%vlocity_namespace%__SICCode__c": 5311,
+        "Name": "Department Stores (Except Discount Department Stores)"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5311 - Discount Department Stores",
+        "%vlocity_namespace%__SICCode__c": 5311,
+        "Name": "Discount Department Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5149 - Other Grocery and Related Products Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5149,
+        "Name": "Other Grocery and Related Products Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5331 - All Other General Merchandise Stores",
+        "%vlocity_namespace%__SICCode__c": 5331,
+        "Name": "All Other General Merchandise Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5399 - All Other General Merchandise Stores",
+        "%vlocity_namespace%__SICCode__c": 5399,
+        "Name": "All Other General Merchandise Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5411 - Convenience Stores",
+        "%vlocity_namespace%__SICCode__c": 5411,
+        "Name": "Convenience Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5411 - Supermarkets and Other Grocery (Except Convenience) Stores",
+        "%vlocity_namespace%__SICCode__c": 5411,
+        "Name": "Supermarkets and Other Grocery (Except Convenience) Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5421 - Fish and Seafood Markets",
+        "%vlocity_namespace%__SICCode__c": 5421,
+        "Name": "Fish and Seafood Markets"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5421 - Meat Markets",
+        "%vlocity_namespace%__SICCode__c": 5421,
+        "Name": "Meat Markets"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5431 - Fruit and Vegetable Markets",
+        "%vlocity_namespace%__SICCode__c": 5431,
+        "Name": "Fruit and Vegetable Markets"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5441 - Confectionery and Nut Stores",
+        "%vlocity_namespace%__SICCode__c": 5441,
+        "Name": "Confectionery and Nut Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "111 - Wheat Farming",
+        "%vlocity_namespace%__SICCode__c": 111,
+        "Name": "Wheat Farming"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "112 - Rice Farming",
+        "%vlocity_namespace%__SICCode__c": 112,
+        "Name": "Rice Farming"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "115 - Corn Farming",
+        "%vlocity_namespace%__SICCode__c": 115,
+        "Name": "Corn Farming"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "116 - Soybean Farming",
+        "%vlocity_namespace%__SICCode__c": 116,
+        "Name": "Soybean Farming"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "119 - Dry Pea and Bean Farming",
+        "%vlocity_namespace%__SICCode__c": 119,
+        "Name": "Dry Pea and Bean Farming"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "119 - All Other Grain Farming",
+        "%vlocity_namespace%__SICCode__c": 119,
+        "Name": "All Other Grain Farming"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "119 - Oilseed (Except Soybean) Farming",
+        "%vlocity_namespace%__SICCode__c": 119,
+        "Name": "Oilseed (Except Soybean) Farming"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "119 - Oilseed and Grain Combination Farming",
+        "%vlocity_namespace%__SICCode__c": 119,
+        "Name": "Oilseed and Grain Combination Farming"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "131 - Cotton Farming",
+        "%vlocity_namespace%__SICCode__c": 131,
+        "Name": "Cotton Farming"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "132 - Tobacco Farming",
+        "%vlocity_namespace%__SICCode__c": 132,
+        "Name": "Tobacco Farming"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "133 - Sugar Beet Farming",
+        "%vlocity_namespace%__SICCode__c": 133,
+        "Name": "Sugar Beet Farming"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "133 - Sugarcane Farming",
+        "%vlocity_namespace%__SICCode__c": 133,
+        "Name": "Sugarcane Farming"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "134 - Potato Farming",
+        "%vlocity_namespace%__SICCode__c": 134,
+        "Name": "Potato Farming"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1771 - Structural Steel and Precast Concrete Contractors",
+        "%vlocity_namespace%__SICCode__c": 1771,
+        "Name": "Structural Steel and Precast Concrete Contractors"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1781 - Water and Sewer Line and Related Structures Construction",
+        "%vlocity_namespace%__SICCode__c": 1781,
+        "Name": "Water and Sewer Line and Related Structures Construction"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1791 - Structural Steel and Precast Concrete Contractors",
+        "%vlocity_namespace%__SICCode__c": 1791,
+        "Name": "Structural Steel and Precast Concrete Contractors"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1791 - Other Foundation, Structure, and Building Exterior Contractors",
+        "%vlocity_namespace%__SICCode__c": 1791,
+        "Name": "Other Foundation, Structure, and Building Exterior Contractors"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1793 - Glass and Glazing Contractors",
+        "%vlocity_namespace%__SICCode__c": 1793,
+        "Name": "Glass and Glazing Contractors"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1794 - Site Preparation Contractors",
+        "%vlocity_namespace%__SICCode__c": 1794,
+        "Name": "Site Preparation Contractors"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5461 - Retail Bakeries",
+        "%vlocity_namespace%__SICCode__c": 5461,
+        "Name": "Retail Bakeries"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5461 - Baked Goods Stores",
+        "%vlocity_namespace%__SICCode__c": 5461,
+        "Name": "Baked Goods Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5461 - Snack and Nonalcoholic Beverage Bars",
+        "%vlocity_namespace%__SICCode__c": 5461,
+        "Name": "Snack and Nonalcoholic Beverage Bars"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5499 - All Other Specialty Food Stores",
+        "%vlocity_namespace%__SICCode__c": 5499,
+        "Name": "All Other Specialty Food Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5499 - Food (Health) Supplement Stores",
+        "%vlocity_namespace%__SICCode__c": 5499,
+        "Name": "Food (Health) Supplement Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5511 - New Car Dealers",
+        "%vlocity_namespace%__SICCode__c": 5511,
+        "Name": "New Car Dealers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5521 - Used Car Dealers",
+        "%vlocity_namespace%__SICCode__c": 5521,
+        "Name": "Used Car Dealers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5531 - Automotive Parts and Accessories Stores",
+        "%vlocity_namespace%__SICCode__c": 5531,
+        "Name": "Automotive Parts and Accessories Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5531 - Tire Dealers",
+        "%vlocity_namespace%__SICCode__c": 5531,
+        "Name": "Tire Dealers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5541 - Gasoline Stations with Convenience Stores",
+        "%vlocity_namespace%__SICCode__c": 5541,
+        "Name": "Gasoline Stations with Convenience Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5541 - Other Gasoline Stations",
+        "%vlocity_namespace%__SICCode__c": 5541,
+        "Name": "Other Gasoline Stations"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5551 - Boat Dealers",
+        "%vlocity_namespace%__SICCode__c": 5551,
+        "Name": "Boat Dealers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5561 - Recreational Vehicle Dealers",
+        "%vlocity_namespace%__SICCode__c": 5561,
+        "Name": "Recreational Vehicle Dealers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5571 - Motorcycle, ATV, and All Other Motor Vehicle Dealers",
+        "%vlocity_namespace%__SICCode__c": 5571,
+        "Name": "Motorcycle, ATV, and All Other Motor Vehicle Dealers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5599 - Motorcycle, ATV, and All Other Motor Vehicle Dealers",
+        "%vlocity_namespace%__SICCode__c": 5599,
+        "Name": "Motorcycle, ATV, and All Other Motor Vehicle Dealers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5611 - Mens Clothing Stores",
+        "%vlocity_namespace%__SICCode__c": 5611,
+        "Name": "Mens Clothing Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5621 - Womens Clothing Stores",
+        "%vlocity_namespace%__SICCode__c": 5621,
+        "Name": "Womens Clothing Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5641 - Childrens and Infants Clothing Stores",
+        "%vlocity_namespace%__SICCode__c": 5641,
+        "Name": "Childrens and Infants Clothing Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5651 - Family Clothing Stores",
+        "%vlocity_namespace%__SICCode__c": 5651,
+        "Name": "Family Clothing Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5661 - Shoe Stores",
+        "%vlocity_namespace%__SICCode__c": 5661,
+        "Name": "Shoe Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5699 - Other Clothing Stores",
+        "%vlocity_namespace%__SICCode__c": 5699,
+        "Name": "Other Clothing Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5699 - Clothing Accessories Stores",
+        "%vlocity_namespace%__SICCode__c": 5699,
+        "Name": "Clothing Accessories Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5712 - Furniture Stores",
+        "%vlocity_namespace%__SICCode__c": 5712,
+        "Name": "Furniture Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5713 - Floor Covering Stores",
+        "%vlocity_namespace%__SICCode__c": 5713,
+        "Name": "Floor Covering Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5714 - Window Treatment Stores",
+        "%vlocity_namespace%__SICCode__c": 5714,
+        "Name": "Window Treatment Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5451 - All Other Specialty Food Stores",
+        "%vlocity_namespace%__SICCode__c": 5451,
+        "Name": "All Other Specialty Food Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5722 - Household Appliance Stores",
+        "%vlocity_namespace%__SICCode__c": 5722,
+        "Name": "Household Appliance Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5731 - Electronics Stores",
+        "%vlocity_namespace%__SICCode__c": 5731,
+        "Name": "Electronics Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5734 - Electronics Stores",
+        "%vlocity_namespace%__SICCode__c": 5734,
+        "Name": "Electronics Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5735 - Musical Instrument and Supplies Stores",
+        "%vlocity_namespace%__SICCode__c": 5735,
+        "Name": "Musical Instrument and Supplies Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5736 - Musical Instrument and Supplies Stores",
+        "%vlocity_namespace%__SICCode__c": 5736,
+        "Name": "Musical Instrument and Supplies Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5812 - Snack and Nonalcoholic Beverage Bars",
+        "%vlocity_namespace%__SICCode__c": 5812,
+        "Name": "Snack and Nonalcoholic Beverage Bars"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5812 - Food Service Contractors",
+        "%vlocity_namespace%__SICCode__c": 5812,
+        "Name": "Food Service Contractors"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5812 - Caterers",
+        "%vlocity_namespace%__SICCode__c": 5812,
+        "Name": "Caterers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5812 - Full-Service Restaurants",
+        "%vlocity_namespace%__SICCode__c": 5812,
+        "Name": "Full-Service Restaurants"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5812 - Limited-Service Restaurants",
+        "%vlocity_namespace%__SICCode__c": 5812,
+        "Name": "Limited-Service Restaurants"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5812 - Cafeterias, Grill Buffets, and Buffets",
+        "%vlocity_namespace%__SICCode__c": 5812,
+        "Name": "Cafeterias, Grill Buffets, and Buffets"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5812 - Theater Cos. and Dinner Theaters",
+        "%vlocity_namespace%__SICCode__c": 5812,
+        "Name": "Theater Cos. and Dinner Theaters"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5813 - Drinking Places (Alcoholic Beverages)",
+        "%vlocity_namespace%__SICCode__c": 5813,
+        "Name": "Drinking Places (Alcoholic Beverages)"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "139 - Hay Farming",
+        "%vlocity_namespace%__SICCode__c": 139,
+        "Name": "Hay Farming"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "139 - Peanut Farming",
+        "%vlocity_namespace%__SICCode__c": 139,
+        "Name": "Peanut Farming"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "161 - Other Vegetable (Except Potato) and Melon Farming",
+        "%vlocity_namespace%__SICCode__c": 161,
+        "Name": "Other Vegetable (Except Potato) and Melon Farming"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "171 - Berry (Except Strawberry) Farming",
+        "%vlocity_namespace%__SICCode__c": 171,
+        "Name": "Berry (Except Strawberry) Farming"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "171 - Strawberry Farming",
+        "%vlocity_namespace%__SICCode__c": 171,
+        "Name": "Strawberry Farming"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "172 - Grape Vineyards",
+        "%vlocity_namespace%__SICCode__c": 172,
+        "Name": "Grape Vineyards"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "173 - Tree Nut Farming",
+        "%vlocity_namespace%__SICCode__c": 173,
+        "Name": "Tree Nut Farming"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "174 - Citrus (Except Orange) Groves",
+        "%vlocity_namespace%__SICCode__c": 174,
+        "Name": "Citrus (Except Orange) Groves"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "139 - All Other Misc. Crop Farming",
+        "%vlocity_namespace%__SICCode__c": 139,
+        "Name": "All Other Misc. Crop Farming"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "174 - Orange Groves",
+        "%vlocity_namespace%__SICCode__c": 174,
+        "Name": "Orange Groves"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "175 - Apple Orchards",
+        "%vlocity_namespace%__SICCode__c": 175,
+        "Name": "Apple Orchards"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "175 - Other Noncitrus Fruit Farming",
+        "%vlocity_namespace%__SICCode__c": 175,
+        "Name": "Other Noncitrus Fruit Farming"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "179 - Fruit and Tree Nut Combination Farming",
+        "%vlocity_namespace%__SICCode__c": 179,
+        "Name": "Fruit and Tree Nut Combination Farming"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "181 - Nursery and Tree Production",
+        "%vlocity_namespace%__SICCode__c": 181,
+        "Name": "Nursery and Tree Production"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "181 - Floriculture Production",
+        "%vlocity_namespace%__SICCode__c": 181,
+        "Name": "Floriculture Production"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "182 - Mushroom Production",
+        "%vlocity_namespace%__SICCode__c": 182,
+        "Name": "Mushroom Production"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "182 - Other Food Crops Grown under Cover",
+        "%vlocity_namespace%__SICCode__c": 182,
+        "Name": "Other Food Crops Grown under Cover"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "191 - All Other Misc. Crop Farming",
+        "%vlocity_namespace%__SICCode__c": 191,
+        "Name": "All Other Misc. Crop Farming"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "211 - Cattle Feedlots",
+        "%vlocity_namespace%__SICCode__c": 211,
+        "Name": "Cattle Feedlots"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "212 - Support Activities for Animal Production",
+        "%vlocity_namespace%__SICCode__c": 212,
+        "Name": "Support Activities for Animal Production"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "212 - Beef Cattle Ranching and Farming",
+        "%vlocity_namespace%__SICCode__c": 212,
+        "Name": "Beef Cattle Ranching and Farming"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1794 - Structural Steel and Precast Concrete Contractors",
+        "%vlocity_namespace%__SICCode__c": 1794,
+        "Name": "Structural Steel and Precast Concrete Contractors"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1795 - Site Preparation Contractors",
+        "%vlocity_namespace%__SICCode__c": 1795,
+        "Name": "Site Preparation Contractors"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1796 - Other Building Equipment Contractors",
+        "%vlocity_namespace%__SICCode__c": 1796,
+        "Name": "Other Building Equipment Contractors"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1796 - Other Building Finishing Contractors",
+        "%vlocity_namespace%__SICCode__c": 1796,
+        "Name": "Other Building Finishing Contractors"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1796 - All Other Specialty Trade Contractors",
+        "%vlocity_namespace%__SICCode__c": 1796,
+        "Name": "All Other Specialty Trade Contractors"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1796 - Building Equipment Contractors",
+        "%vlocity_namespace%__SICCode__c": 1796,
+        "Name": "Building Equipment Contractors"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5912 - Pharmacies and Drug Stores",
+        "%vlocity_namespace%__SICCode__c": 5912,
+        "Name": "Pharmacies and Drug Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5921 - Beer, Wine, and Liquor Stores",
+        "%vlocity_namespace%__SICCode__c": 5921,
+        "Name": "Beer, Wine, and Liquor Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5932 - All Other Nondepository Credit Intermediation",
+        "%vlocity_namespace%__SICCode__c": 5932,
+        "Name": "All Other Nondepository Credit Intermediation"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5932 - Used Merchandise Stores",
+        "%vlocity_namespace%__SICCode__c": 5932,
+        "Name": "Used Merchandise Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5941 - Sporting Goods Stores",
+        "%vlocity_namespace%__SICCode__c": 5941,
+        "Name": "Sporting Goods Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5942 - Book Stores",
+        "%vlocity_namespace%__SICCode__c": 5942,
+        "Name": "Book Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5944 - Jewelry Stores",
+        "%vlocity_namespace%__SICCode__c": 5944,
+        "Name": "Jewelry Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5945 - Hobby, Toy, and Game Stores",
+        "%vlocity_namespace%__SICCode__c": 5945,
+        "Name": "Hobby, Toy, and Game Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5946 - Electronics Stores",
+        "%vlocity_namespace%__SICCode__c": 5946,
+        "Name": "Electronics Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5947 - Gift, Novelty, and Souvenir Stores",
+        "%vlocity_namespace%__SICCode__c": 5947,
+        "Name": "Gift, Novelty, and Souvenir Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5948 - Luggage and Leather Goods Stores",
+        "%vlocity_namespace%__SICCode__c": 5948,
+        "Name": "Luggage and Leather Goods Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5949 - Sewing, Needlewoork, and Piece Goods Stores",
+        "%vlocity_namespace%__SICCode__c": 5949,
+        "Name": "Sewing, Needlewoork, and Piece Goods Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5961 - Electronic Auctions",
+        "%vlocity_namespace%__SICCode__c": 5961,
+        "Name": "Electronic Auctions"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5961 - Electronic Shopping",
+        "%vlocity_namespace%__SICCode__c": 5961,
+        "Name": "Electronic Shopping"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5961 - Mail Order Houses",
+        "%vlocity_namespace%__SICCode__c": 5961,
+        "Name": "Mail Order Houses"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5962 - Vending Machine Operators",
+        "%vlocity_namespace%__SICCode__c": 5962,
+        "Name": "Vending Machine Operators"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5963 - Other Direct Selling Establishments",
+        "%vlocity_namespace%__SICCode__c": 5963,
+        "Name": "Other Direct Selling Establishments"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5983 - Fuel Dealers",
+        "%vlocity_namespace%__SICCode__c": 5983,
+        "Name": "Fuel Dealers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5984 - Fuel Dealers",
+        "%vlocity_namespace%__SICCode__c": 5984,
+        "Name": "Fuel Dealers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5989 - Fuel Dealers",
+        "%vlocity_namespace%__SICCode__c": 5989,
+        "Name": "Fuel Dealers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5992 - Florists",
+        "%vlocity_namespace%__SICCode__c": 5992,
+        "Name": "Florists"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5993 - Tobacco Stores",
+        "%vlocity_namespace%__SICCode__c": 5993,
+        "Name": "Tobacco Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5994 - News Dealers and Newsstands",
+        "%vlocity_namespace%__SICCode__c": 5994,
+        "Name": "News Dealers and Newsstands"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5995 - Optical Goods Stores",
+        "%vlocity_namespace%__SICCode__c": 5995,
+        "Name": "Optical Goods Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5999 - All Other Health and Personal Care Stores",
+        "%vlocity_namespace%__SICCode__c": 5999,
+        "Name": "All Other Health and Personal Care Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5999 - Art Dealers",
+        "%vlocity_namespace%__SICCode__c": 5999,
+        "Name": "Art Dealers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5999 - All Other Misc. Store Retailers (Except Tobacco Stores)",
+        "%vlocity_namespace%__SICCode__c": 5999,
+        "Name": "All Other Misc. Store Retailers (Except Tobacco Stores)"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5999 - Cosmetics, Beauty Supplies, and Perfume Stores",
+        "%vlocity_namespace%__SICCode__c": 5999,
+        "Name": "Cosmetics, Beauty Supplies, and Perfume Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5999 - Pet and Pet Supplies Stores",
+        "%vlocity_namespace%__SICCode__c": 5999,
+        "Name": "Pet and Pet Supplies Stores"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "5999 - Other Grocery and Related Products Merchant Wholesalers",
+        "%vlocity_namespace%__SICCode__c": 5999,
+        "Name": "Other Grocery and Related Products Merchant Wholesalers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "6011 - Monetary Authorities--Central Bank",
+        "%vlocity_namespace%__SICCode__c": 6011,
+        "Name": "Monetary Authorities--Central Bank"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "6022 - Depository Credit Intermediation",
+        "%vlocity_namespace%__SICCode__c": 6022,
+        "Name": "Depository Credit Intermediation"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "6029 - Commercial Banking",
+        "%vlocity_namespace%__SICCode__c": 6029,
+        "Name": "Commercial Banking"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "6061 - Credit Unions",
+        "%vlocity_namespace%__SICCode__c": 6061,
+        "Name": "Credit Unions"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "6099 - Other Activities Related to Credit Intermediation",
+        "%vlocity_namespace%__SICCode__c": 6099,
+        "Name": "Other Activities Related to Credit Intermediation"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "6141 - Consumer Lending",
+        "%vlocity_namespace%__SICCode__c": 6141,
+        "Name": "Consumer Lending"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "6141 - Credit Card Issuing",
+        "%vlocity_namespace%__SICCode__c": 6141,
+        "Name": "Credit Card Issuing"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "6162 - Real Estate Credit",
+        "%vlocity_namespace%__SICCode__c": 6162,
+        "Name": "Real Estate Credit"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "6163 - Mortgage and Nonmortgage Loan Brokers",
+        "%vlocity_namespace%__SICCode__c": 6163,
+        "Name": "Mortgage and Nonmortgage Loan Brokers"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "259 - Other Poultry Production",
+        "%vlocity_namespace%__SICCode__c": 259,
+        "Name": "Other Poultry Production"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "271 - Fur-Bearing Animal and Rabbit Production",
+        "%vlocity_namespace%__SICCode__c": 271,
+        "Name": "Fur-Bearing Animal and Rabbit Production"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "272 - Horses and Other Equine Production",
+        "%vlocity_namespace%__SICCode__c": 272,
+        "Name": "Horses and Other Equine Production"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "272 - Support Activities for Animal Production",
+        "%vlocity_namespace%__SICCode__c": 272,
+        "Name": "Support Activities for Animal Production"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "279 - Apiculture",
+        "%vlocity_namespace%__SICCode__c": 279,
+        "Name": "Apiculture"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "279 - Other Aquaculture",
+        "%vlocity_namespace%__SICCode__c": 279,
+        "Name": "Other Aquaculture"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "213 - Hog and Pig Farming",
+        "%vlocity_namespace%__SICCode__c": 213,
+        "Name": "Hog and Pig Farming"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "214 - Goat Farming",
+        "%vlocity_namespace%__SICCode__c": 214,
+        "Name": "Goat Farming"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "721 - Soil Preparation, Planting, and Cultivating",
+        "%vlocity_namespace%__SICCode__c": 721,
+        "Name": "Soil Preparation, Planting, and Cultivating"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "214 - Sheep Farming",
+        "%vlocity_namespace%__SICCode__c": 214,
+        "Name": "Sheep Farming"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "722 - Crop Harvesting, Primarily by Machine",
+        "%vlocity_namespace%__SICCode__c": 722,
+        "Name": "Crop Harvesting, Primarily by Machine"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "723 - Postharvest Crop Activities (Except Cotton Ginning)",
+        "%vlocity_namespace%__SICCode__c": 723,
+        "Name": "Postharvest Crop Activities (Except Cotton Ginning)"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "724 - Cotton Ginning",
+        "%vlocity_namespace%__SICCode__c": 724,
+        "Name": "Cotton Ginning"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "741 - Veterinary Services",
+        "%vlocity_namespace%__SICCode__c": 741,
+        "Name": "Veterinary Services"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "742 - Veterinary Services",
+        "%vlocity_namespace%__SICCode__c": 742,
+        "Name": "Veterinary Services"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "752 - Pet Care (Except Veterinary) Services",
+        "%vlocity_namespace%__SICCode__c": 752,
+        "Name": "Pet Care (Except Veterinary) Services"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "761 - Farm Labor Contractors and Crew Leaders",
+        "%vlocity_namespace%__SICCode__c": 761,
+        "Name": "Farm Labor Contractors and Crew Leaders"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "762 - Farm Management Services",
+        "%vlocity_namespace%__SICCode__c": 762,
+        "Name": "Farm Management Services"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "781 - Landscape Architectural Services",
+        "%vlocity_namespace%__SICCode__c": 781,
+        "Name": "Landscape Architectural Services"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "782 - Landscaping Services",
+        "%vlocity_namespace%__SICCode__c": 782,
+        "Name": "Landscaping Services"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "783 - Landscaping Services",
+        "%vlocity_namespace%__SICCode__c": 783,
+        "Name": "Landscaping Services"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "219 - Animal Production NOC",
+        "%vlocity_namespace%__SICCode__c": 219,
+        "Name": "Animal Production NOC"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "241 - Dairy Cattle and Milk Production",
+        "%vlocity_namespace%__SICCode__c": 241,
+        "Name": "Dairy Cattle and Milk Production"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "251 - Broilers and Other Meat Type Chicken Production",
+        "%vlocity_namespace%__SICCode__c": 251,
+        "Name": "Broilers and Other Meat Type Chicken Production"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "252 - Chicken Egg Production",
+        "%vlocity_namespace%__SICCode__c": 252,
+        "Name": "Chicken Egg Production"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "253 - Turkey Production",
+        "%vlocity_namespace%__SICCode__c": 253,
+        "Name": "Turkey Production"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "254 - Poultry Hatcheries",
+        "%vlocity_namespace%__SICCode__c": 254,
+        "Name": "Poultry Hatcheries"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "811 - Timber Tract Operations",
+        "%vlocity_namespace%__SICCode__c": 811,
+        "Name": "Timber Tract Operations"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "831 - Forest Nurseries and Gathering of Forest Products",
+        "%vlocity_namespace%__SICCode__c": 831,
+        "Name": "Forest Nurseries and Gathering of Forest Products"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "851 - Support Activities for Forestry",
+        "%vlocity_namespace%__SICCode__c": 851,
+        "Name": "Support Activities for Forestry"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "912 - Finfish Fishing",
+        "%vlocity_namespace%__SICCode__c": 912,
+        "Name": "Finfish Fishing"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "913 - Shellfish Fishing",
+        "%vlocity_namespace%__SICCode__c": 913,
+        "Name": "Shellfish Fishing"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "919 - Other Marine Fishing",
+        "%vlocity_namespace%__SICCode__c": 919,
+        "Name": "Other Marine Fishing"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "921 - Finfish Farming and Fish Hatcheries",
+        "%vlocity_namespace%__SICCode__c": 921,
+        "Name": "Finfish Farming and Fish Hatcheries"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "921 - Shellfish Farming",
+        "%vlocity_namespace%__SICCode__c": 921,
+        "Name": "Shellfish Farming"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "971 - Hunting and Trapping",
+        "%vlocity_namespace%__SICCode__c": 971,
+        "Name": "Hunting and Trapping"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1011 - Iron Ore Mining",
+        "%vlocity_namespace%__SICCode__c": 1011,
+        "Name": "Iron Ore Mining"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1021 - Copper Ore and Nickel Ore Mining",
+        "%vlocity_namespace%__SICCode__c": 1021,
+        "Name": "Copper Ore and Nickel Ore Mining"
+    },
+    {
+        "%vlocity_namespace%__DisplayName__c": "1031 - Lead Ore and Zinc Ore Mining",
+        "%vlocity_namespace%__SICCode__c": 1031,
+        "Name": "Lead Ore and Zinc Ore Mining"
+    }
+]

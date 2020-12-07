@@ -1,0 +1,13 @@
+{
+    "%vlocity_namespace%__Author__c": "Total Health Plan",
+    "%vlocity_namespace%__Datasource__c": "",
+    "%vlocity_namespace%__Definition__c": "GroupAccount_Actions.json",
+    "%vlocity_namespace%__GlobalKey__c": "GroupAccount_Actions/Total Health Plan/1/1559749941363",
+    "%vlocity_namespace%__ParentID__c": "PersonAccount_HomeAppliance/EMEA/1/1544718506342",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "GroupAccount_Actions",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/GroupAccount_Actions"
+}

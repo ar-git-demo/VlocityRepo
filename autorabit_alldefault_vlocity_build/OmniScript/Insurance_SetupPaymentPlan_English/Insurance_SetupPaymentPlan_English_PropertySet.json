@@ -12,7 +12,7 @@
     "consoleTabLabel": "New",
     "consoleTabTitle": null,
     "currencyCode": "",
-    "disableUnloadWarn": true,
+    "disableUnloadWarn": false,
     "elementTypeToHTMLTemplateMapping": {
     },
     "enableKnowledge": false,
@@ -84,9 +84,9 @@
     },
     "seedDataJSON": {
     },
-    "showInputWidth": false,
+    "showInputWidth": true,
     "ssm": false,
-    "timeTracking": false,
+    "timeTracking": true,
     "trackingCustomData": {
     },
     "visualforcePagesAvailableInPreview": {

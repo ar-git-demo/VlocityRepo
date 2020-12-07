@@ -1,0 +1,39 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Large Group Proposal CLM",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/LargeGroup/Proposal/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Large Group Proposal CLM",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/LargeGroup/Proposal/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "InformalMessage",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/LargeGroup/Proposal/English/InformalMessage",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "InformalMessage",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": "InformalText1",
+        "show": null,
+        "text": "<p><span style=\"color: #000000;\">Dear %firstName%,</span><br /><br /><span style=\"color: #000000;\">Thank you for considering&nbsp;Vlocity Health for your insurance needs for your employees and their families.</span><br /><br /><span style=\"color: #000000;\">Vlocity&nbsp;Health has an absolute commitment to providing excellent service to its customers and members, and we look forward to the opportunity to provide you with the same high level of service.</span><br /><br /><span style=\"color: #000000;\">Vlocity&nbsp;Health has the largest network of facilities and providers in our PPO, EPO, and HMO plans, including some of the top-tier research facilities in your state. This has led to&nbsp;Vlocity&nbsp;Health being the most trusted name in healthcare in our community.</span><br /><br /><span style=\"color: #000000;\">We&rsquo;re able to provide the most competitive rates via our commitment to the wellness of our members and a competitive fee schedule. </span><br /><br /><span style=\"color: #000000;\">We look forward to your reviewing this proposal, and to the opportunity to discuss our solutions in detail. We are committed to your success, first and foremost.</span><br /><br /></p>",
+        "textKey": ""
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "InformalText1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/LargeGroup/Proposal/English/InformalText1"
+}

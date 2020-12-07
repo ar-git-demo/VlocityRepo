@@ -1,0 +1,72 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "['PrimaryContact']['Id']",
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['PrimaryContact']['Name']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['PrimaryContact']['Name']",
+                    "type": "string"
+                }
+            ],
+            "name": "Active",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "ProfileName",
+                    "type": "string",
+                    "value": "'Contact & Billing'"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "Email",
+                    "name": "ProfileEmail",
+                    "type": "string",
+                    "value": "['PrimaryContact']['Email']"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "Website",
+                    "name": "ProfileWebsite",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "sObjectType": "Contact",
+            "templateUrl": "np-profile-photo-SH"
+        }
+    ],
+    "title": "Contact Profile"
+}

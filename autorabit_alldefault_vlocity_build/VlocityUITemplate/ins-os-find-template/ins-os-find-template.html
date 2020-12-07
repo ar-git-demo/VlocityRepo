@@ -1,0 +1,60 @@
+<div ng-controller="insSearchTest" style="width:100%">
+    <!-- <input type="text" > -->
+    <div style="display: flex;justify-content: center;">
+   <div class="nds-form-element" >
+  <label class="nds-form-element__label" for="text-input-id-1">Search by Member Id/Full Name </label>
+  <div class="nds-form-element__control nds-input-has-icon nds-input-has-icon_left">
+    <svg class="nds-icon nds-input__icon nds-input__icon_left nds-icon-text-default" aria-hidden="true">
+      <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#search"></use>
+    </svg>
+    <input type="text" id="text-input-id-1" ng-model="searchKey" ng-change="searchData(searchKey)" class="nds-input" placeholder="Placeholder Text">
+  </div>
+</div>
+    </div>
+ 
+    <table ng-if="showTable" class="member-table">
+        <thead>
+            <tr>
+                <td width="5%"></td>
+                <td width="15%">Object Type</td>
+                <td width="10%">First Name</td>
+                <td width="10%">Last Name</td>
+                <td width="10%">Effective Date</td>
+                <td width="10%">Termination Date</td>
+                <td width="10%">DOB</td>
+                <td item-width="20%">Address</td>
+                <td width="10%">LOB</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr ng-repeat="data in searchResult" ng-if="data.FirstName && data.LastName">
+                <td><input type="radio" id="{{data.Id}}" ng-model="data.isSelected" ng-change="selectProspect(data, data.isSelected)" name="options" value="on"/></td>
+                <td >
+                        {{data.Type}}
+                     </td>
+                     <td >
+                       {{data.FirstName}}
+                     </td>
+                     <td >
+                        {{data.LastName}}
+                     </td>
+                     <td >
+                        {{data.EffectiveDate}}
+                     </td>
+                     <td >
+                        {{data.TerminationDate}}
+                     </td>
+                     <td >
+                        {{data.BirthDate}}
+                     </td>
+                     <td >
+                        {{data.BillingStreet}}, {{data.BillingCity}}, {{data.BillingState}}, {{data.BillingCountry}}, {{data.BillingZipCode}}
+                     </td>
+                     <td >
+                        {{data.BusinessLines}}
+                     </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

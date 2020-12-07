@@ -1,0 +1,50 @@
+[
+    {
+        "%vlocity_namespace%__Alias__c": "CoinsINN",
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "LargeGroupRating",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/1/%vlocity_namespace%__CalculationProcedure__c/LargeGroupRating",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__DataType__c": "Number",
+        "%vlocity_namespace%__DefaultValue__c": "",
+        "%vlocity_namespace%__DuplicateAlias__c": false,
+        "%vlocity_namespace%__Index__c": "",
+        "%vlocity_namespace%__IsEditable__c": false,
+        "%vlocity_namespace%__IsSelected__c": false,
+        "%vlocity_namespace%__MatrixName__c": "",
+        "%vlocity_namespace%__Precision__c": "",
+        "%vlocity_namespace%__TypeaheadDisplayName__c": "",
+        "%vlocity_namespace%__UserDefined__c": true,
+        "Name": "CoinsINN",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVariable__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVariable__c/Generated143955366"
+    },
+    {
+        "%vlocity_namespace%__Alias__c": "Premium",
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "LargeGroupRating",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/1/%vlocity_namespace%__CalculationProcedure__c/LargeGroupRating",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__DataType__c": "Number",
+        "%vlocity_namespace%__DefaultValue__c": "",
+        "%vlocity_namespace%__DuplicateAlias__c": false,
+        "%vlocity_namespace%__Index__c": "",
+        "%vlocity_namespace%__IsEditable__c": true,
+        "%vlocity_namespace%__IsSelected__c": true,
+        "%vlocity_namespace%__MatrixName__c": "",
+        "%vlocity_namespace%__Precision__c": "",
+        "%vlocity_namespace%__TypeaheadDisplayName__c": "",
+        "%vlocity_namespace%__UserDefined__c": true,
+        "Name": "Premium",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVariable__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVariable__c/Generated433635298"
+    }
+]

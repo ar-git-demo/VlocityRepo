@@ -1,0 +1,18 @@
+{
+    "Body": "File_Actions-2x.png",
+    "BodyLength": 1023,
+    "ContentType": "image/png",
+    "Description": "",
+    "DeveloperName": "Actions_2x",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "Actions@2x",
+    "NamespacePrefix": "%vlocity_namespace%",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/Actions_2x"
+}

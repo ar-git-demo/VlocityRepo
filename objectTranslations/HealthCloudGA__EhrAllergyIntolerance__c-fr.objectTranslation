@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Intolérance allergique DME</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Intolérances allergiques DME</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>ID d&apos;intolérance Allergie DME</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,13 @@
+{
+    "%vlocity_namespace%__Author__c": "Total Health Plan",
+    "%vlocity_namespace%__Datasource__c": "",
+    "%vlocity_namespace%__Definition__c": "vcd-npApplicationMidGroup.json",
+    "%vlocity_namespace%__GlobalKey__c": "vcd-npApplicationMidGroup/Total Health Plan/1/1560503847632",
+    "%vlocity_namespace%__ParentID__c": "vcd-npApplication/Total Health Plan/1/1552215781449",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "vcd-npApplicationMidGroup",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/vcd-npApplicationMidGroup"
+}

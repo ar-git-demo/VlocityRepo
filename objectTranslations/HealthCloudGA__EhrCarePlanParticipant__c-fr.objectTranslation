@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Participant au plan de soins DME</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Participants au plan de soins DME</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>ID de participant au plan de soins DME</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

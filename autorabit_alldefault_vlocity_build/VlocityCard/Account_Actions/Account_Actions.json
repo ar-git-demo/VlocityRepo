@@ -1,0 +1,221 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['%vlocity_namespace%__MarketSegment__c']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Large Group"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": false,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "displayName": "Group Quote",
+                        "extraParams": {
+                            "Id": "params.id",
+                            "layout": "lightning"
+                        },
+                        "hasExtraParams": true,
+                        "id": "GroupQuote",
+                        "isCustomAction": true,
+                        "omniLang": "English",
+                        "omniSubType": "LargeGroup",
+                        "omniType": "Quote",
+                        "openUrlIn": "New Tab / Window",
+                        "type": "OmniScript",
+                        "vForcewithNsPrefix": "%vlocity_namespace%__OmniScriptUniversalPage",
+                        "visualForce": "OmniScriptUniversalPage",
+                        "vlocityIcon": "icon-v-opportunity"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "displayName": "Classes",
+                        "extraParams": {
+                            "Id": "params.Id",
+                            "layout": "lightning"
+                        },
+                        "hasExtraParams": true,
+                        "id": "GroupClass",
+                        "isCustomAction": true,
+                        "omniLang": "English",
+                        "omniSubType": "LargeGroupClassesBuild",
+                        "omniType": "VPL103",
+                        "openUrlIn": "New Tab / Window",
+                        "type": "OmniScript",
+                        "vForcewithNsPrefix": "%vlocity_namespace%__OmniScriptUniversalPage",
+                        "visualForce": "OmniScriptUniversalPage",
+                        "vlocityIcon": "icon-v-avatar-person"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                                {
+                                    "field": "true",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "false"
+                                }
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "displayName": "Risk Review",
+                        "extraParams": {
+                            "Id": "params.Id",
+                            "layout": "lightning"
+                        },
+                        "filter": "$scope.obj.true == false",
+                        "hasExtraParams": true,
+                        "id": "RiskReview",
+                        "isCustomAction": true,
+                        "omniLang": "English",
+                        "omniSubType": "GroupRiskAssessment",
+                        "omniType": "VPL103",
+                        "openUrlIn": "New Tab / Window",
+                        "type": "OmniScript",
+                        "vForcewithNsPrefix": "%vlocity_namespace%__OmniScriptUniversalPage",
+                        "visualForce": "OmniScriptUniversalPage",
+                        "vlocityIcon": "icon-v-billing-inquiry-line"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "displayName": "Division Mgt",
+                        "extraParams": {
+                            "Id": "params.Id",
+                            "layout": "newport"
+                        },
+                        "filter": "",
+                        "hasExtraParams": true,
+                        "id": "DivisionMgt",
+                        "isCustomAction": true,
+                        "omniLang": "English",
+                        "omniSubType": "Division Maintenance",
+                        "omniType": "Large Group Sales",
+                        "openUrlIn": "New Tab / Window",
+                        "type": "OmniScript",
+                        "vForcewithNsPrefix": "%vlocity_namespace%__OmniScriptUniversalPage",
+                        "visualForce": "OmniScriptUniversalPage",
+                        "vlocityIcon": "icon-v-move"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                                {
+                                    "field": "true",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "false"
+                                }
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "displayName": "Application",
+                        "extraParams": {
+                            "Id": "params.Id",
+                            "layout": "lightning"
+                        },
+                        "filter": "$scope.obj.true == false",
+                        "hasExtraParams": true,
+                        "id": "GroupApplication",
+                        "isCustomAction": true,
+                        "omniLang": "English",
+                        "omniSubType": "ApplicationPM",
+                        "omniType": "SmallGroup",
+                        "openUrlIn": "New Tab / Window",
+                        "type": "OmniScript",
+                        "vForcewithNsPrefix": "%vlocity_namespace%__OmniScriptUniversalPage",
+                        "visualForce": "OmniScriptUniversalPage",
+                        "vlocityIcon": "icon-v-submit-for-approval"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                                {
+                                    "field": "true",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "false"
+                                }
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "displayName": "Contract",
+                        "extraParams": {
+                            "Id": "params.Id",
+                            "layout": "lightning"
+                        },
+                        "filter": "$scope.obj.true == false",
+                        "hasExtraParams": true,
+                        "id": "Contract",
+                        "isCustomAction": true,
+                        "omniLang": "English",
+                        "omniSubType": "AXA Plan Setup",
+                        "omniType": "AXA",
+                        "openUrlIn": "New Tab / Window",
+                        "type": "OmniScript",
+                        "vForcewithNsPrefix": "%vlocity_namespace%__OmniScriptUniversalPage",
+                        "visualForce": "OmniScriptUniversalPage",
+                        "vlocityIcon": "icon-v-modify-contract"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['%vlocity_namespace%__MarketSegment__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "MarketSegment",
+                    "name": "['%vlocity_namespace%__MarketSegment__c']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['%vlocity_namespace%__MarketSegment__c'] == 'Large Group'",
+            "isSmartAction": false,
+            "name": "Large Group Actions",
+            "sObjectType": "Account",
+            "smartAction": {
+            },
+            "templateUrl": "action-grid-card-slds-noscroll"
+        }
+    ],
+    "title": "Actions"
+}

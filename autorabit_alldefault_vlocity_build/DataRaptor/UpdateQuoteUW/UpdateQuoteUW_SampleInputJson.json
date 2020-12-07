@@ -1,0 +1,31 @@
+{
+    "ContextId": null,
+    "Email Proposal": {
+        "Block1": {
+            "Email1": null,
+            "First": null,
+            "Last": null,
+            "Title": null
+        },
+        "Block2": {
+            "Email2": null,
+            "Select1": null,
+            "Text5": null,
+            "Text6": null
+        },
+        "Email3": null,
+        "change_email": null,
+        "style": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DataRaptorPostAction1": null,
+        "DoneAction1": null,
+        "Email Proposal": null
+    }
+}

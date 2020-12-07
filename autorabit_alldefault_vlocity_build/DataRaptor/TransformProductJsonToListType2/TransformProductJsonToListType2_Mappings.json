@@ -1,0 +1,68 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Prod:Attribute",
+        "%vlocity_namespace%__DomainObjectFieldType__c": "Object",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "summary:childProducts:records:%vlocity_namespace%__AttributeSelectedValues__c",
+        "%vlocity_namespace%__IsDisabled__c": true,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformProductJsonToListType2Customa19f4000002czwVAAQItem2",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformProductJsonToListType2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Prod:Price",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "productConfigurationDetail:records:Price",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformProductJsonToListType2Customa19f4000002czwVAAQItem0",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformProductJsonToListType2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Prod:ProductCode",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "productConfigurationDetail:records:ProductCode",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformProductJsonToListType2Custom7799",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformProductJsonToListType2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Prod:ProductName",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "productConfigurationDetail:records:Name",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformProductJsonToListType2Customa19f4000002czwVAAQItem1",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformProductJsonToListType2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Prod:Type",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "productConfigurationDetail:records:%vlocity_namespace%__Type__c",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformProductJsonToListType2Custom6605",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformProductJsonToListType2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

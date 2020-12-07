@@ -1,0 +1,1554 @@
+{
+    "AccountId": "001f400000QvC7IAAV",
+    "AccountName": "Vlocity",
+    "ContextId": "0Q0f4000000V03NCAS",
+    "DocuSignSignatureAction": [
+        {
+            "envelopeId": "0fb42f3b-239f-48f9-b01b-065c2b4565a3",
+            "status": "In Process"
+        }
+    ],
+    "EffectiveDate": "2018-08-01",
+    "companyProfile": {
+        "companyBillingAddress": {
+            "BillingCity": "Chicago",
+            "BillingState": "Illinois",
+            "BillingStreet": "714 W 35th Street",
+            "BillingZip": 60616
+        },
+        "companyInformation": {
+            "companyTypeC": true,
+            "companyTypeLLC": false,
+            "companyTypeNP": true,
+            "companyTypeP": false,
+            "companyTypeS": true,
+            "companyTypeSP": false
+        },
+        "companyPhysicalAddress": {
+            "PhysicalCity": "Chicago",
+            "PhysicalState": "Illinois",
+            "PhysicalStreet": "714 W 35th Street",
+            "PhysicalZip": 60616
+        },
+        "companyType": {
+            "companyDetails": "Sample",
+            "companyTID": "2341243"
+        }
+    },
+    "contactInformation": {
+        "billingPrimaryContact": {
+            "billingPrimaryEmail": "deepak@test.net",
+            "billingPrimaryJob": "Test",
+            "billingPrimaryName": "Test",
+            "billingPrimaryPhone": "1312315226"
+        },
+        "certiInsuranceContact": {
+            "certiInsuranceEmail": "shettygahana@gmail.com",
+            "certiInsuranceJob": "Test",
+            "certiInsuranceName": "Test",
+            "certiInsurancePhone": "3123152269"
+        },
+        "contactOnlineAdmin": {
+            "OnlineAdminEmail": "bandideepakreddy@gmail.com",
+            "OnlineAdminJob": "Test",
+            "OnlineAdminName": "Deepak",
+            "OnlineAdminPhone": "3123152269"
+        },
+        "contactPrimaryGroup": {
+            "primaryGroupEmail": "dbandi@hawk.iit.edu",
+            "primaryGroupJob": "Test",
+            "primaryGroupName": "TITle",
+            "primaryGroupPhone": "3123152269"
+        },
+        "legalContact": {
+            "legalEmail": "dbandi@hawk.iit.edu",
+            "legalJob": "312",
+            "legalName": "Legal",
+            "legalPhone": "3123152269"
+        }
+    },
+    "dentalPage": {
+        "DentalPlans": null
+    },
+    "docusignPage": {
+        "SignNowRecipient": "RD"
+    },
+    "employeeEligibility": {
+        "eligibilityActivelyWorking": "true",
+        "eligibilityCoverage": "true",
+        "eligibilityHealthCoverage": "true",
+        "eligibilityRetirees": "No",
+        "eligibilityRetireesOver65": true,
+        "eligibilityRetireesUnder65": false
+    },
+    "employeeEnrollment": {
+        "eligibleEmployeesDeclining": {
+            "declineDental": 0,
+            "declineMedical": 0,
+            "declineVision": 0
+        },
+        "eligibleEmployeesEnrolling": {
+            "enrollmentDental": 10,
+            "enrollmentMedical": 10,
+            "enrollmentVision": 10
+        },
+        "employeeOutStateCount": "10",
+        "employeeOutofState": "No",
+        "employeeOutofStateCover": "false",
+        "employeeOutofStateCoverName": "Illinois",
+        "enrollmentEmployee": 30,
+        "enrollmentFullTimeEmployee": 30,
+        "enrollmentPartTimeEmployee": 0
+    },
+    "error": "OK",
+    "errorCode": "INVOKE-200",
+    "groupProfile": {
+        "businessName": "Vlocity",
+        "emailAddress": "dbandi@hawk.iit.edu",
+        "firstName": "Deepak",
+        "lastName": "Bandi",
+        "phoneNumber": 3123152269
+    },
+    "id": "a2Cf4000000dpg6EAA",
+    "layout": "newport",
+    "medicalPage": {
+        "MedicalPlans": [
+            {
+                "Attributes": [
+                    {
+                        "$$hashKey": "object:2334",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Primary Care Provider",
+                        "Name": "Primary Care Provider",
+                        "Value": "$35 Copay",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2335",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Skilled Nursing Facility Care",
+                        "Name": "Skilled Nursing Facility Care",
+                        "Value": "20% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2336",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Outpatient Rehabilitation Services",
+                        "Name": "Outpatient Rehabilitation Services",
+                        "Value": "20% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2337",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Outpatient Mental Health",
+                        "Name": "Outpatient Mental Health",
+                        "Value": "20% Coins",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2338",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Inpatient Mental Health",
+                        "Name": "Inpatient Mental Health",
+                        "Value": "20% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2339",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Urgent Care Facility",
+                        "Name": "Urgent Care Facility",
+                        "Value": "$100 Copay",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2340",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Emergency Room",
+                        "Name": "Emergency Room",
+                        "Value": "$250 Copay",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2341",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Ambulance",
+                        "Name": "Ambulance",
+                        "Value": "$175 Copay",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2342",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Specialist",
+                        "Name": "Specialist",
+                        "Value": "$50 Copay",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2343",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Preventive Services",
+                        "Name": "Preventive Services",
+                        "Value": "$0 Copay",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2344",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Annual Deductible",
+                        "Name": "Annual Deductible",
+                        "Value": "$500 Individual/ $1,000 Family",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2345",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Coinsurance",
+                        "Name": "Coinsurance",
+                        "Value": "20% After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2346",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Annual Out-of-Pocket Limit",
+                        "Name": "Annual Out-of-Pocket Limit",
+                        "Value": "$1,500 Individual/ $3,000 Family",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2347",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Lifetime Maximum",
+                        "Name": "Lifetime Maximum",
+                        "Value": "Unlimited",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2348",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Health Savings Account (HSA) Eligible",
+                        "Name": "Health Savings Account (HSA) Eligible",
+                        "Value": "No",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2349",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Annual Prescription Deductible",
+                        "Name": "Annual Prescription Deductible",
+                        "Value": "0",
+                        "ValueDataType": "Currency"
+                    },
+                    {
+                        "$$hashKey": "object:2350",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Retail Prescription Drugs–Tier 1",
+                        "Name": "Retail Prescription Drugs–Tier 1",
+                        "Value": "$15 Copay",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2351",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Retail Prescription Drugs–Tier 2",
+                        "Name": "Retail Prescription Drugs–Tier 2",
+                        "Value": "$35 Copay",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2352",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Retail Prescription Drugs–Tier 3",
+                        "Name": "Retail Prescription Drugs–Tier 3",
+                        "Value": "$50 Copay",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2353",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Retail Prescription Drugs–Tier 4",
+                        "Name": "Retail Prescription Drugs–Tier 4",
+                        "Value": "$75 Copay After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2354",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Retail Prescription Drugs–Tier 5",
+                        "Name": "Retail Prescription Drugs–Tier 5",
+                        "Value": "$500 Copay After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2355",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Mail Order Prescription Drugs–Tier 1 (90-Day Supply)",
+                        "Name": "Mail Order Prescription Drugs–Tier 1 (90-Day Supply)",
+                        "Value": "$37.50 Copay",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2356",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Mail Order Prescription Drugs–Tier 2 (90-Day Supply)",
+                        "Name": "Mail Order Prescription Drugs–Tier 2 (90-Day Supply)",
+                        "Value": "$87.50 Copay",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2357",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Mail Order Prescription Drugs–Tier 3 (90-Day Supply)",
+                        "Name": "Mail Order Prescription Drugs–Tier 3 (90-Day Supply)",
+                        "Value": "$125 Copay",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2358",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Mail Order Prescription Drugs–Tier 4 (90-Day Supply)",
+                        "Name": "Mail Order Prescription Drugs–Tier 4 (90-Day Supply)",
+                        "Value": "$187.50 Copay",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2359",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Mail Order Prescription Drugs–Tier 5 (90-Day Supply)",
+                        "Name": "Mail Order Prescription Drugs–Tier 5 (90-Day Supply)",
+                        "Value": "$1,250 Copay",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2360",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "In-Patient Hospital Care",
+                        "Name": "In-Patient Hospital Care",
+                        "Value": "20% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2361",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Outpatient Surgery",
+                        "Name": "Outpatient Surgery",
+                        "Value": "$150 Copay",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2362",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Outpatient Lab/X-Ray",
+                        "Name": "Outpatient Lab/X-Ray",
+                        "Value": "$50 Copay",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2363",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Imaging (CT and PET scans, MRIs)",
+                        "Name": "Imaging (CT and PET scans, MRIs)",
+                        "Value": "$250 Copay",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2364",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Preventive Services",
+                        "Name": "Preventive Services",
+                        "Value": "$0 Copay",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2365",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Primary Care Provider",
+                        "Name": "Primary Care Provider",
+                        "Value": "Not Covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2366",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Specialist",
+                        "Name": "Specialist",
+                        "Value": "Not Covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2367",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Annual Deductible",
+                        "Name": "Annual Deductible",
+                        "Value": "Not Covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2368",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Coinsurance",
+                        "Name": "Coinsurance",
+                        "Value": "Not Covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2369",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Annual Out-of-Pocket Limit",
+                        "Name": "Annual Out-of-Pocket Limit",
+                        "Value": "Not Covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2370",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Lifetime Maximum",
+                        "Name": "Lifetime Maximum",
+                        "Value": "Unlimited",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2371",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Mail Order Prescription Drugs–Tier 1 (90-Day Supply)",
+                        "Name": "Mail Order Prescription Drugs–Tier 1 (90-Day Supply)",
+                        "Value": "Not Covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2372",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Health Savings Account (HSA) Eligible",
+                        "Name": "Health Savings Account (HSA) Eligible",
+                        "Value": "No",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2373",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Annual Prescription Deductible",
+                        "Name": "Annual Prescription Deductible",
+                        "Value": "0",
+                        "ValueDataType": "Currency"
+                    },
+                    {
+                        "$$hashKey": "object:2374",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Retail Prescription Drugs–Tier 1",
+                        "Name": "Retail Prescription Drugs–Tier 1",
+                        "Value": "Not Covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2375",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Retail Prescription Drugs–Tier 2",
+                        "Name": "Retail Prescription Drugs–Tier 2",
+                        "Value": "Not Covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2376",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Retail Prescription Drugs–Tier 4",
+                        "Name": "Retail Prescription Drugs–Tier 4",
+                        "Value": "Not Covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2377",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Retail Prescription Drugs–Tier 3",
+                        "Name": "Retail Prescription Drugs–Tier 3",
+                        "Value": "Not Covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2378",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Retail Prescription Drugs–Tier 5",
+                        "Name": "Retail Prescription Drugs–Tier 5",
+                        "Value": "Not Covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2379",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Mail Order Prescription Drugs–Tier 2 (90-Day Supply)",
+                        "Name": "Mail Order Prescription Drugs–Tier 2 (90-Day Supply)",
+                        "Value": "Not Covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2380",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Mail Order Prescription Drugs–Tier 3 (90-Day Supply)",
+                        "Name": "Mail Order Prescription Drugs–Tier 3 (90-Day Supply)",
+                        "Value": "Not Covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2381",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Mail Order Prescription Drugs–Tier 4 (90-Day Supply)",
+                        "Name": "Mail Order Prescription Drugs–Tier 4 (90-Day Supply)",
+                        "Value": "Not Covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2382",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Mail Order Prescription Drugs–Tier 5 (90-Day Supply)",
+                        "Name": "Mail Order Prescription Drugs–Tier 5 (90-Day Supply)",
+                        "Value": "Not Covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2383",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "In-Patient Hospital Care",
+                        "Name": "In-Patient Hospital Care",
+                        "Value": "Not Covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2384",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Outpatient Surgery",
+                        "Name": "Outpatient Surgery",
+                        "Value": "Not Covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2385",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Outpatient Lab/X-Ray",
+                        "Name": "Outpatient Lab/X-Ray",
+                        "Value": "Not Covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2386",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Imaging (CT and PET scans, MRIs)",
+                        "Name": "Imaging (CT and PET scans, MRIs)",
+                        "Value": "Not Covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2387",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Emergency Room",
+                        "Name": "Emergency Room",
+                        "Value": "$500 Copay",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2388",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Urgent Care Facility",
+                        "Name": "Urgent Care Facility",
+                        "Value": "Not Covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2389",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Inpatient Mental Health",
+                        "Name": "Inpatient Mental Health",
+                        "Value": "Not Covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2390",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Outpatient Mental Health",
+                        "Name": "Outpatient Mental Health",
+                        "Value": "Not Covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2391",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Outpatient Rehabilitation Services",
+                        "Name": "Outpatient Rehabilitation Services",
+                        "Value": "Not Covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2392",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Skilled Nursing Facility Care",
+                        "Name": "Skilled Nursing Facility Care",
+                        "Value": "Not Covered",
+                        "ValueDataType": "Text"
+                    }
+                ],
+                "EffectiveDate": "2018-01-01",
+                "Name": "Silver HMO 500",
+                "PlanId": "2018SG-HMO-500",
+                "PlanType": "Current Plan",
+                "Price": 142,
+                "ProductCode": "SG-HMO-500",
+                "ProductId": "01tf4000000yaWBAAY",
+                "TotalPrice": 142,
+                "Type": "Medical",
+                "vlcSelected": true
+            },
+            {
+                "Attributes": [
+                    {
+                        "$$hashKey": "object:2478",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Primary Care Provider",
+                        "Name": "Primary Care Provider",
+                        "Value": "30% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2479",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Skilled Nursing Facility Care",
+                        "Name": "Skilled Nursing Facility Care",
+                        "Value": "30% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2480",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Outpatient Rehabilitation Services",
+                        "Name": "Outpatient Rehabilitation Services",
+                        "Value": "30% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2481",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Outpatient Mental Health",
+                        "Name": "Outpatient Mental Health",
+                        "Value": "30% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2482",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Inpatient Mental Health",
+                        "Name": "Inpatient Mental Health",
+                        "Value": "30% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2483",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Urgent Care Facility",
+                        "Name": "Urgent Care Facility",
+                        "Value": "30% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2484",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Emergency Room",
+                        "Name": "Emergency Room",
+                        "Value": "30% After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2485",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Ambulance",
+                        "Name": "Ambulance",
+                        "Value": "30% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2486",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Specialist",
+                        "Name": "Specialist",
+                        "Value": "30% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2487",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Preventive Services",
+                        "Name": "Preventive Services",
+                        "Value": "0",
+                        "ValueDataType": "Currency"
+                    },
+                    {
+                        "$$hashKey": "object:2488",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Annual Deductible",
+                        "Name": "Annual Deductible",
+                        "Value": "7500",
+                        "ValueDataType": "Currency"
+                    },
+                    {
+                        "$$hashKey": "object:2489",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Coinsurance",
+                        "Name": "Coinsurance",
+                        "Value": "30% After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2490",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Annual Out-of-Pocket Limit",
+                        "Name": "Annual Out-of-Pocket Limit",
+                        "Value": "10000",
+                        "ValueDataType": "Currency"
+                    },
+                    {
+                        "$$hashKey": "object:2491",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Lifetime Maximum",
+                        "Name": "Lifetime Maximum",
+                        "Value": "Unlimited",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2492",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Health Savings Account (HSA) Eligible",
+                        "Name": "Health Savings Account (HSA) Eligible",
+                        "Value": "Yes",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2493",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Annual Prescription Deductible",
+                        "Name": "Annual Prescription Deductible",
+                        "Value": "0",
+                        "ValueDataType": "Currency"
+                    },
+                    {
+                        "$$hashKey": "object:2494",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Retail Prescription Drugs–Tier 1",
+                        "Name": "Retail Prescription Drugs–Tier 1",
+                        "Value": "30% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2495",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Retail Prescription Drugs–Tier 2",
+                        "Name": "Retail Prescription Drugs–Tier 2",
+                        "Value": "30% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2496",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Retail Prescription Drugs–Tier 3",
+                        "Name": "Retail Prescription Drugs–Tier 3",
+                        "Value": "30% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2497",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Retail Prescription Drugs–Tier 4",
+                        "Name": "Retail Prescription Drugs–Tier 4",
+                        "Value": "30% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2498",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Retail Prescription Drugs–Tier 5",
+                        "Name": "Retail Prescription Drugs–Tier 5",
+                        "Value": "30% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2499",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Mail Order Prescription Drugs–Tier 1 (90-Day Supply)",
+                        "Name": "Mail Order Prescription Drugs–Tier 1 (90-Day Supply)",
+                        "Value": "20% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2500",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Mail Order Prescription Drugs–Tier 2 (90-Day Supply)",
+                        "Name": "Mail Order Prescription Drugs–Tier 2 (90-Day Supply)",
+                        "Value": "30% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2501",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Mail Order Prescription Drugs–Tier 3 (90-Day Supply)",
+                        "Name": "Mail Order Prescription Drugs–Tier 3 (90-Day Supply)",
+                        "Value": "30% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2502",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Mail Order Prescription Drugs–Tier 4 (90-Day Supply)",
+                        "Name": "Mail Order Prescription Drugs–Tier 4 (90-Day Supply)",
+                        "Value": "30% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2503",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Mail Order Prescription Drugs–Tier 5 (90-Day Supply)",
+                        "Name": "Mail Order Prescription Drugs–Tier 5 (90-Day Supply)",
+                        "Value": "30% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2504",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "In-Patient Hospital Care",
+                        "Name": "In-Patient Hospital Care",
+                        "Value": "30% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2505",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Outpatient Surgery",
+                        "Name": "Outpatient Surgery",
+                        "Value": "30% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2506",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Outpatient Lab/X-Ray",
+                        "Name": "Outpatient Lab/X-Ray",
+                        "Value": "30% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2507",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Imaging (CT and PET scans, MRIs)",
+                        "Name": "Imaging (CT and PET scans, MRIs)",
+                        "Value": "30% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2508",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Preventive Services",
+                        "Name": "Preventive Services",
+                        "Value": "0",
+                        "ValueDataType": "Currency"
+                    },
+                    {
+                        "$$hashKey": "object:2509",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Primary Care Provider",
+                        "Name": "Primary Care Provider",
+                        "Value": "50% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2510",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Specialist",
+                        "Name": "Specialist",
+                        "Value": "50% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2511",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Annual Deductible",
+                        "Name": "Annual Deductible",
+                        "Value": "15000",
+                        "ValueDataType": "Currency"
+                    },
+                    {
+                        "$$hashKey": "object:2512",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Coinsurance",
+                        "Name": "Coinsurance",
+                        "Value": "50% After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2513",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Annual Out-of-Pocket Limit",
+                        "Name": "Annual Out-of-Pocket Limit",
+                        "Value": "20000",
+                        "ValueDataType": "Currency"
+                    },
+                    {
+                        "$$hashKey": "object:2514",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Lifetime Maximum",
+                        "Name": "Lifetime Maximum",
+                        "Value": "Unlimited",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2515",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Mail Order Prescription Drugs–Tier 1 (90-Day Supply)",
+                        "Name": "Mail Order Prescription Drugs–Tier 1 (90-Day Supply)",
+                        "Value": "50% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2516",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Health Savings Account (HSA) Eligible",
+                        "Name": "Health Savings Account (HSA) Eligible",
+                        "Value": "Yes",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2517",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Annual Prescription Deductible",
+                        "Name": "Annual Prescription Deductible",
+                        "Value": "0",
+                        "ValueDataType": "Currency"
+                    },
+                    {
+                        "$$hashKey": "object:2518",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Retail Prescription Drugs–Tier 1",
+                        "Name": "Retail Prescription Drugs–Tier 1",
+                        "Value": "50% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2519",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Retail Prescription Drugs–Tier 2",
+                        "Name": "Retail Prescription Drugs–Tier 2",
+                        "Value": "50% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2520",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Retail Prescription Drugs–Tier 4",
+                        "Name": "Retail Prescription Drugs–Tier 4",
+                        "Value": "50% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2521",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Retail Prescription Drugs–Tier 3",
+                        "Name": "Retail Prescription Drugs–Tier 3",
+                        "Value": "50% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2522",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Retail Prescription Drugs–Tier 5",
+                        "Name": "Retail Prescription Drugs–Tier 5",
+                        "Value": "50% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2523",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Mail Order Prescription Drugs–Tier 2 (90-Day Supply)",
+                        "Name": "Mail Order Prescription Drugs–Tier 2 (90-Day Supply)",
+                        "Value": "50% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2524",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Mail Order Prescription Drugs–Tier 3 (90-Day Supply)",
+                        "Name": "Mail Order Prescription Drugs–Tier 3 (90-Day Supply)",
+                        "Value": "50% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2525",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Mail Order Prescription Drugs–Tier 4 (90-Day Supply)",
+                        "Name": "Mail Order Prescription Drugs–Tier 4 (90-Day Supply)",
+                        "Value": "50% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2526",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Mail Order Prescription Drugs–Tier 5 (90-Day Supply)",
+                        "Name": "Mail Order Prescription Drugs–Tier 5 (90-Day Supply)",
+                        "Value": "50% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2527",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "In-Patient Hospital Care",
+                        "Name": "In-Patient Hospital Care",
+                        "Value": "50% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2528",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Outpatient Surgery",
+                        "Name": "Outpatient Surgery",
+                        "Value": "50% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2529",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Outpatient Lab/X-Ray",
+                        "Name": "Outpatient Lab/X-Ray",
+                        "Value": "50% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2530",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Imaging (CT and PET scans, MRIs)",
+                        "Name": "Imaging (CT and PET scans, MRIs)",
+                        "Value": "50% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2531",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Emergency Room",
+                        "Name": "Emergency Room",
+                        "Value": "50% After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2532",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Urgent Care Facility",
+                        "Name": "Urgent Care Facility",
+                        "Value": "50% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2533",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Inpatient Mental Health",
+                        "Name": "Inpatient Mental Health",
+                        "Value": "50% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2534",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Outpatient Mental Health",
+                        "Name": "Outpatient Mental Health",
+                        "Value": "50% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2535",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Outpatient Rehabilitation Services",
+                        "Name": "Outpatient Rehabilitation Services",
+                        "Value": "50% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2536",
+                        "Category": null,
+                        "CategoryDisplaySequence": 902,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Skilled Nursing Facility Care",
+                        "Name": "Skilled Nursing Facility Care",
+                        "Value": "50% Coinsurance After Deductible",
+                        "ValueDataType": "Text"
+                    }
+                ],
+                "EffectiveDate": "2018-02-01",
+                "Name": "Bronze PPO 7500 (HSA)",
+                "PlanId": "2018SG-PPO-7500-HSA",
+                "PlanType": "Current Plan",
+                "Price": 156,
+                "ProductCode": "SG-PPO-7500-HSA",
+                "ProductId": "01tf4000000yaWNAAY",
+                "TotalPrice": 156,
+                "Type": "Medical",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "producerInformation": {
+        "generalAgentEmail": "dbasdf@gmasd.com",
+        "generalAgentName": "Test",
+        "generalAgentTaxId": "1234",
+        "insuranceLicense": "1234234",
+        "producerAddress": "Deepak",
+        "producerCity": "Chicago",
+        "producerCode": "1234",
+        "producerEmail": "dbani@vlocity.com",
+        "producerName": "Test Prod",
+        "producerPhone": 12341234,
+        "producerRegion": "Test",
+        "producerState": "NY",
+        "producerTaxId": "1234",
+        "producerZip": "80001"
+    },
+    "targetSource": "Enrollment",
+    "testContextId": "0Q0f4000000V03NCAS",
+    "timeStamp": "2018-06-08T06:48:35.999Z",
+    "userCurrencyCode": "USD",
+    "userId": "005f4000001oDAaAAM",
+    "userName": "dbandi@hibo.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": null,
+    "visionPage": {
+        "VisionPlans": [
+            {
+                "Attributes": [
+                    {
+                        "$$hashKey": "object:2933",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Copay - Eye Exam/ Eyeglass Lenses",
+                        "Name": "Copay - Eye Exam/ Eyeglass Lenses",
+                        "Value": "$0/Not covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2934",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Copay - Frames/Contact Lenses Allowance",
+                        "Name": "Copay - Frames/Contact Lenses Allowance",
+                        "Value": "Not covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2935",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Frequency - Eye Exam",
+                        "Name": "Frequency - Eye Exam",
+                        "Value": "Once per calendar year",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2936",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Frequency - Eyeglass Lenses",
+                        "Name": "Frequency - Eyeglass Lenses",
+                        "Value": "Not covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2937",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Frequency - Frames",
+                        "Name": "Frequency - Frames",
+                        "Value": "Not covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:2938",
+                        "Category": null,
+                        "CategoryDisplaySequence": 901,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "Frequency - Contact Lenses",
+                        "Name": "Frequency - Contact Lenses",
+                        "Value": "Not covered",
+                        "ValueDataType": "Text"
+                    }
+                ],
+                "EffectiveDate": "2018-01-01",
+                "Name": "Group Vision Plan - Exam Only 01",
+                "PlanId": "2018VIS-E01",
+                "PlanType": "Current Plan",
+                "Price": 11.75,
+                "ProductCode": "VIS-E01",
+                "ProductId": "01tf4000000bjAPAAY",
+                "TotalPrice": 11.75,
+                "Type": "Vision",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "vlcPersistentComponent": {
+    }
+}

@@ -1,0 +1,28 @@
+/*** STYLES ***/
+// include mixin "npVariables" for fonts and colors.
+// npVariables mixin template should be active.
+@import "npVariables";
+    .vlocity { 
+        /* Always use vlocity class as a wrapper */
+        .np-canvas { 
+            &.np-border{
+                border:1px solid $background-color-1;
+            }
+            background:$background-color-1;
+            color:$text-color-SHBlack;
+/*                font-family: Lato; */
+            .np-session--title{
+                font-size:$font-medium;
+                font-weight: bold;
+                    &:after {
+                    content: "";
+                    background : $theme-color-SHBlue;
+                    position: absolute;
+                    bottom: -20px;
+                    left: 0;
+                    width: 50px;
+                    height: 3px;
+                }
+            }
+        }   
+    }

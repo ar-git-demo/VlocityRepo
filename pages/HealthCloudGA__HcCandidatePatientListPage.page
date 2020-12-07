@@ -1,0 +1,14 @@
+<apex:page standardStylesheets="false" docType="html-5.0">
+    <c:HcCommonIncludes />
+
+    <html>
+        <div id="content" />
+    </html>
+
+    <script>
+    
+    $Lightning.use("HealthCloudGA:HcCandidatePatientListViewApp", function() {    
+        $Lightning.createComponent("HealthCloudGA:HcCandidatePatientListView", {shownInAlohaConsole: true}, "content");
+    });
+    </script>
+</apex:page>

@@ -1,0 +1,53 @@
+{
+    "Children": {
+        "BillingStateCode": "CA",
+        "Id": "001f400000kPoGtAAK",
+        "Name": "Morrison Motors Union",
+        "fType": "Child"
+    },
+    "ContextId": "001f400000kPnf8AAC",
+    "CountryCode": "US",
+    "CurrentParentId": "001f4000002GSUuAAO",
+    "EditDivisions": {
+        "ebChild": null,
+        "ebParent": null,
+        "fChildHeader": null,
+        "fParentHeader": null,
+        "fincludesMove": null,
+        "fincludesReparent": null,
+        "rdoBackToParent": null
+    },
+    "Ready": true,
+    "Siblings": {
+        "BillingStateCode": "FL",
+        "Id": "001f400000kPoEOAA0",
+        "Name": "Morrison Tampa",
+        "fType": "Sibling"
+    },
+    "Step8": {
+        "ReparentOptions": [
+            {
+                "BillingStateCode": "CA",
+                "Id": "001f400000kPoGtAAK",
+                "Name": "Morrison Motors Union",
+                "fType": "Child",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "callerId": "none",
+    "contextId": "001f400000kPnf8AAC",
+    "id": "a2Cf4000000eyaXEAQ",
+    "isdtp": "p1",
+    "layout": "newport",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://demo978657--%vlocity_namespace%.na59.visual.force.com",
+    "timeStamp": "2019-02-25T06:32:28.017Z",
+    "userCurrencyCode": "USD",
+    "userId": "005f4000000WPa9AAG",
+    "userName": "dnelson@hibo.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": -480,
+    "vlcPersistentComponent": {
+    }
+}

@@ -1,0 +1,40 @@
+<div ng-controller="insCountyOsCtrl" ng-init="init(control)" style="width: 100%;display: grid;grid-template-rows: 1fr 1fr;">
+   <ng-form name='loopform' style="width: 100%;"
+      class='nds-form-element nds-size_1-of-1 nds-m-bottom_large nds-p-around_small nds-input__tooltip'
+      >
+      <div class="nds-form-element__control nds-form-element__control-animated-label nds-grid">
+         <input id='textinput'
+            type='text'
+            name='loopname'
+            class='nds-input'
+            ng-change='getCounty()' 
+            ng-model='enteredZipCode' ng-required='true'
+            />
+         <label for="textinput" class='nds-form-element__label'>
+        Zip Code
+         <span class='nds-required'
+            ng-if='control.reqTemp'>*
+         </span>
+         </label>
+         <div vlc-slds-include="vlcLabelController.html"></div>
+      </div>
+      <div class="nds-form-element__control-help" ng-if="control.propSetMap.help"></div>
+      <div ng-include="::errHTMLId"></div>
+   </ng-form>
+   <!-- </div> -->
+   <div class="nds-form-element" style="width: 100%;padding:.75rem">
+      <div class="nds-form-element__control nds-form-element__control-animated-label">
+         <div class="nds-select_container">
+            <select class="nds-select"
+               ng-change='setCounty(control.countySelect)' ng-model='control.countySelect'
+               ng-options='item.county for item in countyList'  id="select-01" required="">
+               <option></option>
+             
+            </select>
+            <label class="nds-form-element__label" for="select-01">County <span class='nds-required'
+            ng-if='control.reqTemp'>*
+         </span></label>
+         </div>
+      </div>
+   </div>
+</div>

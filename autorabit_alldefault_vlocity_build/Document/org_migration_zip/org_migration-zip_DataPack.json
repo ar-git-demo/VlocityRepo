@@ -1,0 +1,17 @@
+{
+    "Body": "",
+    "BodyLength": 0,
+    "ContentType": "",
+    "Description": "",
+    "DeveloperName": "org_migration_zip",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": false,
+    "Keywords": "",
+    "Name": "org_migration.zip",
+    "Type": "zip",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/org_migration_zip"
+}

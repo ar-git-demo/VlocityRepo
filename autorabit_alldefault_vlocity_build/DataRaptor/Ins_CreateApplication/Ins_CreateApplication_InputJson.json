@@ -1,0 +1,126 @@
+{
+    "AccountId": "001f4000002GSUnAAO",
+    "AccountName": "Voltage Robotics",
+    "ContextId": "0Q0f4000000V0F0CAK",
+    "OpportunityId": "006f400000AwPXSAA3",
+    "companyProfile": {
+        "companyBillingAddress": {
+            "BillingCity": null,
+            "BillingState": null,
+            "BillingStreet": null,
+            "BillingZip": null
+        },
+        "companyInformation": {
+            "companyTypeC": false,
+            "companyTypeLLC": false,
+            "companyTypeNP": false,
+            "companyTypeP": false,
+            "companyTypeS": false,
+            "companyTypeSP": false
+        },
+        "companyPhysicalAddress": {
+            "PhysicalCity": null,
+            "PhysicalState": null,
+            "PhysicalStreet": null,
+            "PhysicalZip": null
+        },
+        "companyType": {
+            "companyDetails": null,
+            "companyTID": null
+        }
+    },
+    "contactInformation": {
+        "billingPrimaryContact": {
+            "billingPrimaryEmail": null,
+            "billingPrimaryJob": null,
+            "billingPrimaryName": null,
+            "billingPrimaryPhone": null
+        },
+        "certiInsuranceContact": {
+            "certiInsuranceEmail": null,
+            "certiInsuranceJob": null,
+            "certiInsuranceName": null,
+            "certiInsurancePhone": null
+        },
+        "contactOnlineAdmin": {
+            "OnlineAdminEmail": null,
+            "OnlineAdminJob": null,
+            "OnlineAdminName": null,
+            "OnlineAdminPhone": null
+        },
+        "contactPrimaryGroup": {
+            "primaryGroupEmail": null,
+            "primaryGroupJob": null,
+            "primaryGroupName": null,
+            "primaryGroupPhone": null
+        },
+        "legalContact": {
+            "legalEmail": null,
+            "legalJob": null,
+            "legalName": null,
+            "legalPhone": null
+        }
+    },
+    "docusignPage": {
+        "SignNowRecipient": null
+    },
+    "employeeEligibility": {
+        "eligibilityActivelyWorking": null,
+        "eligibilityCoverage": null,
+        "eligibilityHealthCoverage": null,
+        "eligibilityRetirees": null,
+        "eligibilityRetireesOver65": false,
+        "eligibilityRetireesUnder65": false
+    },
+    "employeeEnrollment": {
+        "eligibleEmployeesDeclining": {
+            "declineDental": null,
+            "declineMedical": null,
+            "declineVision": null
+        },
+        "eligibleEmployeesEnrolling": {
+            "enrollmentDental": null,
+            "enrollmentMedical": null,
+            "enrollmentVision": null
+        },
+        "employeeOutStateCount": null,
+        "employeeOutofState": null,
+        "employeeOutofStateCover": null,
+        "employeeOutofStateCoverName": null,
+        "enrollmentEmployee": null,
+        "enrollmentFullTimeEmployee": null,
+        "enrollmentPartTimeEmployee": null
+    },
+    "groupProfile": {
+        "businessName": "Voltage Robotics",
+        "emailAddress": "jd@voltagerobots.com",
+        "firstName": "Jolene",
+        "lastName": "Davis",
+        "phoneNumber": null
+    },
+    "producerInformation": {
+        "generalAgentEmail": null,
+        "generalAgentName": null,
+        "generalAgentTaxId": null,
+        "insuranceLicense": null,
+        "producerAddress": null,
+        "producerCity": null,
+        "producerCode": null,
+        "producerEmail": null,
+        "producerName": null,
+        "producerPhone": null,
+        "producerRegion": null,
+        "producerState": null,
+        "producerTaxId": null,
+        "producerZip": null
+    },
+    "targetSource": "Enrollment",
+    "timeStamp": "2018-06-10T20:18:12.583Z",
+    "userCurrencyCode": "USD",
+    "userId": "005f4000001oDAaAAM",
+    "userName": "dbandi@hibo.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    }
+}

@@ -1,0 +1,136 @@
+/* Always sets the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+  height: 100% !important 
+}
+/* Optional: Makes the sample page fill the window. */
+
+table {
+  font-size: 12px !important;
+}
+
+#listing {
+  overflow: auto !important;
+  cursor: pointer !important;
+  overflow-x: hidden !important;
+  height: 100%;
+}
+#findhotels {
+  position: absolute !important;
+  text-align: right !important;
+  width: 100px !important;
+  font-size: 14px !important;
+  padding: 4px !important;
+  z-index: 5 !important;
+  background-color: #fff !important;
+}
+#locationField {
+  position: absolute !important;
+  width: 190px !important;
+  height: 25px !important;
+  left: 108px !important;
+  top: 0px !important;
+  z-index: 5 !important;
+  background-color: #fff !important;
+}
+#controls {
+  position: absolute !important;
+  left: 300px !important;
+  width: 140px !important;
+  top: 0px !important;
+  z-index: 5 !important;
+  background-color: #fff !important;
+}
+#autocomplete {
+  width: 100% !important;
+}
+#country {
+  width: 100% !important;
+}
+.placeIcon {
+  width: auto !important;
+  height: auto !important;
+  margin: 4px !important;
+}
+.hotelIcon {
+  width: 24px !important;
+  height: 24px !important;
+}
+#resultsTable {
+  border-collapse: collapse !important;
+}
+#rating {
+  font-size: 13px !important;
+  font-family: Arial Unicode MS !important;
+}
+.iw_table_row {
+  height: 18px !important;
+}
+.iw_attribute_name {
+  font-weight: bold !important;
+  text-align: right !important;
+}
+.iw_table_icon {
+  text-align: right !important;
+}
+
+.map-container{
+    width: 100% !important;
+    height: 500px !important;
+    display: flex !important;
+  flex-wrap: wrap !important;
+    
+
+}
+.grid-60 {
+  width: calc(60% - 15px) !important;
+}
+.grid-40 {
+  width: calc(40% - 15px) !important;
+}
+#resultsTable button{
+    width: 80px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 7px;
+    color: #1f74d3;
+}
+#resultsTable .button-selected{
+    width: 80px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 7px;
+    color: white;
+    background-color:#1f74d3;
+}
+
+#resultsTable button:focus     { outline:none; }
+
+#resultsTable tr{
+  height: 100px;
+}
+
+#resultsTable td:nth-child(1) {  
+  width: 15%;
+    margin: auto;
+    text-align: left;
+    height: auto;
+    vertical-align: top;
+}
+#resultsTable td:nth-child(2) {  
+  width: 55%;
+    margin: auto;
+    text-align: left;
+    height: auto;
+    vertical-align: top;
+}
+#resultsTable td:nth-child(3) {  
+  width: 30%;
+    margin: auto;
+    height: auto;
+    vertical-align: top;
+}
+#resultsTable td:nth-child(2)::first-line {
+    font-weight: bold;
+    font-size: 13px;
+}

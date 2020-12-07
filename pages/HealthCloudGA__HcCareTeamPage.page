@@ -1,0 +1,56 @@
+<!--
+* Copyright © 2015 salesforce.com, inc. All rights reserved.
+* @copyright This document contains proprietary and confidential information and shall not be reproduced,
+* transferred, or disclosed to others, without the prior written consent of Salesforce.
+* @description HcCareTeamPage visualforce page, LighiningOut container for HcCareTeamBaseCmp and visualforce chatter feed
+* @since 198
+-->
+<apex:page standardStylesheets="true" docType="html-5.0" sidebar="false" showHeader="false">
+    <c:HcCommonIncludes includeHealthCloud="true" setTabLink="true"/>
+    <apex:stylesheet value="{!URLFOR($Resource.HealthCloudGA__healthresources, 'animation/animate.css')}" />
+    
+    <html>
+        <div class="hc-patientnetwork__container">
+            <c:HcSpinnerComponent spinnerContainerId="spinnerDiv" />
+            <div id="lightningout-network" />
+        </div>
+        
+        <div class="lightningout">
+            <div id="lightningout-chatter">
+                <h1 class="slds-text-heading--medium">{!$Label.Header_Chatter_Feed}</h1>
+                <apex:iframe id="iframe" src="{!$Page.HealthCloudGA__HcEntityChatterPage}?recId={!$CurrentPage.parameters.recId}&carePlanId={!$CurrentPage.parameters.carePlanId}" scrolling="true" width="100%" height="500px"/>
+            </div>
+        </div>
+    </html>
+    
+    <script>
+    
+    if (typeof isSalesforceNativePage != 'undefined') {
+        var supressTabRefresh = function eventHandler(result) {
+            return false;
+        };
+        sforce.console.onEnclosingTabRefresh(supressTabRefresh);
+    }
+    
+    var patientId = healthCloud.getUrlQueryParameter('recId');
+    var carePlanId = healthCloud.getUrlQueryParameter('carePlanId');
+    var strCareTeamByCaseId = healthCloud.getUrlQueryParameter('careTeamByCaseId');
+    var careTeamByCaseId = false;
+    strCareTeamByCaseId =  (typeof strCareTeamByCaseId === 'undefined' || !strCareTeamByCaseId) ? strCareTeamByCaseId : strCareTeamByCaseId.toLowerCase();
+    if(strCareTeamByCaseId === 'true') {
+        careTeamByCaseId = true;
+    }
+    
+    
+    $Lightning.use("HealthCloudGA:HcCareTeamApp", function() {
+        $Lightning.createComponent("HealthCloudGA:HcCareTeamBase", {
+            patientId: patientId,
+            carePlanId:carePlanId,
+            careTeamByCaseId:careTeamByCaseId,
+            shownInAlohaConsole: true
+        }, "lightningout-network");
+        document.getElementById("spinnerDiv").className = "slds-hidden";
+    });
+
+    </script>
+</apex:page>

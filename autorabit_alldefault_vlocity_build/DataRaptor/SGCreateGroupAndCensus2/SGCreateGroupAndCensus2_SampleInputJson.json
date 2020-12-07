@@ -1,0 +1,78 @@
+{
+    "AccountNumber": 45811897,
+    "AccountRecordTypeId": "012f400000005yLAAQ",
+    "CensusRecordTypeId": "012f400000005ydAAA",
+    "ContactRecordTypeId": "012f400000005yHAAQ",
+    "ContextId": "",
+    "DRId_%vlocity_namespace%__GroupCensus__c": "a1df4000006h2kXAAQ",
+    "DRId_Account": "001f400000tC0VWAA0",
+    "DRId_Contact": "003f400000tjb4AAAQ",
+    "DRId_Opportunity": "006f400000KKSOHAA5",
+    "RatingFactProductCode": "SG-Census-RF",
+    "RecordTypes": [
+        {
+            "Object": "Account",
+            "Type": "Group"
+        },
+        {
+            "Object": "Contact",
+            "Type": "Contact"
+        },
+        {
+            "Object": "%vlocity_namespace%__GroupCensus__c",
+            "Type": "Small Group"
+        }
+    ],
+    "accountId": "001f400000tC0VWAA0",
+    "censusId": "a1df4000006h2kXAAQ",
+    "groupProfile": {
+        "SICTypeAhead-Block": {
+            "SICCode": "1222",
+            "SICDescription": "Bituminous Coal Underground Mining",
+            "SICTypeAhead": "1222 - Bituminous Coal Underground Mining"
+        },
+        "agency": null,
+        "broker": "John Williams",
+        "email": "rmoore@abccorp.com",
+        "firstName": "Roger",
+        "groupName": "ABC Corp",
+        "lastName": "Moore",
+        "mailingAddress": "47 Village Ct",
+        "mailingCity": "Hazlet",
+        "mailingState": "New Jersey",
+        "mailingZipCode": 17730,
+        "phone": "555-555-5555",
+        "producerNumber": null,
+        "title": "COO"
+    },
+    "groupQualification": {
+        "cobra": null,
+        "effectiveDate": "2019-03-01 00:00:00",
+        "eligibleEmployees": null,
+        "employeesEnrolling": null,
+        "firstYearDental": null,
+        "outOfStateEmployees": null,
+        "pediatricDental": null,
+        "privateExchange": null
+    },
+    "id": "a2Cf4000000f08fEAA",
+    "isdtp": "p1",
+    "opportunityId": "006f400000KKSOHAA5",
+    "selectPlanTypes": {
+        "isDentalSelected": null,
+        "isMedicalSelected": null,
+        "isVisionSelected": null,
+        "plansSelection": null
+    },
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://demo978657--%vlocity_namespace%.na59.visual.force.com",
+    "timeStamp": "2019-03-10T12:51:35.600Z",
+    "userCurrencyCode": "USD",
+    "userId": "005f4000001mA10AAE",
+    "userName": "jwhibodemo@demo.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "validCensus": true,
+    "vlcPersistentComponent": {
+    }
+}

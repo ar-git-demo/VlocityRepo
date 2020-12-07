@@ -1,0 +1,9 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "",
+    "%vlocity_namespace%__SystemInterface__c": "TwilioVlocityAccount_SystemInterfaces.json",
+    "%vlocity_namespace%__URL__c": "https://api.twilio.com/2010-04-01/Accounts/AC6c4997995c3811450370a52ca150380f",
+    "Name": "TwilioVlocityAccount",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__System__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__System__c/TwilioVlocityAccount"
+}

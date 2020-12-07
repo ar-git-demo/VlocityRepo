@@ -1,0 +1,80 @@
+{
+    "Call Script": {
+        "BoxFormatting": {
+            "FullName": "Sally Wilson"
+        },
+        "IntroSelect": "Yes",
+        "taMailing-Block": null,
+        "talkNo": null,
+        "talkYes": {
+            "recordQuestion": "Yes"
+        }
+    },
+    "ContextId": "00v1U000007hxWEQAY",
+    "Email": "sally.wilson@vlocitytest.com",
+    "Lead": {
+        "Campaign": "7011U000000MPE1QAO",
+        "Email": "sally.wilson@vlocitytest.com",
+        "FirstName": "Sally",
+        "Id": "00Q1U00000HhBNRUA3",
+        "LastName": "Wilson",
+        "Phone": "513-123-1234"
+    },
+    "Location": {
+        "AvailableEvents": null,
+        "apptSetup": {
+            "radioLocation": "Home"
+        },
+        "blockName2": {
+            "Name2": "Sally Wilson"
+        },
+        "fAddress": "7227 LIberty Way, Wetherington OH 45069",
+        "fNeedAddress": true,
+        "fNeedEvent": false,
+        "fNeedLocationName": false,
+        "taMeeting-Block": {
+            "taCity": "Wetherington",
+            "taMeeting": "7227 Liberty Way, West Chester Township, OH 45069, USA",
+            "taState": "OH",
+            "taStreet": "7227 LIberty Way",
+            "taZip": "45069"
+        },
+        "textLocationName": null,
+        "txtOther": null
+    },
+    "ScopeOfAppointment": {
+        "Disclosure": true,
+        "scopeSelect": "3",
+        "soaOption": "phone"
+    },
+    "closeCall": {
+        "prospectName": {
+            "Name3": "Sally Wilson"
+        }
+    },
+    "id": "a331U000000WpJ4QAK",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://health-01--vlocity-ins.visualforce.com",
+    "taMeeting-Block": {
+        "administrative_area_level_2": "Butler County",
+        "country": "United States"
+    },
+    "timeStamp": "2019-11-05T22:03:25.119Z",
+    "userCurrencyCode": "USD",
+    "userId": "0051U000006jBBmQAM",
+    "userName": "dfischesser@health.demo",
+    "userProfile": "Vlocity User",
+    "userTimeZone": -480,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Call Script": 7006,
+        "Location": 11490,
+        "OmniScriptSessionToken": "a2e7fe5b-cec1-4a4b-8be8-6cfbf7e8207b",
+        "drGetLeadData": 1767,
+        "svLeadInfo": 30,
+        "svTestingContextId": 10
+    }
+}

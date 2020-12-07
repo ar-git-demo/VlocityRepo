@@ -1,0 +1,33 @@
+{
+    "DETransformLargeGroupCensusSales": {
+        "ContextId": "0Q01U000000l8XuSAI"
+    },
+    "GetTrailingDocumentRequirements": {
+        "Placeholder": [
+            {
+                "category": "Financial Statement",
+                "placeholderName": "Balance Sheet"
+            },
+            {
+                "category": "Financial Statement",
+                "placeholderName": "Auditor Report"
+            },
+            {
+                "category": "Financial Statement",
+                "placeholderName": "Prior Year Income Statement"
+            },
+            {
+                "category": "Underwriting Reports",
+                "placeholderName": "ISO Protection Class"
+            },
+            {
+                "category": "Financial Statement",
+                "placeholderName": "Credit Report"
+            },
+            {
+                "category": "Underwriting Reports",
+                "placeholderName": "Credit Report"
+            }
+        ]
+    }
+}

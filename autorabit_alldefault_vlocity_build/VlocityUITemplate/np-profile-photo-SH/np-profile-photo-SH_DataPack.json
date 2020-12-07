@@ -1,0 +1,18 @@
+{
+    "%vlocity_namespace%__Author__c": "EMEA",
+    "%vlocity_namespace%__CustomJavascript__c": "np-profile-photo-SH.js",
+    "%vlocity_namespace%__Definition__c": "{\"placeholders\":[{\"name\":\"ProfileImage\",\"label\":\"\",\"$$hashKey\":\"object:13335\"},{\"name\":\"ProfileName\",\"label\":\"\",\"$$hashKey\":\"object:13338\"},{\"name\":\"ProfileEmail\",\"label\":\"\",\"$$hashKey\":\"object:14481\"},{\"name\":\"ProfileWebsite\",\"label\":\"\",\"$$hashKey\":\"object:15623\"}]}",
+    "%vlocity_namespace%__Description__c": "This is community card template to display the user image from the Logged in User's AccountId Primary Broker with the placeholders: AgentImage, AgentName",
+    "%vlocity_namespace%__DisplayOn__c": "",
+    "%vlocity_namespace%__ExternalID__c": "np-profile-photo-SH/2/EMEA/1543217293915",
+    "%vlocity_namespace%__HTML__c": "np-profile-photo-SH.html",
+    "%vlocity_namespace%__ParentID__c": "np-profile-photo/1/Vlocity/1502447538331",
+    "%vlocity_namespace%__SampleJson__c": "np-profile-photo-SH_Sample.json",
+    "%vlocity_namespace%__Sass__c": "np-profile-photo-SH.scss",
+    "%vlocity_namespace%__Type__c": "Cards",
+    "%vlocity_namespace%__Version__c": 2,
+    "Name": "np-profile-photo-SH",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUITemplate__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUITemplate__c/np-profile-photo-SH"
+}

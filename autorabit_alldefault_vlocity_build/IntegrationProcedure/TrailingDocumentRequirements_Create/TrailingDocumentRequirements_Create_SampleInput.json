@@ -1,0 +1,144 @@
+{
+    "AccountId": "0011U00001BgdyVQAR",
+    "BatchFinished": 1,
+    "BatchIds": [
+        "7071U00004QJNpHQAX"
+    ],
+    "BatchInProgress": 0,
+    "BatchStartTime": "1582126058031",
+    "CensusHeaders": [
+        "Last Name",
+        "First Name",
+        "Tier",
+        "FTE",
+        "Gender",
+        "Bonus",
+        "Salary",
+        "Birthday",
+        "Hire Date",
+        "Is Family",
+        "No. Dependents",
+        "Total Dependents",
+        "Postal Code",
+        "Spouse",
+        "Type",
+        "Class Codes",
+        "Primary",
+        "Primary Member Identifier",
+        "Member Identifier",
+        "Census"
+    ],
+    "CensusId": "a2C1U000000mamvUAA",
+    "ContextId": "0011U00001BgdyVQAR",
+    "CreateClasses": {
+        "ClassEditBlock": [
+            {
+                "ClassID": null,
+                "ClassName": "All Employees (Non Leadership)"
+            },
+            {
+                "ClassID": null,
+                "ClassName": "Executive Management"
+            },
+            {
+                "ClassID": null,
+                "ClassName": "Managers"
+            }
+        ],
+        "count of classes": 3
+    },
+    "DRId_Account": "0011U00001BgdyVQAR",
+    "DRId_Attachment": "00P1U00000AASyeUAH",
+    "DRId_Opportunity": "0061U00000FayGtQAJ",
+    "DRId_Quote": "0Q01U000000l8bASAQ",
+    "ElapsedTime": "00:00:04",
+    "ImportPrompt": {
+        "EffectiveDate": "2020-03-01",
+        "EndDate": "2021-03-01",
+        "Import": "now"
+    },
+    "IntroText": {
+        "contextblank": false
+    },
+    "account": {
+        "BillingCity": "San Francisco",
+        "BillingCountry": "United States",
+        "BillingCountryCode": "US",
+        "BillingPostalCode": "94103",
+        "BillingState": "California",
+        "BillingStateCode": "CA",
+        "BillingStreet": "412 Valencia Street",
+        "Name": "Morrison Motors",
+        "Phone": "(704)7827716",
+        "Type": "Headquarters"
+    },
+    "accountId": "0011U00001BgdyVQAR",
+    "dispAccountName": "Morrison Motors",
+    "error": "OK",
+    "id": "a331U000000lSHKQA2",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://health-01--vlocity-ins.visualforce.com",
+    "stepMappings": {
+        "blkMappings": {
+            "FileHeaders": [
+                "First Name",
+                "Last Name",
+                "Birthday",
+                "Gender",
+                "Group Class\r"
+            ],
+            "selTargetHeader": [
+                "%vlocity_namespace%__FirstName__c",
+                "Name",
+                "%vlocity_namespace%__Birthdate__c",
+                "%vlocity_namespace%__Gender__c",
+                "%vlocity_namespace%__ClassCodes__c"
+            ]
+        }
+    },
+    "stepMonitorBatches": {
+        "fFinished": 1,
+        "fInProgress": 0
+    },
+    "stepUpload": {
+        "fileCensus": [
+            {
+                "data": "19c31e27-a842-4cce-a5b1-2dad475d7cbc",
+                "filename": "LargeGroupCensus - LargeGroupCensus.csv",
+                "size": 4514
+            }
+        ]
+    },
+    "testContextId": "0011U00001BgdyVQAR",
+    "timeStamp": "2020-02-19T15:27:11.690Z",
+    "userCurrencyCode": "USD",
+    "userId": "0051U000006JwZaQAK",
+    "userName": "rm@health.demo",
+    "userProfile": "Vlocity User",
+    "userTimeZone": -480,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CreateAccAndOrContAndOppAndQuote": 2457,
+        "CreateClasses": 1710,
+        "DataRaptorExtractAction2": 842,
+        "GetClasses": 2131,
+        "ImportPrompt": 2518,
+        "IntroText": 2020,
+        "OmniScriptSessionToken": "1e5f0560-9762-47e6-8d89-3d89a6210fee",
+        "SetInitialValues": 38,
+        "SetNoContext": 7,
+        "drGetNameFromAccount": 1166,
+        "drUploadCensus": 958,
+        "raGetCensusHeaders": 419,
+        "raStartBatch": 1510,
+        "stepMappings": 3862,
+        "stepMonitorBatches": 4166,
+        "stepUpload": 10068,
+        "svCreateHeaderSelects": 48,
+        "svEffectiveEndAndDebugAccount": 13,
+        "svSetCensusHeaders": 9
+    }
+}

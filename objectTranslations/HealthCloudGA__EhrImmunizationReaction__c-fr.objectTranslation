@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Réaction à l&apos;immunisation DME</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Réactions à l&apos;immunisation DME</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>ID de réaction à l&apos;immunisation DME</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

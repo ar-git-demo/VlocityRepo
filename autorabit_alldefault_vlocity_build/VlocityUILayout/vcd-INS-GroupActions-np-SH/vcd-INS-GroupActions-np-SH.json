@@ -1,0 +1,44 @@
+{
+    "Cards": [
+        "GroupAccount_Actions"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "001f40000106KrYAAU"
+            },
+            {
+                "name": "Jennifer Smith",
+                "val": "0016A00000NxnQGQAZ"
+            },
+            {
+                "name": "Jordon",
+                "val": ""
+            }
+        ],
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "VPL-ReadCustomerContactDetail-100-1",
+            "inputMap": {
+                "Id": "{{params.id}}"
+            },
+            "jsonMap": "{\"params.id || params.Id\":\"{{params.id || params.Id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "sessionVars": [
+        {
+            "name": "Title",
+            "val": "\"Group Admin\""
+        }
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "np-canvas-out-SH"
+        }
+    },
+    "workspace": [
+        "GroupAccount_Actions/Total Health Plan/1/1559749941363"
+    ]
+}

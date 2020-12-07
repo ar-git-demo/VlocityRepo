@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Use standard trigger instead of packaged triggers.</description>
+    <fields>
+        <fullName>HealthCloudGA__Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Standard trigger runs instead of packaged trigger.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Active</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__Object__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Objects currently available in Salesforce platform.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Object</label>
+        <length>80</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__TriggerEvents__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Events currently available to run in Salesforce platform.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Trigger Events</label>
+        <length>120</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Use Standard Trigger</label>
+    <pluralLabel>Use Standard Triggers</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

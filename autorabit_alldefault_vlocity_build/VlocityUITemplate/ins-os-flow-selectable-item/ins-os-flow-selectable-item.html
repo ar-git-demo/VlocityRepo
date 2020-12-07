@@ -1,0 +1,51 @@
+<div ng-if="control.vlcSI[control.itemsKey]" class="selectable-plan-section">
+    
+    <div class="form-group product-control">
+        <button ng-click="openModal(this, control)">Compare Plans</button>
+    </div>
+    
+    <div class="vloc-ins-coverages-container-inner-wrapper" ng-controller="insCoveragesOsCtrl" ng-init="bindProducts(control.vlcSI[control.itemsKey])">
+        
+        <section class="selectable-plan" ng-repeat="p in control.vlcSI[control.itemsKey]"  ng-class="{'vlc-selectableitem-selected' : p.vlcSelected, 'recommended': p.ProductRecommend}">
+            <div class="row">
+                
+                <div class="plan__content" ng-init="getRates(p)">
+                    <div class="plan__content_maininfo">
+                        <h6 ng-show="p.RenewalType">{{p.RenewalType}}</h6>
+                        <h2>{{p.Name}}</h2>
+                        <h4 ng-if="p.TotalPrice">{{p.TotalPrice | currency:"$":2}}</h4>
+                        <div class="spinner" ng-if="!p.TotalPrice">
+                          <div class="bounce1"></div>
+                          <div class="bounce2"></div>
+                          <div class="bounce3"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="plan__content_attributes">
+                        <ul>
+                            <li ng-repeat="attr in p.Attributes" ng-if="$index < 3 && attr.Value !== null">
+                                <p>{{attr.Name}}
+                                    <span ng-if="attr.ValueDataType == 'Currency'">{{attr.Value | currency:"$":2}}</span>
+                                    <span ng-if="attr.ValueDataType == 'Percent'">{{attr.Value + '%'}}</span>
+                                    <span ng-if="attr.ValueDataType != 'Percent' && attr.ValueDataType != 'Currency'">{{attr.Value}}</span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="plan__footer">
+                    <button type="button" class="plan_button" ng-click="onSelectItem(control, p, $index, this, true)" ng-class="{'active': p.vlcSelected}">Select Plan</button>
+                    
+                    <div class="plan__footer_options">
+                        <button class="details_button">View Details</button>
+                        <label>
+                                <input type="checkbox" ng-model="p.vlcCompSelected" ng-change="onCompSelectItem(control)" class="filled-in filter-checkbox"> <span>Compare</span>
+                        </label>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+    </div>
+</div>

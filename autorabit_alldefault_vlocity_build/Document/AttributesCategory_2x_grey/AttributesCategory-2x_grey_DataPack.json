@@ -1,0 +1,18 @@
+{
+    "Body": "File_AttributesCategory-2x_grey.png",
+    "BodyLength": 1354,
+    "ContentType": "image/png",
+    "Description": "",
+    "DeveloperName": "AttributesCategory_2x_grey",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "AttributesCategory@2x_grey",
+    "NamespacePrefix": "%vlocity_namespace%",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/AttributesCategory_2x_grey"
+}

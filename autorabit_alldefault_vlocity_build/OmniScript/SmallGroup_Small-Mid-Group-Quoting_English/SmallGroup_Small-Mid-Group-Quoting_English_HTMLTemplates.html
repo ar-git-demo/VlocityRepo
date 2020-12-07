@@ -1,0 +1,41 @@
+<script type="text/ng-template" id="quickfill">
+ <div class="slds-col--padded slds-size--1-of-1 ng-scope">
+   <ng-form name="loopform"
+     class="slds-form-element vlc-flex vlc-form-group vlc-slds-remote-action--button ng-pristine ng-valid ng-scope demo-short"
+     ng-repeat="control in child.eleArray">
+       <div class="slds-form-element__control">
+         <div class="vlc-control-wrapper">
+           <div  id='{{::control.name}}'
+                 class="vlc-slds-button--tertiary ng-binding ng-scope"
+                 title='{{::control.propSetMap.label}}'
+                 ng-click="buttonClick(this.bpTree.response, control, this)"
+                 style="font-style: italic; font-size: smaller; cursor: pointer; text-align: right;">{{::control.propSetMap.label}}</div>
+         </div>
+       <div class="vlc-sub-block"></div>
+     </div>
+   </ng-form>
+ </div>
+</script>
+
+<style>
+.via-nds .nds-step_label {
+    color: #c23934;
+}
+
+.via-nds .nds-button--brand, .via-nds .nds-button_brand {
+    background-color: #c23934;
+    color: #fff;
+}
+.via-nds label[vlc-slds-toggle] .nds-form-element__label_toggleText {
+    color: #c23934;
+}
+
+.via-nds ::selection {
+    color: #000000;
+}
+
+html {
+    color: #000000;
+}
+
+</style>

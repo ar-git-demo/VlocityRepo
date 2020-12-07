@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>EHR Vaccination Protocol</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>EHR Vaccination Protocols</value>
+    </caseValues>
+    <nameFieldLabel>EHR Vaccination Protocol ID</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

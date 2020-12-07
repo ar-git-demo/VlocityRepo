@@ -1,0 +1,28 @@
+{
+    "ContextId": null,
+    "confirmation": {
+    },
+    "summary": {
+        "quoteSummary": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Done": null,
+        "cloneCensus": null,
+        "confirmation": null,
+        "createContract": null,
+        "getContractNumber": null,
+        "getQuoteDetail": null,
+        "setQuoteSummary": null,
+        "summary": null,
+        "transformForContractCreation": null,
+        "updateGroupRateType": null,
+        "updateQuoteStatus": null
+    }
+}

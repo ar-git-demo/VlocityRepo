@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Déclaration médicale DME</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Déclarations médicales DME</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>ID de déclaration médicale DME</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

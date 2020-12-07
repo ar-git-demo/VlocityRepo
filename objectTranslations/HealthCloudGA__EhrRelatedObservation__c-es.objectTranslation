@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Observación relacionada de HCE</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Observaciones relacionadas de HCE</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nombre de observación relacionada de HCE</nameFieldLabel>
+</CustomObjectTranslation>

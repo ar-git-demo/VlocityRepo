@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Sistemazione per interazione EHR</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Sistemazioni per interazione EHR</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>ID sistemazione per interazione EHR</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Source to Target field mapping for objects created in Job Flow</description>
+    <fields>
+        <fullName>HealthCloudGA__Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Is the Mapping Active</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Active</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__MappingGroupName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Identifies a group of mappings to be applied to a particular flow</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Mapping Group Name</label>
+        <length>64</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__SourceField__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Field on source object to access data to be mapped to target</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Source Field</label>
+        <length>40</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__SourceObject__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Object from which to access field data being mapped to target</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Source Object</label>
+        <length>40</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__TargetField__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Field on target object for which to assign value of source field in flow mapping.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Target Field</label>
+        <length>40</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__TargetObject__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Base object on which to assign the field specified by TargetField</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Target Object</label>
+        <length>40</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Job Flow Data Mapping</label>
+    <pluralLabel>Job Flow Data Mappings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

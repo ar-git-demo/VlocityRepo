@@ -1,0 +1,10 @@
+<tr class="custom-border--bottom slds-max-small-hide">
+    <!-- getting all the fields from the card state-->
+    <td class="slds-p-around--xx-small np-table-cell" data-label="{{field.label}}" ng-repeat="field in data.fields" ng-show="key != 'attributes'">{{obj | getter: field | picker: field.type}}</td>
+    <td class="slds-p-around--xx-small slds-text-align--right"><a href="{{placeholder.Link.value}}">Resume</a></a></td>
+</tr>
+<tr class="custom-border--bottom np-slds-small-show-only">
+    <!-- getting all the fields from the card state-->
+    <td class="slds-p-around--xx-small np-table-cell-maxsmall" data-label="{{field.label}}" ng-repeat="field in data.fields" ng-show="key != 'attributes'"><span>{{field.label}} : </span>{{obj | getter: field | picker: field.type}}</td>
+    <td class="slds-p-around--xx-small slds-text-align--right"><a href="{{placeholder.Link.value}}">Resume</a></a></td>
+</tr>

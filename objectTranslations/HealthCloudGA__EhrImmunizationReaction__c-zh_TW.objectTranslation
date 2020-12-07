@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>EHR 免疫反應</value>
+    </caseValues>
+    <nameFieldLabel>EHR 免疫接種反應識別碼</nameFieldLabel>
+</CustomObjectTranslation>

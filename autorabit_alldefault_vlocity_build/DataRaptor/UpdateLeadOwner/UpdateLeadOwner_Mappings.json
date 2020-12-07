@@ -1,0 +1,43 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Lead",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "LeadId",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": true,
+        "%vlocity_namespace%__MapId__c": "UpdateLeadOwnerCustoma19f40000020xqoAAAItem1",
+        "%vlocity_namespace%__UpsertKey__c": true,
+        "Name": "UpdateLeadOwner",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__ConfigurationValue__c": "FAKEMAPPING",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Lead",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__IsDisabled__c": true,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "UpdateLeadOwnerCustoma19f40000020xqoAAAItem0",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "UpdateLeadOwner",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DefaultValue__c": "Provider Nomination",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Lead",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "OwnerId",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "OwnerId",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "UpdateLeadOwnerCustoma19f40000020xqoAAAItem2",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "UpdateLeadOwner",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

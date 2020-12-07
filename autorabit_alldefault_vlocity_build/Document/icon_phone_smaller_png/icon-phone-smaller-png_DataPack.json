@@ -1,0 +1,18 @@
+{
+    "Body": "File_icon-phone-smaller-png.png",
+    "BodyLength": 1281,
+    "ContentType": "image/png",
+    "Description": "",
+    "DeveloperName": "icon_phone_smaller_png",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "icon-phone-smaller.png",
+    "NamespacePrefix": "HealthCloudGA",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/icon_phone_smaller_png"
+}

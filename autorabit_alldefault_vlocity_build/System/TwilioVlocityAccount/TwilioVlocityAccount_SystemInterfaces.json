@@ -1,0 +1,36 @@
+[
+    {
+        "%vlocity_namespace%__GlobalKey__c": "",
+        "%vlocity_namespace%__Implementation__c": "VDOTwilioSystemInterfaceUKUSA",
+        "%vlocity_namespace%__Key__c": "TwilioVlocityAccount:SMS Twilio Vlocity",
+        "%vlocity_namespace%__Path__c": "/Message.json",
+        "%vlocity_namespace%__SystemId__c": {
+            "Name": "TwilioVlocityAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__System__c/TwilioVlocityAccount",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__System__c"
+        },
+        "%vlocity_namespace%__SystemId__r.Name": "TwilioVlocityAccount",
+        "Name": "SMS Twilio Vlocity",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__SystemInterface__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__SystemInterface__c/SMS Twilio Vlocity/%vlocity_namespace%__System__c/TwilioVlocityAccount"
+    },
+    {
+        "%vlocity_namespace%__GlobalKey__c": "",
+        "%vlocity_namespace%__Implementation__c": "VDOTwilioSystemInterfaceVlocityHealth1",
+        "%vlocity_namespace%__Key__c": "TwilioVlocityAccount:SMS Twilio Vlocity1",
+        "%vlocity_namespace%__Path__c": "/Messages.json",
+        "%vlocity_namespace%__SystemId__c": {
+            "Name": "TwilioVlocityAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__System__c/TwilioVlocityAccount",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__System__c"
+        },
+        "%vlocity_namespace%__SystemId__r.Name": "TwilioVlocityAccount",
+        "Name": "SMS Twilio Vlocity1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__SystemInterface__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__SystemInterface__c/SMS Twilio Vlocity1/%vlocity_namespace%__System__c/TwilioVlocityAccount"
+    }
+]

@@ -1,0 +1,42 @@
+{
+    "%vlocity_namespace%__Author__c": "Total Health Plan",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "001f4000002GSUrAAO"
+            },
+            {
+                "name": "KevinsLastActiveVersion",
+                "val": "3"
+            },
+            {
+                "name": "Morrison",
+                "val": "001f4000002GSUu"
+            },
+            {
+                "name": "Eco",
+                "val": "001f4000002cq6c"
+            },
+            {
+                "name": "Jenn Smith",
+                "val": "001f4000002GSUrAAO"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "query": "SELECT Id, Name, BillingAddress, Phone, PhotoURL, Website, RecordType.Name, %vlocity_namespace%__MarketSegment__c FROM Account WHERE Id = '{{params.id || params.Id}}'"
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "ins-account-actions-large-group.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "ins-account-actions-large-group/5/Total Health Plan/1561071369448",
+    "%vlocity_namespace%__ParentID__c": "INS-Account-ActionsDKV/2/Total Health Plan/1521908609584",
+    "%vlocity_namespace%__RequiredPermission__c": "",
+    "%vlocity_namespace%__Type__c": "Layout",
+    "%vlocity_namespace%__Version__c": 5,
+    "Name": "ins-account-actions-large-group",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUILayout__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUILayout__c/ins-account-actions-large-group"
+}

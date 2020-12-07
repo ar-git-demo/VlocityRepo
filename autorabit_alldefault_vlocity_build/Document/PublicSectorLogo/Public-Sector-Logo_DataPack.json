@@ -1,0 +1,18 @@
+{
+    "Body": "File_Public-Sector-Logo.gif",
+    "BodyLength": 4085,
+    "ContentType": "image/gif",
+    "Description": "Vlocity Public Sector logo",
+    "DeveloperName": "PublicSectorLogo",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "Public Sector Logo",
+    "NamespacePrefix": "%vlocity_namespace%",
+    "Type": "gif",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/PublicSectorLogo"
+}

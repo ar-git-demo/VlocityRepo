@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>DE_Streaming_Channel_Access</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>DE Streaming Channel Access</label>
+        <sharedTo>
+            <group>DE_Portal_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>Admin</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

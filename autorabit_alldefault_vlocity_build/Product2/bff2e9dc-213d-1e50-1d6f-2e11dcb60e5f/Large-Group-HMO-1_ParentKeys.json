@@ -1,0 +1,11 @@
+[
+    "AttributeCategory/INMEDICALBENEFITS",
+    "AttributeCategory/OUTMEDICALBENEFITS",
+    "OrchestrationPlanDefinition/Complete Intake Forms",
+    "OrchestrationPlanDefinition/Confirm Benefits Design",
+    "OrchestrationPlanDefinition/Confirm Eligibility Method",
+    "OrchestrationPlanDefinition/Confirm Group Structure",
+    "Pricebook2/Standard",
+    "Product2/ee40797c-26eb-a2b9-4fcc-8e2cc0f2df9a",
+    "VlocityAction/Refer to UW"
+]

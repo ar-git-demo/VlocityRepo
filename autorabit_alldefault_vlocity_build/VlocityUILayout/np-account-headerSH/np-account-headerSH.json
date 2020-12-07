@@ -1,0 +1,30 @@
+{
+    "Cards": [
+        "np-account-header2"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "001f400000cN8eYAAS"
+            }
+        ],
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "VPL-ReadCustomerContactDetail-100-1",
+            "inputMap": {
+                "Id": "{{params.id}}"
+            },
+            "query": "SELECT AccountId, Account.Name, Account.%vlocity_namespace%__PrimaryContactId__r.Name,CreatedDate,Description,ExpirationDate,Id,Name,QuoteNumber, Status, TotalPrice, %vlocity_namespace%__EffectiveDate__c, %vlocity_namespace%__RenewalSourceContractId__c FROM Quote WHERE Id = '{{params.id}}' OR Id = '{{params.id}}'"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "np-canvas-out-SH"
+        }
+    },
+    "workspace": [
+        "np-account-header2/EMEA/null/1539093520677"
+    ]
+}

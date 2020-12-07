@@ -1,0 +1,70 @@
+[
+    {
+        "%vlocity_namespace%__GlobalKey__c": "",
+        "%vlocity_namespace%__Implementation__c": "VDONotificationSystemInterface",
+        "%vlocity_namespace%__Key__c": "Twilio:Email Notification",
+        "%vlocity_namespace%__Path__c": "/Messages.json",
+        "%vlocity_namespace%__SystemId__c": {
+            "Name": "Twilio",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__System__c/Twilio",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__System__c"
+        },
+        "%vlocity_namespace%__SystemId__r.Name": "Twilio",
+        "Name": "Email Notification",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__SystemInterface__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__SystemInterface__c/Email Notification/%vlocity_namespace%__System__c/Twilio"
+    },
+    {
+        "%vlocity_namespace%__GlobalKey__c": "",
+        "%vlocity_namespace%__Implementation__c": "VDONotificationSystemInterface",
+        "%vlocity_namespace%__Key__c": "Twilio:SMS Notification",
+        "%vlocity_namespace%__Path__c": "/Messages.json",
+        "%vlocity_namespace%__SystemId__c": {
+            "Name": "Twilio",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__System__c/Twilio",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__System__c"
+        },
+        "%vlocity_namespace%__SystemId__r.Name": "Twilio",
+        "Name": "SMS Notification",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__SystemInterface__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__SystemInterface__c/SMS Notification/%vlocity_namespace%__System__c/Twilio"
+    },
+    {
+        "%vlocity_namespace%__GlobalKey__c": "",
+        "%vlocity_namespace%__Implementation__c": "VDONotificationSystemInterfaceDentProv",
+        "%vlocity_namespace%__Key__c": "Twilio:Email Notification DentalProvider",
+        "%vlocity_namespace%__Path__c": "/Messages.json",
+        "%vlocity_namespace%__SystemId__c": {
+            "Name": "Twilio",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__System__c/Twilio",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__System__c"
+        },
+        "%vlocity_namespace%__SystemId__r.Name": "Twilio",
+        "Name": "Email Notification DentalProvider",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__SystemInterface__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__SystemInterface__c/Email Notification DentalProvider/%vlocity_namespace%__System__c/Twilio"
+    },
+    {
+        "%vlocity_namespace%__GlobalKey__c": "",
+        "%vlocity_namespace%__Implementation__c": "VDOTwilioSystemInterface",
+        "%vlocity_namespace%__Key__c": "Twilio:SMS Message",
+        "%vlocity_namespace%__Path__c": "/Messages.json",
+        "%vlocity_namespace%__SystemId__c": {
+            "Name": "Twilio",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__System__c/Twilio",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__System__c"
+        },
+        "%vlocity_namespace%__SystemId__r.Name": "Twilio",
+        "Name": "SMS Message",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__SystemInterface__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__SystemInterface__c/SMS Message/%vlocity_namespace%__System__c/Twilio"
+    }
+]

@@ -1,0 +1,17 @@
+{
+    "Body": "File_QIGroundTravelItinerary-pdf.pdf",
+    "BodyLength": 130955,
+    "ContentType": "application/pdf",
+    "Description": "",
+    "DeveloperName": "QIGroundTravelItinerary_pdf",
+    "IsBodySearchable": true,
+    "IsInternalUseOnly": false,
+    "IsPublic": false,
+    "Keywords": "",
+    "Name": "QIGroundTravelItinerary.pdf",
+    "Type": "pdf",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/QIGroundTravelItinerary_pdf"
+}

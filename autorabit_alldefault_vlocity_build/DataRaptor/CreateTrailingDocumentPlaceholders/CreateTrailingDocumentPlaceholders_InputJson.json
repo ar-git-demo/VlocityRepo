@@ -1,0 +1,108 @@
+{
+    "CreateTrailingDocumentCategories": {
+        "%vlocity_namespace%__TrailingDocumentPlaceholder__c_1": [
+            {
+                "%vlocity_namespace%__DueDate__c": "2018-06-06",
+                "%vlocity_namespace%__QuoteId__c": "0Q01J000000eAJcSAM",
+                "%vlocity_namespace%__Status__c": "Not Started",
+                "Id": "a4c1J000000PTNOQA4",
+                "Name": "Financial Statement",
+                "UpsertSuccess": true
+            },
+            {
+                "%vlocity_namespace%__DueDate__c": "2018-06-06",
+                "%vlocity_namespace%__QuoteId__c": "0Q01J000000eAJcSAM",
+                "%vlocity_namespace%__Status__c": "Not Started",
+                "Id": "a4c1J000000PTNPQA4",
+                "Name": "Management Reports",
+                "UpsertSuccess": true
+            },
+            {
+                "%vlocity_namespace%__DueDate__c": "2018-06-06",
+                "%vlocity_namespace%__QuoteId__c": "0Q01J000000eAJcSAM",
+                "%vlocity_namespace%__Status__c": "Not Started",
+                "Id": "a4c1J000000PTNQQA4",
+                "Name": "Site Inspection",
+                "UpsertSuccess": true
+            },
+            {
+                "%vlocity_namespace%__DueDate__c": "2018-06-06",
+                "%vlocity_namespace%__QuoteId__c": "0Q01J000000eAJcSAM",
+                "%vlocity_namespace%__Status__c": "Not Started",
+                "Id": "a4c1J000000PTNRQA4",
+                "Name": "Loss Runs",
+                "UpsertSuccess": true
+            },
+            {
+                "%vlocity_namespace%__DueDate__c": "2018-06-06",
+                "%vlocity_namespace%__QuoteId__c": "0Q01J000000eAJcSAM",
+                "%vlocity_namespace%__Status__c": "Not Started",
+                "Id": "a4c1J000000PTNSQA4",
+                "Name": "Underwriting Reports",
+                "UpsertSuccess": true
+            }
+        ],
+        "error": "OK",
+        "responseType": "SObject"
+    },
+    "CreateTrailingDocumentCategoriesStatus": true,
+    "DETransformLargeGroupCensusSales": {
+        "ContextId": "0Q01U000000l8XuSAI"
+    },
+    "GetTrailingDocumentCategories": {
+        "Placeholder": [
+            {
+                "Name": "Financial Statement"
+            },
+            {
+                "Name": "Management Reports"
+            },
+            {
+                "Name": "Site Inspection"
+            },
+            {
+                "Name": "Loss Runs"
+            },
+            {
+                "Name": "Underwriting Reports"
+            }
+        ]
+    },
+    "GetTrailingDocumentCategoriesStatus": true,
+    "GetTrailingDocumentRequirements": {
+        "Placeholder": [
+            {
+                "category": "Financial Statement",
+                "placeholderName": "Balance Sheet"
+            },
+            {
+                "category": "Financial Statement",
+                "placeholderName": "Auditor Report"
+            },
+            {
+                "category": "Financial Statement",
+                "placeholderName": "Prior Year Income Statement"
+            },
+            {
+                "category": "Loss Runs",
+                "placeholderName": "Current Year LR Report"
+            },
+            {
+                "category": "Loss Runs",
+                "placeholderName": "Prior Year LR Report"
+            },
+            {
+                "category": "Underwriting Reports",
+                "placeholderName": "ISO Protection Class"
+            },
+            {
+                "category": "Underwriting Reports",
+                "placeholderName": "Credit Report"
+            }
+        ]
+    },
+    "GetTrailingDocumentRequirementsStatus": true,
+    "contextId": "0Q01J000000eAJc",
+    "options": {
+    }
+}

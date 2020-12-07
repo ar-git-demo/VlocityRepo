@@ -1,0 +1,34 @@
+{
+    "Cards": [
+        "Quote_Sales_Actions"
+    ],
+    "componentName": "cfInsQuoteActionsSales",
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.Id",
+                "val": "0Q0f40000011e1HCAQ"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "body": "{\"totalSize\" : 1}",
+            "jsonMap": "{\"params.id || params.Id\":\"{{params.id || params.Id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "sessionVars": [
+        {
+            "name": "Id",
+            "val": "0Q0f40000011e1HCAQ"
+        }
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "ins-pagelayout-button-container"
+        }
+    },
+    "workspace": [
+        "Quote_Sales_Actions/Total Health Plan/null/1532695748255"
+    ]
+}

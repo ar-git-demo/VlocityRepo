@@ -1,0 +1,57 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "attributeFilters",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "attributeFilters",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformForRatingCustom1103",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformForRating",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DefaultValue__c": "50",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "userInputs:LISSubsidy",
+        "%vlocity_namespace%__DomainObjectFieldType__c": "Integer",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "LowIncomeSubsidy:LowIncomeSubsidyBlock:SelectPercentage",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformForRatingCustom7326",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformForRating",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "userInputs:Pay",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "HelpMeShop:Questionaries:StatementAccurate",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformForRatingCustom1516",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformForRating",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DefaultValue__c": "Low",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "userInputs:ProductCare",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "HelpMeShop:Questionaries:MedicalCare",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformForRatingCustom2746",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformForRating",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

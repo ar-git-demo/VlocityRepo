@@ -1,0 +1,18 @@
+{
+    "Body": "File_FinancialServicesLogo.gif",
+    "BodyLength": 4115,
+    "ContentType": "image/gif",
+    "Description": "",
+    "DeveloperName": "FinancialServicesLogo",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "FinancialServicesLogo",
+    "NamespacePrefix": "%vlocity_namespace%",
+    "Type": "gif",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/FinancialServicesLogo"
+}

@@ -1,0 +1,26 @@
+//@import "ins-product-selection-variables";
+// include mixin "npVariables" for fonts and colors.
+// npVariables mixin template should be active.
+@import "npVariables";
+.via-slds{
+    .vloc-title {
+            font-size:$font-small;
+        }
+
+        .vloc-section-header {
+            &.vloc-title-border-container {
+                width:3rem; 
+
+                .vloc-title-border {
+                    fill: $theme-color-SHBlue;
+                    border-top: 2px solid $theme-color-SHBlue; 
+                    margin: 0;
+                }
+            }
+        }
+}
+.via-slds .slds-button--brand, .via-slds .slds-button_brand {
+    background-color: rgb(209, 57, 50);
+    border-color: rgb(209, 57, 50);
+    color: #fff;
+}

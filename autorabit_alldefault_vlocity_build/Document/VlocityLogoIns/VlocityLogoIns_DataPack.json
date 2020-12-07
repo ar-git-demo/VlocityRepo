@@ -1,0 +1,18 @@
+{
+    "Body": "File_VlocityLogoIns.png",
+    "BodyLength": 13305,
+    "ContentType": "image/png",
+    "Description": "",
+    "DeveloperName": "VlocityLogoIns",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "VlocityLogoIns",
+    "NamespacePrefix": "%vlocity_namespace%",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/VlocityLogoIns"
+}

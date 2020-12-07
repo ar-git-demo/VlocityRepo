@@ -1,0 +1,18 @@
+{
+    "Body": "File_FinancialAccountTypeIcon-24.png",
+    "BodyLength": 1817,
+    "ContentType": "image/png",
+    "Description": "",
+    "DeveloperName": "FinancialAccountTypeIcon24",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "FinancialAccountTypeIcon@24",
+    "NamespacePrefix": "%vlocity_namespace%",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/FinancialAccountTypeIcon24"
+}

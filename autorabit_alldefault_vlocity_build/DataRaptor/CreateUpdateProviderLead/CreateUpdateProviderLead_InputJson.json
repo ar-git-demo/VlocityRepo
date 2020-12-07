@@ -1,0 +1,17 @@
+{
+    "Nomination": {
+        "Address1": "123 Main St",
+        "City": "Wake Forest",
+        "Email1": "jbell@vlocity.com",
+        "FacilityName": "St. John's Hospital",
+        "FirstName": "Jeff",
+        "Gender": "Male",
+        "Lastname": "Demo722",
+        "NPI": "123121234",
+        "PoviderType1": "Individual",
+        "QAQH": "123121234",
+        "State": "NC",
+        "Telephone1": "9195551212",
+        "Zipcode": "27587"
+    }
+}

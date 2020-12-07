@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Defines the Converted status for a Lead Record Type in Health Cloud</description>
+    <fields>
+        <fullName>HealthCloudGA__Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Active</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__LeadConvertedStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <description>status on Lead object which is a valid status of type converted</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Lead Converted Status</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__LeadRecordTypeName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name of record type on Lead object which is valid for Health Cloud</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Lead Record Type Name</label>
+        <length>80</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__LeadRecordTypeNamespace__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Lead record type namespace.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Record Type Namespace</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Lead Converted Status Mapping</label>
+    <pluralLabel>Lead Converted Status Mappings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

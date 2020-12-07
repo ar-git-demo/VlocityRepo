@@ -1,0 +1,18 @@
+{
+    "Body": "File_HealthcareLogo.gif",
+    "BodyLength": 3516,
+    "ContentType": "image/gif",
+    "Description": "",
+    "DeveloperName": "HealthcareLogo",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "HealthcareLogo",
+    "NamespacePrefix": "%vlocity_namespace%",
+    "Type": "gif",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/HealthcareLogo"
+}

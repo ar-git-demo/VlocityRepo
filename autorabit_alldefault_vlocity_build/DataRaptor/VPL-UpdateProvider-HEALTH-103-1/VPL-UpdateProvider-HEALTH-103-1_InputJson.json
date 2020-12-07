@@ -1,0 +1,25 @@
+{
+    "ContextId": null,
+    "ProducerDetails": {
+        "CompanyName": null,
+        "EmailAddress": null,
+        "MailingCity": null,
+        "MailingStateCode": null,
+        "MailingStreet": null,
+        "MailingZipCode": null,
+        "Name": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ExtractProducer": null,
+        "ProducerDetails": null,
+        "SetName": null,
+        "UpdateProducer": null
+    }
+}

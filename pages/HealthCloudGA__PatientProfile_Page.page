@@ -1,0 +1,36 @@
+<!--
+ * Copyright © 2015 salesforce.com, inc. All rights reserved.
+ * @copyright This document contains proprietary and confidential information and shall not be reproduced,
+ * transferred, or disclosed to others, without the prior written consent of Salesforce.
+ * @description PatientProfile_Page visualforce page, LighiningOut container for PatientDetail
+ * @since 198.1
+-->
+<apex:page controller="HealthCloudGA.HcPatientProfilePageController" showheader="false" sidebar="false" standardStylesheets="false" docType="html-5.0" cache="true">
+    <c:HcCommonIncludes includeHealthCloud="true" />
+    <apex:stylesheet value="{!URLFOR($Resource.HealthCloudGA__industryresources, 'landmark/styles/slds.css')}" />
+    <style>
+    html {
+        height: 100%;
+        background-color: #F8FAFC;
+    }
+    </style>
+    <div class="lightningout">
+        <div id="lightningout-patientdetail" />
+    </div>
+    <script>
+    var eventHandler = function eventHandler(result) {
+        return false;
+    };
+    sforce.console.onEnclosingTabRefresh(eventHandler);
+    var patientId = healthCloud.getUrlQueryParameter('id');
+    if (patientId) {
+        $Lightning.use("HealthCloudGA:PatientDetailApp", function() {
+            $Lightning.createComponent("HealthCloudGA:PatientDetail", {
+                    patientId: patientId,
+                    shownInAlohaConsole: true
+                },
+                "lightningout-patientdetail");
+        });
+    }
+    </script>
+</apex:page>

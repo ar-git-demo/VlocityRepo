@@ -1,0 +1,101 @@
+{
+    "ContextId": "001f4000002GSUuAAO",
+    "CountryCode": "US",
+    "CurrentParentId": "001f4000002GSUuAAO",
+    "EditDivisions": {
+        "ebChild": [
+            {
+                "ChildCity": "Tampa",
+                "ChildEligibles": 125,
+                "ChildEmployees": 500,
+                "ChildId": "001f400000kPoEOAA0",
+                "ChildMembers": 400,
+                "ChildName": "Morrison Tampa",
+                "ChildNumber": "12345678-0002",
+                "ChildRecordTypeId": null,
+                "ChildState": "FL",
+                "ChildSubscribers": 200,
+                "ChildType": "Headquarters",
+                "RdoShowSubdivisions": "Reparent",
+                "SubDivCount": null,
+                "fChildParentId": "001f4000002GSUuAAO",
+                "fDivisions": 0
+            },
+            {
+                "ChildCity": "San Francisco",
+                "ChildEligibles": 600,
+                "ChildEmployees": 400,
+                "ChildId": "001f400000kPnf8AAC",
+                "ChildMembers": null,
+                "ChildName": "Morrison Motors HQ",
+                "ChildNumber": "12345678-0001",
+                "ChildRecordTypeId": null,
+                "ChildState": "CA",
+                "ChildSubscribers": null,
+                "ChildType": "Headquarters",
+                "RdoShowSubdivisions": null,
+                "SubDivCount": 1,
+                "fChildParentId": "001f4000002GSUuAAO",
+                "fDivisions": 1
+            }
+        ],
+        "ebParent": {
+            "ParentBId": "001f4000002GSUuAAO",
+            "ParentCity": "San Francisco",
+            "ParentEligibles": null,
+            "ParentEmployees": null,
+            "ParentGroupName": "Morrison Motors",
+            "ParentGroupNumber": "73729103",
+            "ParentId": null,
+            "ParentMembers": 100,
+            "ParentRecordTypeId": "012f400000005yLAAQ",
+            "ParentState": "CA",
+            "ParentSubscribers": null,
+            "ParentType": "Customer",
+            "fHasParent": 0,
+            "fSingularParentId": null
+        },
+        "fChildHeader": "Division",
+        "fParentHeader": "Customer",
+        "fincludesMove": false,
+        "fincludesReparent": true,
+        "rdoBackToParent": null
+    },
+    "FireDR": true,
+    "ParentFired": false,
+    "Reparent": {
+        "ReparentOptions": [
+            {
+                "BillingStateCode": "CA",
+                "Id": "001f400000kPnf8AAC",
+                "Name": "Morrison Motors HQ",
+                "fType": "Sibling",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "Siblings": {
+        "BillingStateCode": "CA",
+        "Id": "001f400000kPnf8AAC",
+        "Name": "Morrison Motors HQ",
+        "fType": "Sibling"
+    },
+    "StepFunction": "LocateClick",
+    "callerId": "001f400000kPoEOAA0",
+    "callerIndex": 0,
+    "callerName": "Morrison Tampa",
+    "contextId": "001f4000002GSUuAAO",
+    "id": "a2Cf4000000eyaXEAQ",
+    "isdtp": "p1",
+    "layout": "newport",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://demo978657--%vlocity_namespace%.na59.visual.force.com",
+    "timeStamp": "2019-02-25T07:26:24.117Z",
+    "userCurrencyCode": "USD",
+    "userId": "005f4000000WPa9AAG",
+    "userName": "dnelson@hibo.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": -480,
+    "vlcPersistentComponent": {
+    }
+}

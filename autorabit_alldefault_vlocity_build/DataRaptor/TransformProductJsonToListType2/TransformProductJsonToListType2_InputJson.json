@@ -1,0 +1,67 @@
+{
+    "ContextId": null,
+    "GenerateQuotation": {
+        "EmailAddress": null,
+        "generateDocument": null
+    },
+    "PersonalisedMessage": {
+        "BrokerMessageText1": null,
+        "FormalMessage": {
+            "FormalTextEntry1": null
+        },
+        "InformalMessage": {
+            "InformalTextEntry1": null
+        },
+        "SelectMessageType": null
+    },
+    "SelectMembership": {
+        "Membership": {
+        }
+    },
+    "SelectProduct": {
+        "SelectedProducts": {
+        }
+    },
+    "groupProfile": {
+        "GroupDetails": {
+            "email": null,
+            "firstName": null,
+            "groupName": null,
+            "lastName": null,
+            "phone": null
+        },
+        "brokerProfile": {
+            "BrokerEmail": null,
+            "BrokerFirstName": null,
+            "BrokerLastName": null,
+            "BrokerName": null,
+            "BrokerPhone": null
+        }
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CreateObjDoc": null,
+        "DataRaptorTransformAction2": null,
+        "DoneAction1": null,
+        "GenerateQuotation": null,
+        "GetAccountBrokerFromQuote": null,
+        "GetDocumentTemplateId": null,
+        "PersonalisedMessage": null,
+        "QuoteLineItems": null,
+        "SelectMembership": null,
+        "SelectProduct": null,
+        "SetAccountIdForCLM": null,
+        "SetDocumentTemplateHealth": null,
+        "SetQuoteId": null,
+        "SetValuesQuote": null,
+        "getQuoteDetail": null,
+        "groupProfile": null,
+        "setSummary": null
+    }
+}

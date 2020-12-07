@@ -1,0 +1,18 @@
+{
+    "Body": "File_Admin.png",
+    "BodyLength": 1370,
+    "ContentType": "image/png",
+    "Description": "",
+    "DeveloperName": "Admin",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "Admin",
+    "NamespacePrefix": "%vlocity_namespace%",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/Admin"
+}

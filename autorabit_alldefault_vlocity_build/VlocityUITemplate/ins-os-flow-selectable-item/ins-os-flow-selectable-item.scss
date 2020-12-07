@@ -1,0 +1,215 @@
+ng-form div {
+    outline: none !important;
+}
+
+#medicalPage > form, #dentalPage > form, #visionPage > form{
+    width: 70%;
+    max-width: 70%;
+    padding-top: 10px;
+}
+
+.selectable-plan-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+}
+.selectable-plan-section > div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.selectable-plan-section > div > button{
+    border: none;
+    color: #fff;
+    background-color: #1663bf;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 5px 15px;
+    font-weight: 200;
+    margin: 0px 12px;
+}
+section.selectable-plan {
+        max-width: 250px;
+        float: left;
+        margin: 10px;
+        border: 1px solid #ececec;
+        border-radius: 4px;
+        padding: 0px 10px;
+        box-shadow: 0 0 10px 4px rgba(222, 222, 222, 0.1);
+    }
+
+section.selectable-plan .row{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+    .plan__content h2 {
+        color: #3f3f3f;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: -2px;
+        line-height: 20px;
+        padding: 20px 10px 0;
+    }
+    .plan__content h6 {
+        font-size: 14px;
+        padding: 5px 0px;
+        background-color: #1662bf;
+        color: #fff;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        text-align: center;
+        font-weight: 100;
+    }
+    .plan__content h4 {
+        color: #1663bf;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 500;
+        padding: 15px 0px;
+    }
+    
+    .plan__content_attributes{
+        position: relative;
+        padding: 10px 10px 15px;
+    }
+    .plan__content_attributes:after {
+        content: '';
+        position: absolute;
+        width: 60%;
+        height: 1px;
+        background-color: #ececec;
+        top: 0;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+    }
+    .plan__content_attributes li{
+        margin: 6px 0px;
+    }
+    .plan__content_attributes li p{
+        color: #3f3f3f;
+        font-size: 13px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .plan__content_attributes li p span{
+        padding-left: 5px;
+        font-size: 14px;
+        font-weight: 700;
+        display: block;
+    }
+    .plan__footer{
+      padding: 0px 10px 2px;
+    }
+    .plan__footer button.plan_button {
+        width: auto;
+        color: #3f3f3f;
+        background: #fff;
+        border: none;
+        box-shadow: none;
+        font-size: 12px;
+        padding: 5px 20px;
+        margin-bottom: 4px;
+        font-weight: 400;
+        border-radius: 20px;
+        border: 1px solid #1661bf;
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        outline: none;
+        box-shadow: 0 0 10px 4px rgba(46, 113, 232, 0.08);
+    }
+    .plan__footer button.plan_button:nth-child(2) {
+        background-color: #1564bf;
+        color: #fff;
+    }
+    .plan__footer button.details_button{
+        background-color: transparent;
+        border: none;
+        border-top: 1px solid #e8e8e8;
+        width: 50%;
+        padding: 10px;
+        float: left;
+        outline: none;
+        white-space: nowrap;
+    }
+    .plan__footer label{
+        border-radius: 3px;
+        display: flex;
+        margin: 10px 5px;
+    }
+    .plan__footer label input[type=checkbox] {
+      display: none;
+    }
+    .plan__footer label span{
+        background-color: transparent;
+        color: #16325c;
+        padding: 5px 10px;
+        border-radius: 3px;
+    }
+    .plan__footer label input[type=checkbox]:checked ~ span {
+        background-color: #1662bf;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 3px;
+    }
+    .plan__footer_options{
+        display: flex;
+    }
+    .plan__footer_options button.details_button{
+        margin: 0px 10px;
+    }
+    
+.vlc-selectableitem-selected .plan__footer button.plan_button {
+    background-color: #2e71e8;
+    color: #fff;
+}
+
+.spinner {
+  margin: 0px auto;
+  width: 70px;
+  text-align: center;
+  padding: 15px 0px;
+}
+
+.spinner > div {
+  width: 10px;
+  height: 10px;
+  background-color: #1663bf;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 40% { 
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+}

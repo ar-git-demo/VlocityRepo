@@ -1,0 +1,55 @@
+[
+    {
+        "%vlocity_namespace%__ApplicableObject__c": "Contract",
+        "%vlocity_namespace%__Comments__c": "",
+        "%vlocity_namespace%__Conditions__c": "",
+        "%vlocity_namespace%__Instructions__c": "",
+        "%vlocity_namespace%__IsActive__c": false,
+        "%vlocity_namespace%__IsRequired__c": false,
+        "%vlocity_namespace%__Message__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "29f35e3c-231c-0318-2b74-ba40a00e81b4",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/29f35e3c-231c-0318-2b74-ba40a00e81b4",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__StateModelFieldAPIName__c": "Status",
+        "%vlocity_namespace%__StateModelId__c": {
+            "%vlocity_namespace%__FieldAPIName__c": "Status",
+            "%vlocity_namespace%__ObjectAPIName__c": "Contract",
+            "%vlocity_namespace%__TypeFieldName__c": null,
+            "%vlocity_namespace%__TypeFieldValue__c": null,
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__VlocityStateModel__c/Generated-380570933",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityStateModel__c"
+        },
+        "%vlocity_namespace%__StateModelVersionId__c": {
+            "%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__FieldAPIName__c": "Status",
+            "%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__ObjectAPIName__c": "Contract",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__VlocityStateModelVersion__c/%vlocity_namespace%__VlocityStateModel__c/Generated-380570933/1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityStateModelVersion__c"
+        },
+        "%vlocity_namespace%__StateTransitionId__c": {
+            "%vlocity_namespace%__From__r.%vlocity_namespace%__DTPStateModelName__c": "Contract State Model",
+            "%vlocity_namespace%__From__r.Name": "Negotiating",
+            "%vlocity_namespace%__StateModelVersionId__r.%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__FieldAPIName__c": "Status",
+            "%vlocity_namespace%__StateModelVersionId__r.%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__ObjectAPIName__c": "Contract",
+            "%vlocity_namespace%__StateModelVersionId__r.%vlocity_namespace%__VersionNumber__c": 1,
+            "%vlocity_namespace%__To__r.%vlocity_namespace%__DTPStateModelName__c": "Contract State Model",
+            "%vlocity_namespace%__To__r.Name": "Cancelled",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__VlocityStateTransition__c/Generated633875406",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityStateTransition__c"
+        },
+        "%vlocity_namespace%__StateTransitionName__c": "Contract Negotiating to Cancelled",
+        "%vlocity_namespace%__ToStateName__c": "Cancelled",
+        "%vlocity_namespace%__Type__c": "",
+        "%vlocity_namespace%__VlocityActionId__c": "",
+        "Name": "r-1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProductRequirement__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProductRequirement__c/Generated-1124781406"
+    }
+]

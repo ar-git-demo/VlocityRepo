@@ -1,0 +1,80 @@
+<apex:page docType="html-5.0" StandardController="Lead" recordSetVar="leads" extensions="HealthCloudGA.HcLeadsToPatientsWizardController">
+	<c:HcCommonIncludes />
+	<html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lang="en">
+		<head>
+			<apex:stylesheet value="{!URLFOR($Resource.HealthCloudGA__industryresources, 'landmark/styles/slds.css')}"/>
+			<style>
+				body.hasMotif { margin: 0; }
+			</style>
+		</head>
+		<body>
+			<c:HcSpinnerComponent spinnerContainerId="wizardLoadSpinner"/>
+
+			<div id='noLeadsSelectedMsg' class='slds-grid--frame slds-align--absolute-center slds-hide'>
+				<div class="slds-align--absolute-center">
+					<span class="slds-icon_container slds-m-right--small">
+						<svg aria-hidden="true" class="slds-icon slds-icon-text-error slds-icon--medium">
+							<use xlink:href="{!$Resource.industryresources + '/landmark/icons/utility-sprite/svg/symbols.svg#warning'}"></use>
+						</svg>
+					</span>
+					<div class="slds-col slds-align-middle">
+						<h2 class="slds-text-heading--medium">{!$Label.Msg_LeadsConversion_NoSelection}</h2>
+						<p><a href="javascript:history.go(-1)">{! $Label.Msg_BackToPrevious }</a></p>
+					</div>
+				</div>
+			</div>
+            
+            <div id='pslErrorMsg' class='slds-grid--frame slds-align--absolute-center slds-hide'>
+				<div class="slds-align--absolute-center">
+					<span class="slds-icon_container slds-m-right--small">
+						<svg aria-hidden="true" class="slds-icon slds-icon-text-error slds-icon--medium">
+							<use xlink:href="{!$Resource.industryresources + '/landmark/icons/utility-sprite/svg/symbols.svg#warning'}"></use>
+						</svg>
+					</span>
+					<div class="slds-col slds-align-middle">
+						<h2 class="slds-text-heading--medium">{!$Label.Msg_Component_Has_NoAccess}</h2>
+						<p><a href="javascript:history.go(-1)">{! $Label.Msg_BackToPrevious }</a></p>
+					</div>
+				</div>
+			</div>
+
+			<div id='lightningout-leadsToPatients'/>
+		</body>
+	</html>
+
+    <script>
+    var isPSLRestricted = "{!IF(isPSLRestricted, true, false)}";
+    var spinner = document.getElementById("wizardLoadSpinner");
+    if(isPSLRestricted == "true"){
+        spinner.className = spinner.className + ' slds-hide';
+        var pslErrorMsg = document.getElementById("pslErrorMsg");
+        pslErrorMsg.classList.remove('slds-hide');
+    } else {
+        var selectedLeadIds = JSON.parse('{!JSENCODE(selectedLeadIds)}');
+        var userContext = "{!$User.UITheme}";
+        var returnUrl = "{!JSENCODE($CurrentPage.Parameters.retURL)}";
+        var patientRole = "{!JSENCODE(hcGlobalSettings['PATIENT_ROLE'])}";
+        var coordinatorRole = "{!JSENCODE(hcGlobalSettings['CARE_COORDINATOR_ROLE'])}";
+
+        if (selectedLeadIds.length > 0) {
+            $Lightning.use("HealthCloudGA:HcLeadsToPatientsApp", function () {
+                $Lightning.createComponent("HealthCloudGA:HcLeadsToPatientsWizard", {
+                    "userContext": userContext,
+                    "returnUrl": returnUrl,
+                    "selectedLeads": selectedLeadIds,
+                    "patientRole": patientRole,
+                    "coordinatorRole": coordinatorRole,
+                }, 'lightningout-leadsToPatients', function (wizard) {
+                    spinner.className = spinner.className + ' slds-hide';
+                });
+            });
+            
+        } else {
+            spinner.className = spinner.className + ' slds-hide';
+            var noLeadsSelectedMsg = document.getElementById("noLeadsSelectedMsg");
+            noLeadsSelectedMsg.classList.remove('slds-hide');
+        }
+    }
+    </script>
+
+</apex:page>

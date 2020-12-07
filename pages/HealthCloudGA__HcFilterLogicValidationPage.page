@@ -1,0 +1,25 @@
+<!--
+ * Copyright © 2017 salesforce.com, inc. All rights reserved.
+ * @copyright This document contains proprietary and confidential information and shall not be reproduced,
+ * transferred, or disclosed to others, without the prior written consent of Salesforce.
+ * @description  Page used for validation of the filter grouping logic
+ * @since 208
+-->
+<apex:page standardStylesheets="false" docType="html-5.0" showHeader="false" sidebar="false" readOnly="true" showChat="false" applyHtmlTag="false"  applyBodyTag="false" wizard="false" cache="true"  >
+    <script>
+        var expression =  "{!JSENCODE($CurrentPage.parameters.expression)}";
+        var isValid = false;
+        // make sure expression only contains digits, '+', '(', ')' and spaces
+        var regExp = /[^\d\(\)\+ ]/;
+        if (!regExp.test(expression)){
+            try {
+                // just need to know if the expression compiles
+                var validGroupingString = new Function('return ' + expression + ';');
+                isValid = true;
+            } catch (err) {
+                isValid = false;
+            }
+        }
+        window.parent.postMessage(isValid, '*');
+    </script>
+</apex:page>

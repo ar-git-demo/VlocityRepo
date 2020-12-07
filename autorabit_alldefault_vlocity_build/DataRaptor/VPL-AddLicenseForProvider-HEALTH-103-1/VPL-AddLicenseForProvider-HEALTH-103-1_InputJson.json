@@ -1,0 +1,37 @@
+{
+    "AddMoreLicense": {
+        "AddMoreItem": null,
+        "Submit": null
+    },
+    "ContextId": "",
+    "LicenseDetails": {
+        "EffectiveDate": null,
+        "ExpirationDate": null,
+        "LicenseIssuer": null,
+        "LicenseNumber": null,
+        "LicenseType": null,
+        "LineOfBusiness": null,
+        "Location": null,
+        "ProviderName": null,
+        "Status": null
+    },
+    "ProviderDetails": {
+        "EmailAddress": null,
+        "MailingCity": null,
+        "MailingState": null,
+        "MailingStreet": null,
+        "MailingZipCode": null,
+        "Name": ""
+    },
+    "ProviderName": "",
+    "id": "a2C1U000000XmWRUA0",
+    "layout": "lightning",
+    "timeStamp": "2018-12-06T06:22:50.819Z",
+    "userCurrencyCode": "USD",
+    "userId": "0051U000000deoyQAA",
+    "userName": "hibo100.87_11/7@hibo.org",
+    "userProfile": "System Administrator",
+    "userTimeZone": -480,
+    "vlcPersistentComponent": {
+    }
+}

@@ -1,0 +1,36 @@
+<div class='nds-modal nds-fade-in-open nds-modal--large via-nds custom-compare'>
+    <div class='nds-modal__container' ng-controller="insCompareOsCtrl">
+        <div class='nds-modal__footer product-modal'>
+            <button class="btn btn-warning" ng-click="print('planPage')">Print</button>
+            <button class="btn btn-warning" ng-click="cancel()">Close</button>
+        </div>
+        <div class='nds-modal__content nds-p-around--medium product-modal' id="planPage">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th ng-repeat='p in content.recSet'>
+                            <h4>{{p.Name}}</h4>
+                            <p>{{p.TotalPrice | currency:"$":2}}</p>
+                            <span>{{p.ProductCode}}</span>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody class='ins'>
+                    <tr ng-repeat='attr in content.recSet[0].Attributes track by $index'>
+                        <td>
+                            <div>{{attr.Name}}</div>
+                        </td>
+                        <td ng-repeat="p in content.recSet">
+                            <div ng-repeat="a in p.Attributes" ng-if="a.Name==attr.Name">
+                                <span ng-if="a.ValueDataType == 'Currency'">{{a.Value | currency:"$":2}}</span>
+                                <span ng-if="a.ValueDataType == 'Percent'">{{a.Value + '%'}}</span>
+                                <span ng-if="a.ValueDataType != 'Percent' && a.ValueDataType != 'Currency'">{{a.Value}}</span>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

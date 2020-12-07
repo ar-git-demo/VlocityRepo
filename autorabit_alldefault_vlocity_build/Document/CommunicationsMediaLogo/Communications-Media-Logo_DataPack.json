@@ -1,0 +1,18 @@
+{
+    "Body": "File_Communications-Media-Logo.gif",
+    "BodyLength": 4254,
+    "ContentType": "image/gif",
+    "Description": "",
+    "DeveloperName": "CommunicationsMediaLogo",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "Communications & Media Logo",
+    "NamespacePrefix": "%vlocity_namespace%",
+    "Type": "gif",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/CommunicationsMediaLogo"
+}

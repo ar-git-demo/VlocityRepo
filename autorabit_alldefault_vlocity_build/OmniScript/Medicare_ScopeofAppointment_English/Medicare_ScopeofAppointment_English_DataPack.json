@@ -1,0 +1,25 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "adding option for digital signature in .pdf",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "Medicare_ScopeofAppointment_English_Element_ScopeOfAppointment.json",
+        "Medicare_ScopeofAppointment_English_Element_ScopeOfAppointmentHeadline.json",
+        "Medicare_ScopeofAppointment_English_Element_scopeSelect.json",
+        "Medicare_ScopeofAppointment_English_Element_soaOption.json",
+        "Medicare_ScopeofAppointment_English_Element_Disclosure.json",
+        "Medicare_ScopeofAppointment_English_Element_TextBlock1.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": true,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__LwcId__c": "08b3cdd6-3037-2ad9-b8b3-3438787c4aa5",
+    "%vlocity_namespace%__PropertySet__c": "Medicare_ScopeofAppointment_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "ScopeofAppointment",
+    "%vlocity_namespace%__Type__c": "Medicare",
+    "Name": "Scope of Appointment Medicare",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Medicare/ScopeofAppointment/English"
+}

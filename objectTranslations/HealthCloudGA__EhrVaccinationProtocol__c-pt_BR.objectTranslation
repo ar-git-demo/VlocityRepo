@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Protocolo de vacinação do RES</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Protocolos de vacinação do RES</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>ID do protocolo de vacinação do RES</nameFieldLabel>
+</CustomObjectTranslation>

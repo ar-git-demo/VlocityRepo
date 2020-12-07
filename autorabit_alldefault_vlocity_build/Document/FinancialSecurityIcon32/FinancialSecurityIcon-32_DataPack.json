@@ -1,0 +1,18 @@
+{
+    "Body": "File_FinancialSecurityIcon-32.png",
+    "BodyLength": 3577,
+    "ContentType": "image/png",
+    "Description": "",
+    "DeveloperName": "FinancialSecurityIcon32",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "FinancialSecurityIcon@32",
+    "NamespacePrefix": "%vlocity_namespace%",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/FinancialSecurityIcon32"
+}

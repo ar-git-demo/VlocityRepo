@@ -1,0 +1,18 @@
+{
+    "Body": "File_timeline-icon-wrench-png.png",
+    "BodyLength": 1589,
+    "ContentType": "image/png",
+    "Description": "",
+    "DeveloperName": "timeline_icon_wrench_png",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "timeline-icon-wrench.png",
+    "NamespacePrefix": "HealthCloudGA",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/timeline_icon_wrench_png"
+}

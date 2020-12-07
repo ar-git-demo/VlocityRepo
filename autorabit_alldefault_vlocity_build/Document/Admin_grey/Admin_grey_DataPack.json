@@ -1,0 +1,18 @@
+{
+    "Body": "File_Admin_grey.png",
+    "BodyLength": 1540,
+    "ContentType": "image/png",
+    "Description": "",
+    "DeveloperName": "Admin_grey",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "Admin_grey",
+    "NamespacePrefix": "%vlocity_namespace%",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/Admin_grey"
+}

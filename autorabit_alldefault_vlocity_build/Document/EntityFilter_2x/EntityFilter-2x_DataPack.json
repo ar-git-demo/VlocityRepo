@@ -1,0 +1,18 @@
+{
+    "Body": "File_EntityFilter-2x.png",
+    "BodyLength": 1033,
+    "ContentType": "image/png",
+    "Description": "",
+    "DeveloperName": "EntityFilter_2x",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "EntityFilter@2x",
+    "NamespacePrefix": "%vlocity_namespace%",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/EntityFilter_2x"
+}

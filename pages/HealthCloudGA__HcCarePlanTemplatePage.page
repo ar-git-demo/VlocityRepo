@@ -1,0 +1,34 @@
+<!--
+ * Copyright © 2016 salesforce.com, inc. All rights reserved.
+ * @copyright This document contains proprietary and confidential information and shall not be reproduced,
+ * transferred, or disclosed to others, without the prior written consent of Salesforce.
+ * @description HcCarePlanTemplatePage visualforce page, LighiningOut container for HcCarePlanTemplate
+ * @since 204
+-->
+<apex:page standardStylesheets="false" docType="html-5.0">
+    <c:HcCommonIncludes includeHealthCloud="true" setTabLink="true"/>
+
+    <html>
+      <c:HcSpinnerComponent spinnerContainerId="spinnerDiv"/>
+      <div id="lightningout-careplan" />
+    </html>
+
+    <script>
+    
+    var patientId = healthCloud.getUrlQueryParameter('recId');
+    var carePlanId = healthCloud.getUrlQueryParameter('carePlanId');
+    var isNewCarePlan = healthCloud.getUrlQueryParameter('isNewCarePlan');
+    var isCareProgramFlow = healthCloud.getUrlQueryParameter('isCareProgramFlow');
+    
+    $Lightning.use("HealthCloudGA:HcCarePlanTemplateApp", function() {
+        $Lightning.createComponent("HealthCloudGA:HcCarePlanTemplateContainer", {
+            carePlanId: carePlanId,
+            patientId: patientId,
+            isNewCarePlan : isNewCarePlan,
+            isCareProgramFlow : isCareProgramFlow,
+            shownInAlohaConsole: true
+        }, "lightningout-careplan");
+        document.getElementById("spinnerDiv").className = "slds-hidden";
+    });
+    </script>
+</apex:page>

@@ -1,0 +1,26 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Test OS",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "testtype_testsubtype_English_Element_Step1.json",
+        "testtype_testsubtype_English_Element_First-step.json",
+        "testtype_testsubtype_English_Element_First-Block.json",
+        "testtype_testsubtype_English_Element_Continue.json",
+        "testtype_testsubtype_English_Element_Step2.json",
+        "testtype_testsubtype_English_Element_Step2-textblock.json",
+        "testtype_testsubtype_English_Element_DR-Test.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__LwcId__c": "d62640b2-8434-5eee-9311-5a06ec6b4a20",
+    "%vlocity_namespace%__PropertySet__c": "testtype_testsubtype_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "testsubtype",
+    "%vlocity_namespace%__Type__c": "testtype",
+    "Name": "test omniscript",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/testtype/testsubtype/English"
+}

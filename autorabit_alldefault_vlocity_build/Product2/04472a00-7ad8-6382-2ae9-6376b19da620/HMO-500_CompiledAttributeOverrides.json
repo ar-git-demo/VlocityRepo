@@ -1,0 +1,20 @@
+[
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": "",
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": "",
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "{\"SG_Medical\":[{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a3w1U000000kNsFQAU\",\"attributeid__c\":\"a0S1U000000rasWUAQ\",\"attributecategoryid__c\":\"a0R1U000002BhnLUAS\",\"categorycode__c\":\"SG_Medical\",\"categoryname__c\":\"SG Medical\",\"attributeuniquecode__c\":\"SG_HSA _INN\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"7\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Health Savings Account (HSA) Eligible\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P1U00000Gv1fZUAR\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Dropdown\",\"value__c\":\"No\",\"valuedatatype__c\":\"Picklist\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"In-Network\",\"attributeRunTimeInfo\":{\"dataType\":\"Picklist\",\"uiDisplayType\":\"Dropdown\",\"default\":[{\"value\":\"No\",\"id\":1,\"displayText\":\"No\"}],\"values\":[{\"value\":\"No\",\"id\":1,\"displayText\":\"No\"}]},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a3w1U000000kNsFQAU\",\"attributeid__c\":\"a0S1U000000rasXUAQ\",\"attributecategoryid__c\":\"a0R1U000002BhnLUAS\",\"categorycode__c\":\"SG_Medical\",\"categoryname__c\":\"SG Medical\",\"attributeuniquecode__c\":\"SG_HSA _OON\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"8\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Health Savings Account (HSA) Eligible\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P1U00000Gv1faUAB\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Dropdown\",\"value__c\":\"No\",\"valuedatatype__c\":\"Picklist\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"Out-Of-Network\",\"attributeRunTimeInfo\":{\"dataType\":\"Picklist\",\"uiDisplayType\":\"Dropdown\",\"default\":[{\"value\":\"No\",\"id\":1,\"displayText\":\"No\"}],\"values\":[{\"value\":\"No\",\"id\":1,\"displayText\":\"No\"}]},\"$$AttributeDefinitionEnd$$\":null}]}",
+        "%vlocity_namespace%__ProductChildItemId__c": "",
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "04472a00-7ad8-6382-2ae9-6376b19da620",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/04472a00-7ad8-6382-2ae9-6376b19da620",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "Name": "AttrOverride3-a3w1U000000kNsFQAU",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated1098138542"
+    }
+]

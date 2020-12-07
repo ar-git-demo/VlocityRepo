@@ -1,0 +1,32 @@
+{
+    "BuildMoreGroupClass": {
+        "AnotherGroupClass": null,
+        "Submit": null
+    },
+    "ClassInformation": {
+        "ClassActive": false,
+        "ClassCode": null,
+        "ClassType": null,
+        "DependentEmployerContribution": {
+            "DependentEmployerContributionAmount": null,
+            "DependentEmployerContributionPercent": null,
+            "EmployerContributionAmount": null,
+            "EmployerContributionPercent": null
+        },
+        "Description": null,
+        "GroupClassName": null,
+        "MasterGroupAccount": "New Practice"
+    },
+    "ContextId": "001f400000gDtZt",
+    "id": "a2Cf4000000lw4REAQ",
+    "layout": "lightning",
+    "testContextId": "001f400000gDtZt",
+    "timeStamp": "2018-12-12T10:23:45.521Z",
+    "userCurrencyCode": "USD",
+    "userId": "005f4000001mXg6AAE",
+    "userName": "akhibodemo@demo.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": -480,
+    "vlcPersistentComponent": {
+    }
+}

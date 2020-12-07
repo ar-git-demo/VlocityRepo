@@ -1,0 +1,37 @@
+{
+    "Cards": [
+        "Opportunity",
+        "Quote"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0011U00000eA8rLQAS"
+            }
+        ],
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "OppQuoteForAccount",
+            "inputMap": {
+                "paramAccountId": "{{params.id}}"
+            }
+        }
+    },
+    "previewType": "runTime",
+    "sessionVars": [
+        {
+            "name": "Title",
+            "val": "'Quotes, Applications & Contracts'"
+        }
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "np-canvas-out-SH"
+        }
+    },
+    "workspace": [
+        "Opportunity/Health Demo/2/1562881966526",
+        "Quote/Health Demo/2/1562881985841"
+    ]
+}

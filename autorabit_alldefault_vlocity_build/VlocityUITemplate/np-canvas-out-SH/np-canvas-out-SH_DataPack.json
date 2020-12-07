@@ -1,0 +1,18 @@
+{
+    "%vlocity_namespace%__Author__c": "EMEA",
+    "%vlocity_namespace%__CustomJavascript__c": "np-canvas-out-SH.js",
+    "%vlocity_namespace%__Definition__c": "",
+    "%vlocity_namespace%__Description__c": "This is a newport container that holds one vlocity card per row.  It includes optional layout session variable : Title = 'Layout Title' & Border = 'true/false'",
+    "%vlocity_namespace%__DisplayOn__c": "",
+    "%vlocity_namespace%__ExternalID__c": "np-canvas-out-SH/2/EMEA/1543044410560",
+    "%vlocity_namespace%__HTML__c": "np-canvas-out-SH.html",
+    "%vlocity_namespace%__ParentID__c": "np-canvas-out/1/VlocityIBO/1516323413922",
+    "%vlocity_namespace%__SampleJson__c": "{}",
+    "%vlocity_namespace%__Sass__c": "np-canvas-out-SH.scss",
+    "%vlocity_namespace%__Type__c": "Containers",
+    "%vlocity_namespace%__Version__c": 2,
+    "Name": "np-canvas-out-SH",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUITemplate__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUITemplate__c/np-canvas-out-SH"
+}

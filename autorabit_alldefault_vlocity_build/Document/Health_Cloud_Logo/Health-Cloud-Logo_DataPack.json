@@ -1,0 +1,18 @@
+{
+    "Body": "File_Health-Cloud-Logo.png",
+    "BodyLength": 19101,
+    "ContentType": "image/png",
+    "Description": "Health Cloud Logo",
+    "DeveloperName": "Health_Cloud_Logo",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "Health Cloud Logo",
+    "NamespacePrefix": "HealthCloudGA",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/Health_Cloud_Logo"
+}

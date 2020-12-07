@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Valid Care Plan record types for Health Cloud.</description>
+    <fields>
+        <fullName>HealthCloudGA__Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Active</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__CaseRecordTypeName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name of record type on Case object which is valid for Health Cloud</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Case Record Type Name</label>
+        <length>80</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__CaseRecordTypeNamespace__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Care Plan record type namespace.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Record Type Namespace</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__Default__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Default record type to be applied to Patient&apos;s care plan.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Default</label>
+        <type>Checkbox</type>
+    </fields>
+    <label>Care Plan Record Type</label>
+    <pluralLabel>Care Plan Record Types</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

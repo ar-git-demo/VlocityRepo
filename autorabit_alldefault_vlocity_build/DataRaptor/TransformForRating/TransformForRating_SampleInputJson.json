@@ -1,0 +1,65 @@
+{
+    "CloseDate": "2020-01-22T06:00:00.000Z",
+    "ContextId": "",
+    "DrugDetails": [
+    ],
+    "LowIncomeSubsidy": {
+        "LowIncomeSubsidyBlock": {
+            "LowIncomeSubsidyQuestion": null,
+            "SelectPercentage": null
+        }
+    },
+    "MedicalPage": {
+        "MedicalPlans": null
+    },
+    "MedicalPlansInit": 0.6833279283214959,
+    "PrescriptionDrugs": {
+        "PrescriptionBlock": null,
+        "UsePrescriptionMedications": null
+    },
+    "QuoteMarketSegment": "Medicare",
+    "SaveForLaterName": "In Progress Quote MD 2019-10-22",
+    "SelectDentalPlans": {
+        "DentalPlans": null
+    },
+    "ShopForMedicalCoverageSelectable": [
+        {
+            "btnLable": "Help Me Choose",
+            "desc": "Answer few short question to help us determine best fit plan for you",
+            "showQuestions": true,
+            "title": "Help Me Find the Best Fit Plan "
+        },
+        {
+            "btnLable": "View All Plans",
+            "desc": "See all available plans and pick best for you",
+            "showQuestions": false,
+            "title": "Take Me Straight to the Plan "
+        }
+    ],
+    "id": "a331U000000WpDjQAK",
+    "insSgpsCartInit": 0.26050715595500407,
+    "insSgpsKey": "smallGroupSelection",
+    "layout": "lightning",
+    "timeStamp": "2019-10-22T18:43:10.912Z",
+    "undefined": {
+        "MedicalPlansInit": 0.6833279283214959,
+        "cartCompareSelectMap": {
+        },
+        "cartPlans": [
+        ],
+        "displayedCartPlans": [
+        ],
+        "insSgpsCartInit": 0.26050715595500407,
+        "nextDisabled": true,
+        "prevDisabled": true,
+        "selectedPlansMap": {
+        }
+    },
+    "userCurrencyCode": "USD",
+    "userId": "0051U000006JwZaQAK",
+    "userName": "rm@health.demo",
+    "userProfile": "Vlocity User",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    }
+}

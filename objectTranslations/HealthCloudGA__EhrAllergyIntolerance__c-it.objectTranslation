@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Intolleranza e allergia EHR</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Intolleranze e allergie EHR</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>ID intolleranze e allergie EHR</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,36 @@
+<!--
+ * Copyright © 2015 salesforce.com, inc. All rights reserved.
+ * @copyright This document contains proprietary and confidential information and shall not be reproduced,
+ * transferred, or disclosed to others, without the prior written consent of Salesforce.
+ * @description HcPatientListPage visualforce page, LighiningOut container for HcPatientListView component
+ * @since 198.1
+-->
+<apex:page standardStylesheets="false" docType="html-5.0">
+    <c:HcCommonIncludes />
+
+    <style>
+    @media only screen and (max-width: 400px) {
+        html {
+            background-color: #16315C;
+        }
+        html body.sfdcBody{
+          background-color: #16315C;
+        }
+    }
+    </style>
+
+    <html>
+      <div id="content" />
+    </html>
+
+    <script>
+    var userDateFormat = UserContext.dateFormat;
+    var userDateTimeFormat = UserContext.dateTimeFormat;
+    $Lightning.use("HealthCloudGA:HcPatientListViewApp", function() {
+      $Lightning.createComponent("HealthCloudGA:HcPatientListView", {
+        userDateFormat: userDateFormat,
+        userDateTimeFormat: userDateTimeFormat,
+        shownInAlohaConsole: true }, "content");
+    });
+    </script>
+</apex:page>

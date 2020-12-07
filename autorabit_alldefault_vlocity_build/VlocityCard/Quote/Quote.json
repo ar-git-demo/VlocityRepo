@@ -1,0 +1,168 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+            "resultVar": "['Quote']"
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "View Record",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Quote_SmallMidGroupProposalCLM",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Quote_GroupRiskQuestionnaire",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": false,
+                        "displayName": "Adjust Quote",
+                        "hasExtraParams": false,
+                        "id": "Adjust Quote",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": ""
+                    },
+                    {
+                        "collapse": false,
+                        "displayName": "Process Application",
+                        "hasExtraParams": false,
+                        "id": "Process Application",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": ""
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Status']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Status",
+                    "name": "['Status']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['QuoteNumber']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Quote Number",
+                    "name": "['QuoteNumber']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Name']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Quote Name",
+                    "name": "['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['GrandTotal']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Total Price",
+                    "name": "['GrandTotal']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['MarketSegment']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "MarketSegment",
+                    "name": "['MarketSegment']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ExpirationDate']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "ExpirationDate",
+                    "name": "['ExpirationDate']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Broker Name']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Broker Name",
+                    "name": "['Broker Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Broker Email']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Broker Email",
+                    "name": "['Broker Email']",
+                    "type": "string"
+                }
+            ],
+            "name": "Active",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Icon",
+                    "type": "string",
+                    "value": "'../resource/npResource/paperplane.svg'"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Name",
+                    "type": "string",
+                    "value": "Quote"
+                }
+            ],
+            "sObjectType": "Quote",
+            "templateUrl": "np-summary"
+        }
+    ],
+    "title": "Quote"
+}

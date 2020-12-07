@@ -1,0 +1,37 @@
+@import "npVariables";
+
+/*** STYLES ***/
+    .vlocity {   /* Always use vlocity class as a wrapper */
+        .custom-border--bottom
+        {
+            border-bottom: 1px solid #d8dde6;
+        }
+        
+        .custom-link--color
+        {
+            color:$theme-color-1;
+        }
+        
+        .np-table-cell{
+            max-width: 180px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;    
+        }
+        
+        .np-table-cell-maxsmall{
+            display: block;
+        }
+        
+        @media (max-width: 767px){ 
+            .np-slds-small-show-only {
+                display: block;
+            }
+        }
+        
+        @media (min-width: 767px){ 
+            .np-slds-small-show-only {
+                display: none;
+            }
+        }
+    }

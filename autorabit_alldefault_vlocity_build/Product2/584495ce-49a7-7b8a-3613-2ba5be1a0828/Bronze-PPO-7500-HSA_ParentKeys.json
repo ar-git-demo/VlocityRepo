@@ -1,0 +1,17 @@
+[
+    "AttributeCategory/Census",
+    "AttributeCategory/INMEDICALBENEFITS",
+    "AttributeCategory/OUTMEDICALBENEFITS",
+    "AttributeCategory/Product",
+    "AttributeCategory/SBC",
+    "OrchestrationPlanDefinition/Complete Intake Forms",
+    "OrchestrationPlanDefinition/Confirm Benefits Design",
+    "OrchestrationPlanDefinition/Confirm Eligibility Method",
+    "OrchestrationPlanDefinition/Confirm Group Structure",
+    "Pricebook2/Standard",
+    "Product2/04bf38f2-dc08-5b50-bd12-b6b2e4f7ed24",
+    "Product2/a411cdca-32cc-cc44-bed3-b449256a4ff0",
+    "Product2/bff2e9dc-213d-1e50-1d6f-2e11dcb60e5f",
+    "Product2/c8ea285b-62a4-5b58-5897-ca0e27156999",
+    "VlocityAction/Refer to UW"
+]

@@ -1,0 +1,108 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "blankCardState": false,
+            "blankStateCheck": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "%vlocity_namespace%__InvokeClassName__c": "IntegrationProcedureService",
+                        "%vlocity_namespace%__InvokeMethodName__c": "TrailingDocumentRequirements_Create",
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "CreateTrailingDocumentsPlaceholder",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": false,
+                        "displayName": "Generate Proposal",
+                        "hasExtraParams": false,
+                        "id": "GenerateProposal",
+                        "isCustomAction": true,
+                        "omniLang": "English",
+                        "omniSubType": "Proposal",
+                        "omniType": "LargeGroup",
+                        "openUrlIn": "New Tab / Window",
+                        "type": "OmniScript",
+                        "vForcewithNsPrefix": "%vlocity_namespace%__OmniScriptUniversalPage",
+                        "visualForce": "OmniScriptUniversalPage",
+                        "vlocityIcon": "icon-v-modify-contract"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Send To Underwriting",
+                        "hasExtraParams": false,
+                        "id": "SendToUW",
+                        "isCustomAction": true,
+                        "omniLang": "English",
+                        "omniSubType": "RouteToUW",
+                        "omniType": "RouteToUW",
+                        "openUrlIn": "_self",
+                        "type": "OmniScript",
+                        "vForcewithNsPrefix": "%vlocity_namespace%__OmniScriptUniversalPage",
+                        "visualForce": "OmniScriptUniversalPage",
+                        "vlocityIcon": "icon-v-merge"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Create Contract",
+                        "hasExtraParams": false,
+                        "id": "Create Contract",
+                        "isCustomAction": true,
+                        "omniLang": "English",
+                        "omniSubType": "Issue",
+                        "omniType": "SmallGroup",
+                        "openUrlIn": "New Tab / Window",
+                        "type": "OmniScript",
+                        "vForcewithNsPrefix": "%vlocity_namespace%__OmniScriptUniversalPage",
+                        "visualForce": "OmniScriptUniversalPage",
+                        "vlocityIcon": "icon-v-modify-contract"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Generate Welcome Package",
+                        "hasExtraParams": false,
+                        "id": "Generate Welcome Package",
+                        "isCustomAction": true,
+                        "omniLang": "English",
+                        "omniSubType": "CreateContentPackage",
+                        "omniType": "GroupSalesDemo",
+                        "type": "OmniScript",
+                        "vForcewithNsPrefix": "%vlocity_namespace%__OmniScriptUniversalPage",
+                        "visualForce": "OmniScriptUniversalPage",
+                        "vlocityIcon": "icon-v-modify-contract"
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "filter": "$scope.data.status === 'active'",
+            "isSmartAction": false,
+            "name": "actions",
+            "sObjectType": "Quote",
+            "smartAction": {
+            },
+            "templateUrl": "action-grid-card-slds-noscroll"
+        }
+    ],
+    "title": "Actions"
+}

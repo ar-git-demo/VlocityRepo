@@ -1,0 +1,24 @@
+<!--
+* Copyright © 2017 salesforce.com, inc. All rights reserved.
+* @copyright This document contains proprietary and confidential information and shall not be reproduced,
+* transferred, or disclosed to others, without the prior written consent of Salesforce.
+* @description HcAssessmentPage visualforce page
+* @since 210
+-->
+<apex:page standardStylesheets="false" docType="html-5.0" showHeader="false" sidebar="false" readOnly="true" showChat="false" applyHtmlTag="false" applyBodyTag="false" wizard="false" cache="true" >
+    <c:HcCommonIncludes includeHealthCloud="true" setTabLink="true"/>
+    <html>
+      <c:HcSpinnerComponent spinnerContainerId="spinnerDiv"/>
+      <div id="lightningout-assessment" />
+    </html>
+
+    <script>
+    var patientId = healthCloud.getUrlQueryParameter('recId');
+    $Lightning.use("HealthCloudGA:HcAssessmentApp", function() {
+        $Lightning.createComponent("HealthCloudGA:HcAssessmentCmp", {
+            patientId: patientId
+        }, "lightningout-assessment");
+        document.getElementById("spinnerDiv").className = "slds-hidden";
+    });
+    </script>
+</apex:page>

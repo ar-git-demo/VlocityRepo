@@ -46,6 +46,7 @@
     "%vlocity_namespace%__IsReusable__c": true,
     "%vlocity_namespace%__Language__c": "English",
     "%vlocity_namespace%__LastPreviewPage__c": "Newport",
+    "%vlocity_namespace%__LwcId__c": "39f22b30-d211-6c96-dfe5-98f52b9e71ae",
     "%vlocity_namespace%__PropertySet__c": "Applicant_Details_English_PropertySet.json",
     "%vlocity_namespace%__SubType__c": "Details",
     "%vlocity_namespace%__TestHTMLTemplates__c": "Applicant_Details_English_HTMLTemplates.html",

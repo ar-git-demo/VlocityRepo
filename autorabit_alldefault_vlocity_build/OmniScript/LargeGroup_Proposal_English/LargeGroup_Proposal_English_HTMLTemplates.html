@@ -1,0 +1,160 @@
+<style>
+.div-tpl_v8ed8 {
+    width: 100%; 
+}
+tr.tpl_v8ed8:nth-child(even) {
+    background: #DDD
+}
+tr.tpl_v8ed8:nth-child(odd)  {
+    background: #FFF
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/ng-template" id="ProductChild3">
+ <div class="nds-canvas div-tpl_oeobt" >
+    <table class="nds-table__custom" style="table-layout: auto;">
+      <thead>
+        <tr class="nds-text-heading_label tpl_oeobt">
+		<th>Product Name  </th>
+            <th>Product Code  </th>
+            <th>Type  </th>
+            
+            <th>Price  </th>
+        </tr>
+      </thead>
+    <tbody class="ins">
+       <tr class='nds-border_bottom tpl_oeobt' ng-repeat='p in control.vlcSI[control.itemsKey]' ng-class="{ 'vlc-selectableitem-selected' : p.vlcSelected }" >
+      <td>{{p["ProductName"]}}  </td>
+	<td>{{p["ProductCode"]}}  </td>
+      <td>{{p["Type"]}}  </td>
+      <td>{{p["Price"]}}  </td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+ <p> </p>
+</script>
+
+<style>
+.div-tpl_oeobt {
+    width: 100%; 
+}
+tr.tpl_oeobt:nth-child(even) {
+    background: #DDD
+}
+tr.tpl_oeobt:nth-child(odd)  {
+    background: #FFF
+}
+
+</style>
+
+
+<script type="text/ng-template" id="ProductChild1">
+ <div class="panel panel-default div-tpl_xtn74" >
+    <table class="table slds-table slds-table--bordered slds-table--cell-buffer" style="table-layout: auto;">
+      <thead>
+        <tr class="nds-text-heading_label tpl_xtn74">
+          <th class="slds-cell-shrink">Select  </th>
+            <th>ProductCode  </th>
+            <th>Type  </th>
+            <th>ProductName  </th>
+            <th>Price  </th>
+        </tr>
+      </thead>
+    <tbody class="ins">
+       <tr class='nds-border_bottom tpl_xtn74' ng-repeat='p in control.vlcSI[control.itemsKey]' ng-class="{ 'vlc-selectableitem-selected' : p.vlcSelected }" >
+          <td class="slds-cell-shrink">
+            <label class="slds-checkbox">
+          <input type="checkbox" ng-model='p.vlcSelected' ng-change='onSelectItem(control, p, $index, this)'/>
+          <span class="slds-checkbox--faux"></span>
+        </label>
+      </td>
+      <td>{{p["ProductCode"]}}  </td>
+      <td>{{p["Type"]}}  </td>
+      <td>{{p["ProductName"]}}  </td>
+      <td>{{p["Price"]}}  </td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+ <p> </p>
+</script>
+
+<style>
+.div-tpl_xtn74 {
+    width: 100%; 
+}
+</style>
+
+
+
+
+<script type="text/ng-template" id="ProductChild">
+ <div class="nds-canvas div-tpl_jk2aw" >
+    <table class="nds-table__custom" style="table-layout: auto;">
+      <thead>
+        <tr class="nds-text-heading_label tpl_jk2aw">
+            <th>ProductName  </th>
+            <th>ChildName  </th>
+        </tr>
+      </thead>
+    <tbody class="ins">
+       <tr class='nds-border_bottom tpl_jk2aw' ng-repeat='p in control.vlcSI[control.itemsKey]' ng-class="{ 'vlc-selectableitem-selected' : p.vlcSelected }" >
+      <td>{{p["ProductName"]}}  </td>
+      <td>{{p["ChildName"]}}  </td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+ <p> </p>
+</script>
+
+<style>
+.div-tpl_jk2aw {
+    width: 100%; 
+}
+</style>
+
+
+
+
+
+<style>
+
+.via-nds .nds-textarea {
+    height: 45px;
+}
+.via-nds .nds-step_label {
+    color: #c23934;
+}
+.via-nds .nds-text-heading--label, .via-nds .nds-text-heading_label {
+    color: #c23934;
+}
+.via-nds .nds-button--brand, .via-nds .nds-button_brand {
+    background-color: #c23934;
+    color: #fff;
+}
+.via-nds label[vlc-slds-toggle] .nds-form-element__label_toggleText {
+    color: #c23934;
+}
+
+.via-nds ::selection {
+    color: #000000;
+}
+
+html {
+    color: #000000;
+}
+
+</style>

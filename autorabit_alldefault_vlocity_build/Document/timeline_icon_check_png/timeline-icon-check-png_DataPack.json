@@ -1,0 +1,18 @@
+{
+    "Body": "File_timeline-icon-check-png.png",
+    "BodyLength": 1376,
+    "ContentType": "image/png",
+    "Description": "",
+    "DeveloperName": "timeline_icon_check_png",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "timeline-icon-check.png",
+    "NamespacePrefix": "HealthCloudGA",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/timeline_icon_check_png"
+}

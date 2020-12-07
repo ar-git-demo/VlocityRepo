@@ -1,0 +1,88 @@
+<section class="np-detail--card" data-card="card-{{cardIndex}}" ng-class="{selected:isSelected(cardIndex)}" ng-controller="npDetailController"   data-popover-flyout="true" >
+    <aside class="np-card-flipped--wrapper">
+        <h3 ng-if="sessionTitleObj === undefined" class="slds-is-relative slds-m-bottom--xx-large np-session--title">
+            
+            <span class="slds-p-right--small" ng-if="placeholder.Title.label">{{placeholder.Title.label}}</span>   
+            <span class="slds-p-right--small">{{placeholder.Title.value}}</span>
+                
+            </h3>
+         <div class="np-card-flipped--container" ng-class="{'np-card-flipped':isFlipped}" >
+        <article class="cards bg--white slds-grid slds-wrap slds-grid--vertical-stretch slds-border--top np-card-active-card  np-card-flipped--front" >
+        <div class=" slds-size--1-of-1 slds-small-size--7-of-12 slds-medium-size--7-of-12">
+                <table>
+                    <tbody>
+                        <tr class="detail" ng-repeat="field in data.fields | limitTo: 2*2" ng-show="key != 'attributes'">
+                            <td class="slds-p-bottom--large">
+                                  <span class="detail-label">{{field.label}}</span> :
+                            </td>
+                            <td class="slds-p-bottom--large">
+                                <span class="value" ng-if="!obj[field.relationshipName]">
+                        <!--{{obj[field.name]}}-->
+                        {{obj | getter: field | picker: field.type}}
+                    </span>
+                    <span class="value" ng-if="obj[field.relationshipName]">{{obj[field.relationshipName]['Name']}}</span>
+                            </td>
+                  
+                    
+                </tr>
+                 <tr ng-show="npShowDetails" class="detail" ng-repeat="field in data.fields" ng-if="$index > 3" >
+                            <td class="slds-p-bottom--large">
+                                  <span class="detail-label">{{field.label}}</span> :
+                            </td>
+                            <td class="slds-p-bottom--large">
+                                <span class="value" ng-if="!obj[field.relationshipName]">
+                        <!--{{obj[field.name]}}-->
+                        {{obj | getter: field | picker: field.type}}
+                    </span>
+                    <span class="value" ng-if="obj[field.relationshipName]">{{obj[field.relationshipName]['Name']}}</span>
+                            </td>
+                  
+                    
+                </tr>
+                
+                    </tbody>
+                </table>
+                
+        </div>
+    
+        <div class="slds-size--1-of-1 slds-small-size--5-of-12 slds-medium-size--5-of-12">
+            <ul class="actions" ng-init="data.limitActionLinksTo = attrs.limit">
+                <li class="slds-p-bottom--large" ng-repeat="action in data.actions |  limitTo: 2*2">
+                    <a href="#" ng-click="performAction(action)" hotkey-card-action>
+                        <span>{{action.displayName}}</span>
+                    </a>
+                </li>
+                <li ng-show="npShowDetails" class="slds-p-bottom--large" ng-repeat="action in data.actions" ng-if="$index > 3">
+                    <a href="#" ng-click="performAction(action)" hotkey-card-action>
+                        <span>{{action.displayName}}</span>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+       
+          <div class="slds-m-top--large">
+             <a href="javascript:void(0)" ng-click="npShowDetails=!npShowDetails;resizeFrame();"> <span ng-if="!npShowDetails"> 
+             {{ ::$root.vlocity.getCustomLabel('ShowDetails','Show Details')}} 
+             </span>
+             <span ng-if="npShowDetails"> 
+             {{ ::$root.vlocity.getCustomLabel('HideDetails','hide Details') }}
+             </span>
+             <!--{{npShowDetails && 'Less Details' || 'More Details'}} --> </a>
+             
+
+         </div>
+      
+        </article>
+        <article class="slds-is-relative slds-grid slds-card bg--white slds-wrap slds-grid--vertical-stretch slds-border--top np-card-active-card slds-p-around--x-large np-card-flipped--back" >
+            
+                 <a ng-click="isFlipped=!isFlipped;resizeFrame();" class="np-close-link"> <slds-svg-icon sprite="'utility'" icon="'close'" size="'x-small'" extra-classes="'slds-button__icon'"> </slds-svg-icon></a>
+          
+        <div class="slds-size--1of-1 slds-small-size--1-of-1">
+         
+        </div>
+        </article>
+    </div>
+    </aside>
+    
+    </section>

@@ -1,0 +1,18 @@
+{
+    "Body": "File_VlocityCommunicationsLogo.png",
+    "BodyLength": 20247,
+    "ContentType": "image/png",
+    "Description": "",
+    "DeveloperName": "VlocityCommunicationsLogo",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "VlocityCommunicationsLogo",
+    "NamespacePrefix": "%vlocity_namespace%",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/VlocityCommunicationsLogo"
+}

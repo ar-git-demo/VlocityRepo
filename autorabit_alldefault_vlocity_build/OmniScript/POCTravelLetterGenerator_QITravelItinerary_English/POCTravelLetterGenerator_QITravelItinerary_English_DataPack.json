@@ -1,0 +1,27 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Initial POC",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "POCTravelLetterGenerator_QITravelItinerary_English_Element_DRGetTravelDetails.json",
+        "POCTravelLetterGenerator_QITravelItinerary_English_Element_SetValues.json",
+        "POCTravelLetterGenerator_QITravelItinerary_English_Element_TravelItineraryDocuments.json",
+        "POCTravelLetterGenerator_QITravelItinerary_English_Element_Name.json",
+        "POCTravelLetterGenerator_QITravelItinerary_English_Element_QIGroundTravelItinerary.json",
+        "POCTravelLetterGenerator_QITravelItinerary_English_Element_QIGroundTravelItineraryAttach.json",
+        "POCTravelLetterGenerator_QITravelItinerary_English_Element_Step2.json",
+        "POCTravelLetterGenerator_QITravelItinerary_English_Element_TextBlock1.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__LwcId__c": "ae25fe79-0c8e-8eec-66d9-42b05b0a0edc",
+    "%vlocity_namespace%__PropertySet__c": "POCTravelLetterGenerator_QITravelItinerary_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "QITravelItinerary",
+    "%vlocity_namespace%__Type__c": "POCTravelLetterGenerator",
+    "Name": "POCTravelLetter",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/POCTravelLetterGenerator/QITravelItinerary/English"
+}

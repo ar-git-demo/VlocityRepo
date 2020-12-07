@@ -1,0 +1,18 @@
+{
+    "Body": "File_timeline-icon-campaign-png.png",
+    "BodyLength": 2732,
+    "ContentType": "image/png",
+    "Description": "",
+    "DeveloperName": "timeline_icon_campaign_png",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "timeline-icon-campaign.png",
+    "NamespacePrefix": "HealthCloudGA",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/timeline_icon_campaign_png"
+}

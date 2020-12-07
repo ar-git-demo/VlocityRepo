@@ -1,0 +1,26 @@
+<!--
+ * Copyright © 2015 salesforce.com, inc. All rights reserved.
+ * @copyright This document contains proprietary and confidential information and shall not be reproduced,
+ * transferred, or disclosed to others, without the prior written consent of Salesforce.
+ * @description HcTimelinePage visualforce page, LighiningOut container for HcPatientTimeline Lightning app and component
+ * @since 204.0
+-->
+<apex:page standardStylesheets="false" docType="html-5.0" showHeader="false" applyBodyTag="false">
+    <c:HcCommonIncludes includeHealthCloud="true" setTabLink="true"/>
+    <html>
+      <body bgcolor="#ffffff" style="position:absolute; width:100%; height:100%;">
+        <div id="lightningout-timeline" style="width:100%; height:100%;"/>
+      </body>
+    </html>
+
+    <script>
+    var patientId = healthCloud.getUrlQueryParameter('recId');
+
+    $Lightning.use("HealthCloudGA:HcTimelineApp", function() {
+        $Lightning.createComponent("HealthCloudGA:HcPatientTimeline", {
+            patientId: patientId,
+            shownInAlohaConsole: true
+        }, "lightningout-timeline");
+    });
+    </script>
+</apex:page>

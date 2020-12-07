@@ -1,0 +1,37 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Provider Demo - add provider license",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ProviderDemo/AddLicense/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Provider Demo - add provider license",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ProviderDemo/AddLicense/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "ProviderDetails",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ProviderDemo/AddLicense/English/ProviderDetails",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "ProviderDetails",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "label": "<p><strong>OS Description:&nbsp;</strong></p>\n<ol>\n<li>Context ID- Contact ID</li>\n<li>DR 1-&nbsp;VPL-ExtractProvider-HEALTH-103-1- Fetches Contact and Account Details.&nbsp;</li>\n<li>DR-2-&nbsp;VPL-UpdateProvider-HEALTH-103-1- Updates the changes made to the Provider Data.&nbsp;</li>\n<li>DR-3- Add License-&nbsp;VPL-AddLicenseForProvider-HEALTH-103-1- Add License for the Provider.&nbsp;</li>\n<li>Set Value- Clear License- Clear the values already entered from UI when another license is created.&nbsp;</li>\n<li>Template-&nbsp;VPL-AddMoreItems-103-1- Allows adding multiple licenses.&nbsp;</li>\n<li>Final Outcome- Add the license/s details to the Provider Contact License Object.&nbsp;</li>\n</ol>",
+        "labelKey": "",
+        "show": null
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Headline",
+    "Name": "OSDescription",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ProviderDemo/AddLicense/English/OSDescription"
+}

@@ -1,0 +1,92 @@
+[
+    {
+        "%vlocity_namespace%__ApplicableObject__c": "Quote",
+        "%vlocity_namespace%__Comments__c": "",
+        "%vlocity_namespace%__Conditions__c": "Lives > 40000",
+        "%vlocity_namespace%__Instructions__c": "",
+        "%vlocity_namespace%__IsActive__c": false,
+        "%vlocity_namespace%__IsRequired__c": false,
+        "%vlocity_namespace%__Message__c": "Send to UW for total census count &gt; 40,000",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "584495ce-49a7-7b8a-3613-2ba5be1a0828",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/584495ce-49a7-7b8a-3613-2ba5be1a0828",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__StateModelFieldAPIName__c": "Status",
+        "%vlocity_namespace%__StateModelId__c": {
+            "%vlocity_namespace%__FieldAPIName__c": "Status",
+            "%vlocity_namespace%__ObjectAPIName__c": "Quote",
+            "%vlocity_namespace%__TypeFieldName__c": null,
+            "%vlocity_namespace%__TypeFieldValue__c": null,
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__VlocityStateModel__c/Generated2130483361",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityStateModel__c"
+        },
+        "%vlocity_namespace%__StateModelVersionId__c": {
+            "%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__FieldAPIName__c": "Status",
+            "%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__ObjectAPIName__c": "Quote",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__VlocityStateModelVersion__c/%vlocity_namespace%__VlocityStateModel__c/Generated2130483361/1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityStateModelVersion__c"
+        },
+        "%vlocity_namespace%__StateTransitionId__c": "",
+        "%vlocity_namespace%__Type__c": "",
+        "%vlocity_namespace%__VlocityActionId__c": {
+            "Name": "Refer to UW",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__VlocityAction__c/Refer to UW",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityAction__c"
+        },
+        "Name": "Send to UW For extra large",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProductRequirement__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProductRequirement__c/Generated1146312745"
+    },
+    {
+        "%vlocity_namespace%__ApplicableObject__c": "Quote",
+        "%vlocity_namespace%__Comments__c": "",
+        "%vlocity_namespace%__Conditions__c": "Prem > 250000",
+        "%vlocity_namespace%__Instructions__c": "",
+        "%vlocity_namespace%__IsActive__c": false,
+        "%vlocity_namespace%__IsRequired__c": false,
+        "%vlocity_namespace%__Message__c": "When the premiums is above $25,000 per month, required UW review",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "584495ce-49a7-7b8a-3613-2ba5be1a0828",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/584495ce-49a7-7b8a-3613-2ba5be1a0828",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__StateModelFieldAPIName__c": "Status",
+        "%vlocity_namespace%__StateModelId__c": {
+            "%vlocity_namespace%__FieldAPIName__c": "Status",
+            "%vlocity_namespace%__ObjectAPIName__c": "Quote",
+            "%vlocity_namespace%__TypeFieldName__c": null,
+            "%vlocity_namespace%__TypeFieldValue__c": null,
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__VlocityStateModel__c/Generated2130483361",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityStateModel__c"
+        },
+        "%vlocity_namespace%__StateModelVersionId__c": {
+            "%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__FieldAPIName__c": "Status",
+            "%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__ObjectAPIName__c": "Quote",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__VlocityStateModelVersion__c/%vlocity_namespace%__VlocityStateModel__c/Generated2130483361/1",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityStateModelVersion__c"
+        },
+        "%vlocity_namespace%__StateTransitionId__c": "",
+        "%vlocity_namespace%__Type__c": "",
+        "%vlocity_namespace%__VlocityActionId__c": {
+            "Name": "Refer to UW",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__VlocityAction__c/Refer to UW",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityAction__c"
+        },
+        "Name": "Send to UW",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProductRequirement__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProductRequirement__c/Generated-1979960448"
+    }
+]

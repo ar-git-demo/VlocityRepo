@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>A generic dictionary for Health Cloud specific app configuration key value pairs.</description>
+    <fields>
+        <fullName>HealthCloudGA__Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Whether this config record should be used.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Whether this config record should be used.</inlineHelpText>
+        <label>Active</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__SettingName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of this config setting. See documentation for the exact name of specific settings.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>The name of this config setting. See documentation for the exact name of specific settings.</inlineHelpText>
+        <label>Setting Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HealthCloudGA__SettingValue__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value of this config setting. See documentation for recommended values and formats.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>The value of this config setting. See documentation for recommended values and formats.</inlineHelpText>
+        <label>Setting Value</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Health Cloud Setting</label>
+    <pluralLabel>Health Cloud Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

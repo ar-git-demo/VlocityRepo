@@ -1,0 +1,35 @@
+<apex:page StandardController="HealthCloudGA__TimelineViewConfiguration__c" extensions="HealthCloudGA.HcTimelineViewConfigController">
+    <c:HcCommonIncludes includeHealthCloud="true" />
+    <apex:stylesheet value="{!URLFOR($Resource.HealthCloudGA__industryresources, 'landmark/styles/slds.css')}" />
+    <style>
+        html {
+            height: 100%;
+            background-color: #F8FAFC;
+        }
+    </style>
+    <c:HcSpinnerComponent spinnerContainerId="spinnerDiv"/>
+    <div class="lightningout">
+        <div id="lightningout-patientdetail" />
+    </div>
+    <script>
+        var configObject = {configId : "{!JSENCODE(uiWrapResponse.recId)}", objectAPI : "{!JSENCODE(uiWrapResponse.objName)}", filterId : "{!JSENCODE(uiWrapResponse.criteriaId)}"};
+
+        $Lightning.use("HealthCloudGA:HcTimelineConfigApp", function() {
+            $Lightning.createComponent("HealthCloudGA:HcFilterCriteriaBaseModalCmp", {
+                        filterId: "{!JSENCODE(uiWrapResponse.criteriaId)}",
+                        configObject: configObject
+                    },
+                    "lightningout-patientdetail",function(){
+                        $A.eventService.addHandler({ "event": "HealthCloudGA:HcFilterCriteriaConfigEvent", "handler" : visualForceRefreshEvent});
+                    });
+        });
+        document.getElementById("spinnerDiv").className = "slds-hidden";
+
+        var visualForceRefreshEvent = function(event){
+            var eventData = event.getParam("message");
+            if(typeof parent != 'undefined' && eventData === "refresh"){
+                parent.location="/{!Id}";
+            }
+        };
+    </script>
+</apex:page>

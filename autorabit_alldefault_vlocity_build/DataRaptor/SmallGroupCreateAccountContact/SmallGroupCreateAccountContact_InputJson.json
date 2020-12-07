@@ -1,0 +1,48 @@
+{
+    "AccountId": "001f4000002cq6cAAA",
+    "AccountLookUp": {
+        "AccountAddressTypeAhead-Block": null,
+        "AccountName": null,
+        "AccountSearch-Block": {
+            "AccountSearch": "Eco Friendly Dry Cleaners",
+            "Id": "001f4000002cq6cAAA"
+        },
+        "AddAccount": false,
+        "AddContact": null,
+        "AddContactCB": false,
+        "ContactId": "003f4000003q052AAA",
+        "EffectiveDate": "2018-02-01T08:00:00.000Z"
+    },
+    "CensusId": "a1df400000099OyAAI",
+    "CensusName": "01-31-2018",
+    "ContextId": "001f4000002cq6cAAA",
+    "CreateClasses": {
+        "ClassEditBlock": {
+            "ClassName": "All Employees",
+            "ContributionAmountCur": null,
+            "ContributionAmountPer": null,
+            "ContributionType": null
+        },
+        "ContributionAmountCurSolo": null,
+        "ContributionAmountPerSolo": null,
+        "ContributionTypeSolo": null,
+        "MultipleClasses": "No"
+    },
+    "DRAccountName": "Eco Friendly Dry Cleaners",
+    "Id": "001f4000002cq6cAAA",
+    "LinkToCensus": {
+        "CensusImport": "ExistingCensus",
+        "File1": null,
+        "SelectCensus": "a1df400000099OyAAI"
+    },
+    "id": "a2Cf40000005P8dEAE",
+    "layout": "lightning",
+    "timeStamp": "2018-02-01T04:11:03.561Z",
+    "userCurrencyCode": "USD",
+    "userId": "005f4000000DgsiAAC",
+    "userName": "tsearshibo@demohibo.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    }
+}

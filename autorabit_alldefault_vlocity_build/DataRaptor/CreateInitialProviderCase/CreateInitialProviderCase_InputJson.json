@@ -1,0 +1,166 @@
+{
+    "ApplicationName": "Provider Application - TEST STONE3",
+    "ApplicationStatus": "New",
+    "ApplicationType": "Provider",
+    "AttestationStatement": {
+        "Signature": null,
+        "Submit": null
+    },
+    "ContextId": "",
+    "CountryCode": "US",
+    "DRId_%vlocity_namespace%__Application__c": "a0A1U0000067zcjUAA",
+    "DRId_Case": "5001U000004c6KWQAY",
+    "DRId_Contact": "0031U00000BZy73QAD",
+    "LocationInformation": {
+        "PrimaryOfficeLocation": {
+            "Email": null,
+            "Mobile": null,
+            "OtherCity": "Seattle",
+            "OtherStreet": "2223 Sutter Ave",
+            "OtherZip": "22987",
+            "POOtherStateCode": "WA",
+            "Phone": null
+        }
+    },
+    "MAMailingStateCode": "",
+    "NetworkParticipationSelection": {
+        "AttachMedicareAcknowledgement": null,
+        "CurrentMedicareCMSStatus": null,
+        "ParticipateNetworks": null
+    },
+    "PaymentInformation": {
+        "CheckSentTo": null,
+        "ClinicORGroup": null,
+        "ProviderBlock": null,
+        "RequestCopy": null
+    },
+    "PersonalInformation": {
+        "CAQHAgree": true,
+        "CAQHID": "5436436",
+        "DateOfBirth": "2019-02-04",
+        "FirstName": "TEST",
+        "Gender": "Male",
+        "LanguagesSpoken": "French;Sign Language",
+        "LastName": "STONE3",
+        "MiddleName": "D",
+        "NPI": "64363466",
+        "OtherLangContains": false,
+        "OtherLanguagesSpoken": null,
+        "PracticingAs": "PCP",
+        "SSN": "543536436",
+        "Suffix": "DD",
+        "TaxId": "643643634",
+        "Title": "DDDD"
+    },
+    "PersonalInformation:LanguagesSpoken": "",
+    "ProducerEducations": {
+        "ProducerEducationBlock": [
+            {
+                "BoardCertificates": null,
+                "BoardExpirationDate": "2019-02-21",
+                "BoardName": "The American Board of Dermatology",
+                "BoardRecertificationDate": null,
+                "BoardSpecialty": "Dermatology",
+                "BoardYearCertified": "1984",
+                "CSRDEACertificate": null,
+                "CSRDEANumber": null,
+                "CSRDateIssued": null,
+                "CSRExpiration": null,
+                "PETDateCompleted": null,
+                "PETDegreeEarned": "MD",
+                "PETDegreeFrom": "1979-02-01",
+                "PETDegreeThrough": "1982-02-04",
+                "PETEducationType": null,
+                "PETFiles": null,
+                "PETSchoolAddress": "1222 Main St",
+                "PETSchoolName": "University of Colorodo Med School",
+                "PETSpecialty": null,
+                "PETSpecialtySchoolAddress": null,
+                "PETSpecialtySchoolName": null
+            },
+            {
+                "BoardCertificates": null,
+                "BoardExpirationDate": "2018-02-08",
+                "BoardName": "The American Board of Allergy and Immunology",
+                "BoardRecertificationDate": null,
+                "BoardSpecialty": "Alergist",
+                "BoardYearCertified": "1995",
+                "CSRDEACertificate": null,
+                "CSRDEANumber": null,
+                "CSRDateIssued": null,
+                "CSRExpiration": null,
+                "PETDateCompleted": null,
+                "PETDegreeEarned": null,
+                "PETDegreeFrom": null,
+                "PETDegreeThrough": null,
+                "PETEducationType": null,
+                "PETFiles": null,
+                "PETSchoolAddress": null,
+                "PETSchoolName": null,
+                "PETSpecialty": null,
+                "PETSpecialtySchoolAddress": null,
+                "PETSpecialtySchoolName": null
+            }
+        ]
+    },
+    "ProfessionalLiabilityCoverageInformation": {
+        "AggregateAmount": null,
+        "AmountPerIncident": null,
+        "CompanyName": null,
+        "ExclusionsOrLimitations": null,
+        "ExpirationDate": null,
+        "InsuranceCertificates": null,
+        "PolicyNumber": null,
+        "ProfessionalLiabilityCoverageAddress": null,
+        "ProfessionalLiabilityCoverageIssueDate": null
+    },
+    "ProfessionalLicensure": {
+        "ProfessionalLicensureBlock": {
+            "Jurisdiction": "WA",
+            "LicenseExpiration": "2020-02-06",
+            "LicenseId": null,
+            "LicenseName": "State of WA Medical License",
+            "LicenseNumber": "54545",
+            "OriginalIssueDate": "2015-02-11"
+        }
+    },
+    "WorkHistory": {
+        "WorkHistoryBlock": [
+            {
+                "$$hashKey": "object:371",
+                "OfficePracticeFrom": "",
+                "OfficePracticeName": "",
+                "OfficePracticeTo": ""
+            }
+        ]
+    },
+    "applicationId": "a0A1U0000067zcjUAA",
+    "applicationRefNumber": null,
+    "error": "OK",
+    "id": "a2C1U000000SBqxUAG",
+    "isdtp": "p1",
+    "layout": "newport",
+    "sInstanceId": "a2B1U000000F4mxUAC",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://dfdervet4--%vlocity_namespace%.visualforce.com",
+    "timeStamp": "2019-02-26T19:16:29.646Z",
+    "userCurrencyCode": "USD",
+    "userId": "0051U000003DRtOQAW",
+    "userName": "dkju9im2@demo.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": -480,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CreateApplication": 6151,
+        "CreateContact": 1468,
+        "CreateNewCase": 1020,
+        "ExtractProviderContactFromContract": 1018,
+        "OmniScriptSessionToken": "f7166be2-3e1c-4978-9dfb-4760d6eef696",
+        "PersonalInformation": 32974,
+        "SetApplicationInitial": 7,
+        "SetValues": 16,
+        "SetValues16": 2703,
+        "UpdateApplication1": 722
+    }
+}

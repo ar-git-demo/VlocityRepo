@@ -1,0 +1,18 @@
+{
+    "Body": "File_VlocityLogoTagline.png",
+    "BodyLength": 13653,
+    "ContentType": "image/png",
+    "Description": "",
+    "DeveloperName": "VlocityLogoTagline",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": true,
+    "Keywords": "",
+    "Name": "VlocityLogoTagline",
+    "NamespacePrefix": "%vlocity_namespace%",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/VlocityLogoTagline"
+}
