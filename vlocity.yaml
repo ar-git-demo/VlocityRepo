@@ -13,6 +13,12 @@ manifest:
 - Product2/a411cdca-32cc-cc44-bed3-b449256a4ff0
 - CalculationMatrix/MedicareTempSimple
 - DataRaptor/CreateLifeEvent
+- DataRaptor/AccountSearch
+- DataRaptor/CreateInteraction
+- Product2/7685bada-9a4f-3cdf-ffd8-3164472a5b98
+- VlocityCard/Campaign Claim Story
+- VlocityCard/Customer Interaction Story
+- VlocityCard/Event Story
 maxDepth: -1
 autoUpdateSettings: true
 separateMatrixVersions: true
